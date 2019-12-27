@@ -215,6 +215,13 @@ def prerender(test_case, script_info, scene):
 
 
 def case_function(case):
+	try:
+		projPath = RES_PATH + '/' + case['scene'][:-3] # path.join(RES_PATH, case['scene'][:-3])
+		mel.eval('setProject(\"{{}}\")'.format(projPath))
+	except:
+		print('Can\'t set project (' + projPath + ')')
+		cmds.evalDeferred('cmds.quit(abort=True)')
+
 	functions = {{
 		0: prerender,
 		1: rpr_success_save,
@@ -245,9 +252,6 @@ def case_function(case):
 
 
 def main():
-
-	mel.eval('setProject(\"{{}}\")'.format(RES_PATH))
-
 	check_rpr_load()
 
 	cmds.sysFile(LOGS_DIR, makeDir=True)
