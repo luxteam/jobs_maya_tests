@@ -11,7 +11,7 @@
     	<argument>--pass_limit {PassLimit}</argument>
     	<argument>--resolution_x {rx}</argument>
     	<argument>--resolution_y {ry}</argument>
-    	<argument>--res_path "{ScenesDir}"</argument>
+    	<argument>--res_path "{ScenesDir}/Pass_Limit"</argument>
     	<argument>--testCases "{TestCases}"</argument>
         <argument>--SPU {SPU}</argument>
     </execute>
