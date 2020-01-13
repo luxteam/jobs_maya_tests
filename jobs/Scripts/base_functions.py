@@ -218,7 +218,7 @@ def case_function(case):
 	try:
 		projPath = RES_PATH + '/' + TEST_TYPE + '/' + case['scene'][:-3] # path.join(RES_PATH, case['scene'][:-3])
 		if not os.path.isdir(projPath):
-			projPath = RES_PATH
+			projPath = RES_PATH + '/' + TEST_TYPE
 	except:
 		projPath = RES_PATH + '/' + TEST_TYPE
 	try:
