@@ -215,12 +215,16 @@ def prerender(test_case, script_info, scene):
 
 
 def case_function(case):
+	projPath = RES_PATH
 	try:
 		projPath = RES_PATH + '/' + case['scene'][:-3] # path.join(RES_PATH, case['scene'][:-3])
 		mel.eval('setProject(\"{{}}\")'.format(projPath))
 	except:
-		print('Can\'t set project (' + projPath + ')')
-		cmds.evalDeferred('cmds.quit(abort=True)')
+		try:
+			mel.eval('setProject(\"{{}}\")'.format(projPath))
+		except:
+			print('Can\'t set project (' + projPath + ')')
+			cmds.evalDeferred('cmds.quit(abort=True)')
 
 	functions = {{
 		0: prerender,

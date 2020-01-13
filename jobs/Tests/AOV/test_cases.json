@@ -5,7 +5,7 @@
         "script_info": [
             "AOV: Opacity"
         ],
-        "scene": "AOV.ma",
+        "scene": "AOVConstruct.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 1)",
@@ -20,7 +20,7 @@
         "script_info": [
             "AOV: World Coordinate"
         ],
-        "scene": "AOV.ma",
+        "scene": "AOVConstruct.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 2)",
@@ -35,7 +35,7 @@
         "script_info": [
             "AOV: UV"
         ],
-        "scene": "AOV.ma",
+        "scene": "AOVConstruct.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 3)",
@@ -50,7 +50,7 @@
         "script_info": [
             "AOV: Material Index"
         ],
-        "scene": "AOV.ma",
+        "scene": "AOVConstruct.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 4)",
@@ -65,7 +65,7 @@
         "script_info": [
             "AOV: Geometric Normal"
         ],
-        "scene": "AOV.ma",
+        "scene": "AOVConstruct.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 5)",
@@ -80,7 +80,7 @@
         "script_info": [
             "AOV: Shading Normal"
         ],
-        "scene": "AOV.ma",
+        "scene": "AOVConstruct.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 6)",
@@ -95,7 +95,7 @@
         "script_info": [
             "AOV: Depth"
         ],
-        "scene": "AOV.ma",
+        "scene": "AOVConstruct.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 7)",
@@ -110,7 +110,7 @@
         "script_info": [
             "AOV: Object ID"
         ],
-        "scene": "AOV.ma",
+        "scene": "AOVConstruct.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 8)",
@@ -125,7 +125,7 @@
         "script_info": [
             "AOV: Shadow Catcher"
         ],
-        "scene": "AOV.ma",
+        "scene": "AOVConstruct.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 10)",
@@ -144,7 +144,7 @@
         "script_info": [
             "AOV: Background"
         ],
-        "scene": "AOV.ma",
+        "scene": "AOVConstruct.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 11)",
@@ -159,7 +159,7 @@
         "script_info": [
             "AOV: Emission"
         ],
-        "scene": "AOV.ma",
+        "scene": "AOVConstruct.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 12)",
@@ -174,7 +174,7 @@
         "script_info": [
             "AOV: Velocity"
         ],
-        "scene": "AOV.ma",
+        "scene": "AOVConstruct.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 13)",
@@ -223,7 +223,7 @@
         "script_info": [
             "AOV: Ambient Occlusion"
         ],
-        "scene": "AOV.ma",
+        "scene": "AOVConstruct.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 16)",
@@ -238,7 +238,7 @@
         "script_info": [
             "AOV: Diffuse Direct"
         ],
-        "scene": "AOV.ma",
+        "scene": "AOVConstruct.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 17)",
@@ -253,7 +253,7 @@
         "script_info": [
             "AOV: Diffuse Direct"
         ],
-        "scene": "AOV.ma",
+        "scene": "AOVConstruct.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 18)",
@@ -300,7 +300,7 @@
         "script_info": [
             "AOV: Refraction"
         ],
-        "scene": "AOV.ma",
+        "scene": "AOVConstruct.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 21)",
@@ -315,7 +315,7 @@
         "script_info": [
             "AOV: Volume"
         ],
-        "scene": "AOV.ma",
+        "scene": "AOVConstruct.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 22)",
