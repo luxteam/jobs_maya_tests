@@ -165,6 +165,10 @@ def main(args):
 
 	core_config.main_logger.info('Create empty report files')
 
+	if not os.path.exists(os.path.join(work_dir, 'Color')):
+		os.makedirs(os.path.join(work_dir, 'Color'))
+	copyfile(os.path.join(work_dir, '..', '..', '..', '..', 'jobs', 'Tests', 'failed.jpg'), os.path.join(work_dir, 'Color', 'failed.jpg'))
+
 	temp = [platform.system()]
 	temp.append(get_gpu())
 	temp = set(temp)
@@ -187,11 +191,11 @@ def main(args):
 			template["render_device"] = get_gpu()
 			template["test_status"] = 'error'
 			template["script_info"] = case["script_info"]
-
-			try:
-				template["scene_name"] = case["scene"]
-			except:
-				pass
+			template['scene_name'] = case.get('scene', '')
+			template['file_name'] = 'failed.jpg'
+			template['render_color_path'] = os.path.join('Color', 'failed.jpg')
+			template['test_group'] = args.testType
+			template['date_time'] = datetime.now().strftime('%m/%d/%Y %H:%M:%S')
 				
 			with open(os.path.join(work_dir, case['case'] + core_config.CASE_REPORT_SUFFIX), 'w') as f:
 				f.write(json.dumps([template], indent=4))
