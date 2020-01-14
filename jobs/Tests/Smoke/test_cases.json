@@ -636,7 +636,7 @@
     }, 
     {
         "case": "MAYA_SM_042", 
-        "status": "skipped", 
+        "status": "active", 
         "functions": [
             "file_tmp = setAttribute('emissionColor', 'outColor', 'sourceimages/EmissiveVariation1.exr')",
             "cmds.setAttr('RPRVolumeMaterial1.scatterColor', 1, 1, 1, type='double3')",
