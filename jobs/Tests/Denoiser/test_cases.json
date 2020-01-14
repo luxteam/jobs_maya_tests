@@ -859,7 +859,7 @@
         "script_info": [
             "DOF ML Denoiser Color"
         ], 
-        "scene": "Denoiser_Light.ma"
+        "scene": "DenoiserDOF.ma"
     }, 
     {
         "case": "MAYA_RS_DEN_052", 
@@ -873,7 +873,7 @@
         "script_info": [
             "DOF ML Denoiser Color+AOV"
         ], 
-        "scene": "Denoiser_Light.ma"
+        "scene": "DenoiserDOF.ma"
     }, 
     {
         "case": "MAYA_RS_DEN_053", 
@@ -886,7 +886,7 @@
         "script_info": [
             "DOF EAW"
         ], 
-        "scene": "Denoiser_Light.ma"
+        "scene": "DenoiserDOF.ma"
     }, 
     {
         "case": "MAYA_RS_DEN_054", 
@@ -899,7 +899,7 @@
         "script_info": [
             "DOF LWR"
         ], 
-        "scene": "Denoiser_Light.ma"
+        "scene": "DenoiserDOF.ma"
     }, 
     {
         "case": "MAYA_RS_DEN_055", 
@@ -912,7 +912,7 @@
         "script_info": [
             "DOF Bilateral"
         ], 
-        "scene": "Denoiser_Light.ma"
+        "scene": "DenoiserDOF.ma"
     }, 
     {
         "case": "MAYA_RS_DEN_056", 

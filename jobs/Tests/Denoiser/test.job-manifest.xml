@@ -8,12 +8,12 @@
         <argument>--render_device "{RenderDevice}"</argument>
         <argument>--output "{OutputDir}"</argument>
         <argument>--testType Denoiser</argument>
-    	<argument>--pass_limit {PassLimit}</argument>
+    	<argument>--pass_limit 50</argument>
     	<argument>--resolution_x {rx}</argument>
     	<argument>--resolution_y {ry}</argument>
-    	<argument>--res_path "{ScenesDir}/Denoiser"</argument>
+    	<argument>--res_path "{ScenesDir}"</argument>
 	    <argument>--testCases "{TestCases}"</argument>
-        <argument>--SPU {SPU}</argument>
+        <argument>--SPU 25</argument>
     </execute>
 
     <execute command='python "{CWD}/Scripts/make_report_json.py"'>
