@@ -23,7 +23,7 @@
         "case": "MAYA_SM_003", 
         "status": "active", 
         "functions": [
-            "mel.eval('FBXImport -f (\"' + RES_PATH + '\" + \"/default/park_bench1.fbx\")')", 
+            "mel.eval('FBXImport -f (\"' + RES_PATH + '\" + \"/Smoke/default/park_bench1.fbx\")')", 
             "rpr_render(test_case, script_info)", 
             "cmds.delete('Default')"
         ], 
@@ -86,7 +86,7 @@
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')", 
             "ibl_transform = cmds.listRelatives(ibl_shape, p=True)[0]", 
             "cmds.setAttr(ibl_transform + '.scale', 1001.25, 1001.25, 1001.25)",
-            "cmds.setAttr(ibl_shape + '.filePath', RES_PATH + '/Lamborginhi_Aventador/Tropical_Beach_3k.hdr', type='string')", 
+            "cmds.setAttr(ibl_shape + '.filePath', RES_PATH + '/Smoke/Lamborginhi_Aventador/sourceimages/Tropical_Beach_3k.hdr', type='string')", 
             "rpr_render(test_case, script_info)", 
             "cmds.showHidden('ground')",
             "cmds.delete(ibl_transform)"
@@ -139,7 +139,7 @@
         "functions": [
             "rprLightShape = cmds.createNode('RPRIES', n='RPRIESLight')", 
             "rprTransform = cmds.listRelatives(rprLightShape, p=True)[0]",
-            "cmds.setAttr(rprLightShape + '.iesFile', RES_PATH + '/Lamborginhi_Aventador/1.IES', type='string')", 
+            "cmds.setAttr(rprLightShape + '.iesFile', RES_PATH + '/Smoke/Lamborginhi_Aventador/1.IES', type='string')", 
             "cmds.setAttr(rprTransform + '.translate', 15, 320, -100)", 
             "cmds.setAttr(rprTransform + '.rotate', 90, 0, 0)", 
             "cmds.setAttr(rprLightShape + '.intensity', 20)", 
@@ -402,7 +402,7 @@
             "rprTransform = cmds.listRelatives(rprLightShape, p=True)[0]",
             "cmds.setAttr(rprTransform + '.translateY', 400)", 
             "cmds.setAttr(rprTransform + '.rotateX', 270)", 
-            "cmds.setAttr(rprLightShape + '.intensity', 100)", 
+            "cmds.setAttr(rprLightShape + '.lightIntensity', 100)", 
             "cmds.setAttr(rprLightShape + '.intensityUnits', 0)", 
             "rpr_render(test_case, script_info)", 
             "cmds.delete(rprTransform)"
@@ -492,11 +492,11 @@
         "case": "MAYA_SM_032", 
         "status": "active", 
         "functions": [
-            "cmds.setAttr('RPRIESLight1.iesFile', (RES_PATH + '/IES/1.IES'), type='string')", 
+            "cmds.setAttr('RPRIESLight1.iesFile', (RES_PATH + '/Smoke/Lamborginhi_Aventador/sourceimages/1.IES'), type='string')", 
             "cmds.setAttr('RPRIESLight1.intensity', 2)", 
-            "cmds.setAttr('RPRIESLight6.iesFile', (RES_PATH + '/IES/1.IES'), type='string')", 
+            "cmds.setAttr('RPRIESLight6.iesFile', (RES_PATH + '/Smoke/Lamborginhi_Aventador/sourceimages/1.IES'), type='string')", 
             "cmds.setAttr('RPRIESLight6.intensity', 2)", 
-            "cmds.setAttr('RPRIESLight12.iesFile', (RES_PATH + '/IES/1.IES'), type='string')", 
+            "cmds.setAttr('RPRIESLight12.iesFile', (RES_PATH + '/Smoke/Lamborginhi_Aventador/sourceimages/1.IES'), type='string')", 
             "cmds.setAttr('RPRIESLight12.intensity', 2)", 
             "rpr_render(test_case, script_info)"
         ], 
