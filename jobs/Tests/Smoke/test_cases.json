@@ -139,7 +139,7 @@
         "functions": [
             "rprLightShape = cmds.createNode('RPRIES', n='RPRIESLight')", 
             "rprTransform = cmds.listRelatives(rprLightShape, p=True)[0]",
-            "cmds.setAttr(rprLightShape + '.iesFile', RES_PATH + '/Smoke/Lamborginhi_Aventador/1.IES', type='string')", 
+            "cmds.setAttr(rprLightShape + '.iesFile', RES_PATH + '/Smoke/Lamborginhi_Aventador/sourceimages/1.IES', type='string')", 
             "cmds.setAttr(rprTransform + '.translate', 15, 320, -100)", 
             "cmds.setAttr(rprTransform + '.rotate', 90, 0, 0)", 
             "cmds.setAttr(rprLightShape + '.intensity', 20)", 
@@ -402,7 +402,7 @@
             "rprTransform = cmds.listRelatives(rprLightShape, p=True)[0]",
             "cmds.setAttr(rprTransform + '.translateY', 400)", 
             "cmds.setAttr(rprTransform + '.rotateX', 270)", 
-            "cmds.setAttr(rprLightShape + '.lightIntensity', 100)", 
+            "cmds.setAttr(rprLightShape + '.intensity', 100)", 
             "cmds.setAttr(rprLightShape + '.intensityUnits', 0)", 
             "rpr_render(test_case, script_info)", 
             "cmds.delete(rprTransform)"
@@ -638,7 +638,8 @@
         "case": "MAYA_SM_042", 
         "status": "active", 
         "functions": [
-            "file_tmp = setAttribute('emissionColor', 'outColor', 'sourceimages/EmissiveVariation1.exr')",
+            "file_tmp = setAttribute('emissionColor', 'outColor', '/Smoke/VolumeRollingFog/sourceimages/EmissiveVariation1.exr')",
+            "cmds.setAttr(file_tmp + '.alphaIsLuminance', 1)",
             "cmds.setAttr('RPRVolumeMaterial1.scatterColor', 1, 1, 1, type='double3')",
             "cmds.setAttr('RPRVolumeMaterial1.transmissionColor', 1, 1, 1, type='double3')",
             "cmds.setAttr('RPRVolumeMaterial1.density', 2.5)",
