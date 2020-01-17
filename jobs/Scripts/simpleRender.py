@@ -88,16 +88,24 @@ def createArgsParser():
 	return parser
 
 
-def check_licenses(res_path, maya_scenes):
+def check_licenses(res_path, maya_scenes, testType):
 	try:
 		for scene in maya_scenes:
-			with open(os.path.join(res_path, scene[:-1])) as f:
+			try:
+				scenePath = os.path.join(res_path, testType, scene[:-4])
+				if not os.path.isdir(scenePath):
+					scenePath = os.path.join(res_path, testType)
+				scenePath = os.path.join(scenePath, scene[:-1])
+			except:
+				scenePath = os.path.join(res_path, testType, scene[:-1])
+
+			with open(scenePath) as f:
 				scene_file = f.read()
 
 			license = "fileInfo \"license\" \"student\";"
 			scene_file = scene_file.replace(license, '')
 
-			with open(os.path.join(res_path, scene[:-1]), "w") as f:
+			with open(scenePath, "w") as f:
 				f.write(scene_file)
 	except Exception as ex:
 		core_config.main_logger.error("Error while deleting student license: {}".format(ex))
@@ -135,7 +143,7 @@ def main(args):
 		pass
 
 	maya_scenes = set(re.findall(r"\w*\.ma\"", test_cases))
-	check_licenses(args.res_path, maya_scenes)
+	check_licenses(args.res_path, maya_scenes, args.testType)
 
 	res_path = args.res_path
 	res_path = res_path.replace('\\', '/')
