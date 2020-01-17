@@ -1,12 +1,12 @@
 def setAttribute(pbr_attr, file_attr, value):
-	file = setAttribute(pbr_attr, value)
+	file = setAttrib(pbr_attr, value)
 	cmds.connectAttr(file + "." + file_attr, "R_UberMat." + pbr_attr, force=True)
 	cmds.setAttr(file + ".fileTextureName", value, type="string")
 
 	return file
 
 
-def resetAttribute():
+def resetAttributes():
 	cmds.setAttr('R_UberMat.diffuse', 1)
 	cmds.setAttr('R_UberMat.diffuseColor', 0.05285, 0.298014, 0.303, type='double3')
 	cmds.setAttr('R_UberMat.diffuseWeight', 1)
@@ -84,3 +84,27 @@ def resetAttribute():
 	cmds.setAttr('R_UberMat.displacementSubdiv', 4)
 	cmds.setAttr('R_UberMat.displacementCreaseWeight', 0)
 	cmds.setAttr('R_UberMat.displacementBoundary', 1)
+
+def setAttrib(attr, value):
+	file = cmds.shadingNode("file", asTexture=True, isColorManaged=True)
+	texture = cmds.shadingNode("place2dTexture", asUtility=True)
+	cmds.connectAttr(texture + ".coverage", file + ".coverage", f=True)
+	cmds.connectAttr(texture + ".translateFrame", file + ".translateFrame", f=True)
+	cmds.connectAttr(texture + ".rotateFrame", file + ".rotateFrame", f=True)
+	cmds.connectAttr(texture + ".mirrorU", file + ".mirrorU", f=True)
+	cmds.connectAttr(texture + ".mirrorV", file + ".mirrorV", f=True)
+	cmds.connectAttr(texture + ".stagger", file + ".stagger", f=True)
+	cmds.connectAttr(texture + ".wrapU", file + ".wrapU", f=True)
+	cmds.connectAttr(texture + ".wrapV", file + ".wrapV", f=True)
+	cmds.connectAttr(texture + ".repeatUV", file + ".repeatUV", f=True)
+	cmds.connectAttr(texture + ".offset", file + ".offset", f=True)
+	cmds.connectAttr(texture + ".rotateUV", file + ".rotateUV", f=True)
+	cmds.connectAttr(texture + ".noiseUV", file + ".noiseUV", f=True)
+	cmds.connectAttr(texture + ".vertexUvTwo", file + ".vertexUvTwo" , f=True)
+	cmds.connectAttr(texture + ".vertexUvThree", file + ".vertexUvThree", f=True)
+	cmds.connectAttr(texture + ".vertexCameraOne", file + ".vertexCameraOne", f=True)
+	cmds.connectAttr(texture + ".outUV", file + ".uv", f=True)
+	cmds.connectAttr(texture + ".outUvFilterSize", file + ".uvFilterSize")
+	cmds.connectAttr(texture + ".vertexUvOne", file + ".vertexUvOne")
+
+	return file

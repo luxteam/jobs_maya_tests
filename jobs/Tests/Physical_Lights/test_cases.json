@@ -17,7 +17,7 @@
             "Intensity Units - Radience",
             "Light Shape - Rectangle"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_002",
@@ -36,7 +36,7 @@
             "Intensity Units - Mesh",
             "Light Shape - Rectangle"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_003",
@@ -60,7 +60,7 @@
             "Luminous Efficacy - 100",
             "Light Shape - Sphere"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_004",
@@ -84,7 +84,7 @@
             "Check Box Visible - Activate",
             "Light Shape - Cylinder"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_005",
@@ -108,7 +108,7 @@
             "Light Shape - Mesh",
             "Check Box Shadows - Deactivate"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_006",
@@ -134,7 +134,7 @@
             "Color Mode - Temperature",
             "Light Shape - Disk"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_007",
@@ -159,7 +159,7 @@
             "Light Shape - Sphere",
             "Check Box Shadows - Activate"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_008",
@@ -187,7 +187,7 @@
             "Light Shape - Rectangle",
             "Check Box Shadows - Deactivate"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_009",
@@ -211,7 +211,7 @@
             "Check Box Visible - Deactivate",
             "Light Shape - Disk"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_010",
@@ -235,7 +235,7 @@
             "Light Shape - Cylinder",
             "Check Box Shadows - Activate"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_011",
@@ -257,7 +257,7 @@
             "Inner Cone Angle - 0",
             "Outer Cone Angle - 0"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_012",
@@ -274,7 +274,7 @@
             "Light Type - Spot",
             "Light Intensity - 0"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_013",
@@ -292,7 +292,7 @@
             "Light Intensity - 1",
             "Outer Cone Angle - 0"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_014",
@@ -310,7 +310,7 @@
             "inner Cone Angle - 0",
             "Outer Cone Angle - 45"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_015",
@@ -328,7 +328,7 @@
             "Inner Cone Angle - 45",
             "Outer Cone Angle - 179"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_016",
@@ -349,7 +349,7 @@
             "Luminous Efficacy - 17",
             "Color Mode - Temperature"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_017",
@@ -367,7 +367,7 @@
             "Light Intensity - 100",
             "Inner Cone Angle - 179"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_018",
@@ -387,7 +387,7 @@
             "Light Intensity - 100",
             "Color Mode - Temperature"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_019",
@@ -409,7 +409,7 @@
             "Inner Cone Angle - 0",
             "Outer Cone Angle - 179"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_020",
@@ -429,7 +429,7 @@
             "Intensity Units - Lumen",
             "Inner Cone Angle - 45"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_021",
@@ -446,7 +446,7 @@
             "Intensity Units - Watts",
             "Outer Cone Angle - 0"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_022",
@@ -467,7 +467,7 @@
             "Color Mode - Temperature",
             "Outer Cone Angle - 45"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_023",
@@ -487,7 +487,7 @@
             "temperature - 40000",
             "Outer Cone Angle - 179"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_024",
@@ -505,7 +505,7 @@
             "Light Type - Spot",
             "Color Mode - Temperature"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_025",
@@ -526,7 +526,7 @@
             "Temperature - 40000",
             "Inner Cone Angle - 0"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_026",
@@ -544,7 +544,7 @@
             "Intensity Units - Lumen",
             "Inner Cone Angle - 45"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_027",
@@ -561,7 +561,7 @@
             "Inner Cone Angle - 179",
             "Outer Cone Angle - 45"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_028",
@@ -578,7 +578,7 @@
             "Intensity Units - Watts",
             "Outer Cone Angle - 179"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_029",
@@ -599,7 +599,7 @@
             "Inner Cone Angle - 45",
             "Outer Cone Angle - 0"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_030",
@@ -617,7 +617,7 @@
             "Intensity Units - Watts",
             "Luminous Efficacy - 0.1"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_031",
@@ -632,7 +632,7 @@
             "Light Type - Point",
             "Light Intensity - 0"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_032",
@@ -646,7 +646,7 @@
             "Light Type - Point",
             "Light Intensity - 1"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_033",
@@ -660,7 +660,7 @@
             "Light Type - Point",
             "Light Intensity - 1"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_034",
@@ -680,7 +680,7 @@
             "Color Mode - Temperature",
             "Temperature - 40000"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_035",
@@ -695,7 +695,7 @@
             "Light Type - Point",
             "Light Intensity - 100"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_036",
@@ -713,7 +713,7 @@
             "Light Intensity - 100",
             "Color Mode - Temperature"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_037",
@@ -731,7 +731,7 @@
             "Intensity Units - Watts",
             "Luminous Efficacy - 100"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_038",
@@ -748,7 +748,7 @@
             "Light Intensity - 100",
             "Intensity Units - Lumen"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_039",
@@ -763,7 +763,7 @@
             "Light Type - Point",
             "Intensity Units - Watts"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_040",
@@ -782,7 +782,7 @@
             "Intensity Units - Lumen",
             "Color Mode - Temperature"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_041",
@@ -800,7 +800,7 @@
             "Color Mode - Temperature",
             "Temperature - 40000"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_042",
@@ -817,7 +817,7 @@
             "Light Type - Point",
             "Color Mode - Temperature"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_043",
@@ -836,7 +836,7 @@
             "Color Mode - Temperature",
             "Temperature - 40000"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_044",
@@ -852,7 +852,7 @@
             "Light Type - Point",
             "Intensity Units - Lumen"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_045",
@@ -866,7 +866,7 @@
         "script_info": [
             "Light Type - Point"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_046",
@@ -881,7 +881,7 @@
             "Light Type - Point",
             "Intensity Units - Watts"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_047",
@@ -899,7 +899,7 @@
             "Color Mode - Temperature",
             "Temperature - 40000"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_048",
@@ -922,7 +922,7 @@
             "Temperature - 40000",
             "Shadows - 0"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_049",
@@ -939,7 +939,7 @@
             "Light Type - Directional",
             "Light Intensity - 0"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_050",
@@ -955,7 +955,7 @@
             "Light Type - Directional",
             "Light Intensity - 1"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_051",
@@ -972,7 +972,7 @@
             "Light Intensity - 1",
             "Shadows - 0"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_052",
@@ -989,7 +989,7 @@
             "Light Intensity - 1",
             "Shadows - 0.5"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_053",
@@ -1011,7 +1011,7 @@
             "Color Mode - Temperature",
             "Temperature - 40000"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_054",
@@ -1029,7 +1029,7 @@
             "Light Intensity - 100",
             "Shadows - 1"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_055",
@@ -1049,7 +1049,7 @@
             "Light Intensity - 100",
             "Color Mode - Temperature"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_056",
@@ -1070,7 +1070,7 @@
             "Luminous Efficacy - 100",
             "Shadows - 0"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_057",
@@ -1089,7 +1089,7 @@
             "Intensity Units - Luminance",
             "Shadows - 0.5"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_058",
@@ -1110,7 +1110,7 @@
             "Intensity Units - Luminance",
             "Color Mode - Temperature"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_059",
@@ -1131,7 +1131,7 @@
             "Color Mode - Temperature",
             "Temperature - 40000"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_060",
@@ -1151,7 +1151,7 @@
             "Light Intensity - 50",
             "Temperature - 0"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_061",
@@ -1174,7 +1174,7 @@
             "Temperature - 40000",
             "Shadows - 0"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_062",
@@ -1193,7 +1193,7 @@
             "Intensity Units - Luminance",
             "Shadows - 0.5"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_063",
@@ -1211,6 +1211,6 @@
             "Light Intensity - 50",
             "Shadows - 1"
         ],
-        "scene": "physical_light.ma"
+        "scene": "Physical_Light.ma"
     }
 ]
