@@ -7,11 +7,10 @@
         ],
         "scene": "AOVConstruct.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "resetAttributes()",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.aovOpacity', 1)",
-            "rpr_render(test_case, script_info)",
-            "cmds.setAttr('RadeonProRenderGlobals.aovOpacity', 0)"
+            "rpr_render(test_case, script_info)"
         ]
     },
     {
@@ -22,11 +21,10 @@
         ],
         "scene": "AOVConstruct.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "resetAttributes()",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 2)",
             "cmds.setAttr('RadeonProRenderGlobals.aovWorldCoordinate', 1)",
-            "rpr_render(test_case, script_info)",
-            "cmds.setAttr('RadeonProRenderGlobals.aovWorldCoordinate', 0)"
+            "rpr_render(test_case, script_info)"
         ]
     },
     {
@@ -37,11 +35,10 @@
         ],
         "scene": "AOVConstruct.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "resetAttributes()",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 3)",
             "cmds.setAttr('RadeonProRenderGlobals.aovUV', 1)",
-            "rpr_render(test_case, script_info)",
-            "cmds.setAttr('RadeonProRenderGlobals.aovUV', 0)"
+            "rpr_render(test_case, script_info)"
         ]
     },
     {
@@ -52,11 +49,10 @@
         ],
         "scene": "AOVConstruct.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "resetAttributes()",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 4)",
             "cmds.setAttr('RadeonProRenderGlobals.aovMaterialIndex', 1)",
-            "rpr_render(test_case, script_info)",
-            "cmds.setAttr('RadeonProRenderGlobals.aovMaterialIndex', 0)"
+            "rpr_render(test_case, script_info)"
         ]
     },
     {
@@ -67,11 +63,10 @@
         ],
         "scene": "AOVConstruct.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "resetAttributes()",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.aovGeometricNormal', 1)",
-            "rpr_render(test_case, script_info)",
-            "cmds.setAttr('RadeonProRenderGlobals.aovGeometricNormal', 0)"
+            "rpr_render(test_case, script_info)"
         ]
     },
     {
@@ -82,11 +77,10 @@
         ],
         "scene": "AOVConstruct.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "resetAttributes()",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 6)",
             "cmds.setAttr('RadeonProRenderGlobals.aovShadingNormal', 1)",
-            "rpr_render(test_case, script_info)",
-            "cmds.setAttr('RadeonProRenderGlobals.aovShadingNormal', 0)"
+            "rpr_render(test_case, script_info)"
         ]
     },
     {
@@ -97,11 +91,10 @@
         ],
         "scene": "AOVConstruct.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "resetAttributes()",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 7)",
             "cmds.setAttr('RadeonProRenderGlobals.aovDepth', 1)",
-            "rpr_render(test_case, script_info)",
-            "cmds.setAttr('RadeonProRenderGlobals.aovDepth', 0)"
+            "rpr_render(test_case, script_info)"
         ]
     },
     {
@@ -112,11 +105,10 @@
         ],
         "scene": "AOVConstruct.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "resetAttributes()",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 8)",
             "cmds.setAttr('RadeonProRenderGlobals.aovObjectId', 1)",
-            "rpr_render(test_case, script_info)",
-            "cmds.setAttr('RadeonProRenderGlobals.aovObjectId', 0)"
+            "rpr_render(test_case, script_info)"
         ]
     },
     {
@@ -127,15 +119,12 @@
         ],
         "scene": "AOVConstruct.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "resetAttributes()",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 10)",
             "cmds.setAttr('RadeonProRenderGlobals.aovBackground', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.aovShadowCatcher', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.aovOpacity', 1)",
-            "rpr_render(test_case, script_info)",
-            "cmds.setAttr('RadeonProRenderGlobals.aovBackground', 0)",
-            "cmds.setAttr('RadeonProRenderGlobals.aovShadowCatcher', 0)",
-            "cmds.setAttr('RadeonProRenderGlobals.aovOpacity', 0)"
+            "rpr_render(test_case, script_info)"
         ]
     },
     {
@@ -146,11 +135,10 @@
         ],
         "scene": "AOVConstruct.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "resetAttributes()",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 11)",
             "cmds.setAttr('RadeonProRenderGlobals.aovBackground', 1)",
-            "rpr_render(test_case, script_info)",
-            "cmds.setAttr('RadeonProRenderGlobals.aovBackground', 0)"
+            "rpr_render(test_case, script_info)"
         ]
     },
     {
@@ -161,11 +149,10 @@
         ],
         "scene": "AOVConstruct.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "resetAttributes()",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 12)",
             "cmds.setAttr('RadeonProRenderGlobals.aovEmission', 1)",
-            "rpr_render(test_case, script_info)",
-            "cmds.setAttr('RadeonProRenderGlobals.aovEmission', 0)"
+            "rpr_render(test_case, script_info)"
         ]
     },
     {
@@ -176,13 +163,11 @@
         ],
         "scene": "AOVConstruct.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "resetAttributes()",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 13)",
             "cmds.setAttr('RadeonProRenderGlobals.aovVelocity', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.motionBlur', 1)",
-            "rpr_render(test_case, script_info)",
-            "cmds.setAttr('RadeonProRenderGlobals.aovVelocity', 0)",
-            "cmds.setAttr('RadeonProRenderGlobals.motionBlur', 0)"
+            "rpr_render(test_case, script_info)"
         ]
     },
     {
@@ -193,11 +178,10 @@
         ],
         "scene": "AOV_Better.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "resetAttributes()",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 14)",
             "cmds.setAttr('RadeonProRenderGlobals.aovDirectIllumination', 1)",
-            "rpr_render(test_case, script_info)",
-            "cmds.setAttr('RadeonProRenderGlobals.aovDirectIllumination', 0)"
+            "rpr_render(test_case, script_info)"
         ]
     },
     {
@@ -208,13 +192,10 @@
         ],
         "scene": "AOV_Better.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "resetAttributes()",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 15)",
             "cmds.setAttr('RadeonProRenderGlobals.aovIndirectIllumination', 1)",
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 400)",
-            "rpr_render(test_case, script_info)",
-            "cmds.setAttr('RadeonProRenderGlobals.aovIndirectIllumination', 0)",
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)"
+            "rpr_render(test_case, script_info)"
         ]
     },
     {
@@ -225,11 +206,10 @@
         ],
         "scene": "AOVConstruct.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "resetAttributes()",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 16)",
             "cmds.setAttr('RadeonProRenderGlobals.aovAO', 1)",
-            "rpr_render(test_case, script_info)",
-            "cmds.setAttr('RadeonProRenderGlobals.aovAO', 0)"
+            "rpr_render(test_case, script_info)"
         ]
     },
     {
@@ -240,11 +220,10 @@
         ],
         "scene": "AOVConstruct.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "resetAttributes()",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 17)",
             "cmds.setAttr('RadeonProRenderGlobals.aovDiffuseDirect', 1)",
-            "rpr_render(test_case, script_info)",
-            "cmds.setAttr('RadeonProRenderGlobals.aovDiffuseDirect', 0)"
+            "rpr_render(test_case, script_info)"
         ]
     },
     {
@@ -255,11 +234,10 @@
         ],
         "scene": "AOVConstruct.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "resetAttributes()",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 18)",
             "cmds.setAttr('RadeonProRenderGlobals.aovDiffuseDirect', 1)",
-            "rpr_render(test_case, script_info)",
-            "cmds.setAttr('RadeonProRenderGlobals.aovDiffuseDirect', 0)"
+            "rpr_render(test_case, script_info)"
         ]
     },
     {
@@ -270,13 +248,10 @@
         ],
         "scene": "AOV_Better.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "resetAttributes()",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 19)",
             "cmds.setAttr('RadeonProRenderGlobals.aovReflectionDirect', 1)",
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 400)",
-            "rpr_render(test_case, script_info)",
-            "cmds.setAttr('RadeonProRenderGlobals.aovReflectionDirect', 0)",
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)"
+            "rpr_render(test_case, script_info)"
         ]
     },
     {
@@ -287,11 +262,10 @@
         ],
         "scene": "AOV_Better.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "resetAttributes()",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 20)",
             "cmds.setAttr('RadeonProRenderGlobals.aovReflectionIndirect', 1)",
-            "rpr_render(test_case, script_info)",
-            "cmds.setAttr('RadeonProRenderGlobals.aovReflectionIndirect', 0)"
+            "rpr_render(test_case, script_info)"
         ]
     },
     {
@@ -302,11 +276,10 @@
         ],
         "scene": "AOVConstruct.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "resetAttributes()",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 21)",
             "cmds.setAttr('RadeonProRenderGlobals.aovRefraction', 1)",
-            "rpr_render(test_case, script_info)",
-            "cmds.setAttr('RadeonProRenderGlobals.aovRefraction', 0)"
+            "rpr_render(test_case, script_info)"
         ]
     },
     {
@@ -317,9 +290,8 @@
         ],
         "scene": "AOVConstruct.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 500)",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 22)",
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.aovVelocity', 1)",
             "cmds.showHidden('ShaderBall_4_UntitledFBXASC046005')",
             "cmds.showHidden('RPRPhysicalLight1')",
