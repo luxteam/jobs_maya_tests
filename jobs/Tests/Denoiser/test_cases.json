@@ -990,7 +990,7 @@
     }, 
     {
         "case": "MAYA_RS_DEN_061", 
-        "status": "active", 
+        "status": "skipped", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)", 
@@ -1006,7 +1006,7 @@
     }, 
     {
         "case": "MAYA_RS_DEN_062", 
-        "status": "active", 
+        "status": "skipped", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)", 
@@ -1022,7 +1022,7 @@
     }, 
     {
         "case": "MAYA_RS_DEN_063", 
-        "status": "active", 
+        "status": "skipped", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 2)", 
