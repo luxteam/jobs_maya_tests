@@ -65,7 +65,7 @@ def get_windows_titles():
 
 			return titles
 	except Exception as err:
-		core_config.main_logger.error("Exception has occurred while pull windows titles: {}".format(str(err)))
+		core_config.main_logger.error('Exception has occurred while pull windows titles: {}'.format(str(err)))
 
 	return []
 
@@ -73,9 +73,9 @@ def get_windows_titles():
 def createArgsParser():
 	parser = argparse.ArgumentParser()
 
-	parser.add_argument('--tool', required=True, metavar="<path>")
+	parser.add_argument('--tool', required=True, metavar='<path>')
 	parser.add_argument('--render_device', required=True)
-	parser.add_argument('--output', required=True, metavar="<dir>")
+	parser.add_argument('--output', required=True, metavar='<dir>')
 	parser.add_argument('--testType', required=True)
 	parser.add_argument('--res_path', required=True)
 	parser.add_argument('--pass_limit', required=True)
@@ -91,24 +91,25 @@ def createArgsParser():
 def check_licenses(res_path, maya_scenes, testType):
 	try:
 		for scene in maya_scenes:
+			scenePath = os.path.join(res_path, testType)
 			try:
-				scenePath = os.path.join(res_path, testType, scene[:-4])
-				if not os.path.isdir(scenePath):
-					scenePath = os.path.join(res_path, testType)
-				scenePath = os.path.join(scenePath, scene[:-1])
+				temp = os.path.join(scenePath, scene[:-3])
+				if not os.path.isdir(temp):
+					scenePath = temp
 			except:
-				scenePath = os.path.join(res_path, testType, scene[:-1])
+				pass
+			scenePath = os.path.join(scenePath, scene)
 
 			with open(scenePath) as f:
 				scene_file = f.read()
 
-			license = "fileInfo \"license\" \"student\";"
+			license = 'fileInfo "license" "student";'
 			scene_file = scene_file.replace(license, '')
 
-			with open(scenePath, "w") as f:
+			with open(scenePath, 'w') as f:
 				f.write(scene_file)
 	except Exception as ex:
-		core_config.main_logger.error("Error while deleting student license: {}".format(ex))
+		core_config.main_logger.error('Error while deleting student license: {}'.format(ex))
 
 
 def main(args):
@@ -127,7 +128,7 @@ def main(args):
 	core_config.main_logger.info('Make script')
 
 	try:
-		with open(os.path.join(os.path.dirname(__file__), "base_functions.py")) as f:
+		with open(os.path.join(os.path.dirname(__file__), 'base_functions.py')) as f:
 			script = f.read()
 		with open(os.path.realpath(os.path.join(os.path.dirname(__file__),  '..', 'Tests', args.testType, 'test_cases.json'))) as f:
 			test_cases = f.read()
@@ -142,7 +143,7 @@ def main(args):
 	except:
 		pass
 
-	maya_scenes = set(re.findall(r"\w*\.ma\"", test_cases))
+	maya_scenes = set(re.findall(r'\w*\.ma', test_cases))
 	check_licenses(args.res_path, maya_scenes, args.testType)
 
 	res_path = args.res_path
@@ -175,7 +176,7 @@ def main(args):
 
 	if not os.path.exists(os.path.join(work_dir, 'Color')):
 		os.makedirs(os.path.join(work_dir, 'Color'))
-	copyfile(os.path.join(work_dir, '..', '..', '..', '..', 'jobs', 'Tests', 'failed.jpg'), os.path.join(work_dir, 'Color', 'failed.jpg'))
+	copyfile(os.path.join(work_dir, '..', '..', '..', '..', 'jobs_launcher', 'common', 'img', 'failed.jpg'), os.path.join(work_dir, 'Color', 'failed.jpg'))
 
 	temp = [platform.system()]
 	temp.append(get_gpu())
@@ -191,14 +192,14 @@ def main(args):
 			pass
 
 		if case['status'] != 'done':
-			if case["status"] == 'inprogress':
+			if case['status'] == 'inprogress':
 				case['status'] = 'fail'
 
 			template = core_config.RENDER_REPORT_BASE
-			template["test_case"] = case["case"]
-			template["render_device"] = get_gpu()
-			template["test_status"] = 'error'
-			template["script_info"] = case["script_info"]
+			template['test_case'] = case['case']
+			template['render_device'] = get_gpu()
+			template['test_status'] = 'error'
+			template['script_info'] = case['script_info']
 			template['scene_name'] = case.get('scene', '')
 			template['file_name'] = 'failed.jpg'
 			template['render_color_path'] = os.path.join('Color', 'failed.jpg')
@@ -208,7 +209,7 @@ def main(args):
 			with open(os.path.join(work_dir, case['case'] + core_config.CASE_REPORT_SUFFIX), 'w') as f:
 				f.write(json.dumps([template], indent=4))
 
-	with open(os.path.join(work_dir, 'test_cases.json'), "w+") as f:
+	with open(os.path.join(work_dir, 'test_cases.json'), 'w+') as f:
 		json.dump(cases, f, indent=4)
 
 	system_pl = platform.system()
@@ -237,7 +238,7 @@ def main(args):
 			file.write(cmdRun)
 		os.system('chmod +x {}'.format(cmdScriptPath))
 
-	core_config.main_logger.info("Starting maya")
+	core_config.main_logger.info('Starting maya')
 	os.chdir(args.output)
 	p = psutil.Popen(cmdScriptPath, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
 	rc = -1
@@ -246,7 +247,7 @@ def main(args):
 		try:
 			p.communicate(timeout=40)
 			window_titles = get_windows_titles()
-			core_config.main_logger.info("Found windows: {}".format(window_titles))
+			core_config.main_logger.info('Found windows: {}'.format(window_titles))
 		except (psutil.TimeoutExpired, subprocess.TimeoutExpired) as err:
 			fatal_errors_titles = ['Detected windows ERROR', 'maya', 'Student Version File', 'Radeon ProRender Error', 'Script Editor',
 				'Autodesk Maya 2017 Error Report', 'Autodesk Maya 2017 Error Report', 'Autodesk Maya 2017 Error Report',
@@ -255,8 +256,8 @@ def main(args):
 			window_titles = get_windows_titles()
 			error_window = set(fatal_errors_titles).intersection(window_titles)
 			if error_window:
-				core_config.main_logger.info("Error window found: {}".format(error_window))
-				core_config.main_logger.info("Found windows: {}".format(window_titles))
+				core_config.main_logger.info('Error window found: {}'.format(error_window))
+				core_config.main_logger.info('Found windows: {}'.format(window_titles))
 				rc = -1
 
 				if system_pl == 'Windows':
@@ -266,10 +267,10 @@ def main(args):
 					except Exception as ex:
 						pass
 
-				core_config.main_logger.info("Killing maya....")
+				core_config.main_logger.info('Killing maya....')
 
 				child_processes = p.children()
-				core_config.main_logger.info("Child processes: {}".format(child_processes))
+				core_config.main_logger.info('Child processes: {}'.format(child_processes))
 				for ch in child_processes:
 					try:
 						ch.terminate()
@@ -277,9 +278,9 @@ def main(args):
 						ch.kill()
 						time.sleep(10)
 						status = ch.status()
-						core_config.main_logger.error("Process is alive: {}. Name: {}. Status: {}".format(ch, ch.name(), status))
+						core_config.main_logger.error('Process is alive: {}. Name: {}. Status: {}'.format(ch, ch.name(), status))
 					except psutil.NoSuchProcess:
-						core_config.main_logger.info("Process is killed: {}".format(ch))
+						core_config.main_logger.info('Process is killed: {}'.format(ch))
 
 				try:
 					p.terminate()
@@ -287,9 +288,9 @@ def main(args):
 					p.kill()
 					time.sleep(10)
 					status = ch.status()
-					core_config.main_logger.error("Process is alive: {}. Name: {}. Status: {}".format(ch, ch.name(), status))
+					core_config.main_logger.error('Process is alive: {}. Name: {}. Status: {}'.format(ch, ch.name(), status))
 				except psutil.NoSuchProcess:
-					core_config.main_logger.info("Process is killed: {}".format(ch))
+					core_config.main_logger.info('Process is killed: {}'.format(ch))
 				
 				break
 		else:
@@ -298,7 +299,7 @@ def main(args):
 
 	if args.testType in ['Athena']:
 		subprocess.call([sys.executable, os.path.realpath(os.path.join(os.path.dirname(__file__), 'extensions', args.testType + '.py')), args.output])
-	core_config.main_logger.info("Main func return : {}".format(rc))
+	core_config.main_logger.info('Main func return : {}'.format(rc))
 	return rc
 
 
@@ -312,17 +313,17 @@ def group_failed(args):
 		if case['status'] == 'active':
 			case['status'] = 'skipped'
 
-	with open(os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'), "w+") as f:
+	with open(os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'), 'w+') as f:
 		json.dump(cases, f, indent=4)
 
 	rc = main(args)
 	kill_process(PROCESS)
-	core_config.main_logger.info("Finish simpleRender with code: {}".format(rc))
+	core_config.main_logger.info('Finish simpleRender with code: {}'.format(rc))
 	exit(rc)
 
 
-if __name__ == "__main__":
-	core_config.main_logger.info("simpleRender start working...")
+if __name__ == '__main__':
+	core_config.main_logger.info('simpleRender start working...')
 	args = createArgsParser().parse_args()
 
 	iteration = 0
@@ -361,6 +362,6 @@ if __name__ == "__main__":
 
 		if active_cases == 0:
 			kill_process(PROCESS)
-			core_config.main_logger.info("Finish simpleRender with code: {}".format(rc))
+			core_config.main_logger.info('Finish simpleRender with code: {}'.format(rc))
 			exit(rc)
 

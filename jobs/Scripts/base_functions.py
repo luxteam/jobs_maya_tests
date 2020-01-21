@@ -73,7 +73,7 @@ def get_scene_name():
 
 def skipped_case_report(case):	
 	test_case = case['case']
-	cmds.sysFile(path.join(WORK_DIR, '..', '..', '..', '..', 'jobs', 'Tests', 'skipped.jpg'), copy=path.join(WORK_DIR, 'Color', test_case + '.jpg'))
+	cmds.sysFile(path.join(WORK_DIR, '..', '..', '..', '..', 'jobs_launcher', 'common', 'img', 'skipped.jpg'), copy=path.join(WORK_DIR, 'Color', test_case + '.jpg'))
 	script_info = case['script_info']
 	report_JSON = path.join(WORK_DIR, (test_case + '_RPR.json'))
 
@@ -126,7 +126,7 @@ def rpr_success_save(test_case, script_info):
 
 	cmds.sysFile(path.join(WORK_DIR, 'Color'), makeDir=True)
 	work_folder = path.join(WORK_DIR, 'Color', (test_case + '.jpg'))
-	cmds.sysFile(path.join(WORK_DIR, '..', '..', '..', '..', 'jobs', 'Tests', 'pass.jpg'), copy=(work_folder))
+	cmds.sysFile(path.join(WORK_DIR, '..', '..', '..', '..', 'jobs_launcher', 'common', 'img', 'pass.jpg'), copy=(work_folder))
 
 	report_JSON = path.join(WORK_DIR, (test_case + '_RPR.json'))
 
@@ -145,7 +145,7 @@ def rpr_fail_save(test_case, script_info):
 
 	cmds.sysFile(path.join(WORK_DIR, 'Color'), makeDir=True)
 	work_folder = path.join(WORK_DIR, 'Color', (test_case + '.jpg'))
-	cmds.sysFile(path.join(WORK_DIR, '..', '..', '..', '..', 'jobs', 'Tests', 'failed.jpg'), copy=(work_folder))
+	cmds.sysFile(path.join(WORK_DIR, '..', '..', '..', '..', 'jobs_launcher', 'common', 'img', 'failed.jpg'), copy=(work_folder))
 
 	report_JSON = path.join(WORK_DIR, (test_case + '_RPR.json'))
 
@@ -215,12 +215,13 @@ def prerender(test_case, script_info, scene):
 
 
 def case_function(case):
+	projPath = RES_PATH + '/' + TEST_TYPE
 	try:
-		projPath = RES_PATH + '/' + TEST_TYPE + '/' + case['scene'][:-3] # path.join(RES_PATH, case['scene'][:-3])
-		if not os.path.isdir(projPath):
-			projPath = RES_PATH + '/' + TEST_TYPE
+		temp = RES_PATH + '/' + TEST_TYPE + '/' + case['scene'][:-3]
+		if os.path.isdir(temp):
+			projPath = temp
 	except:
-		projPath = RES_PATH + '/' + TEST_TYPE
+		pass
 	try:
 		mel.eval('setProject(\"{{}}\")'.format(projPath))
 	except:
