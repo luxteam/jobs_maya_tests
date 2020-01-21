@@ -737,7 +737,7 @@
             "rpr_render(test_case, script_info)"
         ], 
         "script_info": [
-            "ML denoiser IES and Physcial"
+            "ML denoiser IES and Physical"
         ], 
         "scene": "Denoiser_Light.ma"
     }, 

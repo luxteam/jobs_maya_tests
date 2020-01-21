@@ -18,7 +18,6 @@ sys.path.append(os.path.abspath(os.path.join(
 import jobs_launcher.core.config as core_config
 from jobs_launcher.core.system_info import get_gpu
 from jobs_launcher.core.kill_process import kill_process
-from jobs_launcher.core.system_info import get_gpu
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir, os.path.pardir))
 PROCESS = ['Maya', 'maya.exe']
