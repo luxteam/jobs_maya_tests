@@ -176,7 +176,7 @@ def main(args):
 
 	if not os.path.exists(os.path.join(work_dir, 'Color')):
 		os.makedirs(os.path.join(work_dir, 'Color'))
-	copyfile(os.path.join(work_dir, '..', '..', '..', '..', 'jobs_launcher', 'common', 'img', 'failed.jpg'), os.path.join(work_dir, 'Color', 'failed.jpg'))
+	copyfile(os.path.abspath(os.path.join(work_dir, '..', '..', '..', '..', 'jobs_launcher', 'common', 'img', 'error.jpg')), os.path.join(work_dir, 'Color', 'failed.jpg'))
 
 	temp = [platform.system()]
 	temp.append(get_gpu())

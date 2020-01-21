@@ -126,7 +126,7 @@ def rpr_success_save(test_case, script_info):
 
 	cmds.sysFile(path.join(WORK_DIR, 'Color'), makeDir=True)
 	work_folder = path.join(WORK_DIR, 'Color', (test_case + '.jpg'))
-	cmds.sysFile(path.join(WORK_DIR, '..', '..', '..', '..', 'jobs_launcher', 'common', 'img', 'pass.jpg'), copy=(work_folder))
+	cmds.sysFile(path.join(WORK_DIR, '..', '..', '..', '..', 'jobs_launcher', 'common', 'img', 'passed.jpg'), copy=(work_folder))
 
 	report_JSON = path.join(WORK_DIR, (test_case + '_RPR.json'))
 
@@ -145,7 +145,7 @@ def rpr_fail_save(test_case, script_info):
 
 	cmds.sysFile(path.join(WORK_DIR, 'Color'), makeDir=True)
 	work_folder = path.join(WORK_DIR, 'Color', (test_case + '.jpg'))
-	cmds.sysFile(path.join(WORK_DIR, '..', '..', '..', '..', 'jobs_launcher', 'common', 'img', 'failed.jpg'), copy=(work_folder))
+	cmds.sysFile(path.join(WORK_DIR, '..', '..', '..', '..', 'jobs_launcher', 'common', 'img', 'error.jpg'), copy=(work_folder))
 
 	report_JSON = path.join(WORK_DIR, (test_case + '_RPR.json'))
 
