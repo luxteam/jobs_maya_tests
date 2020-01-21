@@ -1,5 +1,4 @@
 def resetAttributes():
-    cmds.setAttr('RadeonProRenderGlobals.aovOpacity', 0)
     cmds.setAttr('RadeonProRenderGlobals.aovWorldCoordinate', 0)
     cmds.setAttr('RadeonProRenderGlobals.aovUV', 0)
     cmds.setAttr('RadeonProRenderGlobals.aovMaterialIndex', 0)
@@ -7,7 +6,6 @@ def resetAttributes():
     cmds.setAttr('RadeonProRenderGlobals.aovShadingNormal', 0)
     cmds.setAttr('RadeonProRenderGlobals.aovDepth', 0)
     cmds.setAttr('RadeonProRenderGlobals.aovObjectId', 0)
-    cmds.setAttr('RadeonProRenderGlobals.aovBackground', 0)
     cmds.setAttr('RadeonProRenderGlobals.aovShadowCatcher', 0)
     cmds.setAttr('RadeonProRenderGlobals.aovEmission', 0)
     cmds.setAttr('RadeonProRenderGlobals.aovVelocity', 0)
@@ -19,3 +17,5 @@ def resetAttributes():
     cmds.setAttr('RadeonProRenderGlobals.aovReflectionDirect', 0)
     cmds.setAttr('RadeonProRenderGlobals.aovReflectionIndirect', 0)
     cmds.setAttr('RadeonProRenderGlobals.aovRefraction', 0)
+    cmds.setAttr('RadeonProRenderGlobals.aovOpacity', 0)
+    cmds.setAttr('RadeonProRenderGlobals.aovBackground', 0)

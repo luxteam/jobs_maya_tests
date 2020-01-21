@@ -121,9 +121,7 @@
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 10)",
-            "cmds.setAttr('RadeonProRenderGlobals.aovBackground', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.aovShadowCatcher', 1)",
-            "cmds.setAttr('RadeonProRenderGlobals.aovOpacity', 1)",
             "rpr_render(test_case, script_info)"
         ]
     },
