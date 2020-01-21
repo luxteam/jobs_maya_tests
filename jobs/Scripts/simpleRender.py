@@ -94,7 +94,7 @@ def check_licenses(res_path, maya_scenes, testType):
 			scenePath = os.path.join(res_path, testType)
 			try:
 				temp = os.path.join(scenePath, scene[:-3])
-				if not os.path.isdir(temp):
+				if os.path.isdir(temp):
 					scenePath = temp
 			except:
 				pass
