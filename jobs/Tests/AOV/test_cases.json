@@ -85,7 +85,7 @@
     },
     {
         "case": "MAYA_RS_AOV_007",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "AOV: Depth"
         ],
