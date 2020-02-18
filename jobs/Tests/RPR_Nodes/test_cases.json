@@ -81,6 +81,7 @@
         "case": "MAYA_MAT_NODE_014",
         "status": "active",
         "functions": [
+            "cmds.setAttr('BlendUbernPBRMaterials.visibility', 0)",
             "cmds.setAttr('CheckerDotTexture.visibility', 0)",
             "cmds.setAttr('SubsurfaceMaterial.visibility', 1)",
             "cmds.lookThru('Camera_Subsurface', 'modelPanel4')",

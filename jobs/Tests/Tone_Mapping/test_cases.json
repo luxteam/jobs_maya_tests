@@ -19,6 +19,7 @@
         "case": "MAYA_RS_TM_002",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
