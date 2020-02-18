@@ -1,4 +1,5 @@
 def resetAttributes():
+    cmds.setAttr('RadeonProRenderGlobals.cameraType', 0)
     cmds.setAttr('Camera00Shape1.focalLength', 45.5)
     cmds.setAttr('Camera00Shape1.cameraScale', 1.0)
     cmds.setAttr('Camera00Shape1.horizontalFilmAperture', 0.984)

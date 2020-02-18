@@ -591,7 +591,6 @@
         ],
         "scene": "maya_shaderball.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.cameraType', 0)",
             "cmds.setAttr('Camera00Shape1.preScale', 0.5)",
             "cmds.setAttr('Camera00Shape1.filmRollOrder', 1.0)",
             "rpr_render(case)",
