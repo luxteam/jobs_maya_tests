@@ -3,11 +3,11 @@
         "case": "MAYA_MAT_NODE_001",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('BlendUbernPBRMaterials.visibility', 1)",
             "cmds.lookThru('Camera_BlendUberPBRMaterials', 'modelPanel4')",
             "rpr_render(case)",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "BlendUbernPBRMaterials"
@@ -18,13 +18,13 @@
         "case": "MAYA_MAT_NODE_002",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('BlendUbernPBRMaterials.visibility', 1)",
             "cmds.lookThru('Camera_BlendUberPBRMaterials', 'modelPanel4')",
             "cmds.disconnectAttr('file1.outAlpha', 'BlendMaterial.weight')",
             "rpr_render(case)",
             "cmds.connectAttr('file1.outAlpha', 'BlendMaterial.weight')",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "Open BlendMaterial Disconnect BlendWeight.png map"
@@ -35,6 +35,7 @@
         "case": "MAYA_MAT_NODE_003",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('BlendUbernPBRMaterials.visibility', 1)",
             "cmds.lookThru('Camera_BlendUberPBRMaterials', 'modelPanel4')",
             "cmds.disconnectAttr('file1.outAlpha', 'BlendMaterial.weight')",
@@ -42,8 +43,7 @@
             "rpr_render(case)",
             "cmds.setAttr('BlendMaterial.weight', 1)",
             "cmds.connectAttr('file1.outAlpha', 'BlendMaterial.weight')",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "Open BlendMaterial node Set Weight - 0.5"
@@ -54,6 +54,7 @@
         "case": "MAYA_MAT_NODE_004",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('BlendUbernPBRMaterials.visibility', 1)",
             "cmds.lookThru('Camera_BlendUberPBRMaterials', 'modelPanel4')",
             "cmds.disconnectAttr('file1.outAlpha', 'BlendMaterial.weight')",
@@ -61,8 +62,7 @@
             "rpr_render(case)",
             "cmds.setAttr('BlendMaterial.weight', 1)",
             "cmds.connectAttr('file1.outAlpha', 'BlendMaterial.weight')",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "Open BlendMaterial node Set Weight - 0"
@@ -73,11 +73,11 @@
         "case": "MAYA_MAT_NODE_014",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('SubsurfaceMaterial.visibility', 1)",
             "cmds.lookThru('Camera_Subsurface', 'modelPanel4')",
             "rpr_render(case)",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "SubsurfaceMaterial"
@@ -88,13 +88,13 @@
         "case": "MAYA_MAT_NODE_015",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('SubsurfaceMaterial.visibility', 1)",
             "cmds.lookThru('Camera_Subsurface', 'modelPanel4')",
             "cmds.setAttr('Mat_Subsurface.density', 5)",
             "rpr_render(case)",
             "cmds.setAttr('Mat_Subsurface.density', 18.072)",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "SubsurfaceMaterial, Density - 5"
@@ -105,13 +105,13 @@
         "case": "MAYA_MAT_NODE_016",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('SubsurfaceMaterial.visibility', 1)",
             "cmds.lookThru('Camera_Subsurface', 'modelPanel4')",
             "cmds.setAttr('Mat_Subsurface.density', 20)",
             "rpr_render(case)",
             "cmds.setAttr('Mat_Subsurface.density', 18.072)",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "SubsurfaceMaterial, Density - 20"
@@ -122,13 +122,13 @@
         "case": "MAYA_MAT_NODE_017",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('SubsurfaceMaterial.visibility', 1)",
             "cmds.lookThru('Camera_Subsurface', 'modelPanel4')",
             "cmds.setAttr('Mat_Subsurface.scatterAmount', 0)",
             "rpr_render(case)",
             "cmds.setAttr('Mat_Subsurface.scatterAmount', 1)",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "SubsurfaceMaterial, Scatter Amount - 0"
@@ -139,13 +139,13 @@
         "case": "MAYA_MAT_NODE_018",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('SubsurfaceMaterial.visibility', 1)",
             "cmds.lookThru('Camera_Subsurface', 'modelPanel4')",
             "cmds.setAttr('Mat_Subsurface.scatterAmount', 0.5)",
             "rpr_render(case)",
             "cmds.setAttr('Mat_Subsurface.scatterAmount', 1)",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "SubsurfaceMaterial, Scatter Amount - 0.5"
@@ -156,13 +156,13 @@
         "case": "MAYA_MAT_NODE_019",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('SubsurfaceMaterial.visibility', 1)",
             "cmds.lookThru('Camera_Subsurface', 'modelPanel4')",
             "cmds.setAttr('Mat_Subsurface.emissionColor', 0.0392, 1, 0.0392, type='double3')",
             "rpr_render(case)",
             "cmds.setAttr('Mat_Subsurface.emissionColor', 0, 0, 0, type='double3')",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "SubsurfaceMaterial, Emission Color - RGB - 10, 255, 0"
@@ -173,13 +173,13 @@
         "case": "MAYA_MAT_NODE_020",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('SubsurfaceMaterial.visibility', 1)",
             "cmds.lookThru('Camera_Subsurface', 'modelPanel4')",
             "cmds.setAttr('Mat_Subsurface.emissionColor', 1, 1, 0, type='double3')",
             "rpr_render(case)",
             "cmds.setAttr('Mat_Subsurface.emissionColor', 0, 0, 0, type='double3')",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "SubsurfaceMaterial, Emission Color - RGB - 255, 255, 0"
@@ -190,11 +190,11 @@
         "case": "MAYA_MAT_NODE_021",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('Arythmetic_Blend_Gradient.visibility', 1)",
             "cmds.lookThru('Camera_Arythmetic_Blend_Gradient', 'modelPanel4')",
             "rpr_render(case)",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "Arythmetic_Blend_Gradient"
@@ -205,13 +205,13 @@
         "case": "MAYA_MAT_NODE_022",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('Arythmetic_Blend_Gradient.visibility', 1)",
             "cmds.lookThru('Camera_Arythmetic_Blend_Gradient', 'modelPanel4')",
             "cmds.setAttr('RPRArithmetic1.operation', 0)",
             "rpr_render(case)",
             "cmds.setAttr('RPRArithmetic1.operation', 0)",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "Operation - Add, Arythmetic_Blend_Gradient"
@@ -222,13 +222,13 @@
         "case": "MAYA_MAT_NODE_023",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('Arythmetic_Blend_Gradient.visibility', 1)",
             "cmds.lookThru('Camera_Arythmetic_Blend_Gradient', 'modelPanel4')",
             "cmds.setAttr('RPRArithmetic1.operation', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RPRArithmetic1.operation', 0)",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "Operation - Substract, Arythmetic_Blend_Gradient"
@@ -239,13 +239,13 @@
         "case": "MAYA_MAT_NODE_024",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('Arythmetic_Blend_Gradient.visibility', 1)",
             "cmds.lookThru('Camera_Arythmetic_Blend_Gradient', 'modelPanel4')",
             "cmds.setAttr('RPRArithmetic1.operation', 2)",
             "rpr_render(case)",
             "cmds.setAttr('RPRArithmetic1.operation', 0)",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "Operation - Multiply, Arythmetic_Blend_Gradient"
@@ -256,13 +256,13 @@
         "case": "MAYA_MAT_NODE_025",
         "status": "skipped",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('Arythmetic_Blend_Gradient.visibility', 1)",
             "cmds.lookThru('Camera_Arythmetic_Blend_Gradient', 'modelPanel4')",
             "cmds.setAttr('RPRGradient1.color0', 0, 1, 1, type='double3')",
             "rpr_render(case)",
             "cmds.setAttr('RPRGradient1.color0', 0, 0, 0, type='double3')",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "Select 'RPRGradient1' node",
@@ -274,13 +274,13 @@
         "case": "MAYA_MAT_NODE_026",
         "status": "skipped",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('Arythmetic_Blend_Gradient.visibility', 1)",
             "cmds.lookThru('Camera_Arythmetic_Blend_Gradient', 'modelPanel4')",
             "cmds.setAttr('RPRGradient1.color0', 0, 1, 1, type='double3')",
             "rpr_render(case)",
             "cmds.setAttr('RPRGradient1.color0', 1, 1, 1, type='double3')",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "Select 'RPRGradient1' node",
@@ -292,11 +292,11 @@
         "case": "MAYA_MAT_NODE_028",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('LookUpNoisePassthrough.visibility', 1)",
             "cmds.lookThru('Camera_LookUp_Noise_Passthrough', 'modelPanel4')",
             "rpr_render(case)",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "LookUpNoisePassthrought"
@@ -307,13 +307,13 @@
         "case": "MAYA_MAT_NODE_029",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('LookUpNoisePassthrough.visibility', 1)",
             "cmds.lookThru('Camera_LookUp_Noise_Passthrough', 'modelPanel4')",
             "cmds.setAttr('RPRLookup1.type', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RPRLookup1.type', 5)",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "Type - Normal",
@@ -325,13 +325,13 @@
         "case": "MAYA_MAT_NODE_030",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('LookUpNoisePassthrough.visibility', 1)",
             "cmds.lookThru('Camera_LookUp_Noise_Passthrough', 'modelPanel4')",
             "cmds.setAttr('RPRLookup1.type', 2)",
             "rpr_render(case)",
             "cmds.setAttr('RPRLookup1.type', 5)",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "Type - World XYZ",
@@ -343,13 +343,13 @@
         "case": "MAYA_MAT_NODE_031",
         "status": "skipped",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('LookUpNoisePassthrough.visibility', 1)",
             "cmds.lookThru('Camera_LookUp_Noise_Passthrough', 'modelPanel4')",
             "cmds.setAttr('RPRLookup1.type', 3)",
             "rpr_render(case)",
             "cmds.setAttr('RPRLookup1.type', 5)",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "Type - Incident",
@@ -361,13 +361,13 @@
         "case": "MAYA_MAT_NODE_032",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('LookUpNoisePassthrough.visibility', 1)",
             "cmds.lookThru('Camera_LookUp_Noise_Passthrough', 'modelPanel4')",
             "cmds.setAttr('RPRLookup1.type', 5)",
             "rpr_render(case)",
             "cmds.setAttr('RPRLookup1.type', 5)",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "Type - UV1",
@@ -379,11 +379,11 @@
         "case": "MAYA_MAT_NODE_033",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('BumpNormal.visibility', 1)",
             "cmds.lookThru('Camera_BumpNormal', 'modelPanel4')",
             "rpr_render(case)",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "BumpNormal"
@@ -394,9 +394,9 @@
         "case": "MAYA_MAT_NODE_034",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('CheckerDotTexture.visibility', 1)",
-            "rpr_render(case)",
-            "resetAttributes()"
+            "rpr_render(case)"
         ],
         "script_info": [
             "CheckerDotTexture"
@@ -407,11 +407,11 @@
         "case": "MAYA_MAT_NODE_035",
         "status": "skipped",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('CheckerDotTexture.visibility', 1)",
             "cmds.setAttr('RPRChecker2.mapChannel', 1)",
             "rpr_render(case)",
-            "cmds.setAttr('RPRChecker2.mapChannel', 0)",
-            "resetAttributes()"
+            "cmds.setAttr('RPRChecker2.mapChannel', 0)"
         ],
         "script_info": [
             "https://amdrender.atlassian.net/browse/RPRMAYA-790"
@@ -422,11 +422,11 @@
         "case": "MAYA_MAT_NODE_036",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('Fresnel.visibility', 1)",
             "cmds.lookThru('Camera_Fresnel', 'modelPanel4')",
             "rpr_render(case)",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "Fresnel"
@@ -437,13 +437,13 @@
         "case": "MAYA_MAT_NODE_037",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('Fresnel.visibility', 1)",
             "cmds.lookThru('Camera_Fresnel', 'modelPanel4')",
             "cmds.setAttr('RPRFresnelSchlick2.reflectance', 0.5)",
             "rpr_render(case)",
             "cmds.setAttr('RPRFresnelSchlick2.reflectance', 0)",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "RPRFresnelSchlick2 node Set Reflectance - 0.5"
@@ -454,13 +454,13 @@
         "case": "MAYA_MAT_NODE_038",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('Fresnel.visibility', 1)",
             "cmds.lookThru('Camera_Fresnel', 'modelPanel4')",
             "cmds.setAttr('RPRFresnelSchlick2.reflectance', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RPRFresnelSchlick2.reflectance', 0)",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "RPRFresnelSchlick2 node Set Reflectance - 1"
@@ -471,13 +471,13 @@
         "case": "MAYA_MAT_NODE_039",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('Fresnel.visibility', 1)",
             "cmds.lookThru('Camera_Fresnel', 'modelPanel4')",
             "cmds.setAttr('RPRFresnel1.ior', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RPRFresnel1.ior', 1.2)",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "RPRFresnel1 node Set IOR - 1"
@@ -488,13 +488,13 @@
         "case": "MAYA_MAT_NODE_040",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('Fresnel.visibility', 1)",
             "cmds.lookThru('Camera_Fresnel', 'modelPanel4')",
             "cmds.setAttr('RPRFresnel1.ior', 3)",
             "rpr_render(case)",
             "cmds.setAttr('RPRFresnel1.ior', 1.2)",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "RPRFresnel1 node Set IOR - 3"
@@ -505,13 +505,13 @@
         "case": "MAYA_MAT_NODE_041",
         "status": "active",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('Fresnel.visibility', 1)",
             "cmds.lookThru('Camera_Fresnel', 'modelPanel4')",
             "cmds.setAttr('RPRFresnel1.ior', 5)",
             "rpr_render(case)",
             "cmds.setAttr('RPRFresnel1.ior', 1.2)",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "RPRFresnel1 node Set IOR - 5"
@@ -522,13 +522,13 @@
         "case": "MAYA_MAT_NODE_042",
         "status": "skipped",
         "functions": [
+            "resetAttributes()",
             "cmds.setAttr('Fresnel.visibility', 1)",
             "cmds.lookThru('Camera_Fresnel', 'modelPanel4')",
             "cmds.setAttr('RPRFresnel1.ior', 10)",
             "rpr_render(case)",
             "cmds.setAttr('RPRFresnel1.ior', 1.2)",
-            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
-            "resetAttributes()"
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
             "RPRFresnel1 node Set IOR - 10"
