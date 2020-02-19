@@ -18,8 +18,8 @@
         "case": "MAYA_RS_TM_002",
         "status": "active",
         "functions": [
-	        "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
-            "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
             "rpr_render(case)",
             "resetAttributes()"
