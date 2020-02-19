@@ -5,7 +5,6 @@
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -33,6 +32,7 @@
         "case": "MAYA_RS_TM_003",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
             "rpr_render(case)",
@@ -50,7 +50,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 0)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -66,7 +65,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 5)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -82,7 +80,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 10)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 10)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -95,6 +92,7 @@
         "case": "MAYA_RS_TM_007",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 0)",
@@ -110,6 +108,7 @@
         "case": "MAYA_RS_TM_008",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 5)",
@@ -125,6 +124,7 @@
         "case": "MAYA_RS_TM_009",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 10)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 10)",
@@ -140,6 +140,7 @@
         "case": "MAYA_RS_TM_010",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceValue', 9500)",
             "rpr_render(case)",
@@ -154,6 +155,7 @@
         "case": "MAYA_RS_TM_011",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceValue', 9500)",
@@ -169,6 +171,7 @@
         "case": "MAYA_RS_TM_012",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 0)",
@@ -185,6 +188,7 @@
         "case": "MAYA_RS_TM_013",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 5)",
@@ -201,6 +205,7 @@
         "case": "MAYA_RS_TM_014",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 10)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 10)",
@@ -220,7 +225,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -233,6 +237,7 @@
         "case": "MAYA_RS_TM_016",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
             "rpr_render(case)",
@@ -247,6 +252,7 @@
         "case": "MAYA_RS_TM_017",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
@@ -267,7 +273,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingLinearScale', 0)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -286,7 +291,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingLinearScale', 15)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -305,7 +309,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 10)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 10)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingLinearScale', 30)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -319,6 +322,7 @@
         "case": "MAYA_RS_TM_021",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 0)",
@@ -337,6 +341,7 @@
         "case": "MAYA_RS_TM_022",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 5)",
@@ -355,6 +360,7 @@
         "case": "MAYA_RS_TM_023",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 10)",
@@ -373,6 +379,7 @@
         "case": "MAYA_RS_TM_024",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceValue', 9500)",
@@ -388,6 +395,7 @@
         "case": "MAYA_RS_TM_025",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
@@ -404,6 +412,7 @@
         "case": "MAYA_RS_TM_026",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 0)",
@@ -423,6 +432,7 @@
         "case": "MAYA_RS_TM_027",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 5)",
@@ -442,6 +452,7 @@
         "case": "MAYA_RS_TM_028",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 10)",
@@ -464,7 +475,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 2)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -477,6 +487,7 @@
         "case": "MAYA_RS_TM_030",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 2)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
             "rpr_render(case)",
@@ -491,6 +502,7 @@
         "case": "MAYA_RS_TM_031",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 2)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
@@ -513,7 +525,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingPhotolinearSensitivity', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingPhotolinearExposure', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingPhotolinearFstop', 0)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -534,7 +545,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingPhotolinearSensitivity', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingPhotolinearExposure', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingPhotolinearFstop', 25)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -555,7 +565,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingPhotolinearSensitivity', 10)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingPhotolinearExposure', 10)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingPhotolinearFstop', 50)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -569,6 +578,7 @@
         "case": "MAYA_RS_TM_035",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 2)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 0)",
@@ -589,6 +599,7 @@
         "case": "MAYA_RS_TM_036",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 2)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 5)",
@@ -609,6 +620,7 @@
         "case": "MAYA_RS_TM_037",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 2)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 10)",
@@ -629,6 +641,7 @@
         "case": "MAYA_RS_TM_038",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 2)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceValue', 9500)",
@@ -644,6 +657,7 @@
         "case": "MAYA_RS_TM_039",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 2)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
@@ -660,6 +674,7 @@
         "case": "MAYA_RS_TM_040",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 2)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 0)",
@@ -681,6 +696,7 @@
         "case": "MAYA_RS_TM_041",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 2)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 5)",
@@ -702,6 +718,7 @@
         "case": "MAYA_RS_TM_042",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 2)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 10)",
@@ -726,7 +743,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 3)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -739,6 +755,7 @@
         "case": "MAYA_RS_TM_044",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 3)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
             "rpr_render(case)",
@@ -753,6 +770,7 @@
         "case": "MAYA_RS_TM_045",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 3)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
@@ -772,7 +790,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 3)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 0)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -789,7 +806,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 3)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 5)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -806,7 +822,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 3)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 10)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 10)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -819,6 +834,7 @@
         "case": "MAYA_RS_TM_049",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 3)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 0)",
@@ -835,6 +851,7 @@
         "case": "MAYA_RS_TM_050",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 3)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 5)",
@@ -855,7 +872,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 3)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 10)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 10)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -868,6 +884,7 @@
         "case": "MAYA_RS_TM_052",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 3)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceValue', 9500)",
@@ -883,6 +900,7 @@
         "case": "MAYA_RS_TM_053",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 3)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
@@ -899,6 +917,7 @@
         "case": "MAYA_RS_TM_054",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 3)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 0)",
@@ -916,6 +935,7 @@
         "case": "MAYA_RS_TM_055",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 3)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 5)",
@@ -933,6 +953,7 @@
         "case": "MAYA_RS_TM_056",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 3)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 10)",
@@ -953,7 +974,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 4)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -966,6 +986,7 @@
         "case": "MAYA_RS_TM_058",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 4)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
             "rpr_render(case)",
@@ -980,6 +1001,7 @@
         "case": "MAYA_RS_TM_059",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 4)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
@@ -999,7 +1021,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 4)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 0)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -1016,7 +1037,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 4)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 5)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -1033,7 +1053,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 4)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 10)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 10)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -1046,6 +1065,7 @@
         "case": "MAYA_RS_TM_063",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 4)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 0)",
@@ -1062,6 +1082,7 @@
         "case": "MAYA_RS_TM_064",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 4)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 5)",
@@ -1078,6 +1099,7 @@
         "case": "MAYA_RS_TM_065",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 4)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 10)",
@@ -1094,6 +1116,7 @@
         "case": "MAYA_RS_TM_066",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 4)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceValue', 9500)",
@@ -1109,6 +1132,7 @@
         "case": "MAYA_RS_TM_067",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 4)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
@@ -1125,6 +1149,7 @@
         "case": "MAYA_RS_TM_068",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 4)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 0)",
@@ -1142,6 +1167,7 @@
         "case": "MAYA_RS_TM_069",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 4)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 5)",
@@ -1159,6 +1185,7 @@
         "case": "MAYA_RS_TM_070",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 4)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 10)",
@@ -1179,7 +1206,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -1192,6 +1218,7 @@
         "case": "MAYA_RS_TM_072",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
             "rpr_render(case)",
@@ -1206,6 +1233,7 @@
         "case": "MAYA_RS_TM_073",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
@@ -1228,7 +1256,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingReinhard02Prescale', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingReinhard02Postscale', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingReinhard02Burn', 0)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -1248,7 +1275,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingReinhard02Prescale', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingReinhard02Postscale', 5)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -1269,7 +1295,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingReinhard02Prescale', 10)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingReinhard02Postscale', 10)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingReinhard02Burn', 60)",
-            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
             "rpr_render(case)",
             "resetAttributes()"
         ],
@@ -1283,6 +1308,7 @@
         "case": "MAYA_RS_TM_077",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 0)",
@@ -1303,6 +1329,7 @@
         "case": "MAYA_RS_TM_078",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 5)",
@@ -1322,6 +1349,7 @@
         "case": "MAYA_RS_TM_079",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 10)",
@@ -1342,6 +1370,7 @@
         "case": "MAYA_RS_TM_080",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceValue', 9500)",
@@ -1357,6 +1386,7 @@
         "case": "MAYA_RS_TM_081",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
@@ -1373,6 +1403,7 @@
         "case": "MAYA_RS_TM_082",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 0)",
@@ -1394,6 +1425,7 @@
         "case": "MAYA_RS_TM_083",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 5)",
@@ -1414,6 +1446,7 @@
         "case": "MAYA_RS_TM_084",
         "status": "active",
         "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 10)",
