@@ -369,29 +369,5 @@ if __name__ == '__main__':
 					active_cases += 1
 
 		if active_cases == 0:
-			kill_process(PROCESS)
-			core_config.main_logger.info('Finish simpleRender with code: {}'.format(rc))
-
-			work_dir = os.path.abspath(args.output).replace('\\', '/')
-			files = [f for f in os.listdir(
-				work_dir) if os.path.isfile(os.path.join(work_dir, f))]
-			files = [f for f in files if 'renderTool' in f]
-
-			logs = ''
-
-			for f in files:
-				logs += '\n\n\n\n----------LOGS FROM FILE ' + f + '----------\n\n\n\n'
-				with open(os.path.realpath(os.path.join(os.path.abspath(args.output).replace('\\', '/'), f))) as log:
-					logs += log.read()
-				os.remove(f)
-
-			if 'rprCachingShadersWarningWindow' in logs:
-				logs += '\n\n\n!!!Render cache built during cases!!!'
-			if 'Error: Radeon ProRender: IO error' in logs:
-				logs += '\n\n\n!!!Some files/textures are missing!!!'
-
-			with open('renderTool.log', 'w') as f:
-				f.write(logs)
-
 			exit(rc)
 
