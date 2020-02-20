@@ -369,5 +369,7 @@ if __name__ == '__main__':
 					active_cases += 1
 
 		if active_cases == 0:
+			kill_process(PROCESS)	
+			core_config.main_logger.info('Finish simpleRender with code: {}'.format(rc))
 			exit(rc)
 
