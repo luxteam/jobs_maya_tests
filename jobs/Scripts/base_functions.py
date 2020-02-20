@@ -235,11 +235,3 @@ def main():
 			rpr_save(case)
 
 	cmds.evalDeferred('cmds.quit(abort=True)')
-
-#   Possible case statuses:
-# - Active: Case will be executed.
-# - Inprogress: Case is in progress (if maya was crashed, case will be inprogress).
-# - Fail: Maya was crashed during case. Fail report will be created.
-# - Error: Maya was crashed during case. Fail report is already created.
-# - Done: Case was finished successfully.
-# - Skipped: Case will be skipped. Skip report will be created.

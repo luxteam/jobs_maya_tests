@@ -37,17 +37,32 @@ def main(args):
 	with open(os.path.realpath(os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'renderTool.log')), 'w') as f:
 		for error in errors:
 			if error['error'] in logs:
-				f.write('!!!{}!!!\n\n\n'.format(error['message']))
+				f.write('[Error] {}\n'.format(error['message']))
 
-		f.write(logs)
-
-		f.write('\n\n\nCases statuses from test_cases.json\n\n')
+		f.write('\n\nCases statuses from test_cases.json\n\n')
 
 		cases = json.load(open(os.path.realpath(
 			os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'))))
 
+		f.write('Active cases: {}\n'.format(len([n for n in cases if n['status'] == 'active'])))
+		f.write('Inprogress cases: {}\n'.format(len([n for n in cases if n['status'] == 'inprogress'])))
+		f.write('Fail cases: {}\n'.format(len([n for n in cases if n['status'] == 'fail'])))
+		f.write('Error cases: {}\n'.format(len([n for n in cases if n['status'] == 'error'])))
+		f.write('Done cases: {}\n'.format(len([n for n in cases if n['status'] == 'done'])))
+		f.write('Skipped cases: {}\n\n'.format(len([n for n in cases if n['status'] == 'skipped'])))
+
+		f.write('''\tPossible case statuses:\nActive: Case will be executed.
+Inprogress: Case is in progress (if maya was crashed, case will be inprogress).
+Fail: Maya was crashed during case. Fail report will be created.
+Error: Maya was crashed during case. Fail report is already created.
+Done: Case was finished successfully.
+Skipped: Case will be skipped. Skip report will be created.
+\n''')
+
 		for case in cases:
-			f.write(case['case'] + ' - ' + case['status'] + '\n')
+			f.write('{} - {}\n'.format(case['case'], case['status']))
+
+		f.write(logs)
 
 
 if __name__ == '__main__':
