@@ -1,3 +1,6 @@
+from jobs_launcher.core.kill_process import kill_process
+from jobs_launcher.core.system_info import get_gpu
+import jobs_launcher.core.config as core_config
 import argparse
 import os
 import subprocess
@@ -15,11 +18,9 @@ import time
 sys.path.append(os.path.abspath(os.path.join(
 	os.path.dirname(__file__), os.path.pardir, os.path.pardir)))
 
-import jobs_launcher.core.config as core_config
-from jobs_launcher.core.system_info import get_gpu
-from jobs_launcher.core.kill_process import kill_process
 
-ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir, os.path.pardir))
+ROOT_DIR = os.path.abspath(os.path.join(
+	os.path.dirname(__file__), os.path.pardir, os.path.pardir))
 PROCESS = ['Maya', 'maya.exe']
 
 if platform.system() == 'Darwin':
@@ -33,8 +34,10 @@ def get_windows_titles():
 	try:
 		if platform.system() == 'Darwin':
 			ws_options = kCGWindowListOptionOnScreenOnly
-			windows_list = CGWindowListCopyWindowInfo(ws_options, kCGNullWindowID)
-			maya_titles = {x.get('kCGWindowName', u'Unknown') for x in windows_list if 'Maya' in x['kCGWindowOwnerName']}
+			windows_list = CGWindowListCopyWindowInfo(
+				ws_options, kCGNullWindowID)
+			maya_titles = {x.get('kCGWindowName', u'Unknown')
+						   for x in windows_list if 'Maya' in x['kCGWindowOwnerName']}
 
 			# duct tape for windows with empty title
 			expected = {'Maya', 'Render View', 'Rendering...'}
@@ -45,7 +48,8 @@ def get_windows_titles():
 
 		elif platform.system() == 'Windows':
 			EnumWindows = ctypes.windll.user32.EnumWindows
-			EnumWindowsProc = ctypes.WINFUNCTYPE(ctypes.c_bool, ctypes.POINTER(ctypes.c_int), ctypes.POINTER(ctypes.c_int))
+			EnumWindowsProc = ctypes.WINFUNCTYPE(ctypes.c_bool, ctypes.POINTER(
+				ctypes.c_int), ctypes.POINTER(ctypes.c_int))
 			GetWindowText = ctypes.windll.user32.GetWindowTextW
 			GetWindowTextLength = ctypes.windll.user32.GetWindowTextLengthW
 			IsWindowVisible = ctypes.windll.user32.IsWindowVisible
@@ -64,7 +68,8 @@ def get_windows_titles():
 
 			return titles
 	except Exception as err:
-		core_config.main_logger.error('Exception has occurred while pull windows titles: {}'.format(str(err)))
+		core_config.main_logger.error(
+			'Exception has occurred while pull windows titles: {}'.format(str(err)))
 
 	return []
 
@@ -83,7 +88,8 @@ def createArgsParser():
 	parser.add_argument('--testCases', required=True)
 	parser.add_argument('--SPU', required=False, default=25, type=int)
 	parser.add_argument('--fail_count', required=False, default=0, type=int)
-	parser.add_argument('--threshold', required=False, default=0.05, type=float)
+	parser.add_argument('--threshold', required=False,
+						default=0.05, type=float)
 
 	return parser
 
@@ -109,7 +115,8 @@ def check_licenses(res_path, maya_scenes, testType):
 			with open(scenePath, 'w') as f:
 				f.write(scene_file)
 	except Exception as ex:
-		core_config.main_logger.error('Error while deleting student license: {}'.format(ex))
+		core_config.main_logger.error(
+			'Error while deleting student license: {}'.format(ex))
 
 
 def main(args):
@@ -127,11 +134,12 @@ def main(args):
 			os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'))))
 	except Exception as e:
 		core_config.main_logger.error(str(e))
-	
+
 	if not cases:
 		core_config.main_logger.info('Get cases from Tests folder')
-		cases = json.load(open(os.path.realpath(os.path.join(os.path.dirname(__file__), '..', 'Tests', args.testType, 'test_cases.json'))))
-		
+		cases = json.load(open(os.path.realpath(os.path.join(os.path.dirname(
+			__file__), '..', 'Tests', args.testType, 'test_cases.json'))))
+
 	try:
 		with open(os.path.join(os.path.dirname(__file__), 'base_functions.py')) as f:
 			script = f.read()
@@ -149,8 +157,8 @@ def main(args):
 	check_licenses(args.res_path, maya_scenes, args.testType)
 
 	work_dir = os.path.abspath(args.output).replace('\\', '/')
-	script = script.format(work_dir=work_dir, testType=args.testType, render_device=args.render_device, res_path=args.res_path, pass_limit=args.pass_limit, 
-							  resolution_x=args.resolution_x, resolution_y=args.resolution_y, SPU=args.SPU, threshold=args.threshold)
+	script = script.format(work_dir=work_dir, testType=args.testType, render_device=args.render_device, res_path=args.res_path, pass_limit=args.pass_limit,
+						   resolution_x=args.resolution_x, resolution_y=args.resolution_y, SPU=args.SPU, threshold=args.threshold)
 
 	with open(os.path.join(args.output, 'base_functions.py'), 'w') as file:
 		file.write(script)
@@ -160,7 +168,8 @@ def main(args):
 			os.path.join(work_dir, 'test_cases.json'))))
 	except:
 		try:
-			cases = json.load(open(os.path.realpath(os.path.join(os.path.dirname(__file__),  '..', 'Tests', args.testType, 'test_cases.json'))))
+			cases = json.load(open(os.path.realpath(os.path.join(os.path.dirname(
+				__file__),  '..', 'Tests', args.testType, 'test_cases.json'))))
 		except:
 			core_config.logging.error("Can't load test_cases.json")
 
@@ -168,13 +177,15 @@ def main(args):
 		with open(os.path.join(os.path.dirname(__file__), args.testCases)) as f:
 			tc = f.read()
 			test_cases = json.loads(tc)[args.testType]
-		necessary_cases = [item for item in cases if item['case'] in test_cases]
+		necessary_cases = [
+			item for item in cases if item['case'] in test_cases]
 
 	core_config.main_logger.info('Create empty report files')
 
 	if not os.path.exists(os.path.join(work_dir, 'Color')):
 		os.makedirs(os.path.join(work_dir, 'Color'))
-	copyfile(os.path.abspath(os.path.join(work_dir, '..', '..', '..', '..', 'jobs_launcher', 'common', 'img', 'error.jpg')), os.path.join(work_dir, 'Color', 'failed.jpg'))
+	copyfile(os.path.abspath(os.path.join(work_dir, '..', '..', '..', '..', 'jobs_launcher',
+										  'common', 'img', 'error.jpg')), os.path.join(work_dir, 'Color', 'failed.jpg'))
 
 	gpu = get_gpu()
 	if not gpu:
@@ -201,8 +212,9 @@ def main(args):
 			template['file_name'] = 'failed.jpg'
 			template['render_color_path'] = os.path.join('Color', 'failed.jpg')
 			template['test_group'] = args.testType
-			template['date_time'] = datetime.now().strftime('%m/%d/%Y %H:%M:%S')
-				
+			template['date_time'] = datetime.now().strftime(
+				'%m/%d/%Y %H:%M:%S')
+
 			with open(os.path.join(work_dir, case['case'] + core_config.CASE_REPORT_SUFFIX), 'w') as f:
 				f.write(json.dumps([template], indent=4))
 
@@ -237,37 +249,43 @@ def main(args):
 
 	core_config.main_logger.info('Starting maya')
 	os.chdir(args.output)
-	p = psutil.Popen(cmdScriptPath, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
+	p = psutil.Popen(cmdScriptPath, stdout=subprocess.PIPE,
+					 stderr=subprocess.PIPE, shell=True)
 	rc = -1
 
 	while True:
 		try:
 			p.communicate(timeout=40)
 			window_titles = get_windows_titles()
-			core_config.main_logger.info('Found windows: {}'.format(window_titles))
+			core_config.main_logger.info(
+				'Found windows: {}'.format(window_titles))
 		except (psutil.TimeoutExpired, subprocess.TimeoutExpired) as err:
 			fatal_errors_titles = ['Detected windows ERROR', 'maya', 'Student Version File', 'Radeon ProRender Error', 'Script Editor',
-				'Autodesk Maya 2018 Error Report', 'Autodesk Maya 2018 Error Report', 'Autodesk Maya 2018 Error Report',
-				'Autodesk Maya 2019 Error Report', 'Autodesk Maya 2019 Error Report', 'Autodesk Maya 2019 Error Report',
-				'Autodesk Maya 2020 Error Report', 'Autodesk Maya 2020 Error Report', 'Autodesk Maya 2020 Error Report']
+								   'Autodesk Maya 2018 Error Report', 'Autodesk Maya 2018 Error Report', 'Autodesk Maya 2018 Error Report',
+								   'Autodesk Maya 2019 Error Report', 'Autodesk Maya 2019 Error Report', 'Autodesk Maya 2019 Error Report',
+								   'Autodesk Maya 2020 Error Report', 'Autodesk Maya 2020 Error Report', 'Autodesk Maya 2020 Error Report']
 			window_titles = get_windows_titles()
 			error_window = set(fatal_errors_titles).intersection(window_titles)
 			if error_window:
-				core_config.main_logger.error('Error window found: {}'.format(error_window))
-				core_config.main_logger.warning('Found windows: {}'.format(window_titles))
+				core_config.main_logger.error(
+					'Error window found: {}'.format(error_window))
+				core_config.main_logger.warning(
+					'Found windows: {}'.format(window_titles))
 				rc = -1
 
 				if system_pl == 'Windows':
 					try:
 						error_screen = pyscreenshot.grab()
-						error_screen.save(os.path.join(args.output, 'error_screenshot.jpg'))
+						error_screen.save(os.path.join(
+							args.output, 'error_screenshot.jpg'))
 					except Exception as ex:
 						pass
 
 				core_config.main_logger.warning('Killing maya....')
 
 				child_processes = p.children()
-				core_config.main_logger.warning('Child processes: {}'.format(child_processes))
+				core_config.main_logger.warning(
+					'Child processes: {}'.format(child_processes))
 				for ch in child_processes:
 					try:
 						ch.terminate()
@@ -275,9 +293,11 @@ def main(args):
 						ch.kill()
 						time.sleep(10)
 						status = ch.status()
-						core_config.main_logger.error('Process is alive: {}. Name: {}. Status: {}'.format(ch, ch.name(), status))
+						core_config.main_logger.error(
+							'Process is alive: {}. Name: {}. Status: {}'.format(ch, ch.name(), status))
 					except psutil.NoSuchProcess:
-						core_config.main_logger.warning('Process is killed: {}'.format(ch))
+						core_config.main_logger.warning(
+							'Process is killed: {}'.format(ch))
 
 				try:
 					p.terminate()
@@ -285,26 +305,31 @@ def main(args):
 					p.kill()
 					time.sleep(10)
 					status = ch.status()
-					core_config.main_logger.error('Process is alive: {}. Name: {}. Status: {}'.format(ch, ch.name(), status))
+					core_config.main_logger.error(
+						'Process is alive: {}. Name: {}. Status: {}'.format(ch, ch.name(), status))
 				except psutil.NoSuchProcess:
-					core_config.main_logger.warning('Process is killed: {}'.format(ch))
-				
+					core_config.main_logger.warning(
+						'Process is killed: {}'.format(ch))
+
 				break
 		else:
 			rc = 0
 			break
-		
+
 	if args.testType in ['Athena']:
-		subprocess.call([sys.executable, os.path.realpath(os.path.join(os.path.dirname(__file__), 'extensions', args.testType + '.py')), args.output])
+		subprocess.call([sys.executable, os.path.realpath(os.path.join(
+			os.path.dirname(__file__), 'extensions', args.testType + '.py')), args.output])
 	core_config.main_logger.info('Main func return : {}'.format(rc))
 	return rc
 
 
 def group_failed(args):
 	try:
-		cases = json.load(open(os.path.realpath(os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'))))
+		cases = json.load(open(os.path.realpath(os.path.join(
+			os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'))))
 	except:
-		cases = json.load(open(os.path.realpath(os.path.join(os.path.dirname(__file__),  '..', 'Tests', args.testType, 'test_cases.json'))))
+		cases = json.load(open(os.path.realpath(os.path.join(os.path.dirname(
+			__file__),  '..', 'Tests', args.testType, 'test_cases.json'))))
 
 	for case in cases:
 		if case['status'] == 'active':
@@ -315,7 +340,8 @@ def group_failed(args):
 
 	rc = main(args)
 	kill_process(PROCESS)
-	core_config.main_logger.info('Finish simpleRender with code: {}'.format(rc))
+	core_config.main_logger.info(
+		'Finish simpleRender with code: {}'.format(rc))
 	exit(rc)
 
 
@@ -334,22 +360,27 @@ if __name__ == '__main__':
 	while True:
 		iteration += 1
 
-		core_config.main_logger.info('Try to run script in maya (#' + str(iteration) + ')')
+		core_config.main_logger.info(
+			'Try to run script in maya (#' + str(iteration) + ')')
 
 		if iteration > 1:
-			copyfile(os.path.join(os.path.abspath(args.output), 'renderTool.log'), os.path.join(os.path.abspath(args.output), 'renderTool' + str(iteration-1) + '.log'))
+			copyfile(os.path.join(os.path.abspath(args.output), 'renderTool.log'), os.path.join(
+				os.path.abspath(args.output), 'renderTool' + str(iteration-1) + '.log'))
 
 		rc = main(args)
-		
+
 		try:
-			move(os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'renderTool.log'), os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'renderTool' + str(iteration) + '.log'))
+			move(os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'renderTool.log'),
+				 os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'renderTool' + str(iteration) + '.log'))
 		except:
 			core_config.main_logger.error('No renderTool.log')
 
 		try:
-			cases = json.load(open(os.path.realpath(os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'))))
+			cases = json.load(open(os.path.realpath(os.path.join(
+				os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'))))
 		except:
-			cases = json.load(open(os.path.realpath(os.path.join(os.path.dirname(__file__),  '..', 'Tests', args.testType, 'test_cases.json'))))
+			cases = json.load(open(os.path.realpath(os.path.join(os.path.dirname(
+				__file__),  '..', 'Tests', args.testType, 'test_cases.json'))))
 
 		active_cases = 0
 		failed_count = 0
@@ -368,7 +399,8 @@ if __name__ == '__main__':
 
 		if active_cases == 0:
 			kill_process(PROCESS)
-			core_config.main_logger.info('Finish simpleRender with code: {}'.format(rc))
+			core_config.main_logger.info(
+				'Finish simpleRender with code: {}'.format(rc))
 
 			work_dir = os.path.abspath(args.output).replace('\\', '/')
 			files = [f for f in os.listdir(
@@ -392,4 +424,3 @@ if __name__ == '__main__':
 				f.write(logs)
 
 			exit(rc)
-
