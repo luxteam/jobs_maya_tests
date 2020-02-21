@@ -242,10 +242,38 @@ def main(args):
 			file.write(cmdRun)
 		os.system('chmod +x {}'.format(cmdScriptPath))
 
-	core_config.main_logger.info('Starting maya')
-	os.chdir(args.output)
+	rc = start_Maya(cmdScriptPath, args.output)
+
+	if args.testType in ['Athena']:
+		subprocess.call([sys.executable, os.path.realpath(os.path.join(os.path.dirname(__file__), 'extensions', args.testType + '.py')), args.output])
+	core_config.main_logger.info('Main func return : {}'.format(rc))
+	return rc
+
+
+def group_failed(args):
+	try:
+		cases = json.load(open(os.path.realpath(os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'))))
+	except:
+		cases = json.load(open(os.path.realpath(os.path.join(os.path.dirname(__file__),  '..', 'Tests', args.testType, 'test_cases.json'))))
+
+	for case in cases:
+		if case['status'] == 'active':
+			case['status'] = 'skipped'
+
+	with open(os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'), 'w+') as f:
+		json.dump(cases, f, indent=4)
+
+	rc = main(args)
+	kill_process(PROCESS)
+	core_config.main_logger.info('Finish simpleRender with code: {}'.format(rc))
+	exit(rc)
+
+
+def start_Maya(cmdScriptPath, work_dir):
+	system_pl = platform.system()
+	core_config.main_logger.info('Launch script on Maya ({})'.format(cmdScriptPath))
+	os.chdir(work_dir)
 	p = psutil.Popen(cmdScriptPath, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
-	rc = -1
 
 	while True:
 		try:
@@ -262,12 +290,11 @@ def main(args):
 			if error_window:
 				core_config.main_logger.error('Error window found: {}'.format(error_window))
 				core_config.main_logger.warning('Found windows: {}'.format(window_titles))
-				rc = -1
 
 				if system_pl == 'Windows':
 					try:
 						error_screen = pyscreenshot.grab()
-						error_screen.save(os.path.join(args.output, 'error_screenshot.jpg'))
+						error_screen.save(os.path.join(work_dir, 'error_screenshot.jpg'))
 					except Exception as ex:
 						pass
 
@@ -296,46 +323,33 @@ def main(args):
 				except psutil.NoSuchProcess:
 					core_config.main_logger.warning('Process is killed: {}'.format(ch))
 				
-				break
+				return -1
 		else:
-			rc = 0
-			break
-		
-	if args.testType in ['Athena']:
-		subprocess.call([sys.executable, os.path.realpath(os.path.join(os.path.dirname(__file__), 'extensions', args.testType + '.py')), args.output])
-	core_config.main_logger.info('Main func return : {}'.format(rc))
-	return rc
-
-
-def group_failed(args):
-	try:
-		cases = json.load(open(os.path.realpath(os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'))))
-	except:
-		cases = json.load(open(os.path.realpath(os.path.join(os.path.dirname(__file__),  '..', 'Tests', args.testType, 'test_cases.json'))))
-
-	for case in cases:
-		if case['status'] == 'active':
-			case['status'] = 'skipped'
-
-	with open(os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'), 'w+') as f:
-		json.dump(cases, f, indent=4)
-
-	rc = main(args)
-	kill_process(PROCESS)
-	core_config.main_logger.info('Finish simpleRender with code: {}'.format(rc))
-	exit(rc)
+			return 0
 
 
 if __name__ == '__main__':
 	core_config.main_logger.info('simpleRender start working...')
 	args = createArgsParser().parse_args()
 
-	iteration = 0
-
 	try:
 		os.makedirs(args.output)
 	except OSError as e:
 		pass
+
+	iteration = 0
+
+	copyfile(os.path.join(args.output, '..', '..', '..',
+						   '..', 'scripts', 'build_rpr_cache.bat'), os.path.join(args.output, 'cb.bat'))
+	copyfile(os.path.join(args.output, '..', '..', '..',
+						   '..', 'jobs', 'Scripts', 'cache_building.py'), os.path.join(args.output, 'cb.py'))
+
+	core_config.main_logger.info('Build cache')
+	rc = start_Maya(os.path.join(args.output, 'cb.bat'), args.output)
+
+	if rc != 0:
+		core_config.main_logger.info("Can't build cache")
+		exit(rc)
 
 	while True:
 		iteration += 1
