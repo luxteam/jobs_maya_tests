@@ -339,13 +339,22 @@ if __name__ == '__main__':
 
 	iteration = 0
 
+	system_pl = platform.system()
+	if system_pl == 'Windows':
+		script_path = os.path.join(args.output, 'cache_building.bat')
+		copyfile(os.path.join(args.output, '..', '..', '..',
+							'..', 'scripts', 'build_rpr_cache.bat'), script_path)
+	elif system_pl == 'Darwin':
+		script_path = os.path.join(args.output, 'cache_building.sh')
+		copyfile(os.path.join(args.output, '..', '..', '..',
+							'..', 'scripts', 'build_rpr_cache.sh'), script_path)
+
+
 	copyfile(os.path.join(args.output, '..', '..', '..',
-						   '..', 'scripts', 'build_rpr_cache.bat'), os.path.join(args.output, 'cb.bat'))
-	copyfile(os.path.join(args.output, '..', '..', '..',
-						   '..', 'jobs', 'Scripts', 'cache_building.py'), os.path.join(args.output, 'cb.py'))
+						   '..', 'jobs', 'Scripts', 'cache_building.py'), os.path.join(args.output, 'cache_building.py'))
 
 	core_config.main_logger.info('Build cache')
-	rc = start_Maya(os.path.join(args.output, 'cb.bat'), args.output)
+	rc = start_Maya(script_path, args.output)
 
 	if rc != 0:
 		core_config.main_logger.info("Can't build cache")
