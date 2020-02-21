@@ -126,6 +126,7 @@ def prerender(case):
 
 	enable_rpr()
 
+	render_device = RENDER_DEVICE
 	cmds.optionVar(iva=('RPR_DevicesSelected',
 						(render_device in ['gpu', 'dual'])))
 	cmds.optionVar(iva=('RPR_DevicesSelected',
@@ -144,7 +145,6 @@ def prerender(case):
 	cmds.setAttr(
 		'RadeonProRenderGlobals.completionCriteriaIterations', PASS_LIMIT)
 
-	render_device = RENDER_DEVICE
 	cmds.setAttr('RadeonProRenderGlobals.samplesPerUpdate', SPU)
 	cmds.optionVar(rm='RPR_DevicesSelected')
 
