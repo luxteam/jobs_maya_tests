@@ -52,10 +52,10 @@ def reportToJSON(case, render_time=0):
 	report['difference_color'] = 0
 	report['script_info'] = case['script_info']
 	report['render_log'] = path.join('render_tool_logs', case['case'] + '.log')
-	if not get_scene_name():
+	if not get_scene_name(case['status']):
 		report['scene_name'] = case.get('scene', '')
 	else:
-		report['scene_name'] = get_scene_name()
+		report['scene_name'] = get_scene_name(case['status'])
 
 	with open(path_to_file, 'w') as file:
 		file.write(json.dumps([report], indent=4))
@@ -65,11 +65,14 @@ def render_tool_log_path(name):
 	return path.join(LOGS_DIR, name + '.log')
 
 
-def get_scene_name():
-	scene_name = cmds.file(q=True, sn=True, shn=True)
-	if not scene_name:
-		logging("Can't get scene name from contex")
-	return scene_name
+def get_scene_name(status):
+	if status == 'skipped':
+		return
+	else:
+		scene_name = cmds.file(q=True, sn=True, shn=True)
+		if not scene_name:
+			logging("Can't get scene name from contex")
+		return scene_name
 
 
 def validateFiles():
