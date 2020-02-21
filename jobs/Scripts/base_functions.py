@@ -182,16 +182,6 @@ def save_report(case):
 
 
 def case_function(case):
-	try:
-		projPath = RES_PATH + '/' + TEST_TYPE
-		temp = projPath + '/' + case['scene'][:-3]
-		if os.path.isdir(temp):
-			projPath = temp
-		mel.eval('setProject("{{}}")'.format(projPath))
-	except:
-		logging("Can't set project in '" + projPath + "'")
-		cmds.evalDeferred('cmds.quit(abort=True)')
-
 	functions = {{
 		'prerender': prerender,
 		'save_report': save_report
@@ -201,6 +191,16 @@ def case_function(case):
 
 	if case['functions'][0] == 'check_test_cases_success_save':
 		func = 'save_report'
+	else:
+		try:
+			projPath = os.path.join(RES_PATH, TEST_TYPE)
+			temp = os.path.join(projPath, case['scene'][:-3])
+			if os.path.isdir(temp):
+				projPath = temp
+			mel.eval('setProject("{{}}")'.format(projPath.replace('\\\\', '\\')))
+		except:
+			logging("Can't set project in '" + projPath + "'")
+			cmds.evalDeferred('cmds.quit(abort=True)')
 
 	if case['status'] == 'fail':
 		case['status'] = 'error'
