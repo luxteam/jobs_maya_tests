@@ -343,11 +343,11 @@ if __name__ == '__main__':
 	if system_pl == 'Windows':
 		script_path = os.path.join(args.output, 'cache_building.bat')
 		copyfile(os.path.join(args.output, '..', '..', '..',
-							'..', 'scripts', 'build_rpr_cache.bat'), script_path)
+							'..', 'scripts', 'build_rpr_cache_sr.bat'), script_path)
 	elif system_pl == 'Darwin':
 		script_path = os.path.join(args.output, 'cache_building.sh')
 		copyfile(os.path.join(args.output, '..', '..', '..',
-							'..', 'scripts', 'build_rpr_cache.sh'), script_path)
+							'..', 'scripts', 'build_rpr_cache_sr.sh'), script_path)
 
 
 	copyfile(os.path.join(args.output, '..', '..', '..',
