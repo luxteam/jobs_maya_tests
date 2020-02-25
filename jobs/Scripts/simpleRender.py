@@ -337,7 +337,7 @@ if __name__ == '__main__':
 	except OSError as e:
 		pass
 
-	old_active_cases = 0
+	old_active_cases = 0 # number of active cases from last iteration
 
 	while True:
 		iteration += 1
@@ -370,6 +370,7 @@ if __name__ == '__main__':
 				active_cases += 1
 
 		if active_cases == 0 or old_active_cases == active_cases or iteration > len(cases):
+			# exit script if base_functions don't change number of active cases
 			kill_process(PROCESS)
 			core_config.main_logger.info('Finish simpleRender with code: {}'.format(rc))
 
