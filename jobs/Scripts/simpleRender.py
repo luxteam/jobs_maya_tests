@@ -129,18 +129,11 @@ def main(args):
 
 	core_config.main_logger.info('Make "base_functions.py"')
 
-	cases = []
-
 	try:
-		if os.path.exists(os.path.realpath(
-			os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'))):
-			cases = json.load(open(os.path.realpath(
-				os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'))))
-		else:
-			core_config.main_logger.info('Get cases from Tests folder')
-			cases = json.load(open(os.path.realpath(os.path.join(os.path.dirname(
-				__file__), '..', 'Tests', args.testType, 'test_cases.json'))))
+		cases = json.load(open(os.path.realpath(
+			os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'))))
 	except Exception as e:
+		core_config.logging.error("Can't load test_cases.json")
 		core_config.main_logger.error(str(e))
 		exit(-1)
 
@@ -166,16 +159,6 @@ def main(args):
 
 	with open(os.path.join(args.output, 'base_functions.py'), 'w') as file:
 		file.write(script)
-
-	try:
-		cases = json.load(open(os.path.realpath(
-			os.path.join(work_dir, 'test_cases.json'))))
-	except:
-		try:
-			cases = json.load(open(os.path.realpath(os.path.join(os.path.dirname(
-				__file__),  '..', 'Tests', args.testType, 'test_cases.json'))))
-		except:
-			core_config.logging.error("Can't load test_cases.json")
 
 	if (os.path.exists(os.path.join(os.path.dirname(__file__), args.testCases))):
 		with open(os.path.join(os.path.dirname(__file__), args.testCases)) as f:
@@ -329,11 +312,12 @@ def main(args):
 
 def group_failed(args):
 	try:
-		cases = json.load(open(os.path.realpath(os.path.join(
-			os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'))))
-	except:
-		cases = json.load(open(os.path.realpath(os.path.join(os.path.dirname(
-			__file__),  '..', 'Tests', args.testType, 'test_cases.json'))))
+		cases = json.load(open(os.path.realpath(
+			os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'))))
+	except Exception as e:
+		core_config.logging.error("Can't load test_cases.json")
+		core_config.main_logger.error(str(e))
+		exit(-1)
 
 	for case in cases:
 		if case['status'] == 'active':
@@ -361,6 +345,16 @@ if __name__ == '__main__':
 	except OSError as e:
 		pass
 
+	try:
+		copyfile(os.path.realpath(os.path.join(os.path.dirname(
+					__file__), '..', 'Tests', args.testType, 'test_cases.json')),
+				os.path.realpath(os.path.join(os.path.abspath(
+					args.output).replace('\\', '/'), 'test_cases.json')))
+	except:
+		core_config.logging.error("Can't copy test_cases.json")
+		core_config.main_logger.error(str(e))
+		exit(-1)
+		
 	while True:
 		iteration += 1
 
@@ -376,11 +370,12 @@ if __name__ == '__main__':
 			core_config.main_logger.error('No renderTool.log')
 
 		try:
-			cases = json.load(open(os.path.realpath(os.path.join(
-				os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'))))
-		except:
-			cases = json.load(open(os.path.realpath(os.path.join(os.path.dirname(
-				__file__),  '..', 'Tests', args.testType, 'test_cases.json'))))
+			cases = json.load(open(os.path.realpath(
+				os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'))))
+		except Exception as e:
+			core_config.logging.error("Can't load test_cases.json")
+			core_config.main_logger.error(str(e))
+			exit(-1)
 
 		active_cases = 0
 		failed_count = 0
