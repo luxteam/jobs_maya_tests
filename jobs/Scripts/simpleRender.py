@@ -142,6 +142,7 @@ def main(args):
 				__file__), '..', 'Tests', args.testType, 'test_cases.json'))))
 	except Exception as e:
 		core_config.main_logger.error(str(e))
+		exit(-1)
 
 	try:
 		with open(os.path.join(os.path.dirname(__file__), 'base_functions.py')) as f:
