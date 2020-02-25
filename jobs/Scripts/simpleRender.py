@@ -129,18 +129,19 @@ def main(args):
 
 	core_config.main_logger.info('Make "base_functions.py"')
 
-	try:
-		cases = json.load(open(os.path.realpath(
-			os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'))))
-	except Exception as e:
-		core_config.main_logger.error(str(e))
-
 	cases = []
 
-	if not cases:
-		core_config.main_logger.info('Get cases from Tests folder')
-		cases = json.load(open(os.path.realpath(os.path.join(os.path.dirname(
-			__file__), '..', 'Tests', args.testType, 'test_cases.json'))))
+	try:
+		if os.path.exists(os.path.realpath(
+			os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'))):
+			cases = json.load(open(os.path.realpath(
+				os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'))))
+		else:
+			core_config.main_logger.info('Get cases from Tests folder')
+			cases = json.load(open(os.path.realpath(os.path.join(os.path.dirname(
+				__file__), '..', 'Tests', args.testType, 'test_cases.json'))))
+	except Exception as e:
+		core_config.main_logger.error(str(e))
 
 	try:
 		with open(os.path.join(os.path.dirname(__file__), 'base_functions.py')) as f:
