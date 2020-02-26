@@ -65,7 +65,155 @@
             "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
-            "Open BlendMaterial node Set Weight - 0"
+            "Shadow Catcher Matte Material"
+        ],
+        "scene": "RPRNodes.ma"
+    },
+    {
+        "case": "MAYA_MAT_NODE_007",
+        "status": "skipped",
+        "functions": [
+            "resetAttributes()",
+            "cmds.setAttr('ShadowCatcherMaterial.visibility', 1)",
+            "cmds.lookThru('Camera_ShadowCatcher', 'modelPanel4')",
+            "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 10)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovShadowCatcher', 1)",
+            "rpr_render(case)",
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
+            "cmds.setAttr('ShadowCatcherMaterial.visibility', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovShadowCatcher', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 0)"
+        ],
+        "script_info": [
+            "Shadow Catcher Matte Material AOV"
+        ],
+        "scene": "RPRNodes.ma"
+    },
+    {
+        "case": "MAYA_MAT_NODE_008",
+        "status": "skipped",
+        "functions": [
+            "resetAttributes()",
+            "cmds.setAttr('ShadowCatcherMaterial.visibility', 1)",
+            "cmds.lookThru('Camera_ShadowCatcher', 'modelPanel4')",
+            "cmds.setAttr('RadeonProRenderGlobals.aovShadowCatcher', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('ShadowCatcherMaterial.visibility', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovShadowCatcher', 0)",
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
+        ],
+        "script_info": [
+            "Shadow Catcher Matte Material"
+        ],
+        "scene": "RPRNodes.ma"
+    },
+    {
+        "case": "MAYA_MAT_NODE_009",
+        "status": "active",
+        "functions": [
+            "resetAttributes()",
+            "cmds.setAttr('BlendUbernPBRMaterials.visibility', 0)",
+            "cmds.setAttr('ShadowCatcherMaterial.visibility', 1)",
+            "cmds.lookThru('Camera_ShadowCatcher', 'modelPanel4')",
+            "cmds.setAttr('RPRMatteMaterial1.bgColor', 0.5, 0.5, 0.5)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovShadowCatcher', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('ShadowCatcherMaterial.visibility', 0)",
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
+            "cmds.setAttr('RadeonProRenderGlobals.aovShadowCatcher', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 0)",
+            "cmds.setAttr('RPRMatteMaterial1.bgColor', 0, 0, 0)"
+        ],
+        "script_info": [
+            "Shadow Catcher Matte Material, Background Color - 0.5"
+        ],
+        "scene": "RPRNodes.ma"
+    },
+    {
+        "case": "MAYA_MAT_NODE_010",
+        "status": "active",
+        "functions": [
+            "resetAttributes()",
+            "cmds.setAttr('BlendUbernPBRMaterials.visibility', 0)",
+            "cmds.setAttr('ShadowCatcherMaterial.visibility', 1)",
+            "cmds.lookThru('Camera_ShadowCatcher', 'modelPanel4')",
+            "cmds.setAttr('RadeonProRenderGlobals.aovShadowCatcher', 1)",
+            "cmds.setAttr('RPRMatteMaterial1.bgColor', 0, 0, 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('ShadowCatcherMaterial.visibility', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovShadowCatcher', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 0)",
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
+        ],
+        "script_info": [
+            "Shadow Catcher Matte Material, Background Color - 0"
+        ],
+        "scene": "RPRNodes.ma"
+    },
+    {
+        "case": "MAYA_MAT_NODE_011",
+        "status": "active",
+        "functions": [
+            "resetAttributes()",
+            "cmds.setAttr('BlendUbernPBRMaterials.visibility', 0)",
+            "cmds.setAttr('ShadowCatcherMaterial.visibility', 1)",
+            "cmds.lookThru('Camera_ShadowCatcher', 'modelPanel4')",
+            "cmds.setAttr('RadeonProRenderGlobals.aovShadowCatcher', 1)",
+            "cmds.setAttr('RPRMatteMaterial1.shadowWeight', 0.5)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRMatteMaterial1.shadowWeight', 1)",
+            "cmds.setAttr('ShadowCatcherMaterial.visibility', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovShadowCatcher', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 0)",
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
+        ],
+        "script_info": [
+            "Shadow Catcher Matte Material Shadow Weight - 0.5"
+        ],
+        "scene": "RPRNodes.ma"
+    },
+    {
+        "case": "MAYA_MAT_NODE_012",
+        "status": "active",
+        "functions": [
+            "resetAttributes()",
+            "cmds.setAttr('BlendUbernPBRMaterials.visibility', 0)",
+            "cmds.setAttr('ShadowCatcherMaterial.visibility', 1)",
+            "cmds.lookThru('Camera_ShadowCatcher', 'modelPanel4')",
+            "cmds.setAttr('RadeonProRenderGlobals.aovShadowCatcher', 1)",
+            "cmds.setAttr('RPRMatteMaterial1.shadowWeight', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRMatteMaterial1.shadowWeight', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovShadowCatcher', 0)",
+            "cmds.setAttr('ShadowCatcherMaterial.visibility', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 0)",
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
+        ],
+        "script_info": [
+            "Shadow Catcher Matte Material Shadow Weight - 0"
+        ],
+        "scene": "RPRNodes.ma"
+    },
+    {
+        "case": "MAYA_MAT_NODE_013",
+        "status": "active",
+        "functions": [
+            "resetAttributes()",
+            "cmds.setAttr('BlendUbernPBRMaterials.visibility', 0)",
+            "cmds.setAttr('ShadowCatcherMaterial.visibility', 1)",
+            "cmds.lookThru('Camera_ShadowCatcher', 'modelPanel4')",
+            "cmds.setAttr('RadeonProRenderGlobals.aovShadowCatcher', 1)",
+            "cmds.setAttr('RPRMatteMaterial1.reflectionWeight', 0.5)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRMatteMaterial1.reflectionWeight', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovShadowCatcher', 0)",
+            "cmds.setAttr('ShadowCatcherMaterial.visibility', 0)",
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
+        ],
+        "script_info": [
+            "Shadow Catcher Matte Material Reflection Weight - 0.5"
         ],
         "scene": "RPRNodes.ma"
     },
@@ -531,8 +679,219 @@
             "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')"
         ],
         "script_info": [
-            "RPRFresnel1 node Set IOR - 10"
+            "Displacement node"
         ],
         "scene": "RPRNodes.ma"
+    },
+    {
+        "case": "MAYA_MAT_NODE_044",
+        "status": "active",
+        "functions": [
+            "resetAttributes()",
+            "cmds.setAttr('BlendUbernPBRMaterials.visibility', 0)",
+            "cmds.setAttr('CheckerDotTexture.visibility', 0)",
+            "cmds.setAttr('Displacement.visibility', 1)",
+            "cmds.lookThru('Camera_Displacement', 'modelPanel4')",
+            "cmds.setAttr('RPRDisplacement1.subdivision', 4)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRDisplacement1.subdivision', 1)",
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
+            "cmds.setAttr('Displacement.visibility', 0)",
+            "cmds.setAttr('CheckerDotTexture.visibility', 1)"
+        ],
+        "script_info": [
+            "Displacement node"
+        ],
+        "scene": "RPRNodes.ma"
+    },
+    {
+        "case": "MAYA_MAT_NODE_045",
+        "status": "active",
+        "functions": [
+            "resetAttributes()",
+            "cmds.setAttr('BlendUbernPBRMaterials.visibility', 0)",
+            "cmds.setAttr('CheckerDotTexture.visibility', 0)",
+            "cmds.setAttr('Displacement.visibility', 1)",
+            "cmds.lookThru('Camera_Displacement', 'modelPanel4')",
+            "cmds.setAttr('RPRDisplacement1.minHeight', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRDisplacement1.minHeight', -1)",
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
+            "cmds.setAttr('Displacement.visibility', 0)",
+            "cmds.setAttr('CheckerDotTexture.visibility', 1)"
+        ],
+        "script_info": [
+            "Displacement node"
+        ],
+        "scene": "RPRNodes.ma"
+    },
+    {
+        "case": "MAYA_MAT_NODE_046",
+        "status": "active",
+        "functions": [
+            "resetAttributes()",
+            "cmds.setAttr('BlendUbernPBRMaterials.visibility', 0)",
+            "cmds.setAttr('CheckerDotTexture.visibility', 0)",
+            "cmds.setAttr('Displacement.visibility', 1)",
+            "cmds.lookThru('Camera_Displacement', 'modelPanel4')",
+            "cmds.setAttr('RPRDisplacement1.maxHeight', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRDisplacement1.maxHeight', 1)",
+            "cmds.lookThru('Camera_Checker_Dot_Texture', 'modelPanel4')",
+            "cmds.setAttr('Displacement.visibility', 0)",
+            "cmds.setAttr('CheckerDotTexture.visibility', 1)"
+        ],
+        "script_info": [
+            "Displacement node"
+        ],
+        "scene": "RPRNodes.ma"
+    },
+    {
+        "case": "MAYA_MAT_NODE_047",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('Lookup.visibility', 1)",
+            "cmds.setAttr('RPRLookup1.type', 5)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRLookup1.type', 0)",
+            "cmds.setAttr('Lookup.visibility', 0)"
+        ],
+        "script_info": [
+            "RPR Lookup UV"
+        ],
+        "scene": "lookup.ma"
+    },
+    {
+        "case": "MAYA_MAT_NODE_048",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('Lookup.visibility', 1)",
+            "cmds.setAttr('RPRLookup1.type', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRLookup1.type', 0)",
+            "cmds.setAttr('Lookup.visibility', 0)"
+        ],
+        "script_info": [
+            "RPRLookup Normal"
+        ],
+        "scene": "RPRLookup.ma"
+    },
+    {
+        "case": "MAYA_MAT_NODE_049",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('Lookup.visibility', 1)",
+            "cmds.setAttr('RPRLookup1.type', 2)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRLookup1.type', 0)",
+            "cmds.setAttr('Lookup.visibility', 0)"
+        ],
+        "script_info": [
+            "RPRLookup World XYZ"
+        ],
+        "scene": "RPRLookup.ma"
+    },
+    {
+        "case": "MAYA_MAT_NODE_050",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('Lookup.visibility', 1)",
+            "cmds.setAttr('RPRLookup1.type', 3)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRLookup1.type', 0)",
+            "cmds.setAttr('Lookup.visibility', 0)"
+        ],
+        "script_info": [
+            "RPR Lookup Incident"
+        ],
+        "scene": "RPRLookup.ma"
+    },
+    {
+        "case": "MAYA_MAT_NODE_051",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('Lookup.visibility', 1)",
+            "cmds.setAttr('RPRLookup1.type', 5)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRLookup1.type', 0)",
+            "cmds.setAttr('Lookup.visibility', 0)"
+        ],
+        "script_info": [
+            "RPR Lookup Out Vector"
+        ],
+        "scene": "RPRLookup.ma"
+    },
+    {
+        "case": "MAYA_MAT_NODE_052",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('Lookup.visibility', 1)",
+            "cmds.setAttr('RPRLookup1.type', 4)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRLookup1.type', 0)",
+            "cmds.setAttr('Lookup.visibility', 0)"
+        ],
+        "script_info": [
+            "RPR Lookup Object XYZ"
+        ],
+        "scene": "RPRLookup.ma"
+    },
+    {
+        "case": "MAYA_MAT_NODE_053",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('Lookup.visibility', 1)",
+            "cmds.setAttr('RPRLookup1.type', 11)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRLookup1.type', 0)",
+            "cmds.setAttr('Lookup.visibility', 0)"
+        ],
+        "script_info": [
+            "RPR Lookup Random Color"
+        ],
+        "scene": "RPRLookup.ma"
+    },
+    {
+        "case": "MAYA_MAT_NODE_054",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('Vertex_Color.visibility', 1)",
+            "cmds.setAttr('RPRLookup1.type', 256)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRLookup1.type', 0)",
+            "cmds.setAttr('Vertex_Color.visibility', 0)"
+        ],
+        "script_info": [
+            "RPR Lookup Vertex Color"
+        ],
+        "scene": "RPRLookup.ma"
+    },
+    {
+        "case": "MAYA_MAT_NODE_055",
+        "status": "active",
+        "functions": [
+            "cmds.select('shaderball')",
+            "cmds.hyperShade(assign='RPRTransparentMaterial')",
+            "rpr_render(case)",
+            "cmds.hyperShade(assign='pasted__RPRUberMaterial1')"
+        ],
+        "script_info": [
+            "RPRTransparentMaterial"
+        ],
+        "scene": "maya_shaderball.ma"
+    },
+    {
+        "case": "MAYA_MAT_NODE_056",
+        "status": "active",
+        "functions": [
+            "cmds.select('shaderball')",
+            "cmds.hyperShade(assign='RPRFlatColorMaterial')",
+            "rpr_render(case)",
+            "cmds.hyperShade(assign='pasted__RPRUberMaterial1')"
+        ],
+        "script_info": [
+            "RPRFlatColorMaterial"
+        ],
+        "scene": "maya_shaderball.ma"
     }
 ]

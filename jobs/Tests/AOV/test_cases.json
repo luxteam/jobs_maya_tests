@@ -296,5 +296,32 @@
             "cmds.delete('RPRIBL')",
             "rpr_render(case)"
         ]
+    },
+    {
+        "case": "MAYA_RS_AOV_022",
+        "status": "active",
+        "script_info": [
+            "AOV: Albedo"
+        ],
+        "scene": "AOVConstruct.ma",
+        "functions": [
+            "resetAttributes()",
+            "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 27)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovAlbedo', 1)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AOV_023",
+        "status": "active",
+        "script_info": [
+            "AOV: Variance"
+        ],
+        "scene": "AOVConstruct.ma",
+        "functions": [
+            "resetAttributes()",
+            "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 28)",
+            "rpr_render(case)"
+        ]
     }
 ]

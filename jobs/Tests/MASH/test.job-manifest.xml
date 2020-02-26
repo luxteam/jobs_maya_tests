@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<job-manifest enable="False">
+
+    <outpath value="{OutputDir}"/>
+
+    <execute command='python "{CWD}/Scripts/simpleRender.py"' timeout="3600">
+        <argument>--tool "{Tool}"</argument>
+        <argument>--render_device "{RenderDevice}"</argument>
+        <argument>--output "{OutputDir}"</argument>
+        <argument>--testType MASH</argument>
+        <argument>--pass_limit {PassLimit}</argument>
+        <argument>--resolution_x {rx}</argument>
+        <argument>--resolution_y {ry}</argument>
+        <argument>--res_path "{ScenesDir}"</argument>
+        <argument>--testCases "{TestCases}"</argument>
+        <argument>--SPU {SPU}</argument>
+        <argument>--threshold {threshold}</argument>
+    </execute>
+
+    <execute command='python "{CWD}/Scripts/make_report_json.py"'>
+        <argument>--work_dir "{OutputDir}"</argument>
+    </execute>
+
+    <execute command='python "{CommonDir}/scripts/ImageComparator/compareByJSON.py"'>
+        <argument>--work_dir "{OutputDir}"</argument>
+        <argument>--base_dir "{BaselineDir}"</argument>
+    </execute>
+
+    <execute command='python "{CommonDir}/scripts/HtmlTemplate/htmlBuilder.py"'>
+        <argument>--work_dir "{OutputDir}"</argument>
+    </execute>
+
+</job-manifest>

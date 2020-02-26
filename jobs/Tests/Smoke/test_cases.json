@@ -641,7 +641,7 @@
         "case": "MAYA_SM_042", 
         "status": "active", 
         "functions": [
-            "file_tmp = setAttribute('emissionColor', 'outColor', '/Smoke/VolumeRollingFog/sourceimages/EmissiveVariation1.exr')",
+            "file_tmp = setAttribute('emissionColor', 'outColor', RES_PATH + '/Smoke/VolumeRollingFog/sourceimages/EmissiveVariation1.exr')",
             "cmds.setAttr(file_tmp + '.alphaIsLuminance', 1)",
             "cmds.setAttr('RPRVolumeMaterial1.scatterColor', 1, 1, 1, type='double3')",
             "cmds.setAttr('RPRVolumeMaterial1.transmissionColor', 1, 1, 1, type='double3')",
