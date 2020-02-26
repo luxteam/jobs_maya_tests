@@ -114,6 +114,7 @@ def prerender(case):
 
 	enable_rpr()
 
+	cmds.optionVar(rm='RPR_DevicesSelected')
 	cmds.optionVar(iva=('RPR_DevicesSelected',
 						(RENDER_DEVICE in ['gpu', 'dual'])))
 	cmds.optionVar(iva=('RPR_DevicesSelected',
@@ -127,14 +128,11 @@ def prerender(case):
 				 type='string' 'FireRender')
 
 	cmds.setAttr('defaultRenderGlobals.imageFormat', 8)
-	cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', THRESHOLD)
 
+	cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', THRESHOLD)
 	cmds.setAttr(
 		'RadeonProRenderGlobals.completionCriteriaIterations', PASS_LIMIT)
-
 	cmds.setAttr('RadeonProRenderGlobals.samplesPerUpdate', SPU)
-	cmds.optionVar(rm='RPR_DevicesSelected')
-
 	cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)
 
 	for function in case['functions']:
