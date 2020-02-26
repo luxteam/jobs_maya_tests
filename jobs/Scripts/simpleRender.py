@@ -355,6 +355,8 @@ if __name__ == '__main__':
 		core_config.main_logger.error(str(e))
 		exit(-1)
 		
+	old_active_cases = 0 # number of active cases from last iteration
+
 	while True:
 		iteration += 1
 
@@ -381,18 +383,18 @@ if __name__ == '__main__':
 		failed_count = 0
 
 		for case in cases:
-			if case['status'] not in ['skipped']:
-				if case['status'] in ['fail', 'error', 'inprogress']:
-					failed_count += 1
-					if args.fail_count == failed_count:
-						group_failed(args)
-				else:
-					failed_count = 0
+			if case['status'] in ['fail', 'error', 'inprogress']:
+				failed_count += 1
+				if args.fail_count == failed_count:
+					group_failed(args)
+			else:
+				failed_count = 0
 
-				if case['status'] in ['active', 'fail', 'inprogress']:
-					active_cases += 1
+			if case['status'] in ['active', 'fail', 'inprogress']:
+				active_cases += 1
 
-		if active_cases == 0:
+		if active_cases == 0 or old_active_cases == active_cases or iteration > len(cases):
+			# exit script if base_functions don't change number of active cases
 			kill_process(PROCESS)
 			core_config.main_logger.info(
 				'Finish simpleRender with code: {}'.format(rc))
@@ -419,3 +421,5 @@ if __name__ == '__main__':
 				f.write(logs)
 
 			exit(rc)
+
+		old_active_cases = active_cases
