@@ -66,12 +66,12 @@ def render_tool_log_path(name):
 
 def validateFiles():
 	logging('Repath scene')
+	# TODO: repath from folder with group
 	unresolved_files = cmds.filePathEditor(
 		query=True, listFiles='', unresolved=True, attributeOnly=True)
-	new_path = RES_PATH
 	if unresolved_files:
 		for item in unresolved_files:
-			cmds.filePathEditor(item, repath=new_path, recursive=True, ra=1)
+			cmds.filePathEditor(item, repath=RES_PATH, recursive=True, ra=1)
 
 
 def enable_rpr():
@@ -101,8 +101,6 @@ def rpr_render(case):
 
 def prerender(case):
 	logging('Prerender')
-	test_case = case['case']  # for call in functions in case
-	script_info = case['script_info']  # for call in functions in case
 	scene = case.get('scene', '')
 	scene_name = cmds.file(q=True, sn=True, shn=True)
 	if scene_name != scene:
