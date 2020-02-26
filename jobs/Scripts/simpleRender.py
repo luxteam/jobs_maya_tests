@@ -150,11 +150,13 @@ def main(args):
 		script = script.split('# place for extension functions')
 		script = script[0] + extension_script + script[1]
 
+	work_dir = os.path.abspath(args.output).replace('\\', '/')
+	res_path = os.path.abspath(args.res_path).replace('\\', '/')
+
 	maya_scenes = {x.get('scene', '') for x in cases if x.get('scene', '')}
 	check_licenses(args.res_path, maya_scenes, args.testType)
 
-	work_dir = os.path.abspath(args.output).replace('\\', '/')
-	script = script.format(work_dir=work_dir, testType=args.testType, render_device=args.render_device, res_path=args.res_path, pass_limit=args.pass_limit,
+	script = script.format(work_dir=work_dir, testType=args.testType, render_device=args.render_device, res_path=res_path, pass_limit=args.pass_limit,
 						   resolution_x=args.resolution_x, resolution_y=args.resolution_y, SPU=args.SPU, threshold=args.threshold)
 
 	with open(os.path.join(args.output, 'base_functions.py'), 'w') as file:
