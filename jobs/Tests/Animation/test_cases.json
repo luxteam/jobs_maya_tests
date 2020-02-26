@@ -111,108 +111,117 @@
         "case": "MAYA_RS_AN_010",
         "status": "active",
         "script_info": [
-            "Frame: 21"
+            "Frame: 11"
         ],
         "scene": "NonKeyed_Rigid.ma", 
         "functions": [
-            "cmds.currentTime(21)",
-            "rpr_render(case)"
+            "cmds.currentTime(11)",
+            "rpr_render(case)",
+            "cmds.currentTime(1)"
         ]
     },
     {
         "case": "MAYA_RS_AN_011",
         "status": "active",
         "script_info": [
-            "Frame: 22"
+            "Frame: 12"
         ],
         "scene": "NonKeyed_Rigid.ma", 
         "functions": [
-            "cmds.currentTime(22)",
-            "rpr_render(case)"
+            "cmds.currentTime(12)",
+            "rpr_render(case)",
+            "cmds.currentTime(1)"
         ]
     },
     {
         "case": "MAYA_RS_AN_012",
         "status": "active",
         "script_info": [
-            "Frame: 23"
+            "Frame: 13"
         ],
         "scene": "NonKeyed_Rigid.ma", 
         "functions": [
-            "cmds.currentTime(23)",
-            "rpr_render(case)"
+            "cmds.currentTime(13)",
+            "rpr_render(case)",
+            "cmds.currentTime(1)"
         ]
     },
     {
         "case": "MAYA_RS_AN_013",
         "status": "active",
         "script_info": [
-            "Frame: 201"
+            "Frame: 14"
         ],
         "scene": "NonKeyed_Rigid.ma", 
         "functions": [
-            "cmds.currentTime(201)",
-            "rpr_render(case)"
+            "cmds.currentTime(14)",
+            "rpr_render(case)",
+            "cmds.currentTime(1)"
         ]
     },
     {
         "case": "MAYA_RS_AN_014",
         "status": "active",
         "script_info": [
-            "Frame: 202"
+            "Frame: 15"
         ],
         "scene": "NonKeyed_Rigid.ma", 
         "functions": [
-            "cmds.currentTime(202)",
-            "rpr_render(case)"
+            "cmds.currentTime(15)",
+            "rpr_render(case)",
+            "cmds.currentTime(1)"
         ]
     },
     {
         "case": "MAYA_RS_AN_015",
         "status": "active",
         "script_info": [
-            "Frame: 203"
+            "Frame: 16"
         ],
         "scene": "NonKeyed_Rigid.ma", 
         "functions": [
-            "cmds.currentTime(203)",
-            "rpr_render(case)"
+            "cmds.currentTime(16)",
+            "rpr_render(case)",
+            "cmds.currentTime(1)"
         ]
     },
     {
         "case": "MAYA_RS_AN_016",
         "status": "active",
         "script_info": [
-            "Frame: 301"
+            "Frame: 17"
         ],
         "scene": "NonKeyed_Rigid.ma", 
         "functions": [
-            "cmds.currentTime(301)",
-            "rpr_render(case)"
+            "cmds.currentTime(17)",
+            "rpr_render(case)",
+            "cmds.currentTime(1)"
         ]
     },
     {
         "case": "MAYA_RS_AN_017",
         "status": "active",
         "script_info": [
-            "Frame: 302"
+            "Frame: 18"
         ],
         "scene": "NonKeyed_Rigid.ma", 
         "functions": [
-            "cmds.currentTime(302)",
-            "rpr_render(case)"
+            "cmds.currentTime(18)",
+            "rpr_render(case)",
+            "cmds.currentTime(1)"
         ]
     },
     {
         "case": "MAYA_RS_AN_018",
         "status": "active",
         "script_info": [
-            "Frame: 303"
+            "Frame: 19"
         ],
         "scene": "NonKeyed_Rigid.ma", 
         "functions": [
-            "cmds.currentTime(303)",
-            "rpr_render(case)"
+            "cmds.currentTime(19)",
+            "rpr_render(case)",
+            "cmds.currentTime(1)"
         ]
     }
 ]
