@@ -341,22 +341,14 @@ if __name__ == '__main__':
 
 	system_pl = platform.system()
 	if system_pl == 'Windows':
-		script_path = os.path.join(args.output, 'cache_building.bat')
-		copyfile(os.path.join(args.output, '..', '..', '..',
-							'..', 'scripts', 'build_rpr_cache_sr.bat'), script_path)
+		script_path = os.path.join(args.output, '..', '..', '..',
+							'..', 'scripts', 'build_rpr_cache.bat')
 	elif system_pl == 'Darwin':
-		script_path = os.path.join(args.output, 'cache_building.sh')
-		copyfile(os.path.join(args.output, '..', '..', '..',
-							'..', 'scripts', 'build_rpr_cache_sr.sh'), script_path)
-
-
-	copyfile(os.path.join(args.output, '..', '..', '..',
-						   '..', 'jobs', 'Scripts', 'cache_building.py'), os.path.join(args.output, 'cache_building.py'))
+		script_path = os.path.join(args.output, '..', '..', '..',
+							'..', 'scripts', 'build_rpr_cache.sh')
 
 	core_config.main_logger.info('Build cache')
-	rc = start_Maya(script_path, args.output)
-
-	if rc != 0:
+	if start_Maya(script_path, args.output) != 0:
 		core_config.main_logger.info("Can't build cache")
 		exit(rc)
 
