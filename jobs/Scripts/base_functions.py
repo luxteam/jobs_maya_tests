@@ -114,11 +114,10 @@ def prerender(case):
 
 	enable_rpr()
 
-	render_device = RENDER_DEVICE
 	cmds.optionVar(iva=('RPR_DevicesSelected',
-						(render_device in ['gpu', 'dual'])))
+						(RENDER_DEVICE in ['gpu', 'dual'])))
 	cmds.optionVar(iva=('RPR_DevicesSelected',
-						(render_device in ['cpu', 'dual'])))
+						(RENDER_DEVICE in ['cpu', 'dual'])))
 
 	if RESOLUTION_X and RESOLUTION_Y:
 		cmds.setAttr('defaultResolution.width', RESOLUTION_X)
