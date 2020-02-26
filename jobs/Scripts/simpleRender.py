@@ -337,6 +337,8 @@ if __name__ == '__main__':
 	except OSError as e:
 		pass
 
+	old_active_cases = 0 # number of active cases from last iteration
+
 	while True:
 		iteration += 1
 		core_config.main_logger.info('Try to run script in maya (#' + str(iteration) + ')')
@@ -357,19 +359,20 @@ if __name__ == '__main__':
 		failed_count = 0
 
 		for case in cases:
-			if case['status'] not in ['skipped']:
-				if case['status'] in ['fail', 'error', 'inprogress']:
-					failed_count += 1
-					if args.fail_count == failed_count:
-						group_failed(args)
-				else:
-					failed_count = 0
+			if case['status'] in ['fail', 'error', 'inprogress']:
+				failed_count += 1
+				if args.fail_count == failed_count:
+					group_failed(args)
+			else:
+				failed_count = 0
 
-				if case['status'] in ['active', 'fail', 'inprogress']:
-					active_cases += 1
+			if case['status'] in ['active', 'fail', 'inprogress']:
+				active_cases += 1
 
-		if active_cases == 0:
-			kill_process(PROCESS)	
+		if active_cases == 0 or old_active_cases == active_cases or iteration > len(cases):
+			# exit script if base_functions don't change number of active cases
+			kill_process(PROCESS)
 			core_config.main_logger.info('Finish simpleRender with code: {}'.format(rc))
 			exit(rc)
 
+		old_active_cases = active_cases

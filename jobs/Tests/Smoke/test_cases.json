@@ -613,7 +613,7 @@
     }, 
     {
         "case": "MAYA_SM_040", 
-        "status": "skipped", 
+        "status": "active", 
         "functions": [
             "cmds.editRenderLayerGlobals(crl='rs_ALL_SHADOW')",
             "rpr_render(case)"
@@ -625,7 +625,7 @@
     }, 
     {
         "case": "MAYA_SM_041", 
-        "status": "skipped", 
+        "status": "active", 
         "functions": [
             "cmds.setAttr('CheckerDotTexture.visibility', 0)",
             "cmds.setAttr('BlendUbernPBRMaterials.visibility', 1)",
