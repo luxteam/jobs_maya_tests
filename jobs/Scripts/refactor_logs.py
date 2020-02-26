@@ -7,7 +7,9 @@ errors = [
 	{'error': 'rprCachingShadersWarningWindow',
 	 'message': 'Render cache built during cases'},
 	{'error': 'Error: Radeon ProRender: IO error',
-	 'message': 'Some files/textures are missing'}
+	 'message': 'Some files/textures are missing'},
+	 {'error': 'Error occurred during execution of MEL script',
+	 'message': 'Error occurred during execution of MEL script'}
 ]
 
 
