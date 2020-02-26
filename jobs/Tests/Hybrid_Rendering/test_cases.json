@@ -1,0 +1,662 @@
+[
+    {
+        "case": "MAYA_RS_HR_001",
+        "status": "skipped",
+        "script_info": [
+            "Complex scene Quality High"
+        ],
+        "scene": "dodge_rpr.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_002",
+        "status": "skipped",
+        "script_info": [
+            "Complex scene Quality Medium"
+        ],
+        "scene": "dodge_rpr.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 2)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_003",
+        "status": "skipped",
+        "script_info": [
+            "Complex scene Quality Low"
+        ],
+        "scene": "dodge_rpr.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 3)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_004",
+        "status": "active",
+        "script_info": [
+            "Physical Lights Quality High"
+        ],
+        "scene": "HybridLights.ma",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_005",
+        "status": "active",
+        "script_info": [
+            "Physical Lights Quality Medium"
+        ],
+        "scene": "HybridLights.ma",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 2)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_006",
+        "status": "active",
+        "script_info": [
+            "Physical Lights Quality Low"
+        ],
+        "scene": "HybridLights.ma",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 3)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_007",
+        "status": "active",
+        "script_info": [
+            "Physical Lights Quality High"
+        ],
+        "scene": "HybridLights.ma",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_008",
+        "status": "active",
+        "script_info": [
+            "Physical Lights Quality Medium"
+        ],
+        "scene": "HybridLights.ma",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 2)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_009",
+        "status": "active",
+        "script_info": [
+            "Physical Lights Quality Low"
+        ],
+        "scene": "HybridLights.ma",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 3)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_010",
+        "status": "active",
+        "script_info": [
+            "Physical Lights Quality High"
+        ],
+        "scene": "HybridLights.ma",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_011",
+        "status": "active",
+        "script_info": [
+            "Physical Lights Quality Medium"
+        ],
+        "scene": "HybridLights.ma",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 2)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_012",
+        "status": "active",
+        "script_info": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
+            "Physical Lights Quality low"
+        ],
+        "scene": "HybridLights.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 3)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_013",
+        "status": "active",
+        "script_info": [
+            "Physical Lights Quality High"
+        ],
+        "scene": "HybridLights.ma",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 3)",
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_014",
+        "status": "active",
+        "script_info": [
+            "Physical Lights Quality Medium"
+        ],
+        "scene": "HybridLights.ma",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 3)",
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 2)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_015",
+        "status": "active",
+        "script_info": [
+            "Physical Lights Quality Low"
+        ],
+        "scene": "HybridLights.ma",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 3)",
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 3)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_016",
+        "status": "active",
+        "script_info": [
+            "RPR Sky Quality High"
+        ],
+        "scene": "HybridSky.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_017",
+        "status": "active",
+        "script_info": [
+            "RPR Sky Quality Medium"
+        ],
+        "scene": "HybridSky.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 2)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_018",
+        "status": "active",
+        "script_info": [
+            "RPR Sky Quality low"
+        ],
+        "scene": "HybridSky.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 3)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_019",
+        "status": "active",
+        "script_info": [
+            "RPR Material Uber PBR Quality High"
+        ],
+        "scene": "HybridMaterialTest.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_020",
+        "status": "active",
+        "script_info": [
+            "RPR Material Uber PBR Quality Medium"
+        ],
+        "scene": "HybridMaterialTest.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 2)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_021",
+        "status": "active",
+        "script_info": [
+            "RPR Material Uber PBR Quality Low"
+        ],
+        "scene": "HybridMaterialTest.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 3)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_022",
+        "status": "active",
+        "script_info": [
+            "Matlib Material Barn fine car paint Quality High"
+        ],
+        "scene": "HybridMatlibMaterial.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
+            "libraryPath = fireRender.rpr_material_browser.getLibPath()",
+            "material_path = path.join(libraryPath, 'BarnFindOrange_Solid')",
+            "xml = [f for f in os.listdir(material_path) if f.endswith('.xml')]",
+            "print('Material to import: BarnFindOrange_Solid ')",
+            "cmds.RPRXMLImport(file=path.join(material_path,xml[0]), ii=False, mn='materialTestNode')",
+            "cmds.hyperShade(objects='lambert1')",
+            "rpr_sg = cmds.listConnections('materialTestNode', type='shadingEngine')[0]",
+            "print('Material connected: BarnFindOrange_Solid ')",
+            "cmds.sets(e=True, forceElement=rpr_sg)",
+            "rpr_render(case)",
+            "cmds.delete('materialTestNode')",
+            "rpr_sg = cmds.listConnections('lambert1', type='shadingEngine')[0]",
+            "cmds.sets(e=True, forceElement=rpr_sg)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_023",
+        "status": "active",
+        "script_info": [
+            "Matlib Material Barn fine car paint Quality Medium"
+        ],
+        "scene": "HybridMatlibMaterial.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 2)",
+            "libraryPath = fireRender.rpr_material_browser.getLibPath()",
+            "material_path = path.join(libraryPath, 'BarnFindOrange_Solid')",
+            "xml = [f for f in os.listdir(material_path) if f.endswith('.xml')]",
+            "print('Material to import: BarnFindOrange_Solid ')",
+            "cmds.RPRXMLImport(file=path.join(material_path,xml[0]), ii=False, mn='materialTestNode')",
+            "cmds.hyperShade(objects='lambert1')",
+            "rpr_sg = cmds.listConnections('materialTestNode', type='shadingEngine')[0]",
+            "print('Material connected: BarnFindOrange_Solid ')",
+            "cmds.sets(e=True, forceElement=rpr_sg)",
+            "rpr_render(case)",
+            "cmds.delete('materialTestNode')",
+            "rpr_sg = cmds.listConnections('lambert1', type='shadingEngine')[0]",
+            "cmds.sets(e=True, forceElement=rpr_sg)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_024",
+        "status": "active",
+        "script_info": [
+            "Matlib Material Barn fine car paint Quality Low"
+        ],
+        "scene": "HybridMatlibMaterial.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 3)",
+            "libraryPath = fireRender.rpr_material_browser.getLibPath()",
+            "material_path = path.join(libraryPath, 'BarnFindOrange_Solid')",
+            "xml = [f for f in os.listdir(material_path) if f.endswith('.xml')]",
+            "print('Material to import: BarnFindOrange_Solid ')",
+            "cmds.RPRXMLImport(file=path.join(material_path,xml[0]), ii=False, mn='materialTestNode')",
+            "cmds.hyperShade(objects='lambert1')",
+            "rpr_sg = cmds.listConnections('materialTestNode', type='shadingEngine')[0]",
+            "print('Material connected: BarnFindOrange_Solid ')",
+            "cmds.sets(e=True, forceElement=rpr_sg)",
+            "rpr_render(case)",
+            "cmds.delete('materialTestNode')",
+            "rpr_sg = cmds.listConnections('lambert1', type='shadingEngine')[0]",
+            "cmds.sets(e=True, forceElement=rpr_sg)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_025",
+        "status": "active",
+        "script_info": [
+            "Matlib Material Chrome Quality High"
+        ],
+        "scene": "HybridMatlibMaterial.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
+            "libraryPath = fireRender.rpr_material_browser.getLibPath()",
+            "material_path = path.join(libraryPath, 'Chrome')",
+            "xml = [f for f in os.listdir(material_path) if f.endswith('.xml')]",
+            "print('Material to import: Chrome ')",
+            "cmds.RPRXMLImport(file=path.join(material_path,xml[0]), ii=False, mn='materialTestNode')",
+            "cmds.hyperShade(objects='lambert1')",
+            "rpr_sg = cmds.listConnections('materialTestNode', type='shadingEngine')[0]",
+            "print('Material connected: Chrome ')",
+            "cmds.sets(e=True, forceElement=rpr_sg)",
+            "rpr_render(case)",
+            "cmds.delete('materialTestNode')",
+            "rpr_sg = cmds.listConnections('lambert1', type='shadingEngine')[0]",
+            "cmds.sets(e=True, forceElement=rpr_sg)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_026",
+        "status": "active",
+        "script_info": [
+            "Matlib Material Chrome Quality Medium"
+        ],
+        "scene": "HybridMatlibMaterial.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 2)",
+            "libraryPath = fireRender.rpr_material_browser.getLibPath()",
+            "material_path = path.join(libraryPath, 'Chrome')",
+            "xml = [f for f in os.listdir(material_path) if f.endswith('.xml')]",
+            "print('Material to import: Chrome ')",
+            "cmds.RPRXMLImport(file=path.join(material_path,xml[0]), ii=False, mn='materialTestNode')",
+            "cmds.hyperShade(objects='lambert1')",
+            "rpr_sg = cmds.listConnections('materialTestNode', type='shadingEngine')[0]",
+            "print('Material connected: Chrome ')",
+            "cmds.sets(e=True, forceElement=rpr_sg)",
+            "rpr_render(case)",
+            "cmds.delete('materialTestNode')",
+            "rpr_sg = cmds.listConnections('lambert1', type='shadingEngine')[0]",
+            "cmds.sets(e=True, forceElement=rpr_sg)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_027",
+        "status": "active",
+        "script_info": [
+            "Matlib Material Chrome Quality Low"
+        ],
+        "scene": "HybridMatlibMaterial.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 3)",
+            "libraryPath = fireRender.rpr_material_browser.getLibPath()",
+            "material_path = path.join(libraryPath, 'Chrome')",
+            "xml = [f for f in os.listdir(material_path) if f.endswith('.xml')]",
+            "print('Material to import: Chrome ')",
+            "cmds.RPRXMLImport(file=path.join(material_path,xml[0]), ii=False, mn='materialTestNode')",
+            "cmds.hyperShade(objects='lambert1')",
+            "rpr_sg = cmds.listConnections('materialTestNode', type='shadingEngine')[0]",
+            "print('Material connected: Chrome ')",
+            "cmds.sets(e=True, forceElement=rpr_sg)",
+            "rpr_render(case)",
+            "cmds.delete('materialTestNode')",
+            "rpr_sg = cmds.listConnections('lambert1', type='shadingEngine')[0]",
+            "cmds.sets(e=True, forceElement=rpr_sg)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_028",
+        "status": "active",
+        "script_info": [
+            "Matlib Material Clear Glass Quality High"
+        ],
+        "scene": "HybridMatlibMaterial.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
+            "libraryPath = fireRender.rpr_material_browser.getLibPath()",
+            "material_path = path.join(libraryPath, 'Glass_Clear_Window')",
+            "xml = [f for f in os.listdir(material_path) if f.endswith('.xml')]",
+            "print('Material to import: Glass_Clear_Window ')",
+            "cmds.RPRXMLImport(file=path.join(material_path,xml[0]), ii=False, mn='materialTestNode')",
+            "cmds.hyperShade(objects='lambert1')",
+            "rpr_sg = cmds.listConnections('materialTestNode', type='shadingEngine')[0]",
+            "print('Material connected: Glass_Clear_Window ')",
+            "cmds.sets(e=True, forceElement=rpr_sg)",
+            "rpr_render(case)",
+            "cmds.delete('materialTestNode')",
+            "rpr_sg = cmds.listConnections('lambert1', type='shadingEngine')[0]",
+            "cmds.sets(e=True, forceElement=rpr_sg)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_029",
+        "status": "active",
+        "script_info": [
+            "Matlib Material Clear Glass Quality Medium"
+        ],
+        "scene": "HybridMatlibMaterial.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 2)",
+            "libraryPath = fireRender.rpr_material_browser.getLibPath()",
+            "material_path = path.join(libraryPath, 'Glass_Clear_Window')",
+            "xml = [f for f in os.listdir(material_path) if f.endswith('.xml')]",
+            "print('Material to import: Glass_Clear_Window ')",
+            "cmds.RPRXMLImport(file=path.join(material_path,xml[0]), ii=False, mn='materialTestNode')",
+            "cmds.hyperShade(objects='lambert1')",
+            "rpr_sg = cmds.listConnections('materialTestNode', type='shadingEngine')[0]",
+            "print('Material connected: Glass_Clear_Window ')",
+            "cmds.sets(e=True, forceElement=rpr_sg)",
+            "rpr_render(case)",
+            "cmds.delete('materialTestNode')",
+            "rpr_sg = cmds.listConnections('lambert1', type='shadingEngine')[0]",
+            "cmds.sets(e=True, forceElement=rpr_sg)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_030",
+        "status": "active",
+        "script_info": [
+            "Matlib Material Clear Glass Quality Low"
+        ],
+        "scene": "HybridMatlibMaterial.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 3)",
+            "libraryPath = fireRender.rpr_material_browser.getLibPath()",
+            "material_path = path.join(libraryPath, 'Glass_Clear_Window')",
+            "xml = [f for f in os.listdir(material_path) if f.endswith('.xml')]",
+            "print('Material to import: Glass_Clear_Window ')",
+            "cmds.RPRXMLImport(file=path.join(material_path,xml[0]), ii=False, mn='materialTestNode')",
+            "cmds.hyperShade(objects='lambert1')",
+            "rpr_sg = cmds.listConnections('materialTestNode', type='shadingEngine')[0]",
+            "print('Material connected: Glass_Clear_Window ')",
+            "cmds.sets(e=True, forceElement=rpr_sg)",
+            "rpr_render(case)",
+            "cmds.delete('materialTestNode')",
+            "rpr_sg = cmds.listConnections('lambert1', type='shadingEngine')[0]",
+            "cmds.sets(e=True, forceElement=rpr_sg)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_031",
+        "status": "active",
+        "script_info": [
+            "Matlib Material Wood Panks Oak Quality High"
+        ],
+        "scene": "HybridMatlibMaterial.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
+            "libraryPath = fireRender.rpr_material_browser.getLibPath()",
+            "material_path = path.join(libraryPath, 'Wood_Planks_Oak_Glossy')",
+            "xml = [f for f in os.listdir(material_path) if f.endswith('.xml')]",
+            "print('Material to import: Wood_Planks_Oak_Glossy ')",
+            "cmds.RPRXMLImport(file=path.join(material_path,xml[0]), ii=False, mn='materialTestNode')",
+            "cmds.hyperShade(objects='lambert1')",
+            "rpr_sg = cmds.listConnections('materialTestNode', type='shadingEngine')[0]",
+            "print('Material connected: Wood_Planks_Oak_Glossy ')",
+            "cmds.sets(e=True, forceElement=rpr_sg)",
+            "rpr_render(case)",
+            "cmds.delete('materialTestNode')",
+            "rpr_sg = cmds.listConnections('lambert1', type='shadingEngine')[0]",
+            "cmds.sets(e=True, forceElement=rpr_sg)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_032",
+        "status": "active",
+        "script_info": [
+            "Matlib Material Wood Panks Oak Quality Medium"
+        ],
+        "scene": "HybridMatlibMaterial.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 2)",
+            "libraryPath = fireRender.rpr_material_browser.getLibPath()",
+            "material_path = path.join(libraryPath, 'Wood_Planks_Oak_Glossy')",
+            "xml = [f for f in os.listdir(material_path) if f.endswith('.xml')]",
+            "print('Material to import: Wood_Planks_Oak_Glossy ')",
+            "cmds.RPRXMLImport(file=path.join(material_path,xml[0]), ii=False, mn='materialTestNode')",
+            "cmds.hyperShade(objects='lambert1')",
+            "rpr_sg = cmds.listConnections('materialTestNode', type='shadingEngine')[0]",
+            "print('Material connected: Wood_Planks_Oak_Glossy ')",
+            "cmds.sets(e=True, forceElement=rpr_sg)",
+            "rpr_render(case)",
+            "cmds.delete('materialTestNode')",
+            "rpr_sg = cmds.listConnections('lambert1', type='shadingEngine')[0]",
+            "cmds.sets(e=True, forceElement=rpr_sg)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_033",
+        "status": "active",
+        "script_info": [
+            "Matlib Material Wood Panks Oak Quality Low"
+        ],
+        "scene": "HybridMatlibMaterial.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 3)",
+            "libraryPath = fireRender.rpr_material_browser.getLibPath()",
+            "material_path = path.join(libraryPath, 'Wood_Planks_Oak_Glossy')",
+            "xml = [f for f in os.listdir(material_path) if f.endswith('.xml')]",
+            "print('Material to import: Wood_Planks_Oak_Glossy ')",
+            "cmds.RPRXMLImport(file=path.join(material_path,xml[0]), ii=False, mn='materialTestNode')",
+            "cmds.hyperShade(objects='lambert1')",
+            "rpr_sg = cmds.listConnections('materialTestNode', type='shadingEngine')[0]",
+            "print('Material connected: Wood_Planks_Oak_Glossy ')",
+            "cmds.sets(e=True, forceElement=rpr_sg)",
+            "rpr_render(case)",
+            "cmds.delete('materialTestNode')",
+            "rpr_sg = cmds.listConnections('lambert1', type='shadingEngine')[0]",
+            "cmds.sets(e=True, forceElement=rpr_sg)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_034",
+        "status": "active",
+        "script_info": [
+            "Mesh light Quality High"
+        ],
+        "scene": "HybridMeshLight.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_035",
+        "status": "active",
+        "script_info": [
+            "Mesh light Quality Medium"
+        ],
+        "scene": "HybridMeshLight.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 2)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_036",
+        "status": "active",
+        "script_info": [
+            "Mesh light Quality Low"
+        ],
+        "scene": "HybridMeshLight.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 3)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_037",
+        "status": "active",
+        "script_info": [
+            "Samples 0 Quality High"
+        ],
+        "scene": "HybridSamples.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_038",
+        "status": "active",
+        "script_info": [
+            "Samples 0 Quality Medium"
+        ],
+        "scene": "HybridSamples.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 2)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_039",
+        "status": "active",
+        "script_info": [
+            "Samples 0 Quality Low"
+        ],
+        "scene": "HybridSamples.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 3)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_040",
+        "status": "active",
+        "script_info": [
+            "Samples 18 Quality High"
+        ],
+        "scene": "HybridSamples.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_041",
+        "status": "active",
+        "script_info": [
+            "Samples 18 Quality Medium"
+        ],
+        "scene": "HybridSamples.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 2)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_HR_042",
+        "status": "active",
+        "script_info": [
+            "Samples 18 Quality Low"
+        ],
+        "scene": "HybridSamples.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 3)",
+            "rpr_render(case)"
+        ]
+    }
+]

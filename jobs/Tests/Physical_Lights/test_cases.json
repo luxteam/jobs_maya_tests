@@ -1212,5 +1212,850 @@
             "Shadows - 1"
         ],
         "scene": "Physical_Light.ma"
+    },
+    {
+        "case": "MAYA_L_PL_064",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 5)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.colorMode', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.temperature', 3500)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Area",
+            "Color Mode - Temperature",
+            "Temperature - 3500",
+            "Intensity - 5"
+        ],
+        "scene": "Physical_Light_Area.ma"
+    },
+    {
+        "case": "MAYA_L_PL_065",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 5)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.colorMode', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.temperature', 6500)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Area",
+            "Color Mode - Temperature",
+            "Temperature - 6500",
+            "Intensity - 5"
+        ],
+        "scene": "Physical_Light_Area.ma"
+    },
+    {
+        "case": "MAYA_L_PL_066",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.colorMode', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.temperature', 7900)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Area",
+            "Color Mode - Temperature",
+            "Temperature - 7900"
+        ],
+        "scene": "Physical_Light_Area.ma"
+    },
+    {
+        "case": "MAYA_L_PL_067",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.color', 1, 1, 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 1.5)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.colorMode', 0)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Area",
+            "Color Mode - Color",
+            "Color - 1,1,1",
+            "Intensity units - Watts",
+            "Light Intensity - 1.5"
+        ],
+        "scene": "Physical_Light_Area.ma"
+    },
+    {
+        "case": "MAYA_L_PL_068",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.color', 1, 1, 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 5.5)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.colorMode', 0)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Area",
+            "Color Mode - Color",
+            "Color - 1,1,1",
+            "Intensity units - Watts",
+            "Light Intensity - 5.5"
+        ],
+        "scene": "Physical_Light_Area.ma"
+    },
+    {
+        "case": "MAYA_L_PL_069",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.color', 1, 1, 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 0.5)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.colorMode', 0)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Area",
+            "Color Mode - Color",
+            "Color - 1,1,1",
+            "Intensity units - Watts",
+            "Light Intensity - 0.5"
+        ],
+        "scene": "Physical_Light_Area.ma"
+    },
+    {
+        "case": "MAYA_L_PL_070",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.color', 1, 1, 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 0.5)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.colorMode', 0)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Area",
+            "Color Mode - Color",
+            "Color 1,1,1",
+            "Intensity units lumen",
+            "Light Intensity 0.5"
+        ],
+        "scene": "Physical_Light_Area.ma"
+    },
+    {
+        "case": "MAYA_L_PL_071",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.color', 1, 1, 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 5.5)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.colorMode', 0)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Area",
+            "Color Mode - Color",
+            "Color - 1,1,1",
+            "Intensity units - Lumen",
+            "Light Intensity - 5.5"
+        ],
+        "scene": "Physical_Light_Area.ma"
+    },
+    {
+        "case": "MAYA_L_PL_072",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.color', 1, 1, 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 1.5)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.colorMode', 0)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Area",
+            "Color Mode - Color",
+            "Color - 1,1,1",
+            "Intensity units - Lumen",
+            "Light Intensity - 1.5"
+        ],
+        "scene": "Physical_Light_Area.ma"
+    },
+    {
+        "case": "MAYA_L_PL_073",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 3)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.color', 1, 1, 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 2.2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.colorMode', 0)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Area",
+            "Color Mode - Color",
+            "Color - White",
+            "Intensity units Radiance",
+            "Light Intensity 2.2"
+        ],
+        "scene": "Physical_Light_Area.ma"
+    },
+    {
+        "case": "MAYA_L_PL_074",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 3)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.color', 1, 1, 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 2.8)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.colorMode', 0)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Area",
+            "Color Mode - Color",
+            "Color - White",
+            "Intensity units - Radiance",
+            "Light Intensity - 2.8"
+        ],
+        "scene": "Physical_Light_Area.ma"
+    },
+    {
+        "case": "MAYA_L_PL_075",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.color', 1, 1, 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 2.5)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.colorMode', 0)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Area",
+            "Color Mode- Color",
+            "Color - White",
+            "Intensity units - Luminance",
+            "Light Intensity - 2.5"
+        ],
+        "scene": "Physical_Light_Area.ma"
+    },
+    {
+        "case": "MAYA_L_PL_076",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.areaLightShape', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.areaLightVisible', 1)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Area",
+            "Light shape - Cylinder",
+            "Visible - True"
+        ],
+        "scene": "Physical_Light_Area.ma"
+    },
+    {
+        "case": "MAYA_L_PL_077",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.areaLightShape', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.areaLightVisible', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 2.5)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Area",
+            "Light shape - Cylinder",
+            "Visible - True",
+            "Intensity units - Luminance",
+            "Light Intensity - 2.5"
+        ],
+        "scene": "Physical_Light_Area.ma"
+    },
+    {
+        "case": "MAYA_L_PL_078",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.colorMode', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.areaLightShape', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.areaLightVisible', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 2.5)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.temperature', 2700)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Area",
+            "Light shape - Cylinder",
+            "Visible - True",
+            "Light Intensity - 2.5",
+            "Color mode - Temperature",
+            "Temperature - 2700"
+        ],
+        "scene": "Physical_Light_Area.ma"
+    },
+    {
+        "case": "MAYA_L_PL_079",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.areaLightShape', 3)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.areaLightVisible', 1)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Area",
+            "Light shape - Rectangle",
+            "Visible - True"
+        ],
+        "scene": "Physical_Light_Area.ma"
+    },
+    {
+        "case": "MAYA_L_PL_080",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.areaLightShape', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.areaLightVisible', 1)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Area",
+            "Light shape - Disc",
+            "Visible - True"
+        ],
+        "scene": "Physical_Light_Area.ma"
+    },
+    {
+        "case": "MAYA_L_PL_081",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.areaLightShape', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.areaLightVisible', 1)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Area",
+            "Light shape - Sphere",
+            "Visible - True"
+        ],
+        "scene": "Physical_Light_Area.ma"
+    },
+    {
+        "case": "MAYA_L_PL_082",
+        "status": "skipped",
+        "functions": [
+        ],
+        "script_info": [
+            "Create a Cube object",
+            "Light type - Area",
+            "Light shape - Mesh",
+            "Light mesh to Cube object",
+            "Visible True"
+        ],
+        "scene": "Physical_Light_Point.ma"
+    },
+    {
+        "case": "MAYA_L_PL_083",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.luminousEfficacy', 0.1)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light Type - Point",
+            "Light Intensity - 0",
+            "Intensity Units - Watts",
+            "Luminous Efficacy - 0.1"
+        ],
+        "scene": "Physical_Light_Point.ma"
+    },
+    {
+        "case": "MAYA_L_PL_084",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 0)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light Type - Point",
+            "Light Intensity - 0"
+        ],
+        "scene": "Physical_Light_Point.ma"
+    },
+    {
+        "case": "MAYA_L_PL_085",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 1)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light Type - Point",
+            "Light Intensity - 1"
+        ],
+        "scene": "Physical_Light_Point.ma"
+    },
+    {
+        "case": "MAYA_L_PL_086",
+        "status": "skipped",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 1)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light Type - Point",
+            "Light Intensity - 1"
+        ],
+        "scene": "Physical_Light_Point.ma"
+    },
+    {
+        "case": "MAYA_L_PL_087",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.colorMode', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.temperature', 40000)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light Type - Point",
+            "Light Intensity - 1",
+            "Intensity Units - Watts",
+            "Luminous Efficacy - 17",
+            "Color Mode - Temperature",
+            "Temperature - 40000"
+        ],
+        "scene": "Physical_Light_Point.ma"
+    },
+    {
+        "case": "MAYA_L_PL_088",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 100)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light Type - Point",
+            "Light Intensity - 100"
+        ],
+        "scene": "Physical_Light_Point.ma"
+    },
+    {
+        "case": "MAYA_L_PL_089",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.colorMode', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 100)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light Type - Point",
+            "Light Intensity - 100",
+            "Color Mode - Temperature"
+        ],
+        "scene": "Physical_Light_Point.ma"
+    },
+    {
+        "case": "MAYA_L_PL_090",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 100)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.luminousEfficacy', 100)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light Type - Point",
+            "Light Intensity - 100",
+            "Intensity Units - Watts",
+            "Luminous Efficacy - 100"
+        ],
+        "scene": "Physical_Light_Point.ma"
+    },
+    {
+        "case": "MAYA_L_PL_091",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 100)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light Type - Point",
+            "Light Intensity - 100",
+            "Intensity Units - Lumen"
+        ],
+        "scene": "Physical_Light_Point.ma"
+    },
+    {
+        "case": "MAYA_L_PL_092",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 2)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light Type - Point",
+            "Intensity Units - Watts"
+        ],
+        "scene": "Physical_Light_Point.ma"
+    },
+    {
+        "case": "MAYA_L_PL_093",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.colorMode', 1)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light Type - Point",
+            "Intensity Units - Lumen",
+            "Color Mode - Temperature"
+        ],
+        "scene": "Physical_Light_Point.ma"
+    },
+    {
+        "case": "MAYA_L_PL_094",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.colorMode', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.temperature', 40000)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light Type - Point",
+            "Color Mode - Temperature",
+            "Temperature - 40000"
+        ],
+        "scene": "Physical_Light_Point.ma"
+    },
+    {
+        "case": "MAYA_L_PL_095",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.colorMode', 1)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light Type - Point",
+            "Color Mode - Temperature"
+        ],
+        "scene": "Physical_Light_Point.ma"
+    },
+    {
+        "case": "MAYA_L_PL_096",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.colorMode', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.temperature', 40000)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light Type - Point",
+            "Intensity Units - Watts",
+            "Color Mode - Temperature",
+            "Temperature - 40000"
+        ],
+        "scene": "Physical_Light_Point.ma"
+    },
+    {
+        "case": "MAYA_L_PL_097",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 0)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light Type - Point",
+            "Intensity Units - Lumen"
+        ],
+        "scene": "Physical_Light_Point.ma"
+    },
+    {
+        "case": "MAYA_L_PL_098",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light Type - Point"
+        ],
+        "scene": "Physical_Light_Point.ma"
+    },
+    {
+        "case": "MAYA_L_PL_101",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.colorMode', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.temperature', 3700)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light Type - Area",
+            "Color Mode - Temperature",
+            "Temperature - 3700"
+        ],
+        "scene": "Physical_Light_Volume_Scene.ma"
+    },
+    {
+        "case": "MAYA_L_PL_102",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.colorMode', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.temperature', 3700)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light Type - Spot",
+            "Color Mode - Temperature",
+            "Temperature - 3700"
+        ],
+        "scene": "Physical_Light_Volume_Scene.ma"
+    },
+    {
+        "case": "MAYA_L_PL_103",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 3)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 1)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Directional",
+            "Light Intensity Unit - Luminance",
+            "Intensity - 1"
+        ],
+        "scene": "DirectLightNew.ma"
+    },
+    {
+        "case": "MAYA_L_PL_104",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 3)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 2)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Directional",
+            "Light Intensity Unit - Luminance",
+            "Intensity - 2"
+        ],
+        "scene": "DirectLightNew.ma"
+    },
+    {
+        "case": "MAYA_L_PL_105",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 3)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.shadowsSoftness', 0)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Directional",
+            "Light Intensity Unit - Luminance",
+            "Intensity - 2",
+            "Shadow Softness - 0"
+        ],
+        "scene": "DirectLightNew.ma"
+    },
+    {
+        "case": "MAYA_L_PL_106",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 3)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.shadowsSoftness', 0.5)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Directional",
+            "Light Intensity Unit - Luminance",
+            "Intensity - 2",
+            "Shadow Softness - 0.5"
+        ],
+        "scene": "DirectLightNew.ma"
+    },
+    {
+        "case": "MAYA_L_PL_107",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 3)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.shadowsSoftness', 1)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Directional",
+            "Light Intensity Unit - Luminance",
+            "Intensity - 2",
+            "Shadow Softness - 1"
+        ],
+        "scene": "DirectLightNew.ma"
+    },
+    {
+        "case": "MAYA_L_PL_108",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 3)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 3)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.shadowsSoftness', 0.2)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Directional",
+            "Light Intensity Unit - Radiance",
+            "Intensity - 1",
+            "Shadow Softness - 0.2"
+        ],
+        "scene": "DirectLightNew.ma"
+    },
+    {
+        "case": "MAYA_L_PL_109",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 3)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.shadowsSoftness', 0.2)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Directional",
+            "Light Intensity Unit - Radiance",
+            "Intensity - 2",
+            "Shadow Softness - 0.2"
+        ],
+        "scene": "DirectLightNew.ma"
+    },
+    {
+        "case": "MAYA_L_PL_110",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 3)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 3)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.colorMode', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.shadowSoftness', 0.2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.temperature', 3700)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Directional",
+            "Light Intensity Unit - Radiance",
+            "Intensity - 1",
+            "Shadow Softness - 0.2",
+            "Color Mode - Temperature",
+            "Temperature - 3700"
+        ],
+        "scene": "DirectLightNew.ma"
+    },
+    {
+        "case": "MAYA_L_PL_111",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 3)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensityUnits', 3)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.intensity', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.colorMode', 1)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.shadowSoftness', 0.2)",
+            "cmds.setAttr('RPRPhysicalLight1Shape.temperature', 7900)",
+            "rpr_render(case)",
+            "resetAttributes()"
+        ],
+        "script_info": [
+            "Light type - Directional",
+            "Light Intensity Unit - Radiance",
+            "Intensity - 1",
+            "Shadow Softness - 0.2",
+            "Color Mode - Temperature",
+            "Temperature - 7900"
+        ],
+        "scene": "DirectLightNew.ma"
     }
 ]

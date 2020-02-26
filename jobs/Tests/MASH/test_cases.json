@@ -1,0 +1,366 @@
+[
+    {
+        "case": "MAYA_RS_AN_001",
+        "status": "active",
+        "script_info": [
+            "Audio node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('auduo_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('auduo_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_002",
+        "status": "active",
+        "script_info": [
+            "Curve node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('curve_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('curve_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_003",
+        "status": "active",
+        "script_info": [
+            "Color node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('world_color_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('world_color_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_004",
+        "status": "active",
+        "script_info": [
+            "Delay node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('random_delay_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('random_delay_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_005",
+        "status": "active",
+        "script_info": [
+            "Dynamics node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('dynamic_ID_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('dynamic_ID_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_006",
+        "status": "active",
+        "script_info": [
+            "Flight node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('flight_trails_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('flight_trails_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_007",
+        "status": "active",
+        "script_info": [
+            "ID node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('dynamic_ID_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('dynamic_ID_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_008",
+        "status": "active",
+        "script_info": [
+            "Influence node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('influence_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('influence_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_009",
+        "status": "active",
+        "script_info": [
+            "Merge node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('merge_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('merge_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_010",
+        "status": "active",
+        "script_info": [
+            "Offset node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('offset_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('offset_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_011",
+        "status": "active",
+        "script_info": [
+            "Orient node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('orient_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('orient_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_012",
+        "status": "active",
+        "script_info": [
+            "Placer node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('placer_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('placer_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_013",
+        "status": "active",
+        "script_info": [
+            "Random node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('random_delay_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('random_delay_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_014",
+        "status": "active",
+        "script_info": [
+            "Replicator node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('replicator_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('replicator_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_015",
+        "status": "active",
+        "script_info": [
+            "Signal node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('signal_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('signal_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_016",
+        "status": "active",
+        "script_info": [
+            "Spring node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('spring_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('spring_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_017",
+        "status": "active",
+        "script_info": [
+            "Strength node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('strength_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('strength_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_018",
+        "status": "active",
+        "script_info": [
+            "Symmetry node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('symmetry_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('symmetry_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_019",
+        "status": "active",
+        "script_info": [
+            "Time node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('time_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('time_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_020",
+        "status": "active",
+        "script_info": [
+            "Transform node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('visibility_transform_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('visibility_transform_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_021",
+        "status": "active",
+        "script_info": [
+            "Visibility node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('visibility_transform_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('visibility_transform_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_022",
+        "status": "active",
+        "script_info": [
+            "World node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('world_color_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('world_color_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_023",
+        "status": "active",
+        "script_info": [
+            "Breakout node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('breakout_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('breakout_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_024",
+        "status": "active",
+        "script_info": [
+            "Explode node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('explode_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('explode_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_025",
+        "status": "active",
+        "script_info": [
+            "Points node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('points_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('points_node.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_026",
+        "status": "active",
+        "script_info": [
+            "Trails node"
+        ],
+        "scene": "mash.ma", 
+        "functions": [
+            "cmds.setAttr('flight_trails_node.visibility', 1)",
+            "cmds.currentTime(40)",
+            "rpr_render(case)",
+            "cmds.setAttr('flight_trails_node.visibility', 0)"
+        ]
+    }
+]

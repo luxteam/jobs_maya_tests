@@ -1,0 +1,873 @@
+[
+    {
+        "case": "MAYA_RS_AS_001",
+        "status": "active",
+        "script_info": [
+            "Max Iterations - 0"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 2)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_002",
+        "status": "active",
+        "script_info": [
+            "Max Iterations - 100",
+            "Max Time Seconds - 0"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_003",
+        "status": "skipped",
+        "script_info": [
+            "Max Iterations - 1000",
+            "Max Time Seconds - 0"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_004",
+        "status": "active",
+        "script_info": [
+            "Max Iterations - 100",
+            "Max Time Seconds - 0",
+            "Threshold - 0"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_005",
+        "status": "active",
+        "script_info": [
+            "Max Iterations - 100",
+            "Max Time Seconds - 0",
+            "Threshold - 0.01"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.01)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_006",
+        "status": "active",
+        "script_info": [
+            "Max Iterations - 100",
+            "Max Time Seconds - 0",
+            "Threshold - 0.5"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.5)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_007",
+        "status": "active",
+        "script_info": [
+            "Max Iterations - 100",
+            "Max Time Seconds - 0",
+            "Threshold - 1"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_008",
+        "status": "active",
+        "script_info": [
+            "Max Iterations - 100",
+            "Min Iterations - 100",
+            "Max Time Seconds - 0",
+            "Threshold - 1"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 100)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_009",
+        "status": "active",
+        "script_info": [
+            "Max Iterations - 100",
+            "Min Iterations - 100",
+            "Max Time Seconds - 0",
+            "Threshold - 0"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 100)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_010",
+        "status": "active",
+        "script_info": [
+            "Max Time Seconds - 59",
+            "Threshold - 0"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 59)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_011",
+        "status": "active",
+        "script_info": [
+            "Max Time Seconds - 59",
+            "Threshold - 1"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 59)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_012",
+        "status": "active",
+        "script_info": [
+            "Max Time Minutes - 1"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_013",
+        "status": "active",
+        "script_info": [
+            "Max Time Minutes - 1",
+            "Threshold - 0"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_014",
+        "status": "active",
+        "script_info": [
+            "Max Time Minutes - 1",
+            "Threshold - 1"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_015",
+        "status": "active",
+        "script_info": [
+            "Set Min Iteration - 20",
+            "Set Max Iterations - 1000",
+            "Set Max Time Minutes - 2",
+            "Set Threshold - 1"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 2)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_016",
+        "status": "active",
+        "script_info": [
+            "Set Min Iteration - 20",
+            "Set Max Iterations - 1000",
+            "Set Max Time Minutes - 2",
+            "Set Threshold - 0"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 2)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_017",
+        "status": "active",
+        "script_info": [
+            "Min iteration- 20",
+            "Max Iterations - 5",
+            "Max Time Minutes - 8",
+            "Max Time secounds - 0",
+            "Max Time Hours - 0",
+            "Threshold - 0.050"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 5)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 8)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_018",
+        "status": "active",
+        "script_info": [
+            "Min iteration- 0",
+            "Max Iterations - 100",
+            "Max Time Minutes - 0",
+            "Max Time secounds - 0",
+            "Max Time Hours - 0",
+            "Threshold - 0"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_019",
+        "status": "active",
+        "script_info": [
+           "Max Iterations - 100",
+           "Max Time Seconds - 0",
+           "Threshold - 0.01",
+           "Tile Render Enabled"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.01)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_020",
+        "status": "skipped",
+        "script_info": [
+            "Max Iterations - 100",
+            "Max Time Seconds - 0",
+            "Threshold - 0.01",
+            "Tile Render Enabled",
+            "Tile X - 16",
+            "Tile Y - 16"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.tileRenderX', 16)",
+            "cmds.setAttr('RadeonProRenderGlobals.tileRenderY', 16)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.01)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_021",
+        "status": "active",
+        "script_info": [
+            "Max Iterations - 100",
+            "Max Time Seconds - 0",
+            "Threshold - 0.01",
+            "Tile Render Enabled",
+            "Tile X - 512",
+            "Tile Y - 512"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.tileRenderX', 512)",
+            "cmds.setAttr('RadeonProRenderGlobals.tileRenderY', 512)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.01)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_022",
+        "status": "active",
+        "script_info": [
+            "Min iteration- 20",
+            "Max Iterations - 1000",
+            "Max Time Minutes - 2",
+            "Max Time secounds - 0",
+            "Max Time Hours - 0",
+            "Threshold - 0",
+            "Render Stamp enabled",
+            "Tile Render enabled",
+            "Tile X - 512",
+            "Tile Y - 512"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
+            "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.useRenderStamp', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.tileRenderX', 512)",
+            "cmds.setAttr('RadeonProRenderGlobals.tileRenderY', 512)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 2)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_023",
+        "status": "skipped",
+        "script_info": [
+            "Min iteration- 20",
+            "Max Iterations - 1000",
+            "Max Time Minutes - 2",
+            "Max Time secounds - 0",
+            "Max Time Hours - 0",
+            "Threshold - 0",
+            "AOV UV enabled"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 2)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 3)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_024",
+        "status": "active",
+        "script_info": [
+            "Min iteration- 20",
+            "Max Iterations - 1000",
+            "Max Time Minutes - 2",
+            "Max Time secounds - 0",
+            "Max Time Hours - 0",
+            "Threshold - 0",
+            "AOV -  UV checkbox"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 2)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovUV', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovUV', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_025",
+        "status": "active",
+        "script_info": [
+            "Min iteration- 20",
+            "Max Iterations - 1000",
+            "Max Time Minutes - 2",
+            "Max Time secounds - 0",
+            "Max Time Hours - 0",
+            "Threshold - 0",
+            "AOV -  Material Index checkbox"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 2)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovMaterialIndex', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovMaterialIndex', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_026",
+        "status": "active",
+        "script_info": [
+            "Min iteration- 20",
+            "Max Iterations - 1000",
+            "Max Time Minutes - 2",
+            "Max Time secounds - 0",
+            "Max Time Hours - 0",
+            "Threshold - 0",
+            "AOV -  Geometric Normal checkbox"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 2)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovGeometricNormal', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovGeometricNormal', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_027",
+        "status": "active",
+        "script_info": [
+            "Min iteration- 20",
+            "Max Iterations - 1000",
+            "Max Time Minutes - 2",
+            "Max Time secounds - 0",
+            "Max Time Hours - 0",
+            "Threshold - 0",
+            "AOV -  Shading Normal checkbox"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 2)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovShadingNormal', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovShadingNormal', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_028",
+        "status": "active",
+        "script_info": [
+            "Min iteration- 20",
+            "Max Iterations - 1000",
+            "Max Time Minutes - 2",
+            "Max Time secounds - 0",
+            "Max Time Hours - 0",
+            "Threshold - 0",
+            "AOV -  Depth checkbox"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 2)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovDepth', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovDepth', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_029",
+        "status": "active",
+        "script_info": [
+            "Min iteration- 20",
+            "Max Iterations - 1000",
+            "Max Time Minutes - 2",
+            "Max Time secounds - 0",
+            "Max Time Hours - 0",
+            "Threshold - 0",
+            "AOV -  Object ID checkbox"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 2)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovObjectId', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovObjectId', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_030",
+        "status": "active",
+        "script_info": [
+            "Min iteration- 20",
+            "Max Iterations - 1000",
+            "Max Time Minutes - 2",
+            "Max Time secounds - 0",
+            "Max Time Hours - 0",
+            "Threshold - 0",
+            "AOV -  Albedo checkbox"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 2)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovAlbedo', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovAlbedo', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_031",
+        "status": "active",
+        "script_info": [
+            "Min iteration- 20",
+            "Max Iterations - 1000",
+            "Max Time Minutes - 2",
+            "Max Time secounds - 0",
+            "Max Time Hours - 0",
+            "Threshold - 0",
+            "AOV -  Shadow Catcher checkbox"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 2)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovShadowCatcher', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovShadowCatcher', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_032",
+        "status": "active",
+        "script_info": [
+            "Min iteration- 20",
+            "Max Iterations - 1000",
+            "Max Time Minutes - 2",
+            "Max Time secounds - 0",
+            "Max Time Hours - 0",
+            "Threshold - 0",
+            "AOV -  Emission checkbox"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 2)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovEmission', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovEmission', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_033",
+        "status": "active",
+        "script_info": [
+            "Min iteration- 20",
+            "Max Iterations - 1000",
+            "Max Time Minutes - 2",
+            "Max Time secounds - 0",
+            "Max Time Hours - 0",
+            "Threshold - 0",
+            "AOV -  Velocity checkbox"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 2)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovVelocity', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovVelocity', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_034",
+        "status": "active",
+        "script_info": [
+            "Min iteration- 20",
+            "Max Iterations - 1000",
+            "Max Time Minutes - 2",
+            "Max Time secounds - 0",
+            "Max Time Hours - 0",
+            "Threshold - 0",
+            "AOV -  Direct Illumination checkbox"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 2)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovDirectIllumination', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovDirectIllumination', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_035",
+        "status": "active",
+        "script_info": [
+            "Min iteration- 20",
+            "Max Iterations - 1000",
+            "Max Time Minutes - 2",
+            "Max Time secounds - 0",
+            "Max Time Hours - 0",
+            "Threshold - 0",
+            "AOV -  Indirect Illumination checkbox"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 2)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovIndirectIllumination', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovIndirectIllumination', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_036",
+        "status": "active",
+        "script_info": [
+            "Min iteration- 20",
+            "Max Iterations - 1000",
+            "Max Time Minutes - 2",
+            "Max Time secounds - 0",
+            "Max Time Hours - 0",
+            "Threshold - 0",
+            "AOV -  Ambient Occlusion checkbox"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 2)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovAO', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovAO', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AS_037",
+        "status": "active",
+        "script_info": [
+            "Min iteration- 20",
+            "Max Iterations - 1000",
+            "Max Time Minutes - 2",
+            "Max Time secounds - 0",
+            "Max Time Hours - 0",
+            "Threshold - 0",
+            "AOV -  Diffuse Direct checkbox"
+        ],
+        "scene": "adaptive_sampling.ma", 
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 2)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovDiffuseDirect', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovDiffuseDirect', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)"
+        ]
+    }
+]

@@ -1,0 +1,136 @@
+[
+    {
+        "case": "MAYA_XGN_HR_001",
+        "status": "active",
+        "script_info": [
+            "Xgen Taper"
+        ],
+        "scene": "xgen.ma",
+        "functions": [
+            "cmds.setAttr('Taper.visibility', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('Taper.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_XGN_HR_002",
+        "status": "active",
+        "script_info": [
+            "Xgen Sculpt"
+        ],
+        "scene": "xgen.ma",
+        "functions": [
+            "cmds.setAttr('XgenSculptLayer1.visibility', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('XgenSculptLayer1.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_XGN_HR_003",
+        "status": "active",
+        "script_info": [
+            "Xgen Sculpt"
+        ],
+        "scene": "xgen.ma",
+        "functions": [
+            "cmds.setAttr('XgenSculptLayer2.visibility', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('XgenSculptLayer2.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_XGN_HR_004",
+        "status": "active",
+        "script_info": [
+            "Xgen Scale"
+        ],
+        "scene": "xgen.ma",
+        "functions": [
+            "cmds.setAttr('Xgenscale.visibility', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('Xgenscale.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_XGN_HR_005",
+        "status": "active",
+        "script_info": [
+            "Xgen Noise Modifier"
+        ],
+        "scene": "xgen.ma",
+        "functions": [
+            "cmds.setAttr('Noise.visibility', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('Noise.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_XGN_HR_006",
+        "status": "active",
+        "script_info": [
+            "Xgen High CV Count"
+        ],
+        "scene": "xgen.ma",
+        "functions": [
+            "cmds.setAttr('Highcv.visibility', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('Highcv.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_XGN_HR_007",
+        "status": "active",
+        "script_info": [
+            "Xgen "
+        ],
+        "scene": "xgen.ma",
+        "functions": [
+            "cmds.setAttr('Xgen.visibility', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('Xgen.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_XGN_HR_008",
+        "status": "active",
+        "script_info": [
+            "Xgen Density"
+        ],
+        "scene": "xgen.ma",
+        "functions": [
+            "cmds.setAttr('Density.visibility', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('Density.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_XGN_HR_009",
+        "status": "active",
+        "script_info": [
+            "Xgen Density Mask"
+        ],
+        "scene": "xgen.ma",
+        "functions": [
+            "cmds.setAttr('Mask.visibility', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('Mask.visibility', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_XGN_HR_010",
+        "status": "active",
+        "script_info": [
+            "Xgen Modifiers mix"
+        ],
+        "scene": "xgen.ma",
+        "functions": [
+            "cmds.setAttr('Taper.visibility', 1)",
+            "cmds.setAttr('Noise.visibility', 1)",
+            "cmds.setAttr('Density.visibility', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('Taper.visibility', 0)",
+            "cmds.setAttr('Noise.visibility', 0)",
+            "cmds.setAttr('Density.visibility', 0)"
+        ]
+    }
+]
