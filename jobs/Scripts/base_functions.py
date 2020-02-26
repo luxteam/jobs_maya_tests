@@ -238,3 +238,6 @@ def main():
 			save_report(case)
 
 	cmds.evalDeferred('cmds.quit(abort=True)')
+
+
+main()

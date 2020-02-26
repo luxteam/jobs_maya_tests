@@ -334,8 +334,8 @@ def group_failed(args):
 
 
 if __name__ == '__main__':
-
 	core_config.main_logger.info('simpleRender start working...')
+	
 	args = createArgsParser().parse_args()
 
 	iteration = 0
