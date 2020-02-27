@@ -6,6 +6,7 @@ import json
 import re
 import os.path as path
 import os
+from shutil import copyfile
 import fireRender.rpr_material_browser
 
 WORK_DIR = '{work_dir}'
@@ -36,7 +37,8 @@ def reportToJSON(case, render_time=0):
 	else:
 		report['test_status'] = case['status']
 
-	logging('Create report json ({{}} {{}})'.format(case['case'], report['test_status']))
+	logging('Create report json ({{}} {{}})'.format(
+		case['case'], report['test_status']))
 
 	report['file_name'] = case['case'] + '.jpg'
 	# TODO: render device may be incorrect (if it changes in case)
@@ -64,15 +66,15 @@ def render_tool_log_path(name):
 
 def validateFiles():
 	logging('Repath scene')
+	# TODO: repath from folder with group
 	unresolved_files = cmds.filePathEditor(
 		query=True, listFiles='', unresolved=True, attributeOnly=True)
-	new_path = RES_PATH
 	if unresolved_files:
 		for item in unresolved_files:
-			cmds.filePathEditor(item, repath=new_path, recursive=True, ra=1)
+			cmds.filePathEditor(item, repath=RES_PATH, recursive=True, ra=1)
 
 
-def check_rpr_load():
+def enable_rpr():
 	if not cmds.pluginInfo('RadeonProRender', query=True, loaded=True):
 		cmds.loadPlugin('RadeonProRender', quiet=True)
 		logging('Load rpr')
@@ -83,6 +85,7 @@ def check_rpr_load():
 
 def rpr_render(case):
 	logging('Render image')
+
 	mel.eval('fireRender -waitForItTwo')
 	start_time = time.time()
 	mel.eval('renderIntoNewWindow render')
@@ -98,8 +101,6 @@ def rpr_render(case):
 
 def prerender(case):
 	logging('Prerender')
-	test_case = case['case']  # for call in functions in case
-	script_info = case['script_info']  # for call in functions in case
 	scene = case.get('scene', '')
 	scene_name = cmds.file(q=True, sn=True, shn=True)
 	if scene_name != scene:
@@ -111,7 +112,13 @@ def prerender(case):
 
 	validateFiles()
 
-	check_rpr_load()
+	enable_rpr()
+
+	cmds.optionVar(rm='RPR_DevicesSelected')
+	cmds.optionVar(iva=('RPR_DevicesSelected',
+						(RENDER_DEVICE in ['gpu', 'dual'])))
+	cmds.optionVar(iva=('RPR_DevicesSelected',
+						(RENDER_DEVICE in ['cpu', 'dual'])))
 
 	if RESOLUTION_X and RESOLUTION_Y:
 		cmds.setAttr('defaultResolution.width', RESOLUTION_X)
@@ -119,24 +126,18 @@ def prerender(case):
 
 	cmds.setAttr('defaultRenderGlobals.currentRenderer',
 				 type='string' 'FireRender')
-	cmds.setAttr('defaultRenderGlobals.imageFormat', 8)
-	cmds.setAttr(
-		'RadeonProRenderGlobals.completionCriteriaIterations', PASS_LIMIT)
-	render_device = RENDER_DEVICE
-	cmds.setAttr('RadeonProRenderGlobals.samplesPerUpdate', SPU)
-	cmds.optionVar(rm='RPR_DevicesSelected')
 
-	cmds.optionVar(iva=('RPR_DevicesSelected',
-						(render_device in ['gpu', 'dual'])))
-	cmds.optionVar(iva=('RPR_DevicesSelected',
-						(render_device in ['cpu', 'dual'])))
+	cmds.setAttr('defaultRenderGlobals.imageFormat', 8)
 
 	cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', THRESHOLD)
+	cmds.setAttr(
+		'RadeonProRenderGlobals.completionCriteriaIterations', PASS_LIMIT)
+	cmds.setAttr('RadeonProRenderGlobals.samplesPerUpdate', SPU)
 	cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)
 
 	for function in case['functions']:
 		try:
-			if re.match('(^\w+ = |^print)', function):
+			if re.match('((^\S+|^\S+ \S+) = |^print|^if|^for|^with)', function):
 				exec(function)
 			else:
 				eval(function)
@@ -144,44 +145,47 @@ def prerender(case):
 			logging('Error "{{}}" with string "{{}}"'.format(e, function))
 
 
-def rpr_save(case):
-	logging('Save report without rendering for '+ case['case'])
-	cmds.sysFile(path.join(WORK_DIR, 'Color'), makeDir=True)
+def save_report(case):
+	logging('Save report without rendering for ' + case['case'])
+
+	if not os.path.exists(os.path.join(WORK_DIR, 'Color')):
+		os.makedirs(os.path.join(WORK_DIR, 'Color'))
+
 	work_dir = path.join(WORK_DIR, 'Color', case['case'] + '.jpg')
 	source_dir = path.join(WORK_DIR, '..', '..', '..',
 						   '..', 'jobs_launcher', 'common', 'img')
 
 	if case['status'] == 'inprogress':
-		cmds.sysFile(path.join(source_dir, 'passed.jpg'), copy=work_dir)
+		copyfile(path.join(source_dir, 'passed.jpg'), work_dir)
 	else:
-		cmds.sysFile(
-			path.join(source_dir, case['status'] + '.jpg'), copy=work_dir)
+		copyfile(
+			path.join(source_dir, case['status'] + '.jpg'), work_dir)
 
-	check_rpr_load()
+	enable_rpr()
 
 	reportToJSON(case)
 
 
 def case_function(case):
-	try:
-		projPath = RES_PATH + '/' + TEST_TYPE
-		temp = projPath + '/' + case['scene'][:-3]
-		if os.path.isdir(temp):
-			projPath = temp
-		mel.eval('setProject("{{}}")'.format(projPath))
-	except:
-		logging("Can't set project in '" + projPath + "'")
-		cmds.evalDeferred('cmds.quit(abort=True)')
-
 	functions = {{
-		'render': prerender,
-		'save_report': rpr_save
+		'prerender': prerender,
+		'save_report': save_report
 	}}
 
-	func = 'render'
+	func = 'prerender'
 
 	if case['functions'][0] == 'check_test_cases_success_save':
 		func = 'save_report'
+	else:
+		try:
+			projPath = os.path.join(RES_PATH, TEST_TYPE)
+			temp = os.path.join(projPath, case['scene'][:-3])
+			if os.path.isdir(temp):
+				projPath = temp
+			mel.eval('setProject("{{}}")'.format(projPath.replace('\\', '/')))
+		except:
+			logging("Can't set project in '" + projPath + "'")
+			cmds.evalDeferred('cmds.quit(abort=True)')
 
 	if case['status'] == 'fail':
 		case['status'] = 'error'
@@ -190,14 +194,18 @@ def case_function(case):
 	functions[func](case)
 
 
+# place for extension functions
+
+
 def main():
-	cmds.sysFile(LOGS_DIR, makeDir=True)
+	if not os.path.exists(os.path.join(WORK_DIR, LOGS_DIR)):
+		os.makedirs(os.path.join(WORK_DIR, LOGS_DIR))
 
 	with open(path.join(WORK_DIR, 'test_cases.json'), 'r') as json_file:
 		cases = json.load(json_file)
 
 	for case in cases:
-		if case['status'] == 'active' or case['status'] == 'fail':
+		if case['status'] in ['active', 'fail']:
 			if case['status'] == 'active':
 				case['status'] = 'inprogress'
 
@@ -222,6 +230,9 @@ def main():
 				json.dump(cases, file, indent=4)
 
 		if case['status'] == 'skipped':
-			rpr_save(case)
+			save_report(case)
 
 	cmds.evalDeferred('cmds.quit(abort=True)')
+
+
+main()
