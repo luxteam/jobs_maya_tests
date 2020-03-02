@@ -119,6 +119,83 @@ def check_licenses(res_path, maya_scenes, testType):
 			'Error while deleting student license: {}'.format(ex))
 
 
+def launchMaya(cmdScriptPath, work_dir):
+	system_pl = platform.system()
+	core_config.main_logger.info('Launch script on Maya ({})'.format(cmdScriptPath))
+	os.chdir(work_dir)
+	p = psutil.Popen(cmdScriptPath, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
+
+
+	while True:
+		try:
+			p.communicate(timeout=40)
+			window_titles = get_windows_titles()
+			core_config.main_logger.info(
+				'Found windows: {}'.format(window_titles))
+		except (psutil.TimeoutExpired, subprocess.TimeoutExpired) as err:
+			fatal_errors_titles = ['Detected windows ERROR', 'maya', 'Student Version File', 'Radeon ProRender Error', 'Script Editor',
+								   'Autodesk Maya 2018 Error Report', 'Autodesk Maya 2018 Error Report', 'Autodesk Maya 2018 Error Report',
+								   'Autodesk Maya 2019 Error Report', 'Autodesk Maya 2019 Error Report', 'Autodesk Maya 2019 Error Report',
+								   'Autodesk Maya 2020 Error Report', 'Autodesk Maya 2020 Error Report', 'Autodesk Maya 2020 Error Report']
+			window_titles = get_windows_titles()
+			error_window = set(fatal_errors_titles).intersection(window_titles)
+			if error_window:
+				core_config.main_logger.error(
+					'Error window found: {}'.format(error_window))
+				core_config.main_logger.warning(
+					'Found windows: {}'.format(window_titles))
+				rc = -1
+
+				if system_pl == 'Windows':
+					try:
+						error_screen = pyscreenshot.grab()
+						error_screen.save(os.path.join(
+							args.output, 'error_screenshot.jpg'))
+					except Exception as ex:
+						pass
+
+				core_config.main_logger.warning('Killing maya....')
+
+				child_processes = p.children()
+				core_config.main_logger.warning(
+					'Child processes: {}'.format(child_processes))
+				for ch in child_processes:
+					try:
+						ch.terminate()
+						time.sleep(10)
+						ch.kill()
+						time.sleep(10)
+						status = ch.status()
+						core_config.main_logger.error(
+							'Process is alive: {}. Name: {}. Status: {}'.format(ch, ch.name(), status))
+					except psutil.NoSuchProcess:
+						core_config.main_logger.warning(
+							'Process is killed: {}'.format(ch))
+
+				try:
+					p.terminate()
+					time.sleep(10)
+					p.kill()
+					time.sleep(10)
+					status = ch.status()
+					core_config.main_logger.error(
+						'Process is alive: {}. Name: {}. Status: {}'.format(ch, ch.name(), status))
+				except psutil.NoSuchProcess:
+					core_config.main_logger.warning(
+						'Process is killed: {}'.format(ch))
+
+				break
+		else:
+			rc = 0
+			break
+
+	if args.testType in ['Athena']:
+		subprocess.call([sys.executable, os.path.realpath(os.path.join(
+			os.path.dirname(__file__), 'extensions', args.testType + '.py')), args.output])
+	core_config.main_logger.info('Main func return : {}'.format(rc))
+	return rc
+
+
 def main(args):
 	if args.testType in ['Support_2019', 'Support_2018']:
 		args.tool = re.sub('[0-9]{4}', args.testType[-4:], args.tool)
@@ -236,87 +313,10 @@ def main(args):
 			file.write(cmdRun)
 		os.system('chmod +x {}'.format(cmdScriptPath))
 
-	rc = start_Maya(cmdScriptPath, args.output)
+	rc = launchMaya(cmdScriptPath, args.output)
 
 	if args.testType in ['Athena']:
 		subprocess.call([sys.executable, os.path.realpath(os.path.join(os.path.dirname(__file__), 'extensions', args.testType + '.py')), args.output])
-	core_config.main_logger.info('Main func return : {}'.format(rc))
-	return rc
-
-
-def start_Maya(cmdScriptPath, work_dir):
-	system_pl = platform.system()
-	core_config.main_logger.info('Launch script on Maya ({})'.format(cmdScriptPath))
-	os.chdir(work_dir)
-	p = psutil.Popen(cmdScriptPath, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
-
-
-	while True:
-		try:
-			p.communicate(timeout=40)
-			window_titles = get_windows_titles()
-			core_config.main_logger.info(
-				'Found windows: {}'.format(window_titles))
-		except (psutil.TimeoutExpired, subprocess.TimeoutExpired) as err:
-			fatal_errors_titles = ['Detected windows ERROR', 'maya', 'Student Version File', 'Radeon ProRender Error', 'Script Editor',
-								   'Autodesk Maya 2018 Error Report', 'Autodesk Maya 2018 Error Report', 'Autodesk Maya 2018 Error Report',
-								   'Autodesk Maya 2019 Error Report', 'Autodesk Maya 2019 Error Report', 'Autodesk Maya 2019 Error Report',
-								   'Autodesk Maya 2020 Error Report', 'Autodesk Maya 2020 Error Report', 'Autodesk Maya 2020 Error Report']
-			window_titles = get_windows_titles()
-			error_window = set(fatal_errors_titles).intersection(window_titles)
-			if error_window:
-				core_config.main_logger.error(
-					'Error window found: {}'.format(error_window))
-				core_config.main_logger.warning(
-					'Found windows: {}'.format(window_titles))
-				rc = -1
-
-				if system_pl == 'Windows':
-					try:
-						error_screen = pyscreenshot.grab()
-						error_screen.save(os.path.join(
-							args.output, 'error_screenshot.jpg'))
-					except Exception as ex:
-						pass
-
-				core_config.main_logger.warning('Killing maya....')
-
-				child_processes = p.children()
-				core_config.main_logger.warning(
-					'Child processes: {}'.format(child_processes))
-				for ch in child_processes:
-					try:
-						ch.terminate()
-						time.sleep(10)
-						ch.kill()
-						time.sleep(10)
-						status = ch.status()
-						core_config.main_logger.error(
-							'Process is alive: {}. Name: {}. Status: {}'.format(ch, ch.name(), status))
-					except psutil.NoSuchProcess:
-						core_config.main_logger.warning(
-							'Process is killed: {}'.format(ch))
-
-				try:
-					p.terminate()
-					time.sleep(10)
-					p.kill()
-					time.sleep(10)
-					status = ch.status()
-					core_config.main_logger.error(
-						'Process is alive: {}. Name: {}. Status: {}'.format(ch, ch.name(), status))
-				except psutil.NoSuchProcess:
-					core_config.main_logger.warning(
-						'Process is killed: {}'.format(ch))
-
-				break
-		else:
-			rc = 0
-			break
-
-	if args.testType in ['Athena']:
-		subprocess.call([sys.executable, os.path.realpath(os.path.join(
-			os.path.dirname(__file__), 'extensions', args.testType + '.py')), args.output])
 	core_config.main_logger.info('Main func return : {}'.format(rc))
 	return rc
 
@@ -367,7 +367,7 @@ if __name__ == '__main__':
 		script_path = os.path.join(script_dir, 'build_rpr_cache.sh')
 
 	core_config.main_logger.info('Build cache')
-	if start_Maya(script_path, script_dir) != 0:
+	if launchMaya(script_path, script_dir) != 0:
 		core_config.main_logger.info("Can't build cache")
 		exit(rc)
 
