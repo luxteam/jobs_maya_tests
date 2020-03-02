@@ -367,7 +367,7 @@ if __name__ == '__main__':
 		script_path = os.path.join(script_dir, 'build_rpr_cache.sh')
 
 	core_config.main_logger.info('Build cache')
-	if launchMaya(script_path, script_dir) != 0:
+	if launchMaya(script_path, script_dir) != 0:	# launchMaya ends with error
 		core_config.main_logger.info("Can't build cache")
 		exit(rc)
 
