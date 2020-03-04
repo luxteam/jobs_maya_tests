@@ -295,7 +295,7 @@
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 32)", 
             "rpr_render(case)",             
-            "cmds.sysFile(path.join(WORK_DIR, '..', '..', '..', '..', 'jobs', 'Tests', 'pass.jpg'), copy=path.join(WORK_DIR, 'Color', 'MAYA_SM_020.jpg'))"
+            "copyfile(path.join(WORK_DIR, 'Color', case['case'] + '.png'), path.join(WORK_DIR, 'Color', case['case'] + '.jpg'))"
 
         ], 
         "script_info": [
