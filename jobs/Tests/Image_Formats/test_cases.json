@@ -62,7 +62,8 @@
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 0)",
             "rpr_render(case)",
             "cmds.sysFile(path.join(WORK_DIR, '..', '..', '..', '..', 'jobs', 'Tests', 'pass.jpg'), copy=path.join(WORK_DIR, 'Color', 'MAYA_RS_IF_005.jpg'))"
-        ]
+        ],
+        "extension": ".gif"
     },
     {
         "case": "MAYA_RS_IF_006",
@@ -73,8 +74,7 @@
         "scene": "maya_shaderball.ma",
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 8)",
-            "rpr_render(case)",
-            "cmds.sysFile(path.join(WORK_DIR, '..', '..', '..', '..', 'jobs', 'Tests', 'pass.jpg'), copy=path.join(WORK_DIR, 'Color', 'MAYA_RS_IF_006.jpg'))"
+            "rpr_render(case)"
         ]
     },
     {
@@ -140,7 +140,8 @@
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 32)",
             "rpr_render(case)",
             "cmds.sysFile(path.join(WORK_DIR, '..', '..', '..', '..', 'jobs', 'Tests', 'pass.jpg'), copy=path.join(WORK_DIR, 'Color', 'MAYA_RS_IF_011.jpg'))"
-        ]
+        ],
+        "extension": ".png"
     },
     {
         "case": "MAYA_RS_IF_012",
@@ -257,7 +258,8 @@
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 20)",
             "rpr_render(case)",
             "cmds.sysFile(path.join(WORK_DIR, '..', '..', '..', '..', 'jobs', 'Tests', 'pass.jpg'), copy=path.join(WORK_DIR, 'Color', 'MAYA_RS_IF_020.jpg'))"
-        ]
+        ],
+        "extension": ".bmp"
     },
     {
         "case": "MAYA_RS_IF_021",

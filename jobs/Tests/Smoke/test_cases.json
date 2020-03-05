@@ -294,15 +294,15 @@
         "status": "active", 
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 32)", 
-            "rpr_render(case)",             
-            "copyfile(path.join(WORK_DIR, 'Color', case['case'] + '.png'), path.join(WORK_DIR, 'Color', case['case'] + '.jpg'))"
+            "rpr_render(case)"
 
         ], 
         "script_info": [
             "Save image as png", 
             "Pass Limit: 50"
         ], 
-        "scene": "Lamborginhi_Aventador.ma"
+        "scene": "Lamborginhi_Aventador.ma",
+        "extension": ".png"
     }, 
     {
         "case": "MAYA_SM_021", 
