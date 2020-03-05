@@ -1,5 +1,5 @@
 def copyPass(case):
-	work_dir = path.join(WORK_DIR, 'Color', case['case'] + '.jpg')
+	work_dir = path.join(WORK_DIR, 'Color', case['case'] + case.get('extension', '.jpg'))
 	source_dir = path.join(WORK_DIR, '..', '..', '..',
 						   '..', 'jobs_launcher', 'common', 'img')
 
