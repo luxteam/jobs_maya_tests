@@ -9,7 +9,7 @@
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 6)",
             "rpr_render(case)",
-            "setPass(case)"
+            "copyPass(case)"
         ]
     },
     {
@@ -22,7 +22,7 @@
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 11)",
             "rpr_render(case)",
-            "setPass(case)"
+            "copyPass(case)"
         ]
     },
     {
@@ -35,7 +35,7 @@
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 35)",
             "rpr_render(case)",
-            "setPass(case)"
+            "copyPass(case)"
         ]
     },
     {
@@ -48,7 +48,7 @@
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 9)",
             "rpr_render(case)",
-            "setPass(case)"
+            "copyPass(case)"
         ]
     },
     {
@@ -61,7 +61,7 @@
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 0)",
             "rpr_render(case)",
-            "setPass(case)"
+            "copyPass(case)"
         ],
         "extension": ".gif"
     },
@@ -87,7 +87,7 @@
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 7)",
             "rpr_render(case)",
-            "setPass(case)"
+            "copyPass(case)"
         ]
     },
     {
@@ -100,7 +100,7 @@
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 10)",
             "rpr_render(case)",
-            "setPass(case)"
+            "copyPass(case)"
         ]
     },
     {
@@ -113,7 +113,7 @@
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 31)",
             "rpr_render(case)",
-            "setPass(case)"
+            "copyPass(case)"
         ]
     },
     {
@@ -126,7 +126,7 @@
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 36)",
             "rpr_render(case)",
-            "setPass(case)"
+            "copyPass(case)"
         ]
     },
     {
@@ -139,7 +139,7 @@
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 32)",
             "rpr_render(case)",
-            "setPass(case)"
+            "copyPass(case)"
         ],
         "extension": ".png"
     },
@@ -153,7 +153,7 @@
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 12)",
             "rpr_render(case)",
-            "setPass(case)"
+            "copyPass(case)"
         ]
     },
     {
@@ -166,7 +166,7 @@
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 2)",
             "rpr_render(case)",
-            "setPass(case)"
+            "copyPass(case)"
         ]
     },
     {
@@ -179,7 +179,7 @@
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 5)",
             "rpr_render(case)",
-            "setPass(case)"
+            "copyPass(case)"
         ]
     },
     {
@@ -192,7 +192,7 @@
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 13)",
             "rpr_render(case)",
-            "setPass(case)"
+            "copyPass(case)"
         ]
     },
     {
@@ -205,7 +205,7 @@
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 1)",
             "rpr_render(case)",
-            "setPass(case)"
+            "copyPass(case)"
         ]
     },
     {
@@ -218,7 +218,7 @@
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 19)",
             "rpr_render(case)",
-            "setPass(case)"
+            "copyPass(case)"
         ]
     },
     {
@@ -231,7 +231,7 @@
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 3)",
             "rpr_render(case)",
-            "setPass(case)"
+            "copyPass(case)"
         ]
     },
     {
@@ -244,7 +244,7 @@
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 4)",
             "rpr_render(case)",
-            "setPass(case)"
+            "copyPass(case)"
         ]
     },
     {
@@ -257,7 +257,7 @@
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 20)",
             "rpr_render(case)",
-            "setPass(case)"
+            "copyPass(case)"
         ],
         "extension": ".bmp"
     },
@@ -271,7 +271,7 @@
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 40)",
             "rpr_render(case)",
-            "setPass(case)"
+            "copyPass(case)"
         ]
     },
     {
@@ -284,7 +284,7 @@
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 63)",
             "rpr_render(case)",
-            "setPass(case)"
+            "copyPass(case)"
         ]
     }
 ]
