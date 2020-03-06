@@ -1,4 +1,7 @@
-# Install
+# Autotests for Radeon ProRender plugin for Autodesk Maya
+[![Deployed submodule](https://rpr.cis.luxoft.com/buildStatus/icon?job=Utils/jobs_launcher-Deploy&build=last&config=release-badge)](https://rpr.cis.luxoft.com/job/Utils/job/jobs_launcher-Deploy)
+
+## Install
  1. Clone this repo
  2. Get `jobs_launcher` as git submodule, using next commands  
  `git submodule init`  

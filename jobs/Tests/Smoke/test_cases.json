@@ -105,7 +105,7 @@
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')", 
             "ibl_transform = cmds.listRelatives(ibl_shape, p=True)[0]", 
             "cmds.setAttr(ibl_transform + '.scale', 1001.25663706144, 1001.25663706144, 1001.25663706144)",
-            "cmds.setAttr(ibl_shape + '.filePath', RES_PATH + '/Lamborginhi_Aventador/ibl_test.exr', type='string')", 
+            "cmds.setAttr(ibl_shape + '.filePath', RES_PATH + '/Smoke/Lamborginhi_Aventador/sourceimages/ibl_test.exr', type='string')", 
             "rpr_render(case)", 
             "cmds.showHidden('ground')",
             "cmds.delete(ibl_transform)"
@@ -689,5 +689,31 @@
             "Machine Learning"
         ], 
         "scene": "Lamborginhi_Aventador.ma"
+    },
+    {
+        "case": "MAYA_SM_047", 
+        "status": "active", 
+        "functions": [
+            "cmds.setAttr('Vertex_Color.visibility', 1)",
+            "cmds.setAttr('RPRLookup1.type', 256)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRLookup1.type', 0)",
+            "cmds.setAttr('Vertex_Color.visibility', 0)"
+        ], 
+        "script_info": [
+            "Mash Vertex color"
+        ], 
+        "scene": "lookup.ma"
+    }, 
+    {
+        "case": "MAYA_SM_048", 
+        "status": "active", 
+        "functions": [
+            "rpr_render(case)"
+        ], 
+        "script_info": [
+            "SVG"
+        ], 
+        "scene": "SVG.ma"
     }
 ]

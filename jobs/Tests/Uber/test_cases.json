@@ -335,7 +335,7 @@
         "status": "active",
         "functions": [
             "file_tmp1 = setAttribute('reflectColor', 'outColor', 'sourceimages/reflection_color.tiff')",
-            "file_tmp2 = setAttribute('reflectWeight', 'outAlpha', 'sourceimages/reflection_weigh.jpeg')",
+            "file_tmp2 = setAttribute('reflectWeight', 'outAlpha', 'sourceimages/reflection_weight.jpeg')",
             "rpr_render(case)",
             "cmds.disconnectAttr(str(file_tmp1) + '.outColor', 'R_UberMat.reflectColor')",
             "cmds.disconnectAttr(str(file_tmp2) + '.outAlpha', 'R_UberMat.reflectWeight')",
@@ -1048,7 +1048,7 @@
             "file_tmp2 = setAttribute('coatRoughness', 'outAlpha', 'sourceimages/coating_roughness.png')",
             "file_tmp3 = setAttribute('coatNormal', 'outColor', 'sourceimages/coating_normal.tiff')",
             "file_tmp4 = setAttribute('coatThickness', 'outAlpha', 'sourceimages/coating_thickness.png')",
-            "file_tmp5 = setAttribute('coatTransmissionColor', 'outColor', 'sourceimages/coating_transmissioncolot.jpeg')",
+            "file_tmp5 = setAttribute('coatTransmissionColor', 'outColor', 'sourceimages/coating_transmissioncolor.jpeg')",
             "cmds.setAttr('R_UberMat.coatIor', 10)",
             "rpr_render(case)",
             "cmds.disconnectAttr(str(file_tmp1) + '.outAlpha', 'R_UberMat.coatWeight')",
