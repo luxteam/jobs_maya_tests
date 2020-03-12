@@ -15,6 +15,8 @@ def main():
 
     print("Plugin has been loaded")
 
+    mel.eval('athenaEnable -ae false')
+
     try:
         print("Render sphere with RPR...")
 

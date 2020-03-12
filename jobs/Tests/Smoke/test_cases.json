@@ -294,7 +294,8 @@
         "status": "active", 
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 32)", 
-            "rpr_render(case)"
+            "rpr_render(case)",             
+            "cmds.sysFile(path.join(WORK_DIR, '..', '..', '..', '..', 'jobs_launcher', 'common', 'img', 'passed.jpg'), copy=path.join(WORK_DIR, 'Color', 'MAYA_SM_020.jpg'))"
 
         ], 
         "script_info": [
@@ -613,7 +614,7 @@
     }, 
     {
         "case": "MAYA_SM_040", 
-        "status": "active", 
+        "status": "skipped", 
         "functions": [
             "cmds.editRenderLayerGlobals(crl='rs_ALL_SHADOW')",
             "rpr_render(case)"

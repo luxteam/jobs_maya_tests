@@ -1,6 +1,7 @@
 import argparse
 import os
 import json
+import datetime
 
 
 errors = [
@@ -61,8 +62,13 @@ Done: Case was finished successfully.
 Skipped: Case will be skipped. Skip report will be created.
 \n''')
 
+		total_time = 0
+
 		for case in cases:
-			f.write('{} - {}\n'.format(case['case'], case['status']))
+			f.write('{} - {} ({})\n'.format(case['case'], case['status'], case.get('time_taken', 'null')))
+			total_time += float(case.get('time_taken', '0'))
+
+		f.write('Time taken: ' + str(datetime.datetime.utcfromtimestamp(total_time).strftime('%H:%M:%S')))
 
 		f.write(logs)
 
