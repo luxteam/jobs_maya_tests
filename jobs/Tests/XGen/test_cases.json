@@ -20,9 +20,9 @@
         ],
         "scene": "xgen.ma",
         "functions": [
-            "cmds.setAttr('XgenSculptLayer1.visibility', 1)",
+            "cmds.setAttr('XgenSculptlayer1.visibility', 1)",
             "rpr_render(case)",
-            "cmds.setAttr('XgenSculptLayer1.visibility', 0)"
+            "cmds.setAttr('XgenSculptlayer1.visibility', 0)"
         ]
     },
     {
