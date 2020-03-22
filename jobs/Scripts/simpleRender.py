@@ -357,18 +357,6 @@ if __name__ == '__main__':
 
 	iteration = 0
 
-	system_pl = platform.system()
-	script_dir = os.path.join(args.output, '..', '..', '..', '..', 'scripts')
-	if system_pl == 'Windows':
-		script_path = os.path.join(script_dir, 'build_rpr_cache.bat')
-	elif system_pl == 'Darwin':
-		script_path = os.path.join(script_dir, 'build_rpr_cache.sh')
-
-	core_config.main_logger.info('Build cache')
-	if launchMaya(script_path, script_dir) != 0:	# launchMaya ends with error
-		core_config.main_logger.info("Can't build cache")
-		exit(rc)
-
 	try:
 		copyfile(os.path.realpath(os.path.join(os.path.dirname(
 					__file__), '..', 'Tests', args.testType, 'test_cases.json')),
