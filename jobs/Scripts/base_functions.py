@@ -137,6 +137,7 @@ def prerender(case):
 
 	for function in case['functions']:
 		try:
+			logging('Execute command: ' + function)
 			if re.match('((^\S+|^\S+ \S+) = |^print|^if|^for|^with)', function):
 				exec(function)
 			else:
