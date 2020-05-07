@@ -211,16 +211,16 @@ def main(args):
 
     core_config.main_logger.info('Make "base_functions.py"')
 
-    work_dir = os.path.abspath(args.output).replace('\\', '/')
-    res_path = os.path.abspath(args.res_path).replace('\\', '/')
-    images_jobs_launcher = os.path.abspath(os.path.join(work_dir, '..', '..', '..', '..', 'jobs_launcher',
-                                                        'common', 'img'))
-
     if os.path.exists(os.path.join(os.path.dirname(__file__), 'extensions', args.testType + '.py')):
         with open(os.path.join(os.path.dirname(__file__), 'extensions', args.testType + '.py')) as f:
             extension_script = f.read()
         script = script.split('# place for extension functions')
         script = script[0] + extension_script + script[1]
+
+    work_dir = os.path.abspath(args.output).replace('\\', '/')
+    res_path = os.path.abspath(args.res_path).replace('\\', '/')
+    images_jobs_launcher = os.path.abspath(os.path.join(work_dir, '..', '..', '..', '..', 'jobs_launcher',
+                                                        'common', 'img'))
 
     script = script.format(work_dir=work_dir, testType=args.testType, render_device=args.render_device, res_path=res_path, pass_limit=args.pass_limit,
                            resolution_x=args.resolution_x, resolution_y=args.resolution_y, SPU=args.SPU, threshold=args.threshold)
@@ -285,7 +285,7 @@ def main(args):
     system_pl = platform.system()
     if system_pl == 'Windows':
         cmdRun = '''
-		  set MAYA_CMD_FILE_OUTPUT=%cd%/renderTool.log 
+		  set MAYA_CMD_FILE_OUTPUT=%cd%/renderTool.log
 		  set PYTHONPATH=%cd%;PYTHONPATH
 		  set MAYA_SCRIPT_PATH=%cd%;%MAYA_SCRIPT_PATH%
 		  "{tool}" -command "python(\\"import base_functions\\");"
