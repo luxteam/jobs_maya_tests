@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_L_EM_001",
+        "name": "MAYA_L_EM_001",
         "status": "active",
         "script_info": [
             "Iterations: 400"

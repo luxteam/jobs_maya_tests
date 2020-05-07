@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_MAT_VM_001",
+        "name": "MAYA_MAT_VM_001",
         "status": "active",
         "functions": [
             "file_tmp = setAttribute('scatterColor', 'outColor', '/Volume/sourceimages/ColorVariation.jpg')",
@@ -22,7 +22,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_MAT_VM_002",
+        "name": "MAYA_MAT_VM_002",
         "status": "active",
         "functions": [
             "file_tmp = setAttribute('transmissionColor', 'outColor', '/Volume/sourceimages/TransmissionVariation.png')",
@@ -44,7 +44,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_MAT_VM_003",
+        "name": "MAYA_MAT_VM_003",
         "status": "active",
         "functions": [
             "file_tmp = setAttribute('emissionColor', 'outColor', '/Volume/sourceimages/EmissiveVariation1.exr')",
@@ -68,7 +68,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_MAT_VM_004",
+        "name": "MAYA_MAT_VM_004",
         "status": "active",
         "functions": [
             "file_tmp = setAttribute('scatterColor', 'outColor', '/Volume/sourceimages/ColorVariation.tiff')",
@@ -90,7 +90,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_MAT_VM_005",
+        "name": "MAYA_MAT_VM_005",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRVolumeMaterial1.scatterColor', 1, 1, 1, type='double3')",
@@ -110,7 +110,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_MAT_VM_006",
+        "name": "MAYA_MAT_VM_006",
         "status": "active",
         "functions": [
             "file_tmp = setAttribute('transmissionColor', 'outColor', '/Volume/sourceimages/TransmissionVariation.png')",
@@ -132,7 +132,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_MAT_VM_007",
+        "name": "MAYA_MAT_VM_007",
         "status": "skipped",
         "functions": [
             "file_tmp = setAttribute('emissionColor', 'outColor', '/Volume/sourceimages/EmissiveVariation.exr')",
@@ -156,7 +156,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_MAT_VM_008",
+        "name": "MAYA_MAT_VM_008",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRVolumeMaterial1.scatterColor', 1, 1, 1, type='double3')",
@@ -177,7 +177,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_MAT_VM_009",
+        "name": "MAYA_MAT_VM_009",
         "status": "active",
         "functions": [
             "file_tmp = setAttribute('scatterColor', 'outColor', '/Volume/sourceimages/ColorVariation.png')",
@@ -199,7 +199,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_MAT_VM_010",
+        "name": "MAYA_MAT_VM_010",
         "status": "active",
         "functions": [
             "file_tmp = setAttribute('transmissionColor', 'outColor', '/Volume/sourceimages/TransmissionVariation.png')",
@@ -221,7 +221,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_MAT_VM_011",
+        "name": "MAYA_MAT_VM_011",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRVolumeMaterial1.scatterColor', 1, 1, 1, type='double3')",
@@ -242,7 +242,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_MAT_VM_012",
+        "name": "MAYA_MAT_VM_012",
         "status": "skipped",
         "functions": [
             "file_tmp = setAttribute('emissionColor', 'outColor', '/Volume/sourceimages/EmissiveVariation.exr')",
@@ -266,7 +266,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_MAT_VM_013",
+        "name": "MAYA_MAT_VM_013",
         "status": "active",
         "functions": [
             "file_tmp = setAttribute('scatterColor', 'outColor', '/Volume/sourceimages/ColorVariation.jpg')",
@@ -288,7 +288,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_MAT_VM_014",
+        "name": "MAYA_MAT_VM_014",
         "status": "active",
         "functions": [
             "file_tmp = setAttribute('transmissionColor', 'outColor', '/Volume/sourceimages/TransmissionVariation.png')",
@@ -310,7 +310,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_MAT_VM_015",
+        "name": "MAYA_MAT_VM_015",
         "status": "active",
         "functions": [
             "file_tmp = setAttribute('scatterColor', 'outColor', '/Volume/sourceimages/ColorVariation.jpg')",
@@ -332,7 +332,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_MAT_VM_016",
+        "name": "MAYA_MAT_VM_016",
         "status": "active",
         "functions": [
             "file_tmp = setAttribute('transmissionColor', 'outColor', '/Volume/sourceimages/TransmissionVariation.png')",
@@ -354,7 +354,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_MAT_VM_017",
+        "name": "MAYA_MAT_VM_017",
         "status": "skipped",
         "functions": [
             "file_tmp = setAttribute('emissionColor', 'outColor', '/Volume/sourceimages/EmissiveVariation.exr')",
@@ -378,7 +378,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_MAT_VM_018",
+        "name": "MAYA_MAT_VM_018",
         "status": "active",
         "functions": [
             "file_tmp = setAttribute('scatterColor', 'outColor', '/Volume/sourceimages/ColorVariation.exr')",
@@ -402,7 +402,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_MAT_VM_019",
+        "name": "MAYA_MAT_VM_019",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRVolumeMaterial1.scatterColor', 1, 1, 1, type='double3')",
@@ -423,7 +423,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_MAT_VM_020",
+        "name": "MAYA_MAT_VM_020",
         "status": "active",
         "functions": [
             "file_tmp = setAttribute('transmissionColor', 'outColor', '/Volume/sourceimages/TransmissionVariation.png')",
@@ -445,7 +445,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_MAT_VM_021",
+        "name": "MAYA_MAT_VM_021",
         "status": "skipped",
         "functions": [
             "file_tmp = setAttribute('emissionColor', 'outColor', '/Volume/sourceimages/EmissiveVariation.exr')",
@@ -469,7 +469,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_MAT_VM_022",
+        "name": "MAYA_MAT_VM_022",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRVolumeMaterial1.scatterColor', 1, 1, 1, type='double3')",
@@ -490,7 +490,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_MAT_VM_023",
+        "name": "MAYA_MAT_VM_023",
         "status": "active",
         "functions": [
             "file_tmp = setAttribute('scatterColor', 'outColor', '/Volume/sourceimages/ColorVariation.png')",
@@ -512,7 +512,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_MAT_VM_024",
+        "name": "MAYA_MAT_VM_024",
         "status": "active",
         "functions": [
             "file_tmp = setAttribute('transmissionColor', 'outColor', '/Volume/sourceimages/TransmissionVariation.png')",
@@ -534,7 +534,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_MAT_VM_025",
+        "name": "MAYA_MAT_VM_025",
         "status": "skipped",
         "functions": [
             "file_tmp = setAttribute('emissionColor', 'outColor', '/Volume/sourceimages/EmissiveVariation.exr')",

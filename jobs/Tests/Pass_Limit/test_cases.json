@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_RS_PS_001",
+        "name": "MAYA_RS_PS_001",
         "status": "active",
         "script_info": [
             "Easy scene. Pass Limit: 1"
@@ -13,7 +13,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_002",
+        "name": "MAYA_RS_PS_002",
         "status": "active",
         "script_info": [
             "Easy scene. Pass Limit: 100"
@@ -26,7 +26,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_003",
+        "name": "MAYA_RS_PS_003",
         "status": "active",
         "script_info": [
             "Easy scene. Pass Limit: 500"
@@ -39,7 +39,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_004",
+        "name": "MAYA_RS_PS_004",
         "status": "active",
         "script_info": [
             "Easy scene. Pass Limit: 1000"
@@ -52,7 +52,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_005",
+        "name": "MAYA_RS_PS_005",
         "status": "skipped",
         "script_info": [
             "Easy scene. Pass Limit: 5000"
@@ -65,7 +65,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_006",
+        "name": "MAYA_RS_PS_006",
         "status": "skipped",
         "script_info": [
             "Easy scene. Pass Limit: 10000"
@@ -78,7 +78,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_019",
+        "name": "MAYA_RS_PS_019",
         "status": "active",
         "script_info": [
             "Easy scene. Time: 10 sec"
@@ -92,7 +92,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_020",
+        "name": "MAYA_RS_PS_020",
         "status": "active",
         "script_info": [
             "Easy scene. Time: 30 sec"
@@ -106,7 +106,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_021",
+        "name": "MAYA_RS_PS_021",
         "status": "active",
         "script_info": [
             "Easy scene. Time: 59 sec"
@@ -120,7 +120,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_022",
+        "name": "MAYA_RS_PS_022",
         "status": "active",
         "script_info": [
             "Easy scene. Time: 2 min"
@@ -134,7 +134,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_007",
+        "name": "MAYA_RS_PS_007",
         "status": "active",
         "script_info": [
             "Normal scene. Pass Limit: 1"
@@ -147,7 +147,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_008",
+        "name": "MAYA_RS_PS_008",
         "status": "active",
         "script_info": [
             "Normal scene. Pass Limit: 100"
@@ -160,7 +160,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_009",
+        "name": "MAYA_RS_PS_009",
         "status": "active",
         "script_info": [
             "Normal scene. Pass Limit: 500"
@@ -173,7 +173,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_010",
+        "name": "MAYA_RS_PS_010",
         "status": "active",
         "script_info": [
             "Normal scene. Pass Limit: 1000"
@@ -186,7 +186,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_011",
+        "name": "MAYA_RS_PS_011",
         "status": "skipped",
         "script_info": [
             "Normal scene. Pass Limit: 5000"
@@ -199,7 +199,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_012",
+        "name": "MAYA_RS_PS_012",
         "status": "skipped",
         "script_info": [
             "Normal scene. Pass Limit: 10000"
@@ -212,7 +212,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_023",
+        "name": "MAYA_RS_PS_023",
         "status": "active",
         "script_info": [
             "Normal scene. Time: 10 sec"
@@ -226,7 +226,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_024",
+        "name": "MAYA_RS_PS_024",
         "status": "active",
         "script_info": [
             "Normal scene. Time: 30 sec"
@@ -240,7 +240,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_025",
+        "name": "MAYA_RS_PS_025",
         "status": "active",
         "script_info": [
             "Normal scene. Time: 59 sec"
@@ -254,7 +254,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_026",
+        "name": "MAYA_RS_PS_026",
         "status": "active",
         "script_info": [
             "Normal scene. Time: 2 min"
@@ -268,7 +268,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_013",
+        "name": "MAYA_RS_PS_013",
         "status": "active",
         "script_info": [
             "Complex scene. Pass Limit: 1"
@@ -281,7 +281,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_014",
+        "name": "MAYA_RS_PS_014",
         "status": "active",
         "script_info": [
             "Complex scene. Pass Limit: 100"
@@ -294,7 +294,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_015",
+        "name": "MAYA_RS_PS_015",
         "status": "active",
         "script_info": [
             "Complex scene. Pass Limit: 500"
@@ -307,7 +307,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_016",
+        "name": "MAYA_RS_PS_016",
         "status": "active",
         "script_info": [
             "Complex scene. Pass Limit: 1000"
@@ -320,7 +320,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_017",
+        "name": "MAYA_RS_PS_017",
         "status": "skipped",
         "script_info": [
             "Complex scene. Pass Limit: 5000"
@@ -333,7 +333,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_018",
+        "name": "MAYA_RS_PS_018",
         "status": "skipped",
         "script_info": [
             "Complex scene. Pass Limit: 10000"
@@ -346,7 +346,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_027",
+        "name": "MAYA_RS_PS_027",
         "status": "skipped",
         "script_info": [
             "Complex scene. Time: 10 sec"
@@ -360,7 +360,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_028",
+        "name": "MAYA_RS_PS_028",
         "status": "active",
         "script_info": [
             "Complex scene. Time: 30 sec"
@@ -374,7 +374,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_029",
+        "name": "MAYA_RS_PS_029",
         "status": "active",
         "script_info": [
             "Complex scene. Time: 59 sec"
@@ -388,7 +388,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_PS_030",
+        "name": "MAYA_RS_PS_030",
         "status": "active",
         "script_info": [
             "Complex scene. Time: 2 min"

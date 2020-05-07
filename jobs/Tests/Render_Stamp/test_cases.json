@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_RS_RS_001",
+        "name": "MAYA_RS_RS_001",
         "status": "active",
         "script_info": [
             "Do not compare",
@@ -15,7 +15,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RS_002",
+        "name": "MAYA_RS_RS_002",
         "status": "active",
         "script_info": [
             "Do not compare",
@@ -30,7 +30,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RS_003",
+        "name": "MAYA_RS_RS_003",
         "status": "active",
         "script_info": [
             "Do not compare",

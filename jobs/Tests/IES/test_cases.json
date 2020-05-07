@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_L_IES_001",
+        "name": "MAYA_L_IES_001",
         "status": "active",
         "script_info": [
             "IES file: 1.ies",
@@ -14,7 +14,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_002",
+        "name": "MAYA_L_IES_002",
         "status": "active",
         "script_info": [
             "IES file: 2.ies",
@@ -28,7 +28,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_003",
+        "name": "MAYA_L_IES_003",
         "status": "active",
         "script_info": [
             "IES file: 3.ies",
@@ -42,7 +42,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_004",
+        "name": "MAYA_L_IES_004",
         "status": "active",
         "script_info": [
             "IES file: 4.ies",
@@ -56,7 +56,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_005",
+        "name": "MAYA_L_IES_005",
         "status": "active",
         "script_info": [
             "IES file: 5.ies",
@@ -70,7 +70,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_006",
+        "name": "MAYA_L_IES_006",
         "status": "active",
         "script_info": [
             "IES file: 6.ies",
@@ -84,7 +84,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_007",
+        "name": "MAYA_L_IES_007",
         "status": "active",
         "script_info": [
             "IES file: 7.ies",
@@ -98,7 +98,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_008",
+        "name": "MAYA_L_IES_008",
         "status": "active",
         "script_info": [
             "IES file: 8.ies",
@@ -112,7 +112,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_009",
+        "name": "MAYA_L_IES_009",
         "status": "active",
         "script_info": [
             "IES file: 9.ies",
@@ -126,7 +126,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_010",
+        "name": "MAYA_L_IES_010",
         "status": "active",
         "script_info": [
             "IES file: 10.ies",
@@ -140,7 +140,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_011",
+        "name": "MAYA_L_IES_011",
         "status": "active",
         "script_info": [
             "IES file: 11.ies",
@@ -154,7 +154,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_012",
+        "name": "MAYA_L_IES_012",
         "status": "active",
         "script_info": [
             "IES file: 12.ies",
@@ -168,7 +168,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_013",
+        "name": "MAYA_L_IES_013",
         "status": "active",
         "script_info": [
             "IES file: 13.ies",
@@ -182,7 +182,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_014",
+        "name": "MAYA_L_IES_014",
         "status": "active",
         "script_info": [
             "IES file: 14.ies",
@@ -196,7 +196,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_015",
+        "name": "MAYA_L_IES_015",
         "status": "active",
         "script_info": [
             "IES file: 15.ies",
@@ -210,7 +210,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_016",
+        "name": "MAYA_L_IES_016",
         "status": "active",
         "script_info": [
             "IES file: 16.ies",
@@ -224,7 +224,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_017",
+        "name": "MAYA_L_IES_017",
         "status": "active",
         "script_info": [
             "IES file: 17.ies",
@@ -238,7 +238,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_018",
+        "name": "MAYA_L_IES_018",
         "status": "active",
         "script_info": [
             "IES file: 18.ies",
@@ -252,7 +252,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_019",
+        "name": "MAYA_L_IES_019",
         "status": "active",
         "script_info": [
             "IES file: 19.ies",
@@ -266,7 +266,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_020",
+        "name": "MAYA_L_IES_020",
         "status": "active",
         "script_info": [
             "IES file: 20.ies",
@@ -280,7 +280,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_021",
+        "name": "MAYA_L_IES_021",
         "status": "active",
         "script_info": [
             "IES file: 21.ies",
@@ -294,7 +294,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_022",
+        "name": "MAYA_L_IES_022",
         "status": "active",
         "script_info": [
             "IES file: 22.ies",
@@ -308,7 +308,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_023",
+        "name": "MAYA_L_IES_023",
         "status": "active",
         "script_info": [
             "IES file: 23.ies",
@@ -322,7 +322,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_024",
+        "name": "MAYA_L_IES_024",
         "status": "active",
         "script_info": [
             "IES file: 24.ies",
@@ -336,7 +336,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_025",
+        "name": "MAYA_L_IES_025",
         "status": "active",
         "script_info": [
             "IES file: 25.ies",
@@ -350,7 +350,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_026",
+        "name": "MAYA_L_IES_026",
         "status": "active",
         "script_info": [
             "IES file: 26.ies",
@@ -364,7 +364,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_027",
+        "name": "MAYA_L_IES_027",
         "status": "active",
         "script_info": [
             "IES file: 27.ies",
@@ -378,7 +378,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_028",
+        "name": "MAYA_L_IES_028",
         "status": "active",
         "script_info": [
             "IES file: 28.ies",
@@ -392,7 +392,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_029",
+        "name": "MAYA_L_IES_029",
         "status": "active",
         "script_info": [
             "IES file: 29.ies",
@@ -406,7 +406,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_030",
+        "name": "MAYA_L_IES_030",
         "status": "active",
         "script_info": [
             "IES file: 30.ies",
@@ -420,7 +420,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_031",
+        "name": "MAYA_L_IES_031",
         "status": "active",
         "script_info": [
             "IES file: 31.ies",
@@ -434,7 +434,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_032",
+        "name": "MAYA_L_IES_032",
         "status": "active",
         "script_info": [
             "IES file: 32.ies",
@@ -448,7 +448,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_033",
+        "name": "MAYA_L_IES_033",
         "status": "active",
         "script_info": [
             "IES file: 33.ies",
@@ -462,7 +462,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_034",
+        "name": "MAYA_L_IES_034",
         "status": "active",
         "script_info": [
             "IES file: 34.ies",
@@ -476,7 +476,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_035",
+        "name": "MAYA_L_IES_035",
         "status": "active",
         "script_info": [
             "IES file: 35.ies",
@@ -490,7 +490,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_036",
+        "name": "MAYA_L_IES_036",
         "status": "active",
         "script_info": [
             "IES file: 36.ies",
@@ -504,7 +504,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_037",
+        "name": "MAYA_L_IES_037",
         "status": "active",
         "script_info": [
             "IES file: 37.ies",
@@ -518,7 +518,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_038",
+        "name": "MAYA_L_IES_038",
         "status": "active",
         "script_info": [
             "IES file: 38.ies",
@@ -532,7 +532,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_039",
+        "name": "MAYA_L_IES_039",
         "status": "active",
         "script_info": [
             "IES file: 39.ies",
@@ -546,7 +546,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_040",
+        "name": "MAYA_L_IES_040",
         "status": "active",
         "script_info": [
             "IES file: 40.ies",
@@ -560,7 +560,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_041",
+        "name": "MAYA_L_IES_041",
         "status": "active",
         "script_info": [
             "IES file: 41.ies",
@@ -574,7 +574,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_042",
+        "name": "MAYA_L_IES_042",
         "status": "active",
         "script_info": [
             "IES file: 42.ies",
@@ -588,7 +588,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_043",
+        "name": "MAYA_L_IES_043",
         "status": "active",
         "script_info": [
             "IES file: 43.ies",
@@ -602,7 +602,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_044",
+        "name": "MAYA_L_IES_044",
         "status": "active",
         "script_info": [
             "IES file: 44.ies",
@@ -616,7 +616,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_045",
+        "name": "MAYA_L_IES_045",
         "status": "active",
         "script_info": [
             "IES file: 45.ies",
@@ -630,7 +630,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_046",
+        "name": "MAYA_L_IES_046",
         "status": "active",
         "script_info": [
             "IES file: 46.ies",
@@ -644,7 +644,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_047",
+        "name": "MAYA_L_IES_047",
         "status": "active",
         "script_info": [
             "IES file: 47.ies",
@@ -658,7 +658,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_048",
+        "name": "MAYA_L_IES_048",
         "status": "active",
         "script_info": [
             "IES file: 48.ies",
@@ -672,7 +672,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_049",
+        "name": "MAYA_L_IES_049",
         "status": "active",
         "script_info": [
             "IES file: 49.ies",
@@ -686,7 +686,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_050",
+        "name": "MAYA_L_IES_050",
         "status": "active",
         "script_info": [
             "IES file: 50.ies",
@@ -700,7 +700,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_051",
+        "name": "MAYA_L_IES_051",
         "status": "active",
         "script_info": [
             "IES file: 51.ies",
@@ -714,7 +714,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_052",
+        "name": "MAYA_L_IES_052",
         "status": "active",
         "script_info": [
             "IES file: 52.ies",
@@ -728,7 +728,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_053",
+        "name": "MAYA_L_IES_053",
         "status": "active",
         "script_info": [
             "IES file: 53.ies",
@@ -742,7 +742,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_054",
+        "name": "MAYA_L_IES_054",
         "status": "active",
         "script_info": [
             "IES file: 54.ies",
@@ -756,7 +756,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_055",
+        "name": "MAYA_L_IES_055",
         "status": "active",
         "script_info": [
             "IES file: 55.ies",
@@ -770,7 +770,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_056",
+        "name": "MAYA_L_IES_056",
         "status": "active",
         "script_info": [
             "IES file: 56.ies",
@@ -784,7 +784,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_057",
+        "name": "MAYA_L_IES_057",
         "status": "active",
         "script_info": [
             "IES file: 57.ies",
@@ -798,7 +798,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_058",
+        "name": "MAYA_L_IES_058",
         "status": "active",
         "script_info": [
             "IES file: 58.ies",
@@ -812,7 +812,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_059",
+        "name": "MAYA_L_IES_059",
         "status": "active",
         "script_info": [
             "IES file: 59.ies",
@@ -826,7 +826,7 @@
         ]
     },
     {
-        "case": "MAYA_L_IES_060",
+        "name": "MAYA_L_IES_060",
         "status": "active",
         "script_info": [
             "IES file: 60.ies",

@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_RS_SS_063",
+        "name": "MAYA_RS_SS_063",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -22,7 +22,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_064",
+        "name": "MAYA_RS_SS_064",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -46,7 +46,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_065",
+        "name": "MAYA_RS_SS_065",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -68,7 +68,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_066",
+        "name": "MAYA_RS_SS_066",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -90,7 +90,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_067",
+        "name": "MAYA_RS_SS_067",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -114,7 +114,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_068",
+        "name": "MAYA_RS_SS_068",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -134,7 +134,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_069",
+        "name": "MAYA_RS_SS_069",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -152,7 +152,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_070",
+        "name": "MAYA_RS_SS_070",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -170,7 +170,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_071",
+        "name": "MAYA_RS_SS_071",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -188,7 +188,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_072",
+        "name": "MAYA_RS_SS_072",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -208,7 +208,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_073",
+        "name": "MAYA_RS_SS_073",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -224,7 +224,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_074",
+        "name": "MAYA_RS_SS_074",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -242,7 +242,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_075",
+        "name": "MAYA_RS_SS_075",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -260,7 +260,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_076",
+        "name": "MAYA_RS_SS_076",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -280,7 +280,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_077",
+        "name": "MAYA_RS_SS_077",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -298,7 +298,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_078",
+        "name": "MAYA_RS_SS_078",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -316,7 +316,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_079",
+        "name": "MAYA_RS_SS_079",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -334,7 +334,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_080",
+        "name": "MAYA_RS_SS_080",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -350,7 +350,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_081",
+        "name": "MAYA_RS_SS_081",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -370,7 +370,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_082",
+        "name": "MAYA_RS_SS_082",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -390,7 +390,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_083",
+        "name": "MAYA_RS_SS_083",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -408,7 +408,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_084",
+        "name": "MAYA_RS_SS_084",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -428,7 +428,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_085",
+        "name": "MAYA_RS_SS_085",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -446,7 +446,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_086",
+        "name": "MAYA_RS_SS_086",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -464,7 +464,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_087",
+        "name": "MAYA_RS_SS_087",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -480,7 +480,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_088",
+        "name": "MAYA_RS_SS_088",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -500,7 +500,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_089",
+        "name": "MAYA_RS_SS_089",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -518,7 +518,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_090",
+        "name": "MAYA_RS_SS_090",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -538,7 +538,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_091",
+        "name": "MAYA_RS_SS_091",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -558,7 +558,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_092",
+        "name": "MAYA_RS_SS_092",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -576,7 +576,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_093",
+        "name": "MAYA_RS_SS_093",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -594,7 +594,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_094",
+        "name": "MAYA_RS_SS_094",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -610,7 +610,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_095",
+        "name": "MAYA_RS_SS_095",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -628,7 +628,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_096",
+        "name": "MAYA_RS_SS_096",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -646,7 +646,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_097",
+        "name": "MAYA_RS_SS_097",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -664,7 +664,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_098",
+        "name": "MAYA_RS_SS_098",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -682,7 +682,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_099",
+        "name": "MAYA_RS_SS_099",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -700,7 +700,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_100",
+        "name": "MAYA_RS_SS_100",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -716,7 +716,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_101",
+        "name": "MAYA_RS_SS_101",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -732,7 +732,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_102",
+        "name": "MAYA_RS_SS_102",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -750,7 +750,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_103",
+        "name": "MAYA_RS_SS_103",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -768,7 +768,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_104",
+        "name": "MAYA_RS_SS_104",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -786,7 +786,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_105",
+        "name": "MAYA_RS_SS_105",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -804,7 +804,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_106",
+        "name": "MAYA_RS_SS_106",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -822,7 +822,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_107",
+        "name": "MAYA_RS_SS_107",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -847,7 +847,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_108",
+        "name": "MAYA_RS_SS_108",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -870,7 +870,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_109",
+        "name": "MAYA_RS_SS_109",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -895,7 +895,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_110",
+        "name": "MAYA_RS_SS_110",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -925,7 +925,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_111",
+        "name": "MAYA_RS_SS_111",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -957,7 +957,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_112",
+        "name": "MAYA_RS_SS_112",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -987,7 +987,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_113",
+        "name": "MAYA_RS_SS_113",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -1017,7 +1017,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_114",
+        "name": "MAYA_RS_SS_114",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -1049,7 +1049,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_115",
+        "name": "MAYA_RS_SS_115",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -1077,7 +1077,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_116",
+        "name": "MAYA_RS_SS_116",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -1109,7 +1109,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_117",
+        "name": "MAYA_RS_SS_117",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -1139,7 +1139,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_118",
+        "name": "MAYA_RS_SS_118",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -1159,7 +1159,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_119",
+        "name": "MAYA_RS_SS_119",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -1187,7 +1187,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_120",
+        "name": "MAYA_RS_SS_120",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -1215,7 +1215,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_121",
+        "name": "MAYA_RS_SS_121",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -1243,7 +1243,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_122",
+        "name": "MAYA_RS_SS_122",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -1267,7 +1267,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_123",
+        "name": "MAYA_RS_SS_123",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -1291,7 +1291,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_124",
+        "name": "MAYA_RS_SS_124",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -1321,7 +1321,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_125",
+        "name": "MAYA_RS_SS_125",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -1349,7 +1349,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_126",
+        "name": "MAYA_RS_SS_126",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -1377,7 +1377,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_127",
+        "name": "MAYA_RS_SS_127",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -1405,7 +1405,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_128",
+        "name": "MAYA_RS_SS_128",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -1433,7 +1433,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_129",
+        "name": "MAYA_RS_SS_129",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -1461,7 +1461,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_130",
+        "name": "MAYA_RS_SS_130",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -1491,7 +1491,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_131",
+        "name": "MAYA_RS_SS_131",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -1521,7 +1521,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_132",
+        "name": "MAYA_RS_SS_132",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -1551,7 +1551,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_133",
+        "name": "MAYA_RS_SS_133",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -1581,7 +1581,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_134",
+        "name": "MAYA_RS_SS_134",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -1611,7 +1611,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_135",
+        "name": "MAYA_RS_SS_135",
         "status": "active",
         "functions": [
             "removeEnvironment()",
@@ -1641,7 +1641,7 @@
         "scene": "Sun_Sky.ma"
     },
     {
-        "case": "MAYA_RS_SS_136",
+        "name": "MAYA_RS_SS_136",
         "status": "active",
         "functions": [
             "removeEnvironment()",

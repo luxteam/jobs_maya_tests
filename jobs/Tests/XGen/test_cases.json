@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_XGN_HR_001",
+        "name": "MAYA_XGN_HR_001",
         "status": "active",
         "script_info": [
             "Xgen Taper"
@@ -13,7 +13,7 @@
         ]
     },
     {
-        "case": "MAYA_XGN_HR_002",
+        "name": "MAYA_XGN_HR_002",
         "status": "active",
         "script_info": [
             "Xgen Sculpt"
@@ -26,7 +26,7 @@
         ]
     },
     {
-        "case": "MAYA_XGN_HR_003",
+        "name": "MAYA_XGN_HR_003",
         "status": "active",
         "script_info": [
             "Xgen Sculpt"
@@ -39,7 +39,7 @@
         ]
     },
     {
-        "case": "MAYA_XGN_HR_004",
+        "name": "MAYA_XGN_HR_004",
         "status": "active",
         "script_info": [
             "Xgen Scale"
@@ -52,7 +52,7 @@
         ]
     },
     {
-        "case": "MAYA_XGN_HR_005",
+        "name": "MAYA_XGN_HR_005",
         "status": "active",
         "script_info": [
             "Xgen Noise Modifier"
@@ -65,7 +65,7 @@
         ]
     },
     {
-        "case": "MAYA_XGN_HR_006",
+        "name": "MAYA_XGN_HR_006",
         "status": "active",
         "script_info": [
             "Xgen High CV Count"
@@ -78,7 +78,7 @@
         ]
     },
     {
-        "case": "MAYA_XGN_HR_007",
+        "name": "MAYA_XGN_HR_007",
         "status": "active",
         "script_info": [
             "Xgen "
@@ -91,7 +91,7 @@
         ]
     },
     {
-        "case": "MAYA_XGN_HR_008",
+        "name": "MAYA_XGN_HR_008",
         "status": "active",
         "script_info": [
             "Xgen Density"
@@ -104,7 +104,7 @@
         ]
     },
     {
-        "case": "MAYA_XGN_HR_009",
+        "name": "MAYA_XGN_HR_009",
         "status": "active",
         "script_info": [
             "Xgen Density Mask"
@@ -117,7 +117,7 @@
         ]
     },
     {
-        "case": "MAYA_XGN_HR_010",
+        "name": "MAYA_XGN_HR_010",
         "status": "active",
         "script_info": [
             "Xgen Modifiers mix"

@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_L_BL_001",
+        "name": "MAYA_L_BL_001",
         "status": "active",
         "script_info": [
             "Ambient light. Intensity: 1. Ambient Shade: 0.450 (standart)"
@@ -19,7 +19,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_002",
+        "name": "MAYA_L_BL_002",
         "status": "active",
         "script_info": [
             "Ambient light. Intensity: 3. Ambient Shade: 0.450 (standart)"
@@ -38,7 +38,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_003",
+        "name": "MAYA_L_BL_003",
         "status": "active",
         "script_info": [
             "Ambient light. Intensity: 3. Ambient Shade: 0"
@@ -57,7 +57,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_004",
+        "name": "MAYA_L_BL_004",
         "status": "active",
         "script_info": [
             "Ambient light. Intensity: 3. Ambient Shade: 1"
@@ -76,7 +76,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_005",
+        "name": "MAYA_L_BL_005",
         "status": "active",
         "script_info": [
             "Area light. Intensity: 500."
@@ -94,7 +94,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_006",
+        "name": "MAYA_L_BL_006",
         "status": "active",
         "script_info": [
             "Area light. Intensity: 1500."
@@ -112,7 +112,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_007",
+        "name": "MAYA_L_BL_007",
         "status": "active",
         "script_info": [
             "Area light. Intensity: 1500. Decay Rate: Linear"
@@ -130,7 +130,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_008",
+        "name": "MAYA_L_BL_008",
         "status": "active",
         "script_info": [
             "Area light. Intensity: 1500. Decay Rate: Quadratic"
@@ -148,7 +148,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_009",
+        "name": "MAYA_L_BL_009",
         "status": "active",
         "script_info": [
             "Area light. Intensity: 1500. Decay Rate: Cubic"
@@ -166,7 +166,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_010",
+        "name": "MAYA_L_BL_010",
         "status": "active",
         "script_info": [
             "Directional light. Intensity: 1."
@@ -184,7 +184,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_011",
+        "name": "MAYA_L_BL_011",
         "status": "active",
         "script_info": [
             "Directional light. Intensity: 1."
@@ -202,7 +202,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_012",
+        "name": "MAYA_L_BL_012",
         "status": "active",
         "script_info": [
             "Point light. Intensity: 1."
@@ -221,7 +221,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_013",
+        "name": "MAYA_L_BL_013",
         "status": "active",
         "script_info": [
             "Point light. Intensity: 50."
@@ -240,7 +240,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_014",
+        "name": "MAYA_L_BL_014",
         "status": "active",
         "script_info": [
             "Point light. Intensity: 100."
@@ -259,7 +259,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_015",
+        "name": "MAYA_L_BL_015",
         "status": "active",
         "script_info": [
             "Point light. Intensity: 1. Decay Rate: Linear"
@@ -278,7 +278,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_016",
+        "name": "MAYA_L_BL_016",
         "status": "active",
         "script_info": [
             "Point light. Intensity: 1. Decay Rate: Quadratic"
@@ -297,7 +297,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_017",
+        "name": "MAYA_L_BL_017",
         "status": "active",
         "script_info": [
             "Point light. Intensity: 1. Decay Rate: Cubic"
@@ -316,7 +316,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_018",
+        "name": "MAYA_L_BL_018",
         "status": "active",
         "script_info": [
             "Spot light. Intensity: 1."
@@ -338,7 +338,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_019",
+        "name": "MAYA_L_BL_019",
         "status": "active",
         "script_info": [
             "Spot light. Intensity: 1."
@@ -360,7 +360,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_020",
+        "name": "MAYA_L_BL_020",
         "status": "active",
         "script_info": [
             "Spot light. Intensity: 40"
@@ -382,7 +382,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_021",
+        "name": "MAYA_L_BL_021",
         "status": "active",
         "script_info": [
             "Spot light. Intensity: 40"
@@ -404,7 +404,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_022",
+        "name": "MAYA_L_BL_022",
         "status": "active",
         "script_info": [
             "Spot light. Intensity: 40"
@@ -426,7 +426,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_023",
+        "name": "MAYA_L_BL_023",
         "status": "active",
         "script_info": [
             "Spot light. Intensity: 1. Decay Rate: Linear"
@@ -448,7 +448,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_024",
+        "name": "MAYA_L_BL_024",
         "status": "active",
         "script_info": [
             "Spot light. Intensity: 1. Decay Rate: Quadratic"
@@ -470,7 +470,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_025  ",
+        "name": "MAYA_L_BL_025  ",
         "status": "active",
         "script_info": [
             "Spot light. Intensity: 1. Decay Rate: Cubic"

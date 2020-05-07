@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_RS_RM_001",
+        "name": "MAYA_RS_RM_001",
         "status": "active",
         "script_info": [
             "Render mode: Global illumination"
@@ -12,7 +12,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_002",
+        "name": "MAYA_RS_RM_002",
         "status": "active",
         "script_info": [
             "Render mode: Direct illumination"
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_003",
+        "name": "MAYA_RS_RM_003",
         "status": "active",
         "script_info": [
             "Render mode: Direct illumination no shadow"
@@ -36,7 +36,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_004",
+        "name": "MAYA_RS_RM_004",
         "status": "active",
         "script_info": [
             "Render mode: Wireframe"
@@ -49,7 +49,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_005",
+        "name": "MAYA_RS_RM_005",
         "status": "skipped",
         "script_info": [
             "Render mode: Material index"
@@ -62,7 +62,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_006",
+        "name": "MAYA_RS_RM_006",
         "status": "active",
         "script_info": [
             "Render mode: Position"
@@ -75,7 +75,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_007",
+        "name": "MAYA_RS_RM_007",
         "status": "active",
         "script_info": [
             "Render mode: Normal"
@@ -88,7 +88,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_008",
+        "name": "MAYA_RS_RM_008",
         "status": "active",
         "script_info": [
             "Render mode: Tex coords"
@@ -101,7 +101,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_009",
+        "name": "MAYA_RS_RM_009",
         "status": "active",
         "script_info": [
             "Render mode: Ambient Occlusion"
@@ -113,7 +113,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_010",
+        "name": "MAYA_RS_RM_010",
         "status": "active",
         "script_info": [
             "Render mode: Global illumination. Clamp Irradiance Value: 50"
@@ -126,7 +126,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_011",
+        "name": "MAYA_RS_RM_011",
         "status": "active",
         "script_info": [
             "Render mode: Direct illumination. Clamp Irradiance Value: 50"
@@ -139,7 +139,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_012",
+        "name": "MAYA_RS_RM_012",
         "status": "active",
         "script_info": [
             "Render mode: Direct illumination no shadow. Clamp Irradiance Value: 50"
@@ -152,7 +152,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_013",
+        "name": "MAYA_RS_RM_013",
         "status": "active",
         "script_info": [
             "Render mode: Wireframe. Clamp Irradiance Value: 50"
@@ -166,7 +166,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_014",
+        "name": "MAYA_RS_RM_014",
         "status": "skipped",
         "script_info": [
             "Render mode: Material index. Clamp Irradiance Value: 50"
@@ -180,7 +180,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_015",
+        "name": "MAYA_RS_RM_015",
         "status": "active",
         "script_info": [
             "Render mode: Position. Clamp Irradiance Value: 50"
@@ -194,7 +194,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_016",
+        "name": "MAYA_RS_RM_016",
         "status": "active",
         "script_info": [
             "Render mode: Normal. Clamp Irradiance Value: 50"
@@ -208,7 +208,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_017",
+        "name": "MAYA_RS_RM_017",
         "status": "active",
         "script_info": [
             "Render mode: Tex coords. Clamp Irradiance Value: 50"
@@ -222,7 +222,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_018",
+        "name": "MAYA_RS_RM_018",
         "status": "active",
         "script_info": [
             "Render mode: Ambient Occlusion. Clamp Irradiance Value: 50"
@@ -235,7 +235,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_019",
+        "name": "MAYA_RS_RM_019",
         "status": "active",
         "script_info": [
             "Render mode: Global illumination. Clamp Irradiance Value: 100"
@@ -248,7 +248,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_020",
+        "name": "MAYA_RS_RM_020",
         "status": "active",
         "script_info": [
             "Render mode: Direct illumination. Clamp Irradiance Value: 100"
@@ -261,7 +261,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_021",
+        "name": "MAYA_RS_RM_021",
         "status": "active",
         "script_info": [
             "Render mode: Direct illumination no shadow. Clamp Irradiance Value: 100"
@@ -274,7 +274,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_022",
+        "name": "MAYA_RS_RM_022",
         "status": "active",
         "script_info": [
             "Render mode: Wireframe. Clamp Irradiance Value: 100"
@@ -288,7 +288,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_023",
+        "name": "MAYA_RS_RM_023",
         "status": "skipped",
         "script_info": [
             "Render mode: Material index. Clamp Irradiance Value: 100"
@@ -302,7 +302,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_024",
+        "name": "MAYA_RS_RM_024",
         "status": "active",
         "script_info": [
             "Render mode: Position. Clamp Irradiance Value: 100"
@@ -316,7 +316,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_025",
+        "name": "MAYA_RS_RM_025",
         "status": "active",
         "script_info": [
             "Render mode: Normal. Clamp Irradiance Value: 100"
@@ -330,7 +330,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_026",
+        "name": "MAYA_RS_RM_026",
         "status": "active",
         "script_info": [
             "Render mode: Tex coords. Clamp Irradiance Value: 100"
@@ -344,7 +344,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RM_027",
+        "name": "MAYA_RS_RM_027",
         "status": "active",
         "script_info": [
             "Render mode: Ambient Occlusion. Clamp Irradiance Value: 100"

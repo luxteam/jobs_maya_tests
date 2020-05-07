@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_RS_CAM_001",
+        "name": "MAYA_RS_CAM_001",
         "status": "active",
         "script_info": [
             "RPR Camera Type: Spherical panorama"
@@ -15,7 +15,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_002",
+        "name": "MAYA_RS_CAM_002",
         "status": "active",
         "script_info": [
             "RPR Camera Type: Stereo spherical panorama"
@@ -30,7 +30,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_003",
+        "name": "MAYA_RS_CAM_003",
         "status": "active",
         "script_info": [
             "RPR Camera Type: Cubemap"
@@ -45,7 +45,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_004",
+        "name": "MAYA_RS_CAM_004",
         "status": "active",
         "script_info": [
             "RPR Camera Type: Stereo cubemap"
@@ -60,7 +60,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_005",
+        "name": "MAYA_RS_CAM_005",
         "status": "active",
         "script_info": [
             "Camera preset: 16mm Theatrical"
@@ -75,7 +75,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_006",
+        "name": "MAYA_RS_CAM_006",
         "status": "active",
         "script_info": [
             "Camera preset: Super 16mm"
@@ -90,7 +90,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_007",
+        "name": "MAYA_RS_CAM_007",
         "status": "active",
         "script_info": [
             "Camera preset: 35mm Academy"
@@ -105,7 +105,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_008",
+        "name": "MAYA_RS_CAM_008",
         "status": "active",
         "script_info": [
             "Camera preset: 35mm TV Projection"
@@ -120,7 +120,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_009",
+        "name": "MAYA_RS_CAM_009",
         "status": "active",
         "script_info": [
             "Camera preset: 35mm Full Aperture"
@@ -135,7 +135,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_010",
+        "name": "MAYA_RS_CAM_010",
         "status": "active",
         "script_info": [
             "Camera preset: 35mm 1.85 Projection"
@@ -150,7 +150,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_011",
+        "name": "MAYA_RS_CAM_011",
         "status": "active",
         "script_info": [
             "Camera preset: 35mm Anamorphic"
@@ -165,7 +165,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_012",
+        "name": "MAYA_RS_CAM_012",
         "status": "active",
         "script_info": [
             "Camera preset: 70mm Projection"
@@ -180,7 +180,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_013",
+        "name": "MAYA_RS_CAM_013",
         "status": "active",
         "script_info": [
             "Camera preset: VistaVision"
@@ -195,7 +195,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_014",
+        "name": "MAYA_RS_CAM_014",
         "status": "active",
         "script_info": [
             "Camera preset: Imax"
@@ -210,7 +210,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_015",
+        "name": "MAYA_RS_CAM_015",
         "status": "active",
         "script_info": [
             "Angle of View: 1"
@@ -223,7 +223,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_016",
+        "name": "MAYA_RS_CAM_016",
         "status": "active",
         "script_info": [
             "Angle of View: 75"
@@ -236,7 +236,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_017",
+        "name": "MAYA_RS_CAM_017",
         "status": "active",
         "script_info": [
             "Angle of View: 157.38"
@@ -249,7 +249,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_018",
+        "name": "MAYA_RS_CAM_018",
         "status": "active",
         "script_info": [
             "Focal length: 50"
@@ -262,7 +262,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_019",
+        "name": "MAYA_RS_CAM_019",
         "status": "active",
         "script_info": [
             "Focal length: 100"
@@ -275,7 +275,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_020",
+        "name": "MAYA_RS_CAM_020",
         "status": "active",
         "script_info": [
             "Focal length: 200"
@@ -288,7 +288,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_021",
+        "name": "MAYA_RS_CAM_021",
         "status": "active",
         "script_info": [
             "Camera Scale: 0"
@@ -301,7 +301,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_022",
+        "name": "MAYA_RS_CAM_022",
         "status": "active",
         "script_info": [
             "Camera Scale: 0.5"
@@ -314,7 +314,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_023",
+        "name": "MAYA_RS_CAM_023",
         "status": "active",
         "script_info": [
             "Camera Aperture inch: 0.5 0.5"
@@ -328,7 +328,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_024",
+        "name": "MAYA_RS_CAM_024",
         "status": "active",
         "script_info": [
             "Camera Aperture inch: 1 1"
@@ -342,7 +342,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_029",
+        "name": "MAYA_RS_CAM_029",
         "status": "active",
         "script_info": [
             "lensSqueezeRatio: 0.1"
@@ -355,7 +355,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_030",
+        "name": "MAYA_RS_CAM_030",
         "status": "active",
         "script_info": [
             "lensSqueezeRatio: 0.5"
@@ -368,7 +368,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_031",
+        "name": "MAYA_RS_CAM_031",
         "status": "active",
         "script_info": [
             "lensSqueezeRatio: 1"
@@ -381,7 +381,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_032",
+        "name": "MAYA_RS_CAM_032",
         "status": "active",
         "script_info": [
             "Shake: 0.2 0.2"
@@ -396,7 +396,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_033",
+        "name": "MAYA_RS_CAM_033",
         "status": "active",
         "script_info": [
             "Shake: 0.2 0.2 shake overscan"
@@ -412,7 +412,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_034",
+        "name": "MAYA_RS_CAM_034",
         "status": "active",
         "script_info": [
             "Pre Scale: 0.1"
@@ -425,7 +425,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_035",
+        "name": "MAYA_RS_CAM_035",
         "status": "active",
         "script_info": [
             "Pre Scale: 0.5"
@@ -438,7 +438,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_036",
+        "name": "MAYA_RS_CAM_036",
         "status": "active",
         "script_info": [
             "Pre Scale: 1"
@@ -451,7 +451,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_037",
+        "name": "MAYA_RS_CAM_037",
         "status": "active",
         "script_info": [
             "Film translate: 0.1"
@@ -465,7 +465,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_038",
+        "name": "MAYA_RS_CAM_038",
         "status": "active",
         "script_info": [
             "Roll Pivot: 0.1"
@@ -479,7 +479,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_039",
+        "name": "MAYA_RS_CAM_039",
         "status": "active",
         "script_info": [
             "Roll Value: 0.1"
@@ -492,7 +492,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_040",
+        "name": "MAYA_RS_CAM_040",
         "status": "active",
         "script_info": [
             "Roll Value: 1"
@@ -505,7 +505,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_041",
+        "name": "MAYA_RS_CAM_041",
         "status": "active",
         "script_info": [
             "Roll Value: 90"
@@ -518,7 +518,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_042",
+        "name": "MAYA_RS_CAM_042",
         "status": "active",
         "script_info": [
             "Roll Value: 180"
@@ -531,7 +531,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_043",
+        "name": "MAYA_RS_CAM_043",
         "status": "active",
         "script_info": [
             "Post Scale: 0.1"
@@ -544,7 +544,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_044",
+        "name": "MAYA_RS_CAM_044",
         "status": "active",
         "script_info": [
             "Post Scale: 0.5"
@@ -557,7 +557,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_045",
+        "name": "MAYA_RS_CAM_045",
         "status": "active",
         "script_info": [
             "Post Scale: 1"
@@ -570,7 +570,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_046",
+        "name": "MAYA_RS_CAM_046",
         "status": "active",
         "script_info": [
             "Translate-Rotate. Pre Scale: 0.1"
@@ -584,7 +584,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_047",
+        "name": "MAYA_RS_CAM_047",
         "status": "active",
         "script_info": [
             "Translate-Rotate. Pre Scale: 0.5"
@@ -598,7 +598,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_048",
+        "name": "MAYA_RS_CAM_048",
         "status": "active",
         "script_info": [
             "Translate-Rotate. Pre Scale: 1"
@@ -611,7 +611,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_049",
+        "name": "MAYA_RS_CAM_049",
         "status": "active",
         "script_info": [
             "Translate-Rotate. Film Translate: 0.1"
@@ -626,7 +626,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_050",
+        "name": "MAYA_RS_CAM_050",
         "status": "active",
         "script_info": [
             "Translate-Rotate. Roll Pivot: 0.1"
@@ -641,7 +641,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_051",
+        "name": "MAYA_RS_CAM_051",
         "status": "active",
         "script_info": [
             "Translate-Rotate. Roll Value: 0.1: 0.1"
@@ -655,7 +655,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_052",
+        "name": "MAYA_RS_CAM_052",
         "status": "active",
         "script_info": [
             "Translate-Rotate. Roll Value: 1"
@@ -669,7 +669,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_053",
+        "name": "MAYA_RS_CAM_053",
         "status": "active",
         "script_info": [
             "Translate-Rotate. Roll Value: 90"
@@ -683,7 +683,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_054",
+        "name": "MAYA_RS_CAM_054",
         "status": "active",
         "script_info": [
             "Translate-Rotate. Roll Value: 180"
@@ -697,7 +697,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_055",
+        "name": "MAYA_RS_CAM_055",
         "status": "active",
         "script_info": [
             "Translate-Rotate. Post Scale: 0.1"
@@ -711,7 +711,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_056",
+        "name": "MAYA_RS_CAM_056",
         "status": "active",
         "script_info": [
             "Translate-Rotate. Roll Value: 0.5"
@@ -725,7 +725,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_CAM_057",
+        "name": "MAYA_RS_CAM_057",
         "status": "active",
         "script_info": [
             "Translate-Rotate. Roll Value: 1"

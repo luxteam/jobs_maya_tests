@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_RS_IS_001",
+        "name": "MAYA_RS_IS_001",
         "status": "active",
         "script_info": [
             "Preset: 320x240"
@@ -15,7 +15,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_002",
+        "name": "MAYA_RS_IS_002",
         "status": "active",
         "script_info": [
             "Preset: 640x480"
@@ -30,7 +30,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_003",
+        "name": "MAYA_RS_IS_003",
         "status": "active",
         "script_info": [
             "Preset: 1k square"
@@ -44,7 +44,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_004",
+        "name": "MAYA_RS_IS_004",
         "status": "active",
         "script_info": [
             "Preset: 2k square"
@@ -58,7 +58,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_005",
+        "name": "MAYA_RS_IS_005",
         "status": "active",
         "script_info": [
             "Preset: 3k square"
@@ -72,7 +72,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_006",
+        "name": "MAYA_RS_IS_006",
         "status": "active",
         "script_info": [
             "Preset: 4k square"
@@ -86,7 +86,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_007",
+        "name": "MAYA_RS_IS_007",
         "status": "active",
         "script_info": [
             "Preset: CCIR_PAL Quantel PAL"
@@ -102,7 +102,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_008",
+        "name": "MAYA_RS_IS_008",
         "status": "active",
         "script_info": [
             "Preset: CCIR_601 Quantel NTSC"
@@ -118,7 +118,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_009",
+        "name": "MAYA_RS_IS_009",
         "status": "active",
         "script_info": [
             "Preset: Full 1024"
@@ -133,7 +133,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_010",
+        "name": "MAYA_RS_IS_010",
         "status": "active",
         "script_info": [
             "Preset: Full 1280 Screen"
@@ -149,7 +149,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_011",
+        "name": "MAYA_RS_IS_011",
         "status": "active",
         "script_info": [
             "Preset: HD 540"
@@ -164,7 +164,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_012",
+        "name": "MAYA_RS_IS_012",
         "status": "active",
         "script_info": [
             "Preset: HD 720"
@@ -179,7 +179,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_013",
+        "name": "MAYA_RS_IS_013",
         "status": "active",
         "script_info": [
             "Preset: HD 1080"
@@ -194,7 +194,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_014",
+        "name": "MAYA_RS_IS_014",
         "status": "active",
         "script_info": [
             "Preset: NTSC 4d"
@@ -210,7 +210,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_015",
+        "name": "MAYA_RS_IS_015",
         "status": "active",
         "script_info": [
             "Preset: PAL 768"
@@ -225,7 +225,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_016",
+        "name": "MAYA_RS_IS_016",
         "status": "active",
         "script_info": [
             "Preset: PAL 780"
@@ -241,7 +241,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_017",
+        "name": "MAYA_RS_IS_017",
         "status": "active",
         "script_info": [
             "Preset: Targa 486"
@@ -257,7 +257,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_018",
+        "name": "MAYA_RS_IS_018",
         "status": "active",
         "script_info": [
             "Preset: Targa NTSC"
@@ -273,7 +273,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_019",
+        "name": "MAYA_RS_IS_019",
         "status": "active",
         "script_info": [
             "Preset: Targa PAL"
@@ -289,7 +289,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_020",
+        "name": "MAYA_RS_IS_020",
         "status": "active",
         "script_info": [
             "Preset: Letter"
@@ -305,7 +305,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_021",
+        "name": "MAYA_RS_IS_021",
         "status": "active",
         "script_info": [
             "Preset: Legal"
@@ -321,7 +321,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_022",
+        "name": "MAYA_RS_IS_022",
         "status": "active",
         "script_info": [
             "Preset: Tabloid"
@@ -337,7 +337,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_023",
+        "name": "MAYA_RS_IS_023",
         "status": "active",
         "script_info": [
             "Preset: A4"
@@ -353,7 +353,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_024",
+        "name": "MAYA_RS_IS_024",
         "status": "active",
         "script_info": [
             "Preset: A3"
@@ -369,7 +369,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_025",
+        "name": "MAYA_RS_IS_025",
         "status": "active",
         "script_info": [
             "Preset: B5"
@@ -385,7 +385,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_026",
+        "name": "MAYA_RS_IS_026",
         "status": "active",
         "script_info": [
             "Preset: B4"
@@ -401,7 +401,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_027",
+        "name": "MAYA_RS_IS_027",
         "status": "skipped",
         "script_info": [
             "Preset: B3"
@@ -417,7 +417,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_028",
+        "name": "MAYA_RS_IS_028",
         "status": "active",
         "script_info": [
             "Preset: 2 x3"
@@ -433,7 +433,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_029",
+        "name": "MAYA_RS_IS_029",
         "status": "active",
         "script_info": [
             "Preset: 4 x6"
@@ -449,7 +449,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_030",
+        "name": "MAYA_RS_IS_030",
         "status": "active",
         "script_info": [
             "Preset: 5 x7"
@@ -465,7 +465,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_031",
+        "name": "MAYA_RS_IS_031",
         "status": "active",
         "script_info": [
             "Preset: 8 x10"
@@ -481,7 +481,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_032",
+        "name": "MAYA_RS_IS_032",
         "status": "active",
         "script_info": [
             "Preset: 2000x2000"
@@ -495,7 +495,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_033",
+        "name": "MAYA_RS_IS_033",
         "status": "active",
         "script_info": [
             "Preset: 3000x3000"
@@ -509,7 +509,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_034",
+        "name": "MAYA_RS_IS_034",
         "status": "active",
         "script_info": [
             "Preset: 4000x4000"
@@ -523,7 +523,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_035",
+        "name": "MAYA_RS_IS_035",
         "status": "active",
         "script_info": [
             "Preset: 5000x5000"
@@ -537,7 +537,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_036",
+        "name": "MAYA_RS_IS_036",
         "status": "skipped",
         "script_info": [
             "Preset: 6000x6000"
@@ -551,7 +551,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_037",
+        "name": "MAYA_RS_IS_037",
         "status": "skipped",
         "script_info": [
             "Preset: 7000x7000"
@@ -565,7 +565,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_038",
+        "name": "MAYA_RS_IS_038",
         "status": "skipped",
         "script_info": [
             "Preset: 8000x8000"
@@ -579,7 +579,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_039",
+        "name": "MAYA_RS_IS_039",
         "status": "active",
         "script_info": [
             "Preset: 2K"
@@ -593,7 +593,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_040",
+        "name": "MAYA_RS_IS_040",
         "status": "active",
         "script_info": [
             "Preset: 4K"
@@ -607,7 +607,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_041",
+        "name": "MAYA_RS_IS_041",
         "status": "active",
         "script_info": [
             "Preset: 1500x1125"
@@ -621,7 +621,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_042",
+        "name": "MAYA_RS_IS_042",
         "status": "active",
         "script_info": [
             "Size units inches"
@@ -636,7 +636,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_043",
+        "name": "MAYA_RS_IS_043",
         "status": "active",
         "script_info": [
             "Size units cm"
@@ -651,7 +651,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_044",
+        "name": "MAYA_RS_IS_044",
         "status": "active",
         "script_info": [
             "Size units mm"
@@ -666,7 +666,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_045",
+        "name": "MAYA_RS_IS_045",
         "status": "active",
         "script_info": [
             "Size units points"
@@ -681,7 +681,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_046",
+        "name": "MAYA_RS_IS_046",
         "status": "active",
         "script_info": [
             "Size units picas"
@@ -696,7 +696,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_047",
+        "name": "MAYA_RS_IS_047",
         "status": "active",
         "script_info": [
             "Preset: HD 720",
@@ -713,7 +713,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_048",
+        "name": "MAYA_RS_IS_048",
         "status": "active",
         "script_info": [
             "Preset: HD 720",
@@ -730,7 +730,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_049",
+        "name": "MAYA_RS_IS_049",
         "status": "active",
         "script_info": [
             "Preset: HD 720",
@@ -747,7 +747,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IS_050",
+        "name": "MAYA_RS_IS_050",
         "status": "active",
         "script_info": [
             "Preset: HD 720",

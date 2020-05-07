@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_RS_QL_001",
+        "name": "MAYA_RS_QL_001",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxRayDepth', 2)",
@@ -13,7 +13,7 @@
         "scene": "RayDepth.ma"
     },
     {
-        "case": "MAYA_RS_QL_002",
+        "name": "MAYA_RS_QL_002",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxRayDepth', 50)",
@@ -26,7 +26,7 @@
         "scene": "RayDepth.ma"
     },
     {
-        "case": "MAYA_RS_QL_003",
+        "name": "MAYA_RS_QL_003",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthDiffuse', 2)",
@@ -39,7 +39,7 @@
         "scene": "Diffuse_ray_depth.ma"
     },
     {
-        "case": "MAYA_RS_QL_004",
+        "name": "MAYA_RS_QL_004",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthDiffuse', 50)",
@@ -52,7 +52,7 @@
         "scene": "Diffuse_ray_depth.ma"
     },
     {
-        "case": "MAYA_RS_QL_005",
+        "name": "MAYA_RS_QL_005",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthGlossy', 2)",
@@ -65,7 +65,7 @@
         "scene": "Glossy_ray_depth.ma"
     },
     {
-        "case": "MAYA_RS_QL_006",
+        "name": "MAYA_RS_QL_006",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthGlossy', 50)",
@@ -78,7 +78,7 @@
         "scene": "Glossy_ray_depth.ma"
     },
     {
-        "case": "MAYA_RS_QL_007",
+        "name": "MAYA_RS_QL_007",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthRefraction', 2)",
@@ -91,7 +91,7 @@
         "scene": "Refraction_ray_depth.ma"
     },
     {
-        "case": "MAYA_RS_QL_008",
+        "name": "MAYA_RS_QL_008",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthRefraction', 50)",
@@ -104,7 +104,7 @@
         "scene": "Refraction_ray_depth.ma"
     },
     {
-        "case": "MAYA_RS_QL_009",
+        "name": "MAYA_RS_QL_009",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthRefractionGlossy', 2)",
@@ -117,7 +117,7 @@
         "scene": "Glossy_ray_depth.ma"
     },
     {
-        "case": "MAYA_RS_QL_010",
+        "name": "MAYA_RS_QL_010",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthRefractionGlossy', 50)",
@@ -130,7 +130,7 @@
         "scene": "Glossy_ray_depth.ma"
     },
     {
-        "case": "MAYA_RS_QL_011",
+        "name": "MAYA_RS_QL_011",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthShadow', 2)",
@@ -143,7 +143,7 @@
         "scene": "Shadow_ray_depth.ma"
     },
     {
-        "case": "MAYA_RS_QL_012",
+        "name": "MAYA_RS_QL_012",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthShadow', 50)",
@@ -156,7 +156,7 @@
         "scene": "Shadow_ray_depth.ma"
     },
     {
-        "case": "MAYA_RS_QL_013",
+        "name": "MAYA_RS_QL_013",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.raycastEpsilon', 0)",
@@ -169,7 +169,7 @@
         "scene": "Ray_epsilon.ma"
     },
     {
-        "case": "MAYA_RS_QL_014",
+        "name": "MAYA_RS_QL_014",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.raycastEpsilon', 2)",
@@ -182,7 +182,7 @@
         "scene": "Ray_epsilon.ma"
     },
     {
-        "case": "MAYA_RS_QL_015",
+        "name": "MAYA_RS_QL_015",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.enableOOC', 1)",
@@ -195,7 +195,7 @@
         "scene": "Ray_epsilon.ma"
     },
     {
-        "case": "MAYA_RS_QL_016",
+        "name": "MAYA_RS_QL_016",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.enableOOC', 1)",
@@ -210,7 +210,7 @@
         "scene": "Ray_epsilon.ma"
     },
     {
-        "case": "MAYA_RS_QL_017",
+        "name": "MAYA_RS_QL_017",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxRayDepth', 2)",
@@ -235,7 +235,7 @@
         "scene": "ComplexLighting.ma"
     },
     {
-        "case": "MAYA_RS_QL_018",
+        "name": "MAYA_RS_QL_018",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxRayDepth', 50)",
@@ -260,7 +260,7 @@
         "scene": "ComplexLighting.ma"
     },
     {
-        "case": "MAYA_RS_QL_019",
+        "name": "MAYA_RS_QL_019",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.giClampIrradiance', 1)",
@@ -274,7 +274,7 @@
         "scene": "Clamp.ma"
     },
     {
-        "case": "MAYA_RS_QL_020",
+        "name": "MAYA_RS_QL_020",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.giClampIrradiance', 1)",
@@ -288,7 +288,7 @@
         "scene": "Clamp.ma"
     },
     {
-        "case": "MAYA_RS_QL_021",
+        "name": "MAYA_RS_QL_021",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.giClampIrradiance', 1)",
@@ -304,7 +304,7 @@
         "scene": "Clamp.ma"
     },
     {
-        "case": "MAYA_RS_QL_022",
+        "name": "MAYA_RS_QL_022",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.giClampIrradiance', 1)",

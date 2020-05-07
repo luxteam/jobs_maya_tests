@@ -239,7 +239,7 @@ def main(args):
             tc = f.read()
             test_cases = json.loads(tc)[args.testType]
         necessary_cases = [
-            item for item in cases if item['case'] in test_cases]
+            item for item in cases if item['name'] in test_cases]
         cases = necessary_cases
 
     core_config.main_logger.info('Create empty report files')
@@ -264,7 +264,7 @@ def main(args):
                 case['number_of_tries'] = case.get('number_of_tries', 0) + 1
 
             template = core_config.RENDER_REPORT_BASE
-            template['test_case'] = case['case']
+            template['test_case'] = case['name']
             template['render_device'] = get_gpu()
             template['test_status'] = 'error'
             template['script_info'] = case['script_info']
@@ -276,7 +276,7 @@ def main(args):
             template['date_time'] = datetime.now().strftime(
                 '%m/%d/%Y %H:%M:%S')
 
-            with open(os.path.join(work_dir, case['case'] + core_config.CASE_REPORT_SUFFIX), 'w') as f:
+            with open(os.path.join(work_dir, case['name'] + core_config.CASE_REPORT_SUFFIX), 'w') as f:
                 f.write(json.dumps([template], indent=4))
 
     with open(os.path.join(work_dir, 'test_cases.json'), 'w+') as f:

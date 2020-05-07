@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_MAT_LIB_001",
+        "name": "MAYA_MAT_LIB_001",
         "status": "active",
         "functions": [
             "applyMaterial('BarnFindOrange_Solid')",
@@ -13,7 +13,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_002",
+        "name": "MAYA_MAT_LIB_002",
         "status": "active",
         "functions": [
             "applyMaterial('BasketCaseBlue_Solid')",
@@ -26,7 +26,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_003",
+        "name": "MAYA_MAT_LIB_003",
         "status": "active",
         "functions": [
             "applyMaterial('BeachBumAqua_Metallic')",
@@ -39,7 +39,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_004",
+        "name": "MAYA_MAT_LIB_004",
         "status": "active",
         "functions": [
             "applyMaterial('BlueBayou_Solid')",
@@ -52,7 +52,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_005",
+        "name": "MAYA_MAT_LIB_005",
         "status": "active",
         "functions": [
             "applyMaterial('BoulevardBlack_Solid')",
@@ -65,7 +65,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_006",
+        "name": "MAYA_MAT_LIB_006",
         "status": "active",
         "functions": [
             "applyMaterial('BurnOutBlue_Metallic')",
@@ -78,7 +78,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_007",
+        "name": "MAYA_MAT_LIB_007",
         "status": "active",
         "functions": [
             "applyMaterial('CandyPantsViolet_Metallic')",
@@ -91,7 +91,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_008",
+        "name": "MAYA_MAT_LIB_008",
         "status": "active",
         "functions": [
             "applyMaterial('Car_Paint_Metallic')",
@@ -104,7 +104,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_009",
+        "name": "MAYA_MAT_LIB_009",
         "status": "active",
         "functions": [
             "applyMaterial('Car_Paint_Pearlescent')",
@@ -117,7 +117,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_010",
+        "name": "MAYA_MAT_LIB_010",
         "status": "active",
         "functions": [
             "applyMaterial('Car_Paint_Solid')",
@@ -130,7 +130,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_011",
+        "name": "MAYA_MAT_LIB_011",
         "status": "active",
         "functions": [
             "applyMaterial('Champagne_Metallic')",
@@ -143,7 +143,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_012",
+        "name": "MAYA_MAT_LIB_012",
         "status": "active",
         "functions": [
             "applyMaterial('CherryGumball_Solid')",
@@ -156,7 +156,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_013",
+        "name": "MAYA_MAT_LIB_013",
         "status": "active",
         "functions": [
             "applyMaterial('ChopTopSilver_Metallic')",
@@ -169,7 +169,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_014",
+        "name": "MAYA_MAT_LIB_014",
         "status": "active",
         "functions": [
             "applyMaterial('CruiseNightBlue_Metallic')",
@@ -182,7 +182,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_015",
+        "name": "MAYA_MAT_LIB_015",
         "status": "active",
         "functions": [
             "applyMaterial('DesertedTan_Flat')",
@@ -195,7 +195,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_016",
+        "name": "MAYA_MAT_LIB_016",
         "status": "active",
         "functions": [
             "applyMaterial('EastwoodBluePearl_Pearlescent')",
@@ -208,7 +208,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_017",
+        "name": "MAYA_MAT_LIB_017",
         "status": "active",
         "functions": [
             "applyMaterial('EastwoodRoyalBlue_Metallic')",
@@ -221,7 +221,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_018",
+        "name": "MAYA_MAT_LIB_018",
         "status": "active",
         "functions": [
             "applyMaterial('ElectricYellow_Solid')",
@@ -234,7 +234,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_019",
+        "name": "MAYA_MAT_LIB_019",
         "status": "active",
         "functions": [
             "applyMaterial('EuroRacingGreen_Metallic')",
@@ -247,7 +247,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_020",
+        "name": "MAYA_MAT_LIB_020",
         "status": "active",
         "functions": [
             "applyMaterial('EyeCandyGreen_Solid')",
@@ -260,7 +260,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_021",
+        "name": "MAYA_MAT_LIB_021",
         "status": "active",
         "functions": [
             "applyMaterial('GasserGreen_Pearlescent')",
@@ -273,7 +273,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_022",
+        "name": "MAYA_MAT_LIB_022",
         "status": "active",
         "functions": [
             "applyMaterial('HugginOrange_Solid')",
@@ -286,7 +286,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_023",
+        "name": "MAYA_MAT_LIB_023",
         "status": "active",
         "functions": [
             "applyMaterial('LimeSqueezinGreen_Solid')",
@@ -299,7 +299,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_024",
+        "name": "MAYA_MAT_LIB_024",
         "status": "active",
         "functions": [
             "applyMaterial('MalibuSunsetOrange_Pearlescent')",
@@ -312,7 +312,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_025",
+        "name": "MAYA_MAT_LIB_025",
         "status": "active",
         "functions": [
             "applyMaterial('OrangeUBad_Solid')",
@@ -325,7 +325,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_026",
+        "name": "MAYA_MAT_LIB_026",
         "status": "active",
         "functions": [
             "applyMaterial('PinupRed_Solid')",
@@ -338,7 +338,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_027",
+        "name": "MAYA_MAT_LIB_027",
         "status": "active",
         "functions": [
             "applyMaterial('PlumCrazy_Metallic')",
@@ -351,7 +351,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_028",
+        "name": "MAYA_MAT_LIB_028",
         "status": "active",
         "functions": [
             "applyMaterial('ProStreetRed_Solid')",
@@ -364,7 +364,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_029",
+        "name": "MAYA_MAT_LIB_029",
         "status": "active",
         "functions": [
             "applyMaterial('PureWhite_Solid')",
@@ -377,7 +377,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_030",
+        "name": "MAYA_MAT_LIB_030",
         "status": "active",
         "functions": [
             "applyMaterial('QuarterMileCandyRed_Solid')",
@@ -390,7 +390,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_031",
+        "name": "MAYA_MAT_LIB_031",
         "status": "active",
         "functions": [
             "applyMaterial('RatRodBlack_Solid')",
@@ -403,7 +403,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_032",
+        "name": "MAYA_MAT_LIB_032",
         "status": "active",
         "functions": [
             "applyMaterial('ReptileRed_Solid')",
@@ -416,7 +416,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_033",
+        "name": "MAYA_MAT_LIB_033",
         "status": "active",
         "functions": [
             "applyMaterial('RodzBerry_Metallic')",
@@ -429,7 +429,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_034",
+        "name": "MAYA_MAT_LIB_034",
         "status": "active",
         "functions": [
             "applyMaterial('RottenLimeGreen_Solid')",
@@ -442,7 +442,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_035",
+        "name": "MAYA_MAT_LIB_035",
         "status": "active",
         "functions": [
             "applyMaterial('SaltWaterTaffyTeal_Metallic')",
@@ -455,7 +455,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_036",
+        "name": "MAYA_MAT_LIB_036",
         "status": "active",
         "functions": [
             "applyMaterial('StraightAxleRedPearl_Pearlescent')",
@@ -468,7 +468,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_037",
+        "name": "MAYA_MAT_LIB_037",
         "status": "active",
         "functions": [
             "applyMaterial('SugarCoatItGold_Metallic')",
@@ -481,7 +481,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_038",
+        "name": "MAYA_MAT_LIB_038",
         "status": "active",
         "functions": [
             "applyMaterial('TequilaLimeNGold_Solid')",
@@ -494,7 +494,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_039",
+        "name": "MAYA_MAT_LIB_039",
         "status": "active",
         "functions": [
             "applyMaterial('TunnelRamGray_Metallic')",
@@ -507,7 +507,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_040",
+        "name": "MAYA_MAT_LIB_040",
         "status": "active",
         "functions": [
             "applyMaterial('USABrightWhite_Solid')",
@@ -520,7 +520,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_041",
+        "name": "MAYA_MAT_LIB_041",
         "status": "active",
         "functions": [
             "applyMaterial('USABrightWhiteFlat_Solid')",
@@ -533,7 +533,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_042",
+        "name": "MAYA_MAT_LIB_042",
         "status": "active",
         "functions": [
             "applyMaterial('VinoRojo_Solid')",
@@ -546,7 +546,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_043",
+        "name": "MAYA_MAT_LIB_043",
         "status": "active",
         "functions": [
             "applyMaterial('Carbon_Fiber')",
@@ -559,7 +559,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_044",
+        "name": "MAYA_MAT_LIB_044",
         "status": "active",
         "functions": [
             "applyMaterial('Carbon_Fiber_Glossy')",
@@ -572,7 +572,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_045",
+        "name": "MAYA_MAT_LIB_045",
         "status": "active",
         "functions": [
             "applyMaterial('Carbon_Fiber_GlossyCoat')",
@@ -585,7 +585,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_046",
+        "name": "MAYA_MAT_LIB_046",
         "status": "active",
         "functions": [
             "applyMaterial('Carbon_Fiber_SemiGlossy')",
@@ -598,7 +598,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_047",
+        "name": "MAYA_MAT_LIB_047",
         "status": "active",
         "functions": [
             "applyMaterial('FiberGlass')",
@@ -611,7 +611,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_048",
+        "name": "MAYA_MAT_LIB_048",
         "status": "active",
         "functions": [
             "applyMaterial('Concrete_BrickCracks_Grey')",
@@ -624,7 +624,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_049",
+        "name": "MAYA_MAT_LIB_049",
         "status": "active",
         "functions": [
             "applyMaterial('Concrete_PaintedCracks')",
@@ -637,7 +637,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_050",
+        "name": "MAYA_MAT_LIB_050",
         "status": "active",
         "functions": [
             "applyMaterial('Concrete_PaintedRough')",
@@ -650,7 +650,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_051",
+        "name": "MAYA_MAT_LIB_051",
         "status": "active",
         "functions": [
             "applyMaterial('Concrete_Stone')",
@@ -663,7 +663,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_052",
+        "name": "MAYA_MAT_LIB_052",
         "status": "active",
         "functions": [
             "applyMaterial('Concrete_Tiles')",
@@ -676,7 +676,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_053",
+        "name": "MAYA_MAT_LIB_053",
         "status": "active",
         "functions": [
             "applyMaterial('Concrete_WornBare')",
@@ -689,7 +689,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_054",
+        "name": "MAYA_MAT_LIB_054",
         "status": "active",
         "functions": [
             "applyMaterial('Concrete_WornBare_SmoothBump')",
@@ -702,7 +702,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_055",
+        "name": "MAYA_MAT_LIB_055",
         "status": "active",
         "functions": [
             "applyMaterial('Emissive_Fluorescent_Yellow')",
@@ -715,7 +715,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_056",
+        "name": "MAYA_MAT_LIB_056",
         "status": "active",
         "functions": [
             "applyMaterial('Emissive_Fluorescent_Cyan')",
@@ -728,7 +728,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_057",
+        "name": "MAYA_MAT_LIB_057",
         "status": "active",
         "functions": [
             "applyMaterial('Emissive_Fluorescent_Magenta')",
@@ -741,7 +741,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_058",
+        "name": "MAYA_MAT_LIB_058",
         "status": "active",
         "functions": [
             "applyMaterial('Emissive_Fluorescent_White')",
@@ -754,7 +754,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_059",
+        "name": "MAYA_MAT_LIB_059",
         "status": "active",
         "functions": [
             "applyMaterial('Emissive_CoolLight')",
@@ -767,7 +767,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_060",
+        "name": "MAYA_MAT_LIB_060",
         "status": "active",
         "functions": [
             "applyMaterial('Aluminium_Anodized')",
@@ -780,7 +780,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_061",
+        "name": "MAYA_MAT_LIB_061",
         "status": "active",
         "functions": [
             "applyMaterial('Aluminium_Directional')",
@@ -793,7 +793,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_062",
+        "name": "MAYA_MAT_LIB_062",
         "status": "active",
         "functions": [
             "applyMaterial('Aluminium_Oxidiazed')",
@@ -806,7 +806,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_063",
+        "name": "MAYA_MAT_LIB_063",
         "status": "active",
         "functions": [
             "applyMaterial('Aluminium_Polished')",
@@ -819,7 +819,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_064",
+        "name": "MAYA_MAT_LIB_064",
         "status": "active",
         "functions": [
             "applyMaterial('Aluminium_SandBlasted')",
@@ -832,7 +832,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_065",
+        "name": "MAYA_MAT_LIB_065",
         "status": "active",
         "functions": [
             "applyMaterial('Brass_Cartridge')",
@@ -845,7 +845,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_066",
+        "name": "MAYA_MAT_LIB_066",
         "status": "active",
         "functions": [
             "applyMaterial('Brass Matte')",
@@ -858,7 +858,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_067",
+        "name": "MAYA_MAT_LIB_067",
         "status": "active",
         "functions": [
             "applyMaterial('Brass_Oxidized')",
@@ -871,7 +871,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_068",
+        "name": "MAYA_MAT_LIB_068",
         "status": "active",
         "functions": [
             "applyMaterial('Brass_Patinated')",
@@ -884,7 +884,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_069",
+        "name": "MAYA_MAT_LIB_069",
         "status": "active",
         "functions": [
             "applyMaterial('Brass_Standard')",
@@ -897,7 +897,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_070",
+        "name": "MAYA_MAT_LIB_070",
         "status": "active",
         "functions": [
             "applyMaterial('Bronze_Corrision')",
@@ -910,7 +910,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_071",
+        "name": "MAYA_MAT_LIB_071",
         "status": "active",
         "functions": [
             "applyMaterial('Bronze_Matte')",
@@ -923,7 +923,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_072",
+        "name": "MAYA_MAT_LIB_072",
         "status": "active",
         "functions": [
             "applyMaterial('Bronze_Oxidized')",
@@ -936,7 +936,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_073",
+        "name": "MAYA_MAT_LIB_073",
         "status": "active",
         "functions": [
             "applyMaterial('Bronze_Polished2')",
@@ -949,7 +949,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_074",
+        "name": "MAYA_MAT_LIB_074",
         "status": "active",
         "functions": [
             "applyMaterial('Bronze_Rough')",
@@ -962,7 +962,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_075",
+        "name": "MAYA_MAT_LIB_075",
         "status": "active",
         "functions": [
             "applyMaterial('Chrome_Dusty')",
@@ -975,7 +975,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_076",
+        "name": "MAYA_MAT_LIB_076",
         "status": "active",
         "functions": [
             "applyMaterial('Chrome_Matte')",
@@ -988,7 +988,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_077",
+        "name": "MAYA_MAT_LIB_077",
         "status": "active",
         "functions": [
             "applyMaterial('Chrome_Sandblasted')",
@@ -1001,7 +1001,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_078",
+        "name": "MAYA_MAT_LIB_078",
         "status": "active",
         "functions": [
             "applyMaterial('Chrome_Scratched')",
@@ -1014,7 +1014,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_079",
+        "name": "MAYA_MAT_LIB_079",
         "status": "active",
         "functions": [
             "applyMaterial('Copper_Brushed2')",
@@ -1027,7 +1027,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_080",
+        "name": "MAYA_MAT_LIB_080",
         "status": "active",
         "functions": [
             "applyMaterial('Copper_Dented')",
@@ -1040,7 +1040,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_081",
+        "name": "MAYA_MAT_LIB_081",
         "status": "active",
         "functions": [
             "applyMaterial('Copper_Old')",
@@ -1053,7 +1053,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_082",
+        "name": "MAYA_MAT_LIB_082",
         "status": "active",
         "functions": [
             "applyMaterial('Copper_Wrought')",
@@ -1066,7 +1066,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_083",
+        "name": "MAYA_MAT_LIB_083",
         "status": "active",
         "functions": [
             "applyMaterial('Generic')",
@@ -1079,7 +1079,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_084",
+        "name": "MAYA_MAT_LIB_084",
         "status": "active",
         "functions": [
             "applyMaterial('Gold')",
@@ -1092,7 +1092,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_085",
+        "name": "MAYA_MAT_LIB_085",
         "status": "active",
         "functions": [
             "applyMaterial('Gold_Foil_Rough')",
@@ -1105,7 +1105,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_086",
+        "name": "MAYA_MAT_LIB_086",
         "status": "active",
         "functions": [
             "applyMaterial('Gold_Paint')",
@@ -1118,7 +1118,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_087",
+        "name": "MAYA_MAT_LIB_087",
         "status": "active",
         "functions": [
             "applyMaterial('Gold_Paint_Cracked')",
@@ -1131,7 +1131,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_088",
+        "name": "MAYA_MAT_LIB_088",
         "status": "active",
         "functions": [
             "applyMaterial('Gold_Rough')",
@@ -1144,7 +1144,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_089",
+        "name": "MAYA_MAT_LIB_089",
         "status": "active",
         "functions": [
             "applyMaterial('Iron_Hammered')",
@@ -1157,7 +1157,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_090",
+        "name": "MAYA_MAT_LIB_090",
         "status": "active",
         "functions": [
             "applyMaterial('Iron_Oxidized')",
@@ -1170,7 +1170,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_091",
+        "name": "MAYA_MAT_LIB_091",
         "status": "active",
         "functions": [
             "applyMaterial('Iron_Rugged')",
@@ -1183,7 +1183,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_092",
+        "name": "MAYA_MAT_LIB_092",
         "status": "active",
         "functions": [
             "applyMaterial('Iron_Smooth')",
@@ -1196,7 +1196,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_093",
+        "name": "MAYA_MAT_LIB_093",
         "status": "active",
         "functions": [
             "applyMaterial('Iron_Worn')",
@@ -1209,7 +1209,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_094",
+        "name": "MAYA_MAT_LIB_094",
         "status": "skipped",
         "functions": [
             "applyMaterial('Lead_Matte')",
@@ -1222,7 +1222,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_095",
+        "name": "MAYA_MAT_LIB_095",
         "status": "active",
         "functions": [
             "applyMaterial('Lead_Rough')",
@@ -1235,7 +1235,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_096",
+        "name": "MAYA_MAT_LIB_096",
         "status": "active",
         "functions": [
             "applyMaterial('Lead_Rusted')",
@@ -1248,7 +1248,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_097",
+        "name": "MAYA_MAT_LIB_097",
         "status": "active",
         "functions": [
             "applyMaterial('Lead_Sandblasted')",
@@ -1261,7 +1261,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_098",
+        "name": "MAYA_MAT_LIB_098",
         "status": "active",
         "functions": [
             "applyMaterial('Lead_Smooth')",
@@ -1274,7 +1274,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_099",
+        "name": "MAYA_MAT_LIB_099",
         "status": "active",
         "functions": [
             "applyMaterial('Steel_Blue')",
@@ -1287,7 +1287,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_100",
+        "name": "MAYA_MAT_LIB_100",
         "status": "active",
         "functions": [
             "applyMaterial('Steel_Galvanized')",
@@ -1300,7 +1300,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_101",
+        "name": "MAYA_MAT_LIB_101",
         "status": "active",
         "functions": [
             "applyMaterial('Steel_Oxidized')",
@@ -1313,7 +1313,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_102",
+        "name": "MAYA_MAT_LIB_102",
         "status": "active",
         "functions": [
             "applyMaterial('Steel_Smooth')",
@@ -1326,7 +1326,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_103",
+        "name": "MAYA_MAT_LIB_103",
         "status": "active",
         "functions": [
             "applyMaterial('Steel_Worn')",
@@ -1339,7 +1339,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_104",
+        "name": "MAYA_MAT_LIB_104",
         "status": "active",
         "functions": [
             "applyMaterial('Fabric_Matte_Solid_Beige')",
@@ -1352,7 +1352,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_105",
+        "name": "MAYA_MAT_LIB_105",
         "status": "active",
         "functions": [
             "applyMaterial('Fabric_Matte_Solid_Red')",
@@ -1365,7 +1365,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_106",
+        "name": "MAYA_MAT_LIB_106",
         "status": "active",
         "functions": [
             "applyMaterial('Fabric_Matte_Transparent_Beige')",
@@ -1378,7 +1378,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_107",
+        "name": "MAYA_MAT_LIB_107",
         "status": "active",
         "functions": [
             "applyMaterial('Fabric_Matte_Transparent_Red')",
@@ -1391,7 +1391,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_108",
+        "name": "MAYA_MAT_LIB_108",
         "status": "active",
         "functions": [
             "applyMaterial('Fabric_Silk')",
@@ -1404,7 +1404,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_109",
+        "name": "MAYA_MAT_LIB_109",
         "status": "active",
         "functions": [
             "applyMaterial('Fur_Carpet_Displacement')",
@@ -1417,7 +1417,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_110",
+        "name": "MAYA_MAT_LIB_110",
         "status": "active",
         "functions": [
             "applyMaterial('Glass_Antique')",
@@ -1430,7 +1430,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_111",
+        "name": "MAYA_MAT_LIB_111",
         "status": "active",
         "functions": [
             "applyMaterial('Glass_CarBreakLight')",
@@ -1443,7 +1443,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_112",
+        "name": "MAYA_MAT_LIB_112",
         "status": "active",
         "functions": [
             "applyMaterial('Glass_CarHeadLight')",
@@ -1456,7 +1456,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_113",
+        "name": "MAYA_MAT_LIB_113",
         "status": "active",
         "functions": [
             "applyMaterial('Glass_CarIndicatorLight')",
@@ -1469,7 +1469,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_114",
+        "name": "MAYA_MAT_LIB_114",
         "status": "active",
         "functions": [
             "applyMaterial('Glass_Clear_Window')",
@@ -1482,7 +1482,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_115",
+        "name": "MAYA_MAT_LIB_115",
         "status": "active",
         "functions": [
             "applyMaterial('Glass_Solid_Blue')",
@@ -1495,7 +1495,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_116",
+        "name": "MAYA_MAT_LIB_116",
         "status": "active",
         "functions": [
             "applyMaterial('Glass_Solid_Brown')",
@@ -1508,7 +1508,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_117",
+        "name": "MAYA_MAT_LIB_117",
         "status": "active",
         "functions": [
             "applyMaterial('Glass_Solid_Clear')",
@@ -1521,7 +1521,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_118",
+        "name": "MAYA_MAT_LIB_118",
         "status": "active",
         "functions": [
             "applyMaterial('Glass_Solid_Clear_Scratched')",
@@ -1534,7 +1534,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_119",
+        "name": "MAYA_MAT_LIB_119",
         "status": "active",
         "functions": [
             "applyMaterial('Glass_Solid_Frosted')",
@@ -1547,7 +1547,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_120",
+        "name": "MAYA_MAT_LIB_120",
         "status": "active",
         "functions": [
             "applyMaterial('Glass_Solid_Green')",
@@ -1560,7 +1560,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_121",
+        "name": "MAYA_MAT_LIB_121",
         "status": "active",
         "functions": [
             "applyMaterial('Glass_Solid_GreenBlue')",
@@ -1573,7 +1573,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_122",
+        "name": "MAYA_MAT_LIB_122",
         "status": "active",
         "functions": [
             "applyMaterial('Glass_Solid_GreenBlue_Scratched')",
@@ -1586,7 +1586,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_123",
+        "name": "MAYA_MAT_LIB_123",
         "status": "active",
         "functions": [
             "applyMaterial('Glass_Solid_Red')",
@@ -1599,7 +1599,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_124",
+        "name": "MAYA_MAT_LIB_124",
         "status": "active",
         "functions": [
             "applyMaterial('Glass_Solid_Tinted')",
@@ -1612,7 +1612,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_125",
+        "name": "MAYA_MAT_LIB_125",
         "status": "active",
         "functions": [
             "applyMaterial('Glass_Solid_Yellow')",
@@ -1625,7 +1625,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_126",
+        "name": "MAYA_MAT_LIB_126",
         "status": "active",
         "functions": [
             "applyMaterial('Glass_Thin_Bronze')",
@@ -1638,7 +1638,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_127",
+        "name": "MAYA_MAT_LIB_127",
         "status": "active",
         "functions": [
             "applyMaterial('Glass_Thin_Green')",
@@ -1651,7 +1651,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_128",
+        "name": "MAYA_MAT_LIB_128",
         "status": "active",
         "functions": [
             "applyMaterial('Glass_Tinted_Dark')",
@@ -1664,7 +1664,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_129",
+        "name": "MAYA_MAT_LIB_129",
         "status": "active",
         "functions": [
             "applyMaterial('Glass_Used')",
@@ -1677,7 +1677,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_130",
+        "name": "MAYA_MAT_LIB_130",
         "status": "active",
         "functions": [
             "applyMaterial('Mirror')",
@@ -1690,7 +1690,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_131",
+        "name": "MAYA_MAT_LIB_131",
         "status": "active",
         "functions": [
             "applyMaterial('Ground_Dark_Displacement')",
@@ -1703,7 +1703,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_132",
+        "name": "MAYA_MAT_LIB_132",
         "status": "active",
         "functions": [
             "applyMaterial('Ground_Dark')",
@@ -1716,7 +1716,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_133",
+        "name": "MAYA_MAT_LIB_133",
         "status": "active",
         "functions": [
             "applyMaterial('Ground_Grass')",
@@ -1729,7 +1729,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_134",
+        "name": "MAYA_MAT_LIB_134",
         "status": "active",
         "functions": [
             "applyMaterial('Ground_Grass_Displacement')",
@@ -1742,7 +1742,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_135",
+        "name": "MAYA_MAT_LIB_135",
         "status": "active",
         "functions": [
             "applyMaterial('Ground_Grass_Cut_Displacement')",
@@ -1755,7 +1755,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_136",
+        "name": "MAYA_MAT_LIB_136",
         "status": "active",
         "functions": [
             "applyMaterial('Jewels_Diamond')",
@@ -1768,7 +1768,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_137",
+        "name": "MAYA_MAT_LIB_137",
         "status": "active",
         "functions": [
             "applyMaterial('Jewels_Emerald')",
@@ -1781,7 +1781,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_138",
+        "name": "MAYA_MAT_LIB_138",
         "status": "active",
         "functions": [
             "applyMaterial('Jewels_Ruby')",
@@ -1794,7 +1794,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_139",
+        "name": "MAYA_MAT_LIB_139",
         "status": "active",
         "functions": [
             "applyMaterial('Leather_Beige')",
@@ -1807,7 +1807,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_140",
+        "name": "MAYA_MAT_LIB_140",
         "status": "active",
         "functions": [
             "applyMaterial('Leather_Black')",
@@ -1820,7 +1820,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_141",
+        "name": "MAYA_MAT_LIB_141",
         "status": "active",
         "functions": [
             "applyMaterial('Leather_Brown')",
@@ -1833,7 +1833,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_142",
+        "name": "MAYA_MAT_LIB_142",
         "status": "active",
         "functions": [
             "applyMaterial('Liquids_Alcohol_Champagne')",
@@ -1846,7 +1846,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_143",
+        "name": "MAYA_MAT_LIB_143",
         "status": "active",
         "functions": [
             "applyMaterial('Water_Transparent')",
@@ -1859,7 +1859,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_144",
+        "name": "MAYA_MAT_LIB_144",
         "status": "active",
         "functions": [
             "applyMaterial('Water_Transparent_Bump')",
@@ -1872,7 +1872,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_145",
+        "name": "MAYA_MAT_LIB_145",
         "status": "active",
         "functions": [
             "applyMaterial('Water_Transparent_Displacement')",
@@ -1885,7 +1885,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_146",
+        "name": "MAYA_MAT_LIB_146",
         "status": "active",
         "functions": [
             "applyMaterial('Car_Paint_Black')",
@@ -1898,7 +1898,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_147",
+        "name": "MAYA_MAT_LIB_147",
         "status": "active",
         "functions": [
             "applyMaterial('Car_Paint_Bue')",
@@ -1911,7 +1911,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_148",
+        "name": "MAYA_MAT_LIB_148",
         "status": "active",
         "functions": [
             "applyMaterial('Car_Paint_Dark_Grey')",
@@ -1924,7 +1924,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_149",
+        "name": "MAYA_MAT_LIB_149",
         "status": "active",
         "functions": [
             "applyMaterial('Car_Paint_Ice_Silver')",
@@ -1937,7 +1937,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_150",
+        "name": "MAYA_MAT_LIB_150",
         "status": "active",
         "functions": [
             "applyMaterial('Car_Paint_Indy_Yellow')",
@@ -1950,7 +1950,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_151",
+        "name": "MAYA_MAT_LIB_151",
         "status": "active",
         "functions": [
             "applyMaterial('Car_Paint_Inferno')",
@@ -1963,7 +1963,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_152",
+        "name": "MAYA_MAT_LIB_152",
         "status": "active",
         "functions": [
             "applyMaterial('Car_Paint_Jasmine_Green')",
@@ -1976,7 +1976,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_153",
+        "name": "MAYA_MAT_LIB_153",
         "status": "active",
         "functions": [
             "applyMaterial('Car_Paint_Lapis_Blue')",
@@ -1989,7 +1989,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_154",
+        "name": "MAYA_MAT_LIB_154",
         "status": "active",
         "functions": [
             "applyMaterial('Car_Paint_Lava_Red')",
@@ -2002,7 +2002,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_155",
+        "name": "MAYA_MAT_LIB_155",
         "status": "active",
         "functions": [
             "applyMaterial('Car_Paint_North_Grey')",
@@ -2015,7 +2015,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_156",
+        "name": "MAYA_MAT_LIB_156",
         "status": "active",
         "functions": [
             "applyMaterial('Car_Paint_Tungsten')",
@@ -2028,7 +2028,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_157",
+        "name": "MAYA_MAT_LIB_157",
         "status": "active",
         "functions": [
             "applyMaterial('Car_Paint_Venetian_Red')",
@@ -2041,7 +2041,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_158",
+        "name": "MAYA_MAT_LIB_158",
         "status": "active",
         "functions": [
             "applyMaterial('Car_Paint_Vibrant_Violet')",
@@ -2054,7 +2054,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_159",
+        "name": "MAYA_MAT_LIB_159",
         "status": "active",
         "functions": [
             "applyMaterial('Car_Paint_Wilderness_Green')",
@@ -2067,7 +2067,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_160",
+        "name": "MAYA_MAT_LIB_160",
         "status": "active",
         "functions": [
             "applyMaterial('Metallic_Paint_Matte_Red')",
@@ -2080,7 +2080,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_161",
+        "name": "MAYA_MAT_LIB_161",
         "status": "active",
         "functions": [
             "applyMaterial('Metallic_Paint_Red')",
@@ -2093,7 +2093,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_162",
+        "name": "MAYA_MAT_LIB_162",
         "status": "active",
         "functions": [
             "applyMaterial('Metallic_Paint_Silver')",
@@ -2106,7 +2106,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_163",
+        "name": "MAYA_MAT_LIB_163",
         "status": "active",
         "functions": [
             "applyMaterial('Scratched_Metallic_Paint_Red')",
@@ -2119,7 +2119,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_164",
+        "name": "MAYA_MAT_LIB_164",
         "status": "active",
         "functions": [
             "applyMaterial('Scratched_Metallic_Paint_Yellow')",
@@ -2132,7 +2132,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_165",
+        "name": "MAYA_MAT_LIB_165",
         "status": "active",
         "functions": [
             "applyMaterial('Aluminium_Brushed')",
@@ -2145,7 +2145,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_166",
+        "name": "MAYA_MAT_LIB_166",
         "status": "active",
         "functions": [
             "applyMaterial('Aluminium_Cast')",
@@ -2158,7 +2158,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_167",
+        "name": "MAYA_MAT_LIB_167",
         "status": "active",
         "functions": [
             "applyMaterial('Aluminium_Corrugated')",
@@ -2171,7 +2171,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_168",
+        "name": "MAYA_MAT_LIB_168",
         "status": "active",
         "functions": [
             "applyMaterial('Aluminium_Matte')",
@@ -2184,7 +2184,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_169",
+        "name": "MAYA_MAT_LIB_169",
         "status": "active",
         "functions": [
             "applyMaterial('Brass_Brushed')",
@@ -2197,7 +2197,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_170",
+        "name": "MAYA_MAT_LIB_170",
         "status": "active",
         "functions": [
             "applyMaterial('Brass_Polished')",
@@ -2210,7 +2210,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_171",
+        "name": "MAYA_MAT_LIB_171",
         "status": "active",
         "functions": [
             "applyMaterial('Brass_Satin')",
@@ -2223,7 +2223,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_172",
+        "name": "MAYA_MAT_LIB_172",
         "status": "active",
         "functions": [
             "applyMaterial('Cast_Iron')",
@@ -2236,7 +2236,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_173",
+        "name": "MAYA_MAT_LIB_173",
         "status": "active",
         "functions": [
             "applyMaterial('Chrome')",
@@ -2249,7 +2249,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_174",
+        "name": "MAYA_MAT_LIB_174",
         "status": "active",
         "functions": [
             "applyMaterial('Copper_Brushed')",
@@ -2262,7 +2262,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_175",
+        "name": "MAYA_MAT_LIB_175",
         "status": "active",
         "functions": [
             "applyMaterial('Copper_Polished')",
@@ -2275,7 +2275,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_176",
+        "name": "MAYA_MAT_LIB_176",
         "status": "active",
         "functions": [
             "applyMaterial('Copper_Satin')",
@@ -2288,7 +2288,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_177",
+        "name": "MAYA_MAT_LIB_177",
         "status": "active",
         "functions": [
             "applyMaterial('Galvanized-Steel')",
@@ -2301,7 +2301,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_178",
+        "name": "MAYA_MAT_LIB_178",
         "status": "active",
         "functions": [
             "applyMaterial('Gun_Metal')",
@@ -2314,7 +2314,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_179",
+        "name": "MAYA_MAT_LIB_179",
         "status": "active",
         "functions": [
             "applyMaterial('Mercury')",
@@ -2327,7 +2327,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_180",
+        "name": "MAYA_MAT_LIB_180",
         "status": "active",
         "functions": [
             "applyMaterial('Metal_Plate')",
@@ -2340,7 +2340,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_181",
+        "name": "MAYA_MAT_LIB_181",
         "status": "active",
         "functions": [
             "applyMaterial('Rust_Metal')",
@@ -2353,7 +2353,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_182",
+        "name": "MAYA_MAT_LIB_182",
         "status": "active",
         "functions": [
             "applyMaterial('Stainless_Steel')",
@@ -2366,7 +2366,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_183",
+        "name": "MAYA_MAT_LIB_183",
         "status": "active",
         "functions": [
             "applyMaterial('Stainless_Steel_Brushed')",
@@ -2379,7 +2379,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_184",
+        "name": "MAYA_MAT_LIB_184",
         "status": "active",
         "functions": [
             "applyMaterial('Paint_EggShell_LaserLemon')",
@@ -2392,7 +2392,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_185",
+        "name": "MAYA_MAT_LIB_185",
         "status": "active",
         "functions": [
             "applyMaterial('Paint_EggShell_SleekWhite')",
@@ -2405,7 +2405,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_186",
+        "name": "MAYA_MAT_LIB_186",
         "status": "active",
         "functions": [
             "applyMaterial('Paint_EggShell_SunValley')",
@@ -2418,7 +2418,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_187",
+        "name": "MAYA_MAT_LIB_187",
         "status": "active",
         "functions": [
             "applyMaterial('Paint_EggShell_Tanzanite')",
@@ -2431,7 +2431,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_188",
+        "name": "MAYA_MAT_LIB_188",
         "status": "active",
         "functions": [
             "applyMaterial('Paint_EggShell_TartOrange')",
@@ -2444,7 +2444,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_189",
+        "name": "MAYA_MAT_LIB_189",
         "status": "active",
         "functions": [
             "applyMaterial('Paint_EggShell_TropicalSea')",
@@ -2457,7 +2457,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_190",
+        "name": "MAYA_MAT_LIB_190",
         "status": "active",
         "functions": [
             "applyMaterial('Paint_Flat_LaserLemon')",
@@ -2470,7 +2470,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_191",
+        "name": "MAYA_MAT_LIB_191",
         "status": "active",
         "functions": [
             "applyMaterial('Paint_Flat_SleekWhite')",
@@ -2483,7 +2483,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_192",
+        "name": "MAYA_MAT_LIB_192",
         "status": "active",
         "functions": [
             "applyMaterial('Paint_Flat_SunValley')",
@@ -2496,7 +2496,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_193",
+        "name": "MAYA_MAT_LIB_193",
         "status": "active",
         "functions": [
             "applyMaterial('Paint_Flat_Tanzanite')",
@@ -2509,7 +2509,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_194",
+        "name": "MAYA_MAT_LIB_194",
         "status": "active",
         "functions": [
             "applyMaterial('Paint_Flat_TartOrange')",
@@ -2522,7 +2522,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_195",
+        "name": "MAYA_MAT_LIB_195",
         "status": "active",
         "functions": [
             "applyMaterial('Paint_Flat_TawnyDayLily')",
@@ -2535,7 +2535,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_196",
+        "name": "MAYA_MAT_LIB_196",
         "status": "active",
         "functions": [
             "applyMaterial('Paint_Flat_TropicalSea')",
@@ -2548,7 +2548,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_197",
+        "name": "MAYA_MAT_LIB_197",
         "status": "active",
         "functions": [
             "applyMaterial('Paint_Flat_VoilePink')",
@@ -2561,7 +2561,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_198",
+        "name": "MAYA_MAT_LIB_198",
         "status": "active",
         "functions": [
             "applyMaterial('Paint_Glossy_LaserLemon')",
@@ -2574,7 +2574,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_199",
+        "name": "MAYA_MAT_LIB_199",
         "status": "active",
         "functions": [
             "applyMaterial('Paint_Glossy_SleekWhite')",
@@ -2587,7 +2587,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_200",
+        "name": "MAYA_MAT_LIB_200",
         "status": "active",
         "functions": [
             "applyMaterial('Paint_Glossy_SunValley')",
@@ -2600,7 +2600,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_201",
+        "name": "MAYA_MAT_LIB_201",
         "status": "active",
         "functions": [
             "applyMaterial('Paint_Glossy_Tanzanite')",
@@ -2613,7 +2613,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_202",
+        "name": "MAYA_MAT_LIB_202",
         "status": "active",
         "functions": [
             "applyMaterial('Paint_Glossy_TartOrange')",
@@ -2626,7 +2626,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_203",
+        "name": "MAYA_MAT_LIB_203",
         "status": "active",
         "functions": [
             "applyMaterial('Paint_Glossy_TropicalSea')",
@@ -2639,7 +2639,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_204",
+        "name": "MAYA_MAT_LIB_204",
         "status": "active",
         "functions": [
             "applyMaterial('Plastic_Glossy_Black')",
@@ -2652,7 +2652,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_205",
+        "name": "MAYA_MAT_LIB_205",
         "status": "active",
         "functions": [
             "applyMaterial('Plastic_Glossy_Red')",
@@ -2665,7 +2665,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_206",
+        "name": "MAYA_MAT_LIB_206",
         "status": "active",
         "functions": [
             "applyMaterial('Plastic_Matte_Black')",
@@ -2678,7 +2678,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_207",
+        "name": "MAYA_MAT_LIB_207",
         "status": "active",
         "functions": [
             "applyMaterial('Plastic_Matte_Red')",
@@ -2691,7 +2691,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_208",
+        "name": "MAYA_MAT_LIB_208",
         "status": "active",
         "functions": [
             "applyMaterial('Plastic_Matte_White')",
@@ -2704,7 +2704,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_209",
+        "name": "MAYA_MAT_LIB_209",
         "status": "active",
         "functions": [
             "applyMaterial('Styrofoam')",
@@ -2717,7 +2717,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_210",
+        "name": "MAYA_MAT_LIB_210",
         "status": "active",
         "functions": [
             "applyMaterial('Porcelain_Black')",
@@ -2730,7 +2730,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_211",
+        "name": "MAYA_MAT_LIB_211",
         "status": "active",
         "functions": [
             "applyMaterial('Porcelain_Blue')",
@@ -2743,7 +2743,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_212",
+        "name": "MAYA_MAT_LIB_212",
         "status": "active",
         "functions": [
             "applyMaterial('Porcelain_Cracked_White')",
@@ -2756,7 +2756,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_213",
+        "name": "MAYA_MAT_LIB_213",
         "status": "active",
         "functions": [
             "applyMaterial('Porcelain_Matte_White')",
@@ -2769,7 +2769,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_214",
+        "name": "MAYA_MAT_LIB_214",
         "status": "active",
         "functions": [
             "applyMaterial('Porcelain_New_White')",
@@ -2782,7 +2782,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_215",
+        "name": "MAYA_MAT_LIB_215",
         "status": "active",
         "functions": [
             "applyMaterial('Porcelain_Old_White')",
@@ -2795,7 +2795,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_216",
+        "name": "MAYA_MAT_LIB_216",
         "status": "active",
         "functions": [
             "applyMaterial('Porcelain_White')",
@@ -2808,7 +2808,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_217",
+        "name": "MAYA_MAT_LIB_217",
         "status": "active",
         "functions": [
             "applyMaterial('Bronze_Brushed')",
@@ -2821,7 +2821,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_218",
+        "name": "MAYA_MAT_LIB_218",
         "status": "active",
         "functions": [
             "applyMaterial('Bronze_Polished')",
@@ -2834,7 +2834,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_219",
+        "name": "MAYA_MAT_LIB_219",
         "status": "active",
         "functions": [
             "applyMaterial('Bronze_Satin')",
@@ -2847,7 +2847,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_220",
+        "name": "MAYA_MAT_LIB_220",
         "status": "active",
         "functions": [
             "applyMaterial('Gold_Brushed')",
@@ -2860,7 +2860,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_221",
+        "name": "MAYA_MAT_LIB_221",
         "status": "active",
         "functions": [
             "applyMaterial('Gold_Polished')",
@@ -2873,7 +2873,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_222",
+        "name": "MAYA_MAT_LIB_222",
         "status": "active",
         "functions": [
             "applyMaterial('Gold_Satin')",
@@ -2886,7 +2886,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_223",
+        "name": "MAYA_MAT_LIB_223",
         "status": "active",
         "functions": [
             "applyMaterial('Silver_Brushed')",
@@ -2899,7 +2899,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_224",
+        "name": "MAYA_MAT_LIB_224",
         "status": "active",
         "functions": [
             "applyMaterial('Silver_Polished')",
@@ -2912,7 +2912,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_225",
+        "name": "MAYA_MAT_LIB_225",
         "status": "active",
         "functions": [
             "applyMaterial('Silver_Satin')",
@@ -2925,7 +2925,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_226",
+        "name": "MAYA_MAT_LIB_226",
         "status": "active",
         "functions": [
             "applyMaterial('Stone_Marble_Blue_Matte')",
@@ -2938,7 +2938,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_227",
+        "name": "MAYA_MAT_LIB_227",
         "status": "active",
         "functions": [
             "applyMaterial('Stone_Marble_Pink_Matte')",
@@ -2951,7 +2951,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_228",
+        "name": "MAYA_MAT_LIB_228",
         "status": "active",
         "functions": [
             "applyMaterial('Stone_Cladding')",
@@ -2964,7 +2964,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_229",
+        "name": "MAYA_MAT_LIB_229",
         "status": "active",
         "functions": [
             "applyMaterial('Stone_Granit_BWB')",
@@ -2977,7 +2977,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_230",
+        "name": "MAYA_MAT_LIB_230",
         "status": "active",
         "functions": [
             "applyMaterial('Stone_Marble_Blue')",
@@ -2990,7 +2990,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_231",
+        "name": "MAYA_MAT_LIB_231",
         "status": "active",
         "functions": [
             "applyMaterial('Stone_Marble_Pink')",
@@ -3003,7 +3003,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_232",
+        "name": "MAYA_MAT_LIB_232",
         "status": "active",
         "functions": [
             "applyMaterial('Stone_Marble_Grey')",
@@ -3016,7 +3016,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_233",
+        "name": "MAYA_MAT_LIB_233",
         "status": "active",
         "functions": [
             "applyMaterial('Stone_Rough_Marble')",
@@ -3029,7 +3029,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_234",
+        "name": "MAYA_MAT_LIB_234",
         "status": "active",
         "functions": [
             "applyMaterial('Brick_Color_Displacement')",
@@ -3042,7 +3042,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_235",
+        "name": "MAYA_MAT_LIB_235",
         "status": "active",
         "functions": [
             "applyMaterial('Brick_Natural_V1')",
@@ -3055,7 +3055,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_236",
+        "name": "MAYA_MAT_LIB_236",
         "status": "active",
         "functions": [
             "applyMaterial('Brick_Old_V3')",
@@ -3068,7 +3068,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_237",
+        "name": "MAYA_MAT_LIB_237",
         "status": "active",
         "functions": [
             "applyMaterial('Brick_Old_V2')",
@@ -3081,7 +3081,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_238",
+        "name": "MAYA_MAT_LIB_238",
         "status": "active",
         "functions": [
             "applyMaterial('Brick_Basic_V2')",
@@ -3094,7 +3094,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_239",
+        "name": "MAYA_MAT_LIB_239",
         "status": "active",
         "functions": [
             "applyMaterial('Brick_Irregular')",
@@ -3107,7 +3107,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_240",
+        "name": "MAYA_MAT_LIB_240",
         "status": "active",
         "functions": [
             "applyMaterial('Brick_Damage')",
@@ -3120,7 +3120,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_241",
+        "name": "MAYA_MAT_LIB_241",
         "status": "active",
         "functions": [
             "applyMaterial('Stone_Marble_Yellow_Matte')",
@@ -3133,7 +3133,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_242",
+        "name": "MAYA_MAT_LIB_242",
         "status": "active",
         "functions": [
             "applyMaterial('Floor_Ceramic_Tiles_Checker')",
@@ -3146,7 +3146,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_243",
+        "name": "MAYA_MAT_LIB_243",
         "status": "active",
         "functions": [
             "applyMaterial('Floor_Ceramic_Tiles_Color')",
@@ -3159,7 +3159,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_244",
+        "name": "MAYA_MAT_LIB_244",
         "status": "active",
         "functions": [
             "applyMaterial('Floor_Ceramic_Tiles_Color_Variation_8x8')",
@@ -3172,7 +3172,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_245",
+        "name": "MAYA_MAT_LIB_245",
         "status": "active",
         "functions": [
             "applyMaterial('Floor_Tiles_Rustic_Color_4x4')",
@@ -3185,7 +3185,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_246",
+        "name": "MAYA_MAT_LIB_246",
         "status": "active",
         "functions": [
             "applyMaterial('Tiling_BeigeMarble')",
@@ -3198,7 +3198,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_247",
+        "name": "MAYA_MAT_LIB_247",
         "status": "active",
         "functions": [
             "applyMaterial('Tiling_Blue_Checkered')",
@@ -3211,7 +3211,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_248",
+        "name": "MAYA_MAT_LIB_248",
         "status": "active",
         "functions": [
             "applyMaterial('Tiling_BLueMarble')",
@@ -3224,7 +3224,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_249",
+        "name": "MAYA_MAT_LIB_249",
         "status": "active",
         "functions": [
             "applyMaterial('tiling_Checkered')",
@@ -3237,7 +3237,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_250",
+        "name": "MAYA_MAT_LIB_250",
         "status": "active",
         "functions": [
             "applyMaterial('Tiling_Old')",
@@ -3250,7 +3250,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_251",
+        "name": "MAYA_MAT_LIB_251",
         "status": "active",
         "functions": [
             "applyMaterial('Tiling_White')",
@@ -3263,7 +3263,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_252",
+        "name": "MAYA_MAT_LIB_252",
         "status": "active",
         "functions": [
             "applyMaterial('Tiling_White_Marble')",
@@ -3276,7 +3276,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_253",
+        "name": "MAYA_MAT_LIB_253",
         "status": "active",
         "functions": [
             "applyMaterial('Roofing_ClayShingles_Beige')",
@@ -3289,7 +3289,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_254",
+        "name": "MAYA_MAT_LIB_254",
         "status": "active",
         "functions": [
             "applyMaterial('Roofing_CorrugatedIron')",
@@ -3302,7 +3302,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_255",
+        "name": "MAYA_MAT_LIB_255",
         "status": "active",
         "functions": [
             "applyMaterial('Roofing_RedClayTiles')",
@@ -3315,7 +3315,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_256",
+        "name": "MAYA_MAT_LIB_256",
         "status": "active",
         "functions": [
             "applyMaterial('Rubber_Bumpy')",
@@ -3328,7 +3328,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_257",
+        "name": "MAYA_MAT_LIB_257",
         "status": "active",
         "functions": [
             "applyMaterial('Rubber_Diamonds')",
@@ -3341,7 +3341,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_258",
+        "name": "MAYA_MAT_LIB_258",
         "status": "active",
         "functions": [
             "applyMaterial('Rubber_Ribbed')",
@@ -3354,7 +3354,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_259",
+        "name": "MAYA_MAT_LIB_259",
         "status": "active",
         "functions": [
             "applyMaterial('Rubber_Smooth_Clear')",
@@ -3367,7 +3367,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_260",
+        "name": "MAYA_MAT_LIB_260",
         "status": "active",
         "functions": [
             "applyMaterial('Rubber_SmoothMatte')",
@@ -3380,7 +3380,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_261",
+        "name": "MAYA_MAT_LIB_261",
         "status": "active",
         "functions": [
             "applyMaterial('Rubber_SmoothMatte_Black')",
@@ -3393,7 +3393,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_262",
+        "name": "MAYA_MAT_LIB_262",
         "status": "active",
         "functions": [
             "applyMaterial('Rubber_SmoothMatte_Blue')",
@@ -3406,7 +3406,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_263",
+        "name": "MAYA_MAT_LIB_263",
         "status": "active",
         "functions": [
             "applyMaterial('Rubber_SmoothMatte_Green')",
@@ -3419,7 +3419,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_264",
+        "name": "MAYA_MAT_LIB_264",
         "status": "active",
         "functions": [
             "applyMaterial('Rubber_SmoothMatte_Red')",
@@ -3432,7 +3432,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_265",
+        "name": "MAYA_MAT_LIB_265",
         "status": "active",
         "functions": [
             "applyMaterial('Rubber_SmoothShiny')",
@@ -3445,7 +3445,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_266",
+        "name": "MAYA_MAT_LIB_266",
         "status": "active",
         "functions": [
             "applyMaterial('Rubber_SmoothShiny_Black')",
@@ -3458,7 +3458,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_267",
+        "name": "MAYA_MAT_LIB_267",
         "status": "active",
         "functions": [
             "applyMaterial('Rubber_SmoothShiny_Blue')",
@@ -3471,7 +3471,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_268",
+        "name": "MAYA_MAT_LIB_268",
         "status": "active",
         "functions": [
             "applyMaterial('Rubber_SmoothShiny_Green')",
@@ -3484,7 +3484,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_269",
+        "name": "MAYA_MAT_LIB_269",
         "status": "active",
         "functions": [
             "applyMaterial('Rubber_SmoothShiny_Red')",
@@ -3497,7 +3497,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_270",
+        "name": "MAYA_MAT_LIB_270",
         "status": "active",
         "functions": [
             "applyMaterial('Rubber_Used')",
@@ -3510,7 +3510,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_271",
+        "name": "MAYA_MAT_LIB_271",
         "status": "skipped",
         "functions": [
             "applyMaterial('Diffuse_Shadow_Catcher')",
@@ -3523,7 +3523,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_272",
+        "name": "MAYA_MAT_LIB_272",
         "status": "skipped",
         "functions": [
             "applyMaterial('Reflective_Shadow_Catcher')",
@@ -3536,7 +3536,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_273",
+        "name": "MAYA_MAT_LIB_273",
         "status": "active",
         "functions": [
             "applyMaterial('Acrylic_Refractive_Glossy_Green')",
@@ -3549,7 +3549,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_274",
+        "name": "MAYA_MAT_LIB_274",
         "status": "active",
         "functions": [
             "applyMaterial('Acrylic_Refractive_Glossy_Neon_Green')",
@@ -3562,7 +3562,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_275",
+        "name": "MAYA_MAT_LIB_275",
         "status": "active",
         "functions": [
             "applyMaterial('Acrylic_Refractive_Glossy_Neon_Orange')",
@@ -3575,7 +3575,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_276",
+        "name": "MAYA_MAT_LIB_276",
         "status": "active",
         "functions": [
             "applyMaterial('Acrylic_Refractive_Glossy_Red')",
@@ -3588,7 +3588,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_277",
+        "name": "MAYA_MAT_LIB_277",
         "status": "active",
         "functions": [
             "applyMaterial('Acrylic_Refractive_Matte_Green')",
@@ -3601,7 +3601,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_278",
+        "name": "MAYA_MAT_LIB_278",
         "status": "active",
         "functions": [
             "applyMaterial('Acrylic_Refractive_Matte_Red')",
@@ -3614,7 +3614,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_279",
+        "name": "MAYA_MAT_LIB_279",
         "status": "active",
         "functions": [
             "applyMaterial('Acrylic_Transparent_Matte_Red')",
@@ -3627,7 +3627,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_280",
+        "name": "MAYA_MAT_LIB_280",
         "status": "active",
         "functions": [
             "applyMaterial('Acrylic_Transparent_Glossy_Red')",
@@ -3640,7 +3640,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_281",
+        "name": "MAYA_MAT_LIB_281",
         "status": "active",
         "functions": [
             "applyMaterial('Plastic_Transparent_Solid_ClearBlue')",
@@ -3653,7 +3653,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_282",
+        "name": "MAYA_MAT_LIB_282",
         "status": "active",
         "functions": [
             "applyMaterial('Plastic_Transparent_Thin_ClearBlue')",
@@ -3666,7 +3666,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_283",
+        "name": "MAYA_MAT_LIB_283",
         "status": "active",
         "functions": [
             "applyMaterial('Colored_Glass')",
@@ -3679,7 +3679,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_284",
+        "name": "MAYA_MAT_LIB_284",
         "status": "active",
         "functions": [
             "applyMaterial('Jade')",
@@ -3692,7 +3692,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_285",
+        "name": "MAYA_MAT_LIB_285",
         "status": "active",
         "functions": [
             "applyMaterial('Milk')",
@@ -3705,7 +3705,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_286",
+        "name": "MAYA_MAT_LIB_286",
         "status": "active",
         "functions": [
             "applyMaterial('Wax')",
@@ -3718,7 +3718,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_287",
+        "name": "MAYA_MAT_LIB_287",
         "status": "active",
         "functions": [
             "applyMaterial('Wood_Bark')",
@@ -3731,7 +3731,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_288",
+        "name": "MAYA_MAT_LIB_288",
         "status": "active",
         "functions": [
             "applyMaterial('Wood_Beech_Glossy')",
@@ -3744,7 +3744,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_289",
+        "name": "MAYA_MAT_LIB_289",
         "status": "active",
         "functions": [
             "applyMaterial('Wood_Beech_Unfinished')",
@@ -3757,7 +3757,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_290",
+        "name": "MAYA_MAT_LIB_290",
         "status": "active",
         "functions": [
             "applyMaterial('Wood_Cedar_Glossy')",
@@ -3770,7 +3770,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_291",
+        "name": "MAYA_MAT_LIB_291",
         "status": "active",
         "functions": [
             "applyMaterial('Wood_Cedar_Unfinished')",
@@ -3783,7 +3783,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_292",
+        "name": "MAYA_MAT_LIB_292",
         "status": "active",
         "functions": [
             "applyMaterial('Wood_Clear_Rustic')",
@@ -3796,7 +3796,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_293",
+        "name": "MAYA_MAT_LIB_293",
         "status": "active",
         "functions": [
             "applyMaterial('Wood_Mahogany_Glossy')",
@@ -3809,7 +3809,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_294",
+        "name": "MAYA_MAT_LIB_294",
         "status": "active",
         "functions": [
             "applyMaterial('Wood_Mahogany_Unfinished')",
@@ -3822,7 +3822,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_295",
+        "name": "MAYA_MAT_LIB_295",
         "status": "active",
         "functions": [
             "applyMaterial('Wood_Maple_Glossy')",
@@ -3835,7 +3835,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_296",
+        "name": "MAYA_MAT_LIB_296",
         "status": "active",
         "functions": [
             "applyMaterial('Wood_Maple_Unfinished')",
@@ -3848,7 +3848,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_297",
+        "name": "MAYA_MAT_LIB_297",
         "status": "active",
         "functions": [
             "applyMaterial('Wood_Natural_Maple')",
@@ -3861,7 +3861,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_298",
+        "name": "MAYA_MAT_LIB_298",
         "status": "active",
         "functions": [
             "applyMaterial('Wood_Oak_Glossy')",
@@ -3874,7 +3874,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_299",
+        "name": "MAYA_MAT_LIB_299",
         "status": "active",
         "functions": [
             "applyMaterial('Wood_Oak_Unfinished')",
@@ -3887,7 +3887,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_300",
+        "name": "MAYA_MAT_LIB_300",
         "status": "active",
         "functions": [
             "applyMaterial('Wood_Planks_Oak_Glossy')",
@@ -3900,7 +3900,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_301",
+        "name": "MAYA_MAT_LIB_301",
         "status": "active",
         "functions": [
             "applyMaterial('Wood_Planks_Oak_Unfinished')",
@@ -3913,7 +3913,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_302",
+        "name": "MAYA_MAT_LIB_302",
         "status": "active",
         "functions": [
             "applyMaterial('Wood_Rustic')",
@@ -3926,7 +3926,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_303",
+        "name": "MAYA_MAT_LIB_303",
         "status": "active",
         "functions": [
             "applyMaterial('Wood_Rustic_Cherry')",
@@ -3939,7 +3939,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_304",
+        "name": "MAYA_MAT_LIB_304",
         "status": "active",
         "functions": [
             "applyMaterial('Wood_Wenge_Glossy')",
@@ -3952,7 +3952,7 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_305",
+        "name": "MAYA_MAT_LIB_305",
         "status": "active",
         "functions": [
             "applyMaterial('Wood_Wenge_Unfinished')",

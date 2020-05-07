@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_L_INT_001",
+        "name": "MAYA_L_INT_001",
         "status": "active",
         "script_info": [
             "Iterations: 300"
@@ -12,7 +12,7 @@
         ]
     },
     {
-        "case": "MAYA_L_INT_002",
+        "name": "MAYA_L_INT_002",
         "status": "skipped",
         "script_info": [
             "Iterations: 200"
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "case": "MAYA_L_INT_003",
+        "name": "MAYA_L_INT_003",
         "status": "active",
         "script_info": [
             "Iterations: 300"

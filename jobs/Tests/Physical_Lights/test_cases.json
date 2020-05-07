@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_L_PL_001",
+        "name": "MAYA_L_PL_001",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -20,7 +20,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_002",
+        "name": "MAYA_L_PL_002",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -39,7 +39,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_003",
+        "name": "MAYA_L_PL_003",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -63,7 +63,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_004",
+        "name": "MAYA_L_PL_004",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -87,7 +87,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_005",
+        "name": "MAYA_L_PL_005",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -111,7 +111,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_006",
+        "name": "MAYA_L_PL_006",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -137,7 +137,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_007",
+        "name": "MAYA_L_PL_007",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -162,7 +162,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_008",
+        "name": "MAYA_L_PL_008",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -190,7 +190,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_009",
+        "name": "MAYA_L_PL_009",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -214,7 +214,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_010",
+        "name": "MAYA_L_PL_010",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -238,7 +238,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_011",
+        "name": "MAYA_L_PL_011",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 1)",
@@ -260,7 +260,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_012",
+        "name": "MAYA_L_PL_012",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 1)",
@@ -277,7 +277,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_013",
+        "name": "MAYA_L_PL_013",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 1)",
@@ -295,7 +295,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_014",
+        "name": "MAYA_L_PL_014",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 1)",
@@ -313,7 +313,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_015",
+        "name": "MAYA_L_PL_015",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 1)",
@@ -331,7 +331,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_016",
+        "name": "MAYA_L_PL_016",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 1)",
@@ -352,7 +352,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_017",
+        "name": "MAYA_L_PL_017",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 1)",
@@ -370,7 +370,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_018",
+        "name": "MAYA_L_PL_018",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 1)",
@@ -390,7 +390,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_019",
+        "name": "MAYA_L_PL_019",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 1)",
@@ -412,7 +412,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_020",
+        "name": "MAYA_L_PL_020",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 1)",
@@ -432,7 +432,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_021",
+        "name": "MAYA_L_PL_021",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 1)",
@@ -449,7 +449,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_022",
+        "name": "MAYA_L_PL_022",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 1)",
@@ -470,7 +470,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_023",
+        "name": "MAYA_L_PL_023",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 1)",
@@ -490,7 +490,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_024",
+        "name": "MAYA_L_PL_024",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 1)",
@@ -508,7 +508,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_025",
+        "name": "MAYA_L_PL_025",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 1)",
@@ -529,7 +529,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_026",
+        "name": "MAYA_L_PL_026",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 1)",
@@ -547,7 +547,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_027",
+        "name": "MAYA_L_PL_027",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 1)",
@@ -564,7 +564,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_028",
+        "name": "MAYA_L_PL_028",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 1)",
@@ -581,7 +581,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_029",
+        "name": "MAYA_L_PL_029",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 1)",
@@ -602,7 +602,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_030",
+        "name": "MAYA_L_PL_030",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -620,7 +620,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_031",
+        "name": "MAYA_L_PL_031",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -635,7 +635,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_032",
+        "name": "MAYA_L_PL_032",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -649,7 +649,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_033",
+        "name": "MAYA_L_PL_033",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -663,7 +663,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_034",
+        "name": "MAYA_L_PL_034",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -683,7 +683,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_035",
+        "name": "MAYA_L_PL_035",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -698,7 +698,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_036",
+        "name": "MAYA_L_PL_036",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -716,7 +716,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_037",
+        "name": "MAYA_L_PL_037",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -734,7 +734,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_038",
+        "name": "MAYA_L_PL_038",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -751,7 +751,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_039",
+        "name": "MAYA_L_PL_039",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -766,7 +766,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_040",
+        "name": "MAYA_L_PL_040",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -785,7 +785,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_041",
+        "name": "MAYA_L_PL_041",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -803,7 +803,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_042",
+        "name": "MAYA_L_PL_042",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -820,7 +820,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_043",
+        "name": "MAYA_L_PL_043",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -839,7 +839,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_044",
+        "name": "MAYA_L_PL_044",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -855,7 +855,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_045",
+        "name": "MAYA_L_PL_045",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -869,7 +869,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_046",
+        "name": "MAYA_L_PL_046",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -884,7 +884,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_047",
+        "name": "MAYA_L_PL_047",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -902,7 +902,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_048",
+        "name": "MAYA_L_PL_048",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -925,7 +925,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_049",
+        "name": "MAYA_L_PL_049",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -942,7 +942,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_050",
+        "name": "MAYA_L_PL_050",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -958,7 +958,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_051",
+        "name": "MAYA_L_PL_051",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -975,7 +975,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_052",
+        "name": "MAYA_L_PL_052",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -992,7 +992,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_053",
+        "name": "MAYA_L_PL_053",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1014,7 +1014,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_054",
+        "name": "MAYA_L_PL_054",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1032,7 +1032,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_055",
+        "name": "MAYA_L_PL_055",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1052,7 +1052,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_056",
+        "name": "MAYA_L_PL_056",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1073,7 +1073,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_057",
+        "name": "MAYA_L_PL_057",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1092,7 +1092,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_058",
+        "name": "MAYA_L_PL_058",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1113,7 +1113,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_059",
+        "name": "MAYA_L_PL_059",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1134,7 +1134,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_060",
+        "name": "MAYA_L_PL_060",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1154,7 +1154,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_061",
+        "name": "MAYA_L_PL_061",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1177,7 +1177,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_062",
+        "name": "MAYA_L_PL_062",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1196,7 +1196,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_063",
+        "name": "MAYA_L_PL_063",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1214,7 +1214,7 @@
         "scene": "Physical_Light.ma"
     },
     {
-        "case": "MAYA_L_PL_064",
+        "name": "MAYA_L_PL_064",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -1233,7 +1233,7 @@
         "scene": "Physical_Light_Area.ma"
     },
     {
-        "case": "MAYA_L_PL_065",
+        "name": "MAYA_L_PL_065",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -1252,7 +1252,7 @@
         "scene": "Physical_Light_Area.ma"
     },
     {
-        "case": "MAYA_L_PL_066",
+        "name": "MAYA_L_PL_066",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -1269,7 +1269,7 @@
         "scene": "Physical_Light_Area.ma"
     },
     {
-        "case": "MAYA_L_PL_067",
+        "name": "MAYA_L_PL_067",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -1290,7 +1290,7 @@
         "scene": "Physical_Light_Area.ma"
     },
     {
-        "case": "MAYA_L_PL_068",
+        "name": "MAYA_L_PL_068",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -1311,7 +1311,7 @@
         "scene": "Physical_Light_Area.ma"
     },
     {
-        "case": "MAYA_L_PL_069",
+        "name": "MAYA_L_PL_069",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -1332,7 +1332,7 @@
         "scene": "Physical_Light_Area.ma"
     },
     {
-        "case": "MAYA_L_PL_070",
+        "name": "MAYA_L_PL_070",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -1353,7 +1353,7 @@
         "scene": "Physical_Light_Area.ma"
     },
     {
-        "case": "MAYA_L_PL_071",
+        "name": "MAYA_L_PL_071",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -1374,7 +1374,7 @@
         "scene": "Physical_Light_Area.ma"
     },
     {
-        "case": "MAYA_L_PL_072",
+        "name": "MAYA_L_PL_072",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -1395,7 +1395,7 @@
         "scene": "Physical_Light_Area.ma"
     },
     {
-        "case": "MAYA_L_PL_073",
+        "name": "MAYA_L_PL_073",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -1416,7 +1416,7 @@
         "scene": "Physical_Light_Area.ma"
     },
     {
-        "case": "MAYA_L_PL_074",
+        "name": "MAYA_L_PL_074",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -1437,7 +1437,7 @@
         "scene": "Physical_Light_Area.ma"
     },
     {
-        "case": "MAYA_L_PL_075",
+        "name": "MAYA_L_PL_075",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -1458,7 +1458,7 @@
         "scene": "Physical_Light_Area.ma"
     },
     {
-        "case": "MAYA_L_PL_076",
+        "name": "MAYA_L_PL_076",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -1476,7 +1476,7 @@
         "scene": "Physical_Light_Area.ma"
     },
     {
-        "case": "MAYA_L_PL_077",
+        "name": "MAYA_L_PL_077",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -1497,7 +1497,7 @@
         "scene": "Physical_Light_Area.ma"
     },
     {
-        "case": "MAYA_L_PL_078",
+        "name": "MAYA_L_PL_078",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -1520,7 +1520,7 @@
         "scene": "Physical_Light_Area.ma"
     },
     {
-        "case": "MAYA_L_PL_079",
+        "name": "MAYA_L_PL_079",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -1537,7 +1537,7 @@
         "scene": "Physical_Light_Area.ma"
     },
     {
-        "case": "MAYA_L_PL_080",
+        "name": "MAYA_L_PL_080",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -1554,7 +1554,7 @@
         "scene": "Physical_Light_Area.ma"
     },
     {
-        "case": "MAYA_L_PL_081",
+        "name": "MAYA_L_PL_081",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -1571,7 +1571,7 @@
         "scene": "Physical_Light_Area.ma"
     },
     {
-        "case": "MAYA_L_PL_082",
+        "name": "MAYA_L_PL_082",
         "status": "active",
         "functions": [
             "rpr_render(case)"
@@ -1586,7 +1586,7 @@
         "scene": "Physical_Light_Point.ma"
     },
     {
-        "case": "MAYA_L_PL_083",
+        "name": "MAYA_L_PL_083",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1605,7 +1605,7 @@
         "scene": "Physical_Light_Point.ma"
     },
     {
-        "case": "MAYA_L_PL_084",
+        "name": "MAYA_L_PL_084",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1620,7 +1620,7 @@
         "scene": "Physical_Light_Point.ma"
     },
     {
-        "case": "MAYA_L_PL_085",
+        "name": "MAYA_L_PL_085",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1635,7 +1635,7 @@
         "scene": "Physical_Light_Point.ma"
     },
     {
-        "case": "MAYA_L_PL_086",
+        "name": "MAYA_L_PL_086",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1650,7 +1650,7 @@
         "scene": "Physical_Light_Point.ma"
     },
     {
-        "case": "MAYA_L_PL_087",
+        "name": "MAYA_L_PL_087",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1672,7 +1672,7 @@
         "scene": "Physical_Light_Point.ma"
     },
     {
-        "case": "MAYA_L_PL_088",
+        "name": "MAYA_L_PL_088",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1687,7 +1687,7 @@
         "scene": "Physical_Light_Point.ma"
     },
     {
-        "case": "MAYA_L_PL_089",
+        "name": "MAYA_L_PL_089",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1704,7 +1704,7 @@
         "scene": "Physical_Light_Point.ma"
     },
     {
-        "case": "MAYA_L_PL_090",
+        "name": "MAYA_L_PL_090",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1723,7 +1723,7 @@
         "scene": "Physical_Light_Point.ma"
     },
     {
-        "case": "MAYA_L_PL_091",
+        "name": "MAYA_L_PL_091",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1740,7 +1740,7 @@
         "scene": "Physical_Light_Point.ma"
     },
     {
-        "case": "MAYA_L_PL_092",
+        "name": "MAYA_L_PL_092",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1755,7 +1755,7 @@
         "scene": "Physical_Light_Point.ma"
     },
     {
-        "case": "MAYA_L_PL_093",
+        "name": "MAYA_L_PL_093",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1772,7 +1772,7 @@
         "scene": "Physical_Light_Point.ma"
     },
     {
-        "case": "MAYA_L_PL_094",
+        "name": "MAYA_L_PL_094",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1789,7 +1789,7 @@
         "scene": "Physical_Light_Point.ma"
     },
     {
-        "case": "MAYA_L_PL_095",
+        "name": "MAYA_L_PL_095",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1804,7 +1804,7 @@
         "scene": "Physical_Light_Point.ma"
     },
     {
-        "case": "MAYA_L_PL_096",
+        "name": "MAYA_L_PL_096",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1823,7 +1823,7 @@
         "scene": "Physical_Light_Point.ma"
     },
     {
-        "case": "MAYA_L_PL_097",
+        "name": "MAYA_L_PL_097",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1838,7 +1838,7 @@
         "scene": "Physical_Light_Point.ma"
     },
     {
-        "case": "MAYA_L_PL_098",
+        "name": "MAYA_L_PL_098",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -1851,7 +1851,7 @@
         "scene": "Physical_Light_Point.ma"
     },
     {
-        "case": "MAYA_L_PL_101",
+        "name": "MAYA_L_PL_101",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 0)",
@@ -1868,7 +1868,7 @@
         "scene": "Physical_Light_Volume_Scene.ma"
     },
     {
-        "case": "MAYA_L_PL_102",
+        "name": "MAYA_L_PL_102",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 1)",
@@ -1885,7 +1885,7 @@
         "scene": "Physical_Light_Volume_Scene.ma"
     },
     {
-        "case": "MAYA_L_PL_103",
+        "name": "MAYA_L_PL_103",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 3)",
@@ -1902,7 +1902,7 @@
         "scene": "DirectLightNew.ma"
     },
     {
-        "case": "MAYA_L_PL_104",
+        "name": "MAYA_L_PL_104",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 3)",
@@ -1919,7 +1919,7 @@
         "scene": "DirectLightNew.ma"
     },
     {
-        "case": "MAYA_L_PL_105",
+        "name": "MAYA_L_PL_105",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 3)",
@@ -1938,7 +1938,7 @@
         "scene": "DirectLightNew.ma"
     },
     {
-        "case": "MAYA_L_PL_106",
+        "name": "MAYA_L_PL_106",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 3)",
@@ -1957,7 +1957,7 @@
         "scene": "DirectLightNew.ma"
     },
     {
-        "case": "MAYA_L_PL_107",
+        "name": "MAYA_L_PL_107",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 3)",
@@ -1976,7 +1976,7 @@
         "scene": "DirectLightNew.ma"
     },
     {
-        "case": "MAYA_L_PL_108",
+        "name": "MAYA_L_PL_108",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 3)",
@@ -1995,7 +1995,7 @@
         "scene": "DirectLightNew.ma"
     },
     {
-        "case": "MAYA_L_PL_109",
+        "name": "MAYA_L_PL_109",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 2)",
@@ -2014,7 +2014,7 @@
         "scene": "DirectLightNew.ma"
     },
     {
-        "case": "MAYA_L_PL_110",
+        "name": "MAYA_L_PL_110",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 3)",
@@ -2037,7 +2037,7 @@
         "scene": "DirectLightNew.ma"
     },
     {
-        "case": "MAYA_L_PL_111",
+        "name": "MAYA_L_PL_111",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRPhysicalLight1Shape.lightType', 3)",
@@ -2060,7 +2060,7 @@
         "scene": "DirectLightNew.ma"
     },
     {
-        "case": "MAYA_L_PL_112",
+        "name": "MAYA_L_PL_112",
         "status": "active",
         "functions": [
             "rpr_render(case)"

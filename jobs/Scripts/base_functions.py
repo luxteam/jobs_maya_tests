@@ -27,7 +27,7 @@ def logging(message):
 
 
 def reportToJSON(case, render_time=0):
-    path_to_file = path.join(WORK_DIR, case['case'] + '_RPR.json')
+    path_to_file = path.join(WORK_DIR, case['name'] + '_RPR.json')
 
     with open(path_to_file, 'r') as file:
         report = json.loads(file.read())[0]
@@ -38,9 +38,9 @@ def reportToJSON(case, render_time=0):
         report['test_status'] = case['status']
 
     logging('Create report json ({{}} {{}})'.format(
-            case['case'], report['test_status']))
+            case['name'], report['test_status']))
 
-    report['file_name'] = case['case'] + case.get('extension', '.jpg')
+    report['file_name'] = case['name'] + case.get('extension', '.jpg')
     # TODO: render device may be incorrect (if it changes in case)
     report['render_device'] = cmds.optionVar(q='RPR_DevicesName')[0]
     report['tool'] = mel.eval('about -iv')
@@ -50,10 +50,10 @@ def reportToJSON(case, render_time=0):
     report['render_color_path'] = path.join('Color', report['file_name'])
     report['render_time'] = render_time
     report['test_group'] = TEST_TYPE
-    report['test_case'] = case['case']
+    report['test_case'] = case['name']
     report['difference_color'] = 0
     report['script_info'] = case['script_info']
-    report['render_log'] = path.join('render_tool_logs', case['case'] + '.log')
+    report['render_log'] = path.join('render_tool_logs', case['name'] + '.log')
     report['scene_name'] = case.get('scene', '')
 
     with open(path_to_file, 'w') as file:
@@ -67,7 +67,7 @@ def rpr_render(case):
     start_time = time.time()
     mel.eval('renderIntoNewWindow render')
     cmds.sysFile(path.join(WORK_DIR, 'Color'), makeDir=True)
-    test_case_path = path.join(WORK_DIR, 'Color', case['case'])
+    test_case_path = path.join(WORK_DIR, 'Color', case['name'])
     cmds.renderWindowEditor('renderView', edit=1,  dst='color')
     cmds.renderWindowEditor('renderView', edit=1, com=1,
                             writeImage=test_case_path)
@@ -128,9 +128,9 @@ def prerender(case):
 
 
 def save_report(case):
-    logging('Save report without rendering for ' + case['case'])
+    logging('Save report without rendering for ' + case['name'])
 
-    work_dir = path.join(WORK_DIR, 'Color', case['case'] + '.jpg')
+    work_dir = path.join(WORK_DIR, 'Color', case['name'] + '.jpg')
     source_dir = path.join(WORK_DIR, '..', '..', '..',
                            '..', 'jobs_launcher', 'common', 'img')
 
@@ -204,13 +204,13 @@ def main():
             with open(path.join(WORK_DIR, 'test_cases.json'), 'w') as file:
                 json.dump(cases, file, indent=4)
 
-            log_path = path.join(LOGS_DIR, case['case'] + '.log')
+            log_path = path.join(LOGS_DIR, case['name'] + '.log')
             if not path.exists(log_path):
                 with open(log_path, 'w'):
-                    logging('Create log file for ' + case['case'])
+                    logging('Create log file for ' + case['name'])
             cmds.scriptEditorInfo(historyFilename=log_path, writeHistory=True)
 
-            logging(case['case'] + ' in progress')
+            logging(case['name'] + ' in progress')
 
             start_time = datetime.datetime.now()
             case_function(case)
@@ -219,7 +219,7 @@ def main():
 
             if case['status'] == 'inprogress':
                 case['status'] = 'passed'
-                logging(case['case'] + ' passed')
+                logging(case['name'] + ' passed')
 
             with open(path.join(WORK_DIR, 'test_cases.json'), 'w') as file:
                 json.dump(cases, file, indent=4)

@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_MAT_NODE_001",
+        "name": "MAYA_MAT_NODE_001",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -15,7 +15,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_002",
+        "name": "MAYA_MAT_NODE_002",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -32,7 +32,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_003",
+        "name": "MAYA_MAT_NODE_003",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -51,7 +51,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_004",
+        "name": "MAYA_MAT_NODE_004",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -70,7 +70,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_007",
+        "name": "MAYA_MAT_NODE_007",
         "status": "skipped",
         "functions": [
             "resetAttributes()",
@@ -90,7 +90,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_008",
+        "name": "MAYA_MAT_NODE_008",
         "status": "skipped",
         "functions": [
             "resetAttributes()",
@@ -110,7 +110,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_009",
+        "name": "MAYA_MAT_NODE_009",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -133,7 +133,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_010",
+        "name": "MAYA_MAT_NODE_010",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -155,7 +155,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_011",
+        "name": "MAYA_MAT_NODE_011",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -178,7 +178,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_012",
+        "name": "MAYA_MAT_NODE_012",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -201,7 +201,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_013",
+        "name": "MAYA_MAT_NODE_013",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -224,7 +224,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_014",
+        "name": "MAYA_MAT_NODE_014",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -239,7 +239,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_015",
+        "name": "MAYA_MAT_NODE_015",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -256,7 +256,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_016",
+        "name": "MAYA_MAT_NODE_016",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -273,7 +273,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_017",
+        "name": "MAYA_MAT_NODE_017",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -290,7 +290,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_018",
+        "name": "MAYA_MAT_NODE_018",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -307,7 +307,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_019",
+        "name": "MAYA_MAT_NODE_019",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -324,7 +324,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_020",
+        "name": "MAYA_MAT_NODE_020",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -341,7 +341,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_021",
+        "name": "MAYA_MAT_NODE_021",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -356,7 +356,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_022",
+        "name": "MAYA_MAT_NODE_022",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -373,7 +373,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_023",
+        "name": "MAYA_MAT_NODE_023",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -390,7 +390,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_024",
+        "name": "MAYA_MAT_NODE_024",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -407,7 +407,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_025",
+        "name": "MAYA_MAT_NODE_025",
         "status": "skipped",
         "functions": [
             "resetAttributes()",
@@ -425,7 +425,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_026",
+        "name": "MAYA_MAT_NODE_026",
         "status": "skipped",
         "functions": [
             "resetAttributes()",
@@ -443,7 +443,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_028",
+        "name": "MAYA_MAT_NODE_028",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -458,7 +458,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_029",
+        "name": "MAYA_MAT_NODE_029",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -476,7 +476,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_030",
+        "name": "MAYA_MAT_NODE_030",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -494,7 +494,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_031",
+        "name": "MAYA_MAT_NODE_031",
         "status": "skipped",
         "functions": [
             "resetAttributes()",
@@ -512,7 +512,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_032",
+        "name": "MAYA_MAT_NODE_032",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -530,7 +530,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_033",
+        "name": "MAYA_MAT_NODE_033",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -545,7 +545,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_034",
+        "name": "MAYA_MAT_NODE_034",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -558,7 +558,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_035",
+        "name": "MAYA_MAT_NODE_035",
         "status": "skipped",
         "functions": [
             "resetAttributes()",
@@ -573,7 +573,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_036",
+        "name": "MAYA_MAT_NODE_036",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -588,7 +588,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_037",
+        "name": "MAYA_MAT_NODE_037",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -605,7 +605,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_038",
+        "name": "MAYA_MAT_NODE_038",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -622,7 +622,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_039",
+        "name": "MAYA_MAT_NODE_039",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -639,7 +639,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_040",
+        "name": "MAYA_MAT_NODE_040",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -656,7 +656,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_041",
+        "name": "MAYA_MAT_NODE_041",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -673,7 +673,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_042",
+        "name": "MAYA_MAT_NODE_042",
         "status": "skipped",
         "functions": [
             "resetAttributes()",
@@ -690,7 +690,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_044",
+        "name": "MAYA_MAT_NODE_044",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -711,7 +711,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_045",
+        "name": "MAYA_MAT_NODE_045",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -732,7 +732,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_046",
+        "name": "MAYA_MAT_NODE_046",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -753,7 +753,7 @@
         "scene": "RPRNodes.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_047",
+        "name": "MAYA_MAT_NODE_047",
         "status": "active",
         "functions": [
             "cmds.setAttr('Lookup.visibility', 1)",
@@ -768,7 +768,7 @@
         "scene": "lookup.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_048",
+        "name": "MAYA_MAT_NODE_048",
         "status": "active",
         "functions": [
             "cmds.setAttr('Lookup.visibility', 1)",
@@ -783,7 +783,7 @@
         "scene": "RPRLookup.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_049",
+        "name": "MAYA_MAT_NODE_049",
         "status": "active",
         "functions": [
             "cmds.setAttr('Lookup.visibility', 1)",
@@ -798,7 +798,7 @@
         "scene": "RPRLookup.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_050",
+        "name": "MAYA_MAT_NODE_050",
         "status": "active",
         "functions": [
             "cmds.setAttr('Lookup.visibility', 1)",
@@ -813,7 +813,7 @@
         "scene": "RPRLookup.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_051",
+        "name": "MAYA_MAT_NODE_051",
         "status": "active",
         "functions": [
             "cmds.setAttr('Lookup.visibility', 1)",
@@ -828,7 +828,7 @@
         "scene": "RPRLookup.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_052",
+        "name": "MAYA_MAT_NODE_052",
         "status": "active",
         "functions": [
             "cmds.setAttr('Lookup.visibility', 1)",
@@ -843,7 +843,7 @@
         "scene": "RPRLookup.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_053",
+        "name": "MAYA_MAT_NODE_053",
         "status": "active",
         "functions": [
             "cmds.setAttr('Lookup.visibility', 1)",
@@ -860,7 +860,7 @@
         "scene": "RPRLookup.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_054",
+        "name": "MAYA_MAT_NODE_054",
         "status": "active",
         "functions": [
             "cmds.setAttr('Vertex_Color.visibility', 1)",
@@ -875,7 +875,7 @@
         "scene": "RPRLookup.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_055",
+        "name": "MAYA_MAT_NODE_055",
         "status": "active",
         "functions": [
             "cmds.select('shaderball')",
@@ -889,7 +889,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_MAT_NODE_056",
+        "name": "MAYA_MAT_NODE_056",
         "status": "active",
         "functions": [
             "cmds.select('shaderball')",

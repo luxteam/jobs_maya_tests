@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_RS_2018_001", 
+        "name": "MAYA_RS_2018_001", 
         "status": "active", 
         "functions": [
             "rpr_render(case)"
@@ -11,7 +11,7 @@
         "scene": "Lambo_Lebrov.ma"
     },
     {
-        "case": "MAYA_RS_2018_002", 
+        "name": "MAYA_RS_2018_002", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 

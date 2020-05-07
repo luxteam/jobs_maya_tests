@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_RS_DEN_061", 
+        "name": "MAYA_RS_DEN_061", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100.0)",
@@ -20,7 +20,7 @@
         "scene": "ComplexLighting.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_062", 
+        "name": "MAYA_RS_DEN_062", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100.0)",
@@ -40,7 +40,7 @@
         "scene": "ComplexLighting.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_063", 
+        "name": "MAYA_RS_DEN_063", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100.0)",
@@ -59,7 +59,7 @@
         "scene": "ComplexLighting.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_064", 
+        "name": "MAYA_RS_DEN_064", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100.0)",
@@ -78,7 +78,7 @@
         "scene": "ComplexLighting.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_065", 
+        "name": "MAYA_RS_DEN_065", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100.0)",
@@ -97,7 +97,7 @@
         "scene": "ComplexLighting.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_066", 
+        "name": "MAYA_RS_DEN_066", 
         "status": "skipped", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -115,7 +115,7 @@
         "scene": "DenoiserMaterials.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_067", 
+        "name": "MAYA_RS_DEN_067", 
         "status": "skipped", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -133,7 +133,7 @@
         "scene": "DenoiserMaterials.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_068", 
+        "name": "MAYA_RS_DEN_068", 
         "status": "skipped", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -149,7 +149,7 @@
         "scene": "DenoiserMaterials.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_069", 
+        "name": "MAYA_RS_DEN_069", 
         "status": "skipped", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -165,7 +165,7 @@
         "scene": "DenoiserMaterials.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_070", 
+        "name": "MAYA_RS_DEN_070", 
         "status": "skipped", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -181,7 +181,7 @@
         "scene": "DenoiserMaterials.ma"
     },
     {
-        "case": "MAYA_RS_DEN_001", 
+        "name": "MAYA_RS_DEN_001", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -195,7 +195,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_002", 
+        "name": "MAYA_RS_DEN_002", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -209,7 +209,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_003", 
+        "name": "MAYA_RS_DEN_003", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -223,7 +223,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_004", 
+        "name": "MAYA_RS_DEN_004", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -240,7 +240,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_005", 
+        "name": "MAYA_RS_DEN_005", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -257,7 +257,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_006", 
+        "name": "MAYA_RS_DEN_006", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -274,7 +274,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_007", 
+        "name": "MAYA_RS_DEN_007", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -291,7 +291,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_008", 
+        "name": "MAYA_RS_DEN_008", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -308,7 +308,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_009", 
+        "name": "MAYA_RS_DEN_009", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -325,7 +325,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_010", 
+        "name": "MAYA_RS_DEN_010", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -342,7 +342,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_011", 
+        "name": "MAYA_RS_DEN_011", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -361,7 +361,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_012", 
+        "name": "MAYA_RS_DEN_012", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -380,7 +380,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_013", 
+        "name": "MAYA_RS_DEN_013", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -399,7 +399,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_014", 
+        "name": "MAYA_RS_DEN_014", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -417,7 +417,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_015", 
+        "name": "MAYA_RS_DEN_015", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -435,7 +435,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_016", 
+        "name": "MAYA_RS_DEN_016", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -453,7 +453,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_017", 
+        "name": "MAYA_RS_DEN_017", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -471,7 +471,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_018", 
+        "name": "MAYA_RS_DEN_018", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -489,7 +489,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_019", 
+        "name": "MAYA_RS_DEN_019", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -507,7 +507,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_020", 
+        "name": "MAYA_RS_DEN_020", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -525,7 +525,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_021", 
+        "name": "MAYA_RS_DEN_021", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -543,7 +543,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_022", 
+        "name": "MAYA_RS_DEN_022", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -561,7 +561,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_023", 
+        "name": "MAYA_RS_DEN_023", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -582,7 +582,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_024", 
+        "name": "MAYA_RS_DEN_024", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -603,7 +603,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_025", 
+        "name": "MAYA_RS_DEN_025", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -616,7 +616,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_026", 
+        "name": "MAYA_RS_DEN_026", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -631,7 +631,7 @@
         "scene": "DenoiserMetal.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_027", 
+        "name": "MAYA_RS_DEN_027", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -646,7 +646,7 @@
         "scene": "DenoiserMetal.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_028", 
+        "name": "MAYA_RS_DEN_028", 
         "status": "skipped", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -664,7 +664,7 @@
         "scene": "DenoiserMetal.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_029", 
+        "name": "MAYA_RS_DEN_029", 
         "status": "skipped", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -682,7 +682,7 @@
         "scene": "DenoiserMetal.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_030", 
+        "name": "MAYA_RS_DEN_030", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -697,7 +697,7 @@
         "scene": "DenoiserMetal.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_031", 
+        "name": "MAYA_RS_DEN_031", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -712,7 +712,7 @@
         "scene": "DenoiserMetal.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_032", 
+        "name": "MAYA_RS_DEN_032", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -727,7 +727,7 @@
         "scene": "DenoiserMetal.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_033", 
+        "name": "MAYA_RS_DEN_033", 
         "status": "skipped", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -745,7 +745,7 @@
         "scene": "DenoiserMetal.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_034", 
+        "name": "MAYA_RS_DEN_034", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -761,7 +761,7 @@
         "scene": "DenoiserMetal.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_035", 
+        "name": "MAYA_RS_DEN_035", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -777,7 +777,7 @@
         "scene": "DenoiserMetal.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_036", 
+        "name": "MAYA_RS_DEN_036", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -793,7 +793,7 @@
         "scene": "DenoiserMetal.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_037", 
+        "name": "MAYA_RS_DEN_037", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -809,7 +809,7 @@
         "scene": "DenoiserMetal.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_038", 
+        "name": "MAYA_RS_DEN_038", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -825,7 +825,7 @@
         "scene": "DenoiserMetal.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_039", 
+        "name": "MAYA_RS_DEN_039", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -850,7 +850,7 @@
         "scene": "DenoiserMetal.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_040", 
+        "name": "MAYA_RS_DEN_040", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -875,7 +875,7 @@
         "scene": "DenoiserMetal.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_041", 
+        "name": "MAYA_RS_DEN_041", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -891,7 +891,7 @@
         "scene": "Denoiser_Light.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_042", 
+        "name": "MAYA_RS_DEN_042", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -907,7 +907,7 @@
         "scene": "Denoiser_Light.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_043", 
+        "name": "MAYA_RS_DEN_043", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -923,7 +923,7 @@
         "scene": "Denoiser_Light.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_044", 
+        "name": "MAYA_RS_DEN_044", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -939,7 +939,7 @@
         "scene": "Denoiser_Light.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_045", 
+        "name": "MAYA_RS_DEN_045", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -954,7 +954,7 @@
         "scene": "Denoiser_Light.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_046", 
+        "name": "MAYA_RS_DEN_046", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -969,7 +969,7 @@
         "scene": "Denoiser_Light.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_047", 
+        "name": "MAYA_RS_DEN_047", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -984,7 +984,7 @@
         "scene": "Denoiser_Light.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_048", 
+        "name": "MAYA_RS_DEN_048", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -999,7 +999,7 @@
         "scene": "Denoiser_Light.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_049", 
+        "name": "MAYA_RS_DEN_049", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -1014,7 +1014,7 @@
         "scene": "Denoiser_Light.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_050", 
+        "name": "MAYA_RS_DEN_050", 
         "status": "skipped", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -1029,7 +1029,7 @@
         "scene": "Denoiser_Light.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_051", 
+        "name": "MAYA_RS_DEN_051", 
         "status": "skipped", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -1043,7 +1043,7 @@
         "scene": "DenoiserDOF.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_052", 
+        "name": "MAYA_RS_DEN_052", 
         "status": "skipped", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -1057,7 +1057,7 @@
         "scene": "DenoiserDOF.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_053", 
+        "name": "MAYA_RS_DEN_053", 
         "status": "skipped", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -1070,7 +1070,7 @@
         "scene": "DenoiserDOF.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_054", 
+        "name": "MAYA_RS_DEN_054", 
         "status": "skipped", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -1083,7 +1083,7 @@
         "scene": "DenoiserDOF.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_055", 
+        "name": "MAYA_RS_DEN_055", 
         "status": "skipped", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -1096,7 +1096,7 @@
         "scene": "DenoiserDOF.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_056", 
+        "name": "MAYA_RS_DEN_056", 
         "status": "skipped", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -1112,7 +1112,7 @@
         "scene": "DenoiserIBL.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_057", 
+        "name": "MAYA_RS_DEN_057", 
         "status": "skipped", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -1128,7 +1128,7 @@
         "scene": "DenoiserIBL.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_058", 
+        "name": "MAYA_RS_DEN_058", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -1142,7 +1142,7 @@
         "scene": "DenoiserIBL.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_059", 
+        "name": "MAYA_RS_DEN_059", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -1156,7 +1156,7 @@
         "scene": "DenoiserIBL.ma"
     }, 
     {
-        "case": "MAYA_RS_DEN_060", 
+        "name": "MAYA_RS_DEN_060", 
         "status": "skipped", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 

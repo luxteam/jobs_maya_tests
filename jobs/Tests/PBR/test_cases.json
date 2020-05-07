@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_MAT_PBR_001",
+        "name": "MAYA_MAT_PBR_001",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -15,7 +15,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_002",
+        "name": "MAYA_MAT_PBR_002",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -30,7 +30,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_003",
+        "name": "MAYA_MAT_PBR_003",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -45,7 +45,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_004",
+        "name": "MAYA_MAT_PBR_004",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -62,7 +62,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_005",
+        "name": "MAYA_MAT_PBR_005",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -76,7 +76,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_006",
+        "name": "MAYA_MAT_PBR_006",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -91,7 +91,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_007",
+        "name": "MAYA_MAT_PBR_007",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -106,7 +106,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_008",
+        "name": "MAYA_MAT_PBR_008",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -121,7 +121,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_009",
+        "name": "MAYA_MAT_PBR_009",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -138,7 +138,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_010",
+        "name": "MAYA_MAT_PBR_010",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -152,7 +152,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_011",
+        "name": "MAYA_MAT_PBR_011",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -166,7 +166,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_012",
+        "name": "MAYA_MAT_PBR_012",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -181,7 +181,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_013",
+        "name": "MAYA_MAT_PBR_013",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -196,7 +196,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_014",
+        "name": "MAYA_MAT_PBR_014",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -211,7 +211,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_015",
+        "name": "MAYA_MAT_PBR_015",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -228,7 +228,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_016",
+        "name": "MAYA_MAT_PBR_016",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -242,7 +242,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_017",
+        "name": "MAYA_MAT_PBR_017",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -256,7 +256,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_018",
+        "name": "MAYA_MAT_PBR_018",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -271,7 +271,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_019",
+        "name": "MAYA_MAT_PBR_019",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -286,7 +286,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_020",
+        "name": "MAYA_MAT_PBR_020",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -301,7 +301,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_021",
+        "name": "MAYA_MAT_PBR_021",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -318,7 +318,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_022",
+        "name": "MAYA_MAT_PBR_022",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -332,7 +332,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_023",
+        "name": "MAYA_MAT_PBR_023",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -346,7 +346,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_024",
+        "name": "MAYA_MAT_PBR_024",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -360,7 +360,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_025",
+        "name": "MAYA_MAT_PBR_025",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -374,7 +374,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_026",
+        "name": "MAYA_MAT_PBR_026",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -387,7 +387,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_027",
+        "name": "MAYA_MAT_PBR_027",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -403,7 +403,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_028",
+        "name": "MAYA_MAT_PBR_028",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -418,7 +418,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_029",
+        "name": "MAYA_MAT_PBR_029",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -433,7 +433,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_030",
+        "name": "MAYA_MAT_PBR_030",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -448,7 +448,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_031",
+        "name": "MAYA_MAT_PBR_031",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -465,7 +465,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_032",
+        "name": "MAYA_MAT_PBR_032",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -479,7 +479,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_033",
+        "name": "MAYA_MAT_PBR_033",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -493,7 +493,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_034",
+        "name": "MAYA_MAT_PBR_034",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -510,7 +510,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_035",
+        "name": "MAYA_MAT_PBR_035",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -524,7 +524,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_036",
+        "name": "MAYA_MAT_PBR_036",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -538,7 +538,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_037",
+        "name": "MAYA_MAT_PBR_037",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -553,7 +553,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_038",
+        "name": "MAYA_MAT_PBR_038",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -568,7 +568,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_039",
+        "name": "MAYA_MAT_PBR_039",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -583,7 +583,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_040",
+        "name": "MAYA_MAT_PBR_040",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -600,7 +600,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_041",
+        "name": "MAYA_MAT_PBR_041",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -615,7 +615,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_042",
+        "name": "MAYA_MAT_PBR_042",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -630,7 +630,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_043",
+        "name": "MAYA_MAT_PBR_043",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -645,7 +645,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_044",
+        "name": "MAYA_MAT_PBR_044",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -660,7 +660,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_045",
+        "name": "MAYA_MAT_PBR_045",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -676,7 +676,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_046",
+        "name": "MAYA_MAT_PBR_046",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -693,7 +693,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_047",
+        "name": "MAYA_MAT_PBR_047",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -708,7 +708,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_048",
+        "name": "MAYA_MAT_PBR_048",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -723,7 +723,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_049",
+        "name": "MAYA_MAT_PBR_049",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -738,7 +738,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_050",
+        "name": "MAYA_MAT_PBR_050",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -755,7 +755,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_051",
+        "name": "MAYA_MAT_PBR_051",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -770,7 +770,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_052",
+        "name": "MAYA_MAT_PBR_052",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -785,7 +785,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_053",
+        "name": "MAYA_MAT_PBR_053",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -800,7 +800,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_054",
+        "name": "MAYA_MAT_PBR_054",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -817,7 +817,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_055",
+        "name": "MAYA_MAT_PBR_055",
         "status": "active",
         "functions": [
             "resetAttributes()",
@@ -833,7 +833,7 @@
         "scene": "PBR.ma"
     },
     {
-        "case": "MAYA_MAT_PBR_056",
+        "name": "MAYA_MAT_PBR_056",
         "status": "active",
         "functions": [
             "resetAttributes()",

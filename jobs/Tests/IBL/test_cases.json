@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_RS_IBL_001",
+        "name": "MAYA_RS_IBL_001",
         "status": "active",
         "script_info": [
             "Type: Color",
@@ -18,7 +18,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_002",
+        "name": "MAYA_RS_IBL_002",
         "status": "active",
         "script_info": [
             "Type: Color",
@@ -36,7 +36,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_003",
+        "name": "MAYA_RS_IBL_003",
         "status": "active",
         "script_info": [
             "Type: Color",
@@ -54,7 +54,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_004",
+        "name": "MAYA_RS_IBL_004",
         "status": "active",
         "script_info": [
             "Type: Color",
@@ -72,7 +72,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_005",
+        "name": "MAYA_RS_IBL_005",
         "status": "active",
         "script_info": [
             "Type: Color",
@@ -90,7 +90,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_006",
+        "name": "MAYA_RS_IBL_006",
         "status": "active",
         "script_info": [
             "Type: Color",
@@ -108,7 +108,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_007",
+        "name": "MAYA_RS_IBL_007",
         "status": "active",
         "script_info": [
             "Type: Color",
@@ -126,7 +126,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_008",
+        "name": "MAYA_RS_IBL_008",
         "status": "active",
         "script_info": [
             "Type: IBL with hdr map",
@@ -145,7 +145,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_009",
+        "name": "MAYA_RS_IBL_009",
         "status": "active",
         "script_info": [
             "Type: IBL with hdr map",
@@ -164,7 +164,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_010",
+        "name": "MAYA_RS_IBL_010",
         "status": "active",
         "script_info": [
             "Type: IBL with hdr map",
@@ -183,7 +183,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_011",
+        "name": "MAYA_RS_IBL_011",
         "status": "active",
         "script_info": [
             "Type: IBL with hdr map",
@@ -202,7 +202,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_012",
+        "name": "MAYA_RS_IBL_012",
         "status": "active",
         "script_info": [
             "Type: IBL with hdr map",
@@ -221,7 +221,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_013",
+        "name": "MAYA_RS_IBL_013",
         "status": "active",
         "script_info": [
             "Type: IBL with hdr map",
@@ -240,7 +240,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_014",
+        "name": "MAYA_RS_IBL_014",
         "status": "active",
         "script_info": [
             "Type: IBL with hdr map",
@@ -259,7 +259,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_015",
+        "name": "MAYA_RS_IBL_015",
         "status": "active",
         "script_info": [
             "Type: IBL with exr map",
@@ -278,7 +278,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_016",
+        "name": "MAYA_RS_IBL_016",
         "status": "active",
         "script_info": [
             "Type: IBL with exr map",
@@ -297,7 +297,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_017",
+        "name": "MAYA_RS_IBL_017",
         "status": "active",
         "script_info": [
             "Type: IBL with exr map",
@@ -316,7 +316,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_018",
+        "name": "MAYA_RS_IBL_018",
         "status": "active",
         "script_info": [
             "Type: IBL with exr map",
@@ -335,7 +335,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_019",
+        "name": "MAYA_RS_IBL_019",
         "status": "active",
         "script_info": [
             "Type: IBL with exr map",
@@ -354,7 +354,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_020",
+        "name": "MAYA_RS_IBL_020",
         "status": "active",
         "script_info": [
             "Type: IBL with exr map",
@@ -373,7 +373,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_021",
+        "name": "MAYA_RS_IBL_021",
         "status": "active",
         "script_info": [
             "Type: IBL with exr map",
@@ -392,7 +392,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_022",
+        "name": "MAYA_RS_IBL_022",
         "status": "active",
         "script_info": [
             "IBL rotaion x"
@@ -410,7 +410,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_023",
+        "name": "MAYA_RS_IBL_023",
         "status": "active",
         "script_info": [
             "IBL rotation y"
@@ -428,7 +428,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_024",
+        "name": "MAYA_RS_IBL_024",
         "status": "active",
         "script_info": [
             "IBL rotation Z"
@@ -446,7 +446,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_025",
+        "name": "MAYA_RS_IBL_025",
         "status": "active",
         "script_info": [
             "IBL rotation z flipped"
@@ -464,7 +464,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_026",
+        "name": "MAYA_RS_IBL_026",
         "status": "active",
         "script_info": [
             "IBL rotation Y flipped"
@@ -484,7 +484,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_027",
+        "name": "MAYA_RS_IBL_027",
         "status": "active",
         "script_info": [
             "IBL rotation Z flipped"
@@ -504,7 +504,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_028",
+        "name": "MAYA_RS_IBL_028",
         "status": "active",
         "script_info": [
             "IBL rotation X flipped with Hybrid"
@@ -529,7 +529,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_029",
+        "name": "MAYA_RS_IBL_029",
         "status": "active",
         "script_info": [
             "IBL rotation Y Flipped with Hybrid"
@@ -554,7 +554,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_030",
+        "name": "MAYA_RS_IBL_030",
         "status": "active",
         "script_info": [
             "IBL rotation Z flipped with Hybrid"
@@ -579,7 +579,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_031",
+        "name": "MAYA_RS_IBL_031",
         "status": "active",
         "script_info": [
             "IBL rotation X Hybrid"
@@ -602,7 +602,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_032",
+        "name": "MAYA_RS_IBL_032",
         "status": "active",
         "script_info": [
             "IBL rotation Y Hybrid"
@@ -625,7 +625,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IBL_033",
+        "name": "MAYA_RS_IBL_033",
         "status": "active",
         "script_info": [
             "IBL rotation Z Hybrid"

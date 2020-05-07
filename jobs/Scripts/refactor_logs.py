@@ -75,7 +75,7 @@ def main(args):
         for case in cases:
             case_time = '{:.2f}'.format(case.get("time_taken", 0))
             f.write('{}\t{}\t{}\t{}\n'.format(
-                case['case'], case['status'], case_time, case.get('number_of_tries', 1)))
+                case['name'], case['status'], case_time, case.get('number_of_tries', 1)))
             total_time += float(case.get('time_taken', '0'))
 
         f.write('Time taken: ' +

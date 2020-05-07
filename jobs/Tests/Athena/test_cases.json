@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_RS_AWS_001", 
+        "name": "MAYA_RS_AWS_001", 
         "status": "active", 
         "functions": [
             "mel.eval('athenaEnable -ae true')",

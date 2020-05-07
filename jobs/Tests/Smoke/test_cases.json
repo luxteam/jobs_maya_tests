@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_SM_001", 
+        "name": "MAYA_SM_001", 
         "status": "active", 
         "functions": [
             "check_test_cases_success_save"
@@ -10,7 +10,7 @@
         ]
     }, 
     {
-        "case": "MAYA_SM_002", 
+        "name": "MAYA_SM_002", 
         "status": "active", 
         "functions": [
             "check_test_cases_success_save"
@@ -20,7 +20,7 @@
         ]
     }, 
     {
-        "case": "MAYA_SM_003", 
+        "name": "MAYA_SM_003", 
         "status": "active", 
         "functions": [
             "mel.eval('FBXImport -f (\"' + RES_PATH + '\" + \"/Smoke/default/park_bench1.fbx\")')", 
@@ -34,7 +34,7 @@
         "scene": "default.ma"
     }, 
     {
-        "case": "MAYA_SM_004", 
+        "name": "MAYA_SM_004", 
         "status": "active", 
         "functions": [
             "cmds.file(RES_PATH + '/default/example.obj', i=True, type='OBJ', options='mo=-1', pr=True)",
@@ -51,7 +51,7 @@
         "scene": "default.ma"
     }, 
     {
-        "case": "MAYA_SM_005", 
+        "name": "MAYA_SM_005", 
         "status": "active", 
         "functions": [
             "check_test_cases_success_save"
@@ -61,7 +61,7 @@
         ]
     }, 
     {
-        "case": "MAYA_SM_006", 
+        "name": "MAYA_SM_006", 
         "status": "active", 
         "functions": [
             "cmds.hide('ground')", 
@@ -79,7 +79,7 @@
         "scene": "Lamborginhi_Aventador.ma"
     }, 
     {
-        "case": "MAYA_SM_007", 
+        "name": "MAYA_SM_007", 
         "status": "active", 
         "functions": [
             "cmds.hide('ground')", 
@@ -98,7 +98,7 @@
         "scene": "Lamborginhi_Aventador.ma"
     }, 
     {
-        "case": "MAYA_SM_008", 
+        "name": "MAYA_SM_008", 
         "status": "active", 
         "functions": [
             "cmds.hide('ground')", 
@@ -117,7 +117,7 @@
         "scene": "Lamborginhi_Aventador.ma"
     }, 
     {
-        "case": "MAYA_SM_009", 
+        "name": "MAYA_SM_009", 
         "status": "active", 
         "functions": [
             "sky_shape = cmds.createNode('RPRSky', n='RPRSkyShape')", 
@@ -134,7 +134,7 @@
         "scene": "Lamborginhi_Aventador.ma"
     }, 
     {
-        "case": "MAYA_SM_010", 
+        "name": "MAYA_SM_010", 
         "status": "active", 
         "functions": [
             "rprLightShape = cmds.createNode('RPRIES', n='RPRIESLight')", 
@@ -153,7 +153,7 @@
         "scene": "Lamborginhi_Aventador.ma"
     }, 
     {
-        "case": "MAYA_SM_011", 
+        "name": "MAYA_SM_011", 
         "status": "active", 
         "script_info": [
             "Render 1 pass"
@@ -165,7 +165,7 @@
         ]
     }, 
     {
-        "case": "MAYA_SM_012", 
+        "name": "MAYA_SM_012", 
         "status": "active", 
         "script_info": [
             "Render 100 pass"
@@ -177,7 +177,7 @@
         ]
     }, 
     {
-        "case": "MAYA_SM_013", 
+        "name": "MAYA_SM_013", 
         "status": "active", 
         "script_info": [
             "Render 500 pass"
@@ -189,7 +189,7 @@
         ]
     }, 
     {
-        "case": "MAYA_SM_014", 
+        "name": "MAYA_SM_014", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)", 
@@ -205,7 +205,7 @@
         "scene": "Lamborginhi_Aventador.ma"
     }, 
     {
-        "case": "MAYA_SM_015", 
+        "name": "MAYA_SM_015", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.useRenderStamp', 1)", 
@@ -219,7 +219,7 @@
         "scene": "Lamborginhi_Aventador.ma"
     }, 
     {
-        "case": "MAYA_SM_016", 
+        "name": "MAYA_SM_016", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.renderMode', 4)", 
@@ -233,7 +233,7 @@
         "scene": "Lamborginhi_Aventador.ma"
     }, 
     {
-        "case": "MAYA_SM_017", 
+        "name": "MAYA_SM_017", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.samples', 8)", 
@@ -249,7 +249,7 @@
         "scene": "Lamborginhi_Aventador.ma"
     }, 
     {
-        "case": "MAYA_SM_018", 
+        "name": "MAYA_SM_018", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('defaultResolution.width', 1280)", 
@@ -271,7 +271,7 @@
         "scene": "Lamborginhi_Aventador.ma"
     }, 
     {
-        "case": "MAYA_SM_019", 
+        "name": "MAYA_SM_019", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('defaultResolution.width', 1500)", 
@@ -290,7 +290,7 @@
         "scene": "Lamborginhi_Aventador.ma"
     }, 
     {
-        "case": "MAYA_SM_020", 
+        "name": "MAYA_SM_020", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 32)", 
@@ -306,7 +306,7 @@
         "extension": ".png"
     }, 
     {
-        "case": "MAYA_SM_021", 
+        "name": "MAYA_SM_021", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 8)", 
@@ -319,7 +319,7 @@
         "scene": "Lamborginhi_Aventador.ma"
     }, 
     {
-        "case": "MAYA_SM_022", 
+        "name": "MAYA_SM_022", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -335,7 +335,7 @@
         "scene": "Lamborginhi_Aventador.ma"
     }, 
     {
-        "case": "MAYA_SM_023", 
+        "name": "MAYA_SM_023", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -350,7 +350,7 @@
         "scene": "Lamborginhi_Aventador.ma"
     }, 
     {
-        "case": "MAYA_SM_024", 
+        "name": "MAYA_SM_024", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -365,7 +365,7 @@
         "scene": "Lamborginhi_Aventador.ma"
     }, 
     {
-        "case": "MAYA_SM_025", 
+        "name": "MAYA_SM_025", 
         "status": "active", 
         "functions": [
             "light_transform = cmds.shadingNode('areaLight', asLight=True)",
@@ -382,7 +382,7 @@
         "scene": "Lamborginhi_Aventador.ma"
     }, 
     {
-        "case": "MAYA_SM_026", 
+        "name": "MAYA_SM_026", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 3)", 
@@ -396,7 +396,7 @@
         "scene": "Lamborginhi_Aventador.ma"
     }, 
     {
-        "case": "MAYA_SM_027", 
+        "name": "MAYA_SM_027", 
         "status": "active", 
         "functions": [
             "rprLightShape = cmds.createNode('RPRPhysicalLight', n='RPRPhysicalLightShape')", 
@@ -415,7 +415,7 @@
         "scene": "Lamborginhi_Aventador.ma"
     }, 
     {
-        "case": "MAYA_SM_028", 
+        "name": "MAYA_SM_028", 
         "status": "active", 
         "functions": [
             "libraryPath = fireRender.rpr_material_browser.getLibPath()", 
@@ -435,7 +435,7 @@
         "scene": "Lamborginhi_Aventador.ma"
     }, 
     {
-        "case": "MAYA_SM_029", 
+        "name": "MAYA_SM_029", 
         "status": "active", 
         "functions": [
             "rpr = cmds.shadingNode('RPRPbrMaterial', asShader=True)", 
@@ -455,7 +455,7 @@
         "scene": "Lamborginhi_Aventador.ma"
     }, 
     {
-        "case": "MAYA_SM_030", 
+        "name": "MAYA_SM_030", 
         "status": "active", 
         "functions": [
             "rpr = cmds.shadingNode('RPRUberMaterial', asShader=True)",
@@ -476,7 +476,7 @@
         "scene": "Lamborginhi_Aventador.ma"
     }, 
     {
-        "case": "MAYA_SM_031", 
+        "name": "MAYA_SM_031", 
         "status": "active", 
         "functions": [
             "cmds.select('Cube', r=True)", 
@@ -490,7 +490,7 @@
         "scene": "instances.ma"
     }, 
     {
-        "case": "MAYA_SM_032", 
+        "name": "MAYA_SM_032", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RPRIESLight1.iesFile', (RES_PATH + '/Smoke/Lamborginhi_Aventador/sourceimages/1.IES'), type='string')", 
@@ -508,7 +508,7 @@
         "scene": "IES.ma"
     }, 
     {
-        "case": "MAYA_SM_033", 
+        "name": "MAYA_SM_033", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.aovOpacity', 1)", 
@@ -530,7 +530,7 @@
         "scene": "maya_shaderball.ma"
     }, 
     {
-        "case": "MAYA_SM_034", 
+        "name": "MAYA_SM_034", 
         "status": "active", 
         "script_info": [
             "SSS", 
@@ -543,7 +543,7 @@
         ]
     }, 
     {
-        "case": "MAYA_SM_035", 
+        "name": "MAYA_SM_035", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxRayDepth', 15)", 
@@ -559,7 +559,7 @@
         "scene": "Uber_SSS_night.ma"
     }, 
     {
-        "case": "MAYA_SM_036", 
+        "name": "MAYA_SM_036", 
         "status": "active", 
         "functions": [
             "rpr_render(case)"
@@ -571,7 +571,7 @@
         "scene": "displacement.ma"
     }, 
     {
-        "case": "MAYA_SM_037", 
+        "name": "MAYA_SM_037", 
         "status": "active", 
         "functions": [
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')", 
@@ -586,7 +586,7 @@
         "scene": "bifrost.ma"
     }, 
     {
-        "case": "MAYA_SM_038", 
+        "name": "MAYA_SM_038", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 10)",
@@ -598,7 +598,7 @@
         "scene": "Lamborginhi_Aventador.ma"
     }, 
     {
-        "case": "MAYA_SM_039", 
+        "name": "MAYA_SM_039", 
         "status": "active", 
         "functions": [
             "cmds.currentTime(440.0)",
@@ -613,7 +613,7 @@
         "scene": "motion_blur.ma"
     }, 
     {
-        "case": "MAYA_SM_040", 
+        "name": "MAYA_SM_040", 
         "status": "skipped", 
         "functions": [
             "cmds.editRenderLayerGlobals(crl='rs_ALL_SHADOW')",
@@ -625,7 +625,7 @@
         "scene": "render_layer.ma"
     }, 
     {
-        "case": "MAYA_SM_041", 
+        "name": "MAYA_SM_041", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('CheckerDotTexture.visibility', 0)",
@@ -639,7 +639,7 @@
         "scene": "RPRNodes.ma"
     }, 
     {
-        "case": "MAYA_SM_042", 
+        "name": "MAYA_SM_042", 
         "status": "active", 
         "functions": [
             "file_tmp = setAttribute('emissionColor', 'outColor', RES_PATH + '/Smoke/VolumeRollingFog/sourceimages/EmissiveVariation1.exr')",
@@ -656,7 +656,7 @@
         "scene": "VolumeRollingFog.ma"
     },
     {
-        "case": "MAYA_SM_043", 
+        "name": "MAYA_SM_043", 
         "status": "skipped", 
         "functions": [
             "rpr_render(case)"
@@ -667,7 +667,7 @@
         "scene": "09_Dragon.ma"
     }, 
     {
-        "case": "MAYA_SM_044", 
+        "name": "MAYA_SM_044", 
         "status": "skipped", 
         "functions": [
             "rpr_render(case)"
@@ -678,7 +678,7 @@
         "scene": "04_Gun.ma"
     }, 
     {
-        "case": "MAYA_SM_045", 
+        "name": "MAYA_SM_045", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
@@ -692,7 +692,7 @@
         "scene": "Lamborginhi_Aventador.ma"
     },
     {
-        "case": "MAYA_SM_047", 
+        "name": "MAYA_SM_047", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('Vertex_Color.visibility', 1)",
@@ -707,7 +707,7 @@
         "scene": "lookup.ma"
     }, 
     {
-        "case": "MAYA_SM_048", 
+        "name": "MAYA_SM_048", 
         "status": "active", 
         "functions": [
             "rpr_render(case)"
@@ -718,7 +718,7 @@
         "scene": "SVG.ma"
     }, 
     {
-        "case": "MAYA_SM_049", 
+        "name": "MAYA_SM_049", 
         "status": "active", 
         "functions": [
             "rpr_render(case)"
@@ -729,7 +729,7 @@
         "scene": "portal_light.ma"
     }, 
     {
-        "case": "MAYA_SM_050", 
+        "name": "MAYA_SM_050", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaType', 0.0)",
@@ -750,7 +750,7 @@
         ]
     }, 
     {
-        "case": "MAYA_SM_051", 
+        "name": "MAYA_SM_051", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaType', 0.0)",
@@ -768,7 +768,7 @@
         "scene": "normal_scene.ma"
     }, 
     {
-        "case": "MAYA_SM_052", 
+        "name": "MAYA_SM_052", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaType', 0.0)",
@@ -782,7 +782,7 @@
         "scene": "normal_scene.ma"
     }, 
     {
-        "case": "MAYA_SM_053", 
+        "name": "MAYA_SM_053", 
         "status": "active", 
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaType', 0.0)",

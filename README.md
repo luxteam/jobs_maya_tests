@@ -49,7 +49,7 @@
 For adding autotests you should create `test_cases.json`. You can see examples on any group or below.
 
     {
-        "case": "MAYA_SM_150",
+        "name": "MAYA_SM_150",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",

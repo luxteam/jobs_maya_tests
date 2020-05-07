@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_RS_2019_001", 
+        "name": "MAYA_RS_2019_001", 
         "status": "active", 
         "functions": [
             "cmds.lookThru('persp3', 'modelPanel4')",
@@ -12,7 +12,7 @@
         "scene": "Lambo_Lebrov.ma"
     },
     {
-        "case": "MAYA_RS_2019_002", 
+        "name": "MAYA_RS_2019_002", 
         "status": "active", 
         "functions": [
             "cmds.lookThru('persp3', 'modelPanel4')",

@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_RS_HR_001",
+        "name": "MAYA_RS_HR_001",
         "status": "skipped",
         "script_info": [
             "Complex scene Quality High"
@@ -12,7 +12,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_002",
+        "name": "MAYA_RS_HR_002",
         "status": "skipped",
         "script_info": [
             "Complex scene Quality Medium"
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_003",
+        "name": "MAYA_RS_HR_003",
         "status": "skipped",
         "script_info": [
             "Complex scene Quality Low"
@@ -36,7 +36,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_004",
+        "name": "MAYA_RS_HR_004",
         "status": "active",
         "script_info": [
             "Physical Lights Quality High"
@@ -52,7 +52,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_005",
+        "name": "MAYA_RS_HR_005",
         "status": "active",
         "script_info": [
             "Physical Lights Quality Medium"
@@ -68,7 +68,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_006",
+        "name": "MAYA_RS_HR_006",
         "status": "active",
         "script_info": [
             "Physical Lights Quality Low"
@@ -84,7 +84,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_007",
+        "name": "MAYA_RS_HR_007",
         "status": "active",
         "script_info": [
             "Physical Lights Quality High"
@@ -100,7 +100,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_008",
+        "name": "MAYA_RS_HR_008",
         "status": "active",
         "script_info": [
             "Physical Lights Quality Medium"
@@ -116,7 +116,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_009",
+        "name": "MAYA_RS_HR_009",
         "status": "active",
         "script_info": [
             "Physical Lights Quality Low"
@@ -132,7 +132,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_010",
+        "name": "MAYA_RS_HR_010",
         "status": "active",
         "script_info": [
             "Physical Lights Quality High"
@@ -148,7 +148,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_011",
+        "name": "MAYA_RS_HR_011",
         "status": "active",
         "script_info": [
             "Physical Lights Quality Medium"
@@ -164,7 +164,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_012",
+        "name": "MAYA_RS_HR_012",
         "status": "active",
         "script_info": [
             "Physical Lights Quality low"
@@ -180,7 +180,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_013",
+        "name": "MAYA_RS_HR_013",
         "status": "active",
         "script_info": [
             "Physical Lights Quality High"
@@ -196,7 +196,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_014",
+        "name": "MAYA_RS_HR_014",
         "status": "active",
         "script_info": [
             "Physical Lights Quality Medium"
@@ -209,7 +209,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_015",
+        "name": "MAYA_RS_HR_015",
         "status": "active",
         "script_info": [
             "Physical Lights Quality Low"
@@ -225,7 +225,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_016",
+        "name": "MAYA_RS_HR_016",
         "status": "active",
         "script_info": [
             "RPR Sky Quality High"
@@ -240,7 +240,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_017",
+        "name": "MAYA_RS_HR_017",
         "status": "active",
         "script_info": [
             "RPR Sky Quality Medium"
@@ -252,7 +252,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_018",
+        "name": "MAYA_RS_HR_018",
         "status": "active",
         "script_info": [
             "RPR Sky Quality low"
@@ -264,7 +264,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_019",
+        "name": "MAYA_RS_HR_019",
         "status": "active",
         "script_info": [
             "RPR Material Uber PBR Quality High"
@@ -279,7 +279,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_020",
+        "name": "MAYA_RS_HR_020",
         "status": "active",
         "script_info": [
             "RPR Material Uber PBR Quality Medium"
@@ -294,7 +294,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_021",
+        "name": "MAYA_RS_HR_021",
         "status": "active",
         "script_info": [
             "RPR Material Uber PBR Quality Low"
@@ -306,7 +306,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_022",
+        "name": "MAYA_RS_HR_022",
         "status": "active",
         "script_info": [
             "Matlib Material Barn fine car paint Quality High"
@@ -323,7 +323,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_023",
+        "name": "MAYA_RS_HR_023",
         "status": "active",
         "script_info": [
             "Matlib Material Barn fine car paint Quality Medium"
@@ -337,7 +337,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_024",
+        "name": "MAYA_RS_HR_024",
         "status": "active",
         "script_info": [
             "Matlib Material Barn fine car paint Quality Low"
@@ -351,7 +351,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_025",
+        "name": "MAYA_RS_HR_025",
         "status": "active",
         "script_info": [
             "Matlib Material BasketCaseBlue Solid Quality High"
@@ -368,7 +368,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_026",
+        "name": "MAYA_RS_HR_026",
         "status": "active",
         "script_info": [
             "Matlib Material BasketCaseBlue Solid Quality Medium"
@@ -385,7 +385,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_027",
+        "name": "MAYA_RS_HR_027",
         "status": "active",
         "script_info": [
             "Matlib Material BasketCaseBlue Solid Quality Low"
@@ -399,7 +399,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_028",
+        "name": "MAYA_RS_HR_028",
         "status": "active",
         "script_info": [
             "Matlib Material Clear Glass Quality High"
@@ -416,7 +416,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_029",
+        "name": "MAYA_RS_HR_029",
         "status": "active",
         "script_info": [
             "Matlib Material Clear Glass Quality Medium"
@@ -433,7 +433,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_030",
+        "name": "MAYA_RS_HR_030",
         "status": "active",
         "script_info": [
             "Matlib Material Clear Glass Quality Low"
@@ -450,7 +450,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_031",
+        "name": "MAYA_RS_HR_031",
         "status": "active",
         "script_info": [
             "Matlib Material Wood Panks Oak Quality High"
@@ -467,7 +467,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_032",
+        "name": "MAYA_RS_HR_032",
         "status": "active",
         "script_info": [
             "Matlib Material Wood Panks Oak Quality Medium"
@@ -484,7 +484,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_033",
+        "name": "MAYA_RS_HR_033",
         "status": "active",
         "script_info": [
             "Matlib Material Wood Panks Oak Quality Low"
@@ -498,7 +498,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_034",
+        "name": "MAYA_RS_HR_034",
         "status": "active",
         "script_info": [
             "Mesh light Quality High"
@@ -513,7 +513,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_035",
+        "name": "MAYA_RS_HR_035",
         "status": "active",
         "script_info": [
             "Mesh light Quality Medium"
@@ -525,7 +525,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_036",
+        "name": "MAYA_RS_HR_036",
         "status": "active",
         "script_info": [
             "Mesh light Quality Low"
@@ -537,7 +537,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_037",
+        "name": "MAYA_RS_HR_037",
         "status": "active",
         "script_info": [
             "Samples 0 Quality High"
@@ -564,7 +564,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_038",
+        "name": "MAYA_RS_HR_038",
         "status": "active",
         "script_info": [
             "Samples 0 Quality Medium"
@@ -591,7 +591,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_039",
+        "name": "MAYA_RS_HR_039",
         "status": "active",
         "script_info": [
             "Samples 0 Quality Low"
@@ -615,7 +615,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_040",
+        "name": "MAYA_RS_HR_040",
         "status": "active",
         "script_info": [
             "Samples 18 Quality High"
@@ -642,7 +642,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_041",
+        "name": "MAYA_RS_HR_041",
         "status": "active",
         "script_info": [
             "Samples 18 Quality Medium"
@@ -669,7 +669,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_042",
+        "name": "MAYA_RS_HR_042",
         "status": "active",
         "script_info": [
             "Samples 18 Quality Low"
@@ -693,7 +693,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_043",
+        "name": "MAYA_RS_HR_043",
         "status": "skipped",
         "script_info": [
             "Hybrid + Tile rendering Quality High"
@@ -707,7 +707,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_044",
+        "name": "MAYA_RS_HR_044",
         "status": "skipped",
         "script_info": [
             "Hybrid + Tile rendering Quality Medium"
@@ -721,7 +721,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_HR_045",
+        "name": "MAYA_RS_HR_045",
         "status": "skipped",
         "script_info": [
             "Hybrid + Tile rendering Quality Low"

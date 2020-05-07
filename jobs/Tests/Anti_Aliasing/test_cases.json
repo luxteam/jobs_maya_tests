@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_RS_AA_001",
+        "name": "MAYA_RS_AA_001",
         "status": "active",
         "script_info": [
             "AA filter: Box",
@@ -14,7 +14,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AA_002",
+        "name": "MAYA_RS_AA_002",
         "status": "active",
         "script_info": [
             "AA filter: Box",
@@ -28,7 +28,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AA_003",
+        "name": "MAYA_RS_AA_003",
         "status": "active",
         "script_info": [
             "AA filter: Box",
@@ -42,7 +42,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AA_004",
+        "name": "MAYA_RS_AA_004",
         "status": "active",
         "script_info": [
             "AA filter: Lanczos",
@@ -56,7 +56,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AA_005",
+        "name": "MAYA_RS_AA_005",
         "status": "active",
         "script_info": [
             "AA filter: Lanczos",
@@ -70,7 +70,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AA_006",
+        "name": "MAYA_RS_AA_006",
         "status": "active",
         "script_info": [
             "AA filter: Lanczos",
@@ -84,7 +84,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AA_007",
+        "name": "MAYA_RS_AA_007",
         "status": "active",
         "script_info": [
             "AA filter: Triangle",
@@ -98,7 +98,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AA_008",
+        "name": "MAYA_RS_AA_008",
         "status": "active",
         "script_info": [
             "AA filter: Triangle",
@@ -112,7 +112,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AA_009",
+        "name": "MAYA_RS_AA_009",
         "status": "active",
         "script_info": [
             "AA filter: Triangle",
@@ -126,7 +126,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AA_010",
+        "name": "MAYA_RS_AA_010",
         "status": "active",
         "script_info": [
             "AA filter: Box",
@@ -140,7 +140,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AA_011",
+        "name": "MAYA_RS_AA_011",
         "status": "active",
         "script_info": [
             "AA filter: Box",
@@ -154,7 +154,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AA_012",
+        "name": "MAYA_RS_AA_012",
         "status": "active",
         "script_info": [
             "AA filter: Box",
@@ -168,7 +168,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AA_013",
+        "name": "MAYA_RS_AA_013",
         "status": "active",
         "script_info": [
             "AA filter: Gaussian",
@@ -182,7 +182,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AA_014",
+        "name": "MAYA_RS_AA_014",
         "status": "active",
         "script_info": [
             "AA filter: Gaussian",
@@ -196,7 +196,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AA_015",
+        "name": "MAYA_RS_AA_015",
         "status": "active",
         "script_info": [
             "AA filter: Gaussian",
@@ -210,7 +210,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AA_016",
+        "name": "MAYA_RS_AA_016",
         "status": "active",
         "script_info": [
             "AA filter: Blackmanharris",
@@ -224,7 +224,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AA_017",
+        "name": "MAYA_RS_AA_017",
         "status": "active",
         "script_info": [
             "AA filter: Blackmanharris",
@@ -238,7 +238,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AA_018",
+        "name": "MAYA_RS_AA_018",
         "status": "active",
         "script_info": [
             "AA filter: Blackmanharris",

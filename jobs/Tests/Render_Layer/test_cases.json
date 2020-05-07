@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_RS_RL_001",
+        "name": "MAYA_RS_RL_001",
         "status": "active",
         "script_info": [
             "Render Layer - rs_L03_BEAUTY"
@@ -12,7 +12,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RL_002",
+        "name": "MAYA_RS_RL_002",
         "status": "active",
         "script_info": [
             "Render Layer - rs_ALL_SHADOW"
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RL_003",
+        "name": "MAYA_RS_RL_003",
         "status": "active",
         "script_info": [
             "Render Layer - rs_L02_BEAUTY"
@@ -36,7 +36,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RL_004",
+        "name": "MAYA_RS_RL_004",
         "status": "active",
         "script_info": [
             "Render Layer - rs_POL_BEAUTY"
@@ -48,7 +48,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RL_005",
+        "name": "MAYA_RS_RL_005",
         "status": "active",
         "script_info": [
             "Render Layer - rs_L01_BEAUTY"
@@ -60,7 +60,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_RL_006",
+        "name": "MAYA_RS_RL_006",
         "status": "active",
         "script_info": [
             "Render Layer - masterLayer"

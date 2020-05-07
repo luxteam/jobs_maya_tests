@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_RS_AN_001",
+        "name": "MAYA_RS_AN_001",
         "status": "active",
         "script_info": [
             "Frame: 91"
@@ -12,7 +12,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_002",
+        "name": "MAYA_RS_AN_002",
         "status": "active",
         "script_info": [
             "Frame: 92"
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_003",
+        "name": "MAYA_RS_AN_003",
         "status": "active",
         "script_info": [
             "Frame: 93"
@@ -36,7 +36,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_004",
+        "name": "MAYA_RS_AN_004",
         "status": "active",
         "script_info": [
             "Frame: 201"
@@ -48,7 +48,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_005",
+        "name": "MAYA_RS_AN_005",
         "status": "active",
         "script_info": [
             "Frame: 202"
@@ -60,7 +60,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_006",
+        "name": "MAYA_RS_AN_006",
         "status": "active",
         "script_info": [
             "Frame: 203"
@@ -72,7 +72,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_007",
+        "name": "MAYA_RS_AN_007",
         "status": "active",
         "script_info": [
             "Frame: 291"
@@ -84,7 +84,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_008",
+        "name": "MAYA_RS_AN_008",
         "status": "active",
         "script_info": [
             "Frame: 292"
@@ -96,7 +96,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_009",
+        "name": "MAYA_RS_AN_009",
         "status": "active",
         "script_info": [
             "Frame: 293"
@@ -108,7 +108,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_010",
+        "name": "MAYA_RS_AN_010",
         "status": "active",
         "script_info": [
             "Frame: 11"
@@ -121,7 +121,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_011",
+        "name": "MAYA_RS_AN_011",
         "status": "active",
         "script_info": [
             "Frame: 12"
@@ -134,7 +134,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_012",
+        "name": "MAYA_RS_AN_012",
         "status": "active",
         "script_info": [
             "Frame: 13"
@@ -147,7 +147,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_013",
+        "name": "MAYA_RS_AN_013",
         "status": "active",
         "script_info": [
             "Frame: 14"
@@ -160,7 +160,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_014",
+        "name": "MAYA_RS_AN_014",
         "status": "active",
         "script_info": [
             "Frame: 15"
@@ -173,7 +173,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_015",
+        "name": "MAYA_RS_AN_015",
         "status": "active",
         "script_info": [
             "Frame: 16"
@@ -186,7 +186,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_016",
+        "name": "MAYA_RS_AN_016",
         "status": "active",
         "script_info": [
             "Frame: 17"
@@ -199,7 +199,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_017",
+        "name": "MAYA_RS_AN_017",
         "status": "active",
         "script_info": [
             "Frame: 18"
@@ -212,7 +212,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_018",
+        "name": "MAYA_RS_AN_018",
         "status": "active",
         "script_info": [
             "Frame: 19"
@@ -225,7 +225,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_019",
+        "name": "MAYA_RS_AN_019",
         "status": "skipped",
         "script_info": [
             "Frame-60"
@@ -237,7 +237,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_020",
+        "name": "MAYA_RS_AN_020",
         "status": "skipped",
         "script_info": [
             "Frame-120"
@@ -250,7 +250,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_021",
+        "name": "MAYA_RS_AN_021",
         "status": "skipped",
         "script_info": [
             "Frame -60 Color Change"
@@ -266,7 +266,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_022",
+        "name": "MAYA_RS_AN_022",
         "status": "skipped",
         "script_info": [
             "Frame-60"
@@ -279,7 +279,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_023",
+        "name": "MAYA_RS_AN_023",
         "status": "skipped",
         "script_info": [
             "Frame-120"
@@ -292,7 +292,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_024",
+        "name": "MAYA_RS_AN_024",
         "status": "skipped",
         "script_info": [
             "Frame -60 Color Change "
@@ -308,7 +308,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_025",
+        "name": "MAYA_RS_AN_025",
         "status": "skipped",
         "script_info": [
             "Frame-60"
@@ -327,7 +327,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_026",
+        "name": "MAYA_RS_AN_026",
         "status": "skipped",
         "script_info": [
             "Frame-120"
@@ -340,7 +340,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_027",
+        "name": "MAYA_RS_AN_027",
         "status": "skipped",
         "script_info": [
             "Frame -60 Color Change "
@@ -356,7 +356,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_028",
+        "name": "MAYA_RS_AN_028",
         "status": "skipped",
         "script_info": [
             "Frame -10"
@@ -369,7 +369,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_029",
+        "name": "MAYA_RS_AN_029",
         "status": "skipped",
         "script_info": [
             "Frame -30"
@@ -381,7 +381,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_030",
+        "name": "MAYA_RS_AN_030",
         "status": "skipped",
         "script_info": [
             "Frame - 50 "
@@ -394,7 +394,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_031",
+        "name": "MAYA_RS_AN_031",
         "status": "skipped",
         "script_info": [
             "Frame - 60"
@@ -407,7 +407,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_032",
+        "name": "MAYA_RS_AN_032",
         "status": "skipped",
         "script_info": [
             "Frame - 10"
@@ -419,7 +419,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_033",
+        "name": "MAYA_RS_AN_033",
         "status": "skipped",
         "script_info": [
             "Frame - 30"
@@ -431,7 +431,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_AN_034",
+        "name": "MAYA_RS_AN_034",
         "status": "skipped",
         "script_info": [
             "Frame - 60"

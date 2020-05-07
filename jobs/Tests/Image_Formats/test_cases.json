@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_RS_IF_001",
+        "name": "MAYA_RS_IF_001",
         "status": "active",
         "script_info": [
             "Image format: Alias PIX (als)"
@@ -13,7 +13,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IF_002",
+        "name": "MAYA_RS_IF_002",
         "status": "skipped",
         "script_info": [
             "Image format: Cineon (cin)"
@@ -26,7 +26,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IF_003",
+        "name": "MAYA_RS_IF_003",
         "status": "active",
         "script_info": [
             "Image format: DDS (dds)"
@@ -39,7 +39,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IF_004",
+        "name": "MAYA_RS_IF_004",
         "status": "active",
         "script_info": [
             "Image format: EPS (eps)"
@@ -52,7 +52,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IF_005",
+        "name": "MAYA_RS_IF_005",
         "status": "active",
         "script_info": [
             "Image format: GIF (gif)"
@@ -66,7 +66,7 @@
         "extension": ".gif"
     },
     {
-        "case": "MAYA_RS_IF_006",
+        "name": "MAYA_RS_IF_006",
         "status": "active",
         "script_info": [
             "Image format: JPEG (jpg)"
@@ -78,7 +78,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IF_007",
+        "name": "MAYA_RS_IF_007",
         "status": "active",
         "script_info": [
             "Image format: Maya IFF (iff)"
@@ -91,7 +91,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IF_008",
+        "name": "MAYA_RS_IF_008",
         "status": "active",
         "script_info": [
             "Image format: Maya16 IFF (iff)"
@@ -104,7 +104,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IF_009",
+        "name": "MAYA_RS_IF_009",
         "status": "active",
         "script_info": [
             "Image format: PSD (psd)"
@@ -117,7 +117,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IF_010",
+        "name": "MAYA_RS_IF_010",
         "status": "active",
         "script_info": [
             "Image format: PSD Layered (psd)"
@@ -130,7 +130,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IF_011",
+        "name": "MAYA_RS_IF_011",
         "status": "active",
         "script_info": [
             "Image format: PNG (png)"
@@ -144,7 +144,7 @@
         "extension": ".png"
     },
     {
-        "case": "MAYA_RS_IF_012",
+        "name": "MAYA_RS_IF_012",
         "status": "active",
         "script_info": [
             "Image format: Quantel (yuv)"
@@ -157,7 +157,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IF_013",
+        "name": "MAYA_RS_IF_013",
         "status": "active",
         "script_info": [
             "Image format: RLA (rla)"
@@ -170,7 +170,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IF_014",
+        "name": "MAYA_RS_IF_014",
         "status": "active",
         "script_info": [
             "Image format: SGI (sgi)"
@@ -183,7 +183,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IF_015",
+        "name": "MAYA_RS_IF_015",
         "status": "active",
         "script_info": [
             "Image format: SGI16 (sgi)"
@@ -196,7 +196,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IF_016",
+        "name": "MAYA_RS_IF_016",
         "status": "active",
         "script_info": [
             "Image format: SoftImage (pic)"
@@ -209,7 +209,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IF_017",
+        "name": "MAYA_RS_IF_017",
         "status": "active",
         "script_info": [
             "Image format: Targa (tga)"
@@ -222,7 +222,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IF_018",
+        "name": "MAYA_RS_IF_018",
         "status": "active",
         "script_info": [
             "Image format: Tiff (tif)"
@@ -235,7 +235,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IF_019",
+        "name": "MAYA_RS_IF_019",
         "status": "active",
         "script_info": [
             "Image format: Tiff16 (tif)"
@@ -248,7 +248,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IF_020",
+        "name": "MAYA_RS_IF_020",
         "status": "active",
         "script_info": [
             "Image format: Windows Bitmap (bmp)"
@@ -262,7 +262,7 @@
         "extension": ".bmp"
     },
     {
-        "case": "MAYA_RS_IF_021",
+        "name": "MAYA_RS_IF_021",
         "status": "active",
         "script_info": [
             "Image format: EXR (exr)"
@@ -275,7 +275,7 @@
         ]
     },
     {
-        "case": "MAYA_RS_IF_022",
+        "name": "MAYA_RS_IF_022",
         "status": "active",
         "script_info": [
             "Image format: SonyPlaystation (tim)"

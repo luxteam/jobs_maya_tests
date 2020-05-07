@@ -1,6 +1,6 @@
 [
     {
-        "case": "MAYA_RS_TM_001",
+        "name": "MAYA_RS_TM_001",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -14,7 +14,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_002",
+        "name": "MAYA_RS_TM_002",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -29,7 +29,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_003",
+        "name": "MAYA_RS_TM_003",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -44,7 +44,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_004",
+        "name": "MAYA_RS_TM_004",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -59,7 +59,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_005",
+        "name": "MAYA_RS_TM_005",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -74,7 +74,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_006",
+        "name": "MAYA_RS_TM_006",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -89,7 +89,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_007",
+        "name": "MAYA_RS_TM_007",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -105,7 +105,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_008",
+        "name": "MAYA_RS_TM_008",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -121,7 +121,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_009",
+        "name": "MAYA_RS_TM_009",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -137,7 +137,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_010",
+        "name": "MAYA_RS_TM_010",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -152,7 +152,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_011",
+        "name": "MAYA_RS_TM_011",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -168,7 +168,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_012",
+        "name": "MAYA_RS_TM_012",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -185,7 +185,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_013",
+        "name": "MAYA_RS_TM_013",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -202,7 +202,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_014",
+        "name": "MAYA_RS_TM_014",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -219,7 +219,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_015",
+        "name": "MAYA_RS_TM_015",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -234,7 +234,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_016",
+        "name": "MAYA_RS_TM_016",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -249,7 +249,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_017",
+        "name": "MAYA_RS_TM_017",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -265,7 +265,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_018",
+        "name": "MAYA_RS_TM_018",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -283,7 +283,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_019",
+        "name": "MAYA_RS_TM_019",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -301,7 +301,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_020",
+        "name": "MAYA_RS_TM_020",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -319,7 +319,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_021",
+        "name": "MAYA_RS_TM_021",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -338,7 +338,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_022",
+        "name": "MAYA_RS_TM_022",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -357,7 +357,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_023",
+        "name": "MAYA_RS_TM_023",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -376,7 +376,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_024",
+        "name": "MAYA_RS_TM_024",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -392,7 +392,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_025",
+        "name": "MAYA_RS_TM_025",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -409,7 +409,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_026",
+        "name": "MAYA_RS_TM_026",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -429,7 +429,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_027",
+        "name": "MAYA_RS_TM_027",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -449,7 +449,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_028",
+        "name": "MAYA_RS_TM_028",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -469,7 +469,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_029",
+        "name": "MAYA_RS_TM_029",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -484,7 +484,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_030",
+        "name": "MAYA_RS_TM_030",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -499,7 +499,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_031",
+        "name": "MAYA_RS_TM_031",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -515,7 +515,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_032",
+        "name": "MAYA_RS_TM_032",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -535,7 +535,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_033",
+        "name": "MAYA_RS_TM_033",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -555,7 +555,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_034",
+        "name": "MAYA_RS_TM_034",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -575,7 +575,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_035",
+        "name": "MAYA_RS_TM_035",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -596,7 +596,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_036",
+        "name": "MAYA_RS_TM_036",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -617,7 +617,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_037",
+        "name": "MAYA_RS_TM_037",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -638,7 +638,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_038",
+        "name": "MAYA_RS_TM_038",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -654,7 +654,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_039",
+        "name": "MAYA_RS_TM_039",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -671,7 +671,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_040",
+        "name": "MAYA_RS_TM_040",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -693,7 +693,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_041",
+        "name": "MAYA_RS_TM_041",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -715,7 +715,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_042",
+        "name": "MAYA_RS_TM_042",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -737,7 +737,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_043",
+        "name": "MAYA_RS_TM_043",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -752,7 +752,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_044",
+        "name": "MAYA_RS_TM_044",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -767,7 +767,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_045",
+        "name": "MAYA_RS_TM_045",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -783,7 +783,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_046",
+        "name": "MAYA_RS_TM_046",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -799,7 +799,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_047",
+        "name": "MAYA_RS_TM_047",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -815,7 +815,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_048",
+        "name": "MAYA_RS_TM_048",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -831,7 +831,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_049",
+        "name": "MAYA_RS_TM_049",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -848,7 +848,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_050",
+        "name": "MAYA_RS_TM_050",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -865,7 +865,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_051",
+        "name": "MAYA_RS_TM_051",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -881,7 +881,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_052",
+        "name": "MAYA_RS_TM_052",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -897,7 +897,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_053",
+        "name": "MAYA_RS_TM_053",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -914,7 +914,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_054",
+        "name": "MAYA_RS_TM_054",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -932,7 +932,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_055",
+        "name": "MAYA_RS_TM_055",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -950,7 +950,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_056",
+        "name": "MAYA_RS_TM_056",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -968,7 +968,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_057",
+        "name": "MAYA_RS_TM_057",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -983,7 +983,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_058",
+        "name": "MAYA_RS_TM_058",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -998,7 +998,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_059",
+        "name": "MAYA_RS_TM_059",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -1014,7 +1014,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_060",
+        "name": "MAYA_RS_TM_060",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -1030,7 +1030,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_061",
+        "name": "MAYA_RS_TM_061",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -1046,7 +1046,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_062",
+        "name": "MAYA_RS_TM_062",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -1062,7 +1062,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_063",
+        "name": "MAYA_RS_TM_063",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -1079,7 +1079,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_064",
+        "name": "MAYA_RS_TM_064",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -1096,7 +1096,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_065",
+        "name": "MAYA_RS_TM_065",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -1113,7 +1113,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_066",
+        "name": "MAYA_RS_TM_066",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -1129,7 +1129,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_067",
+        "name": "MAYA_RS_TM_067",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -1146,7 +1146,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_068",
+        "name": "MAYA_RS_TM_068",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -1164,7 +1164,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_069",
+        "name": "MAYA_RS_TM_069",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -1182,7 +1182,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_070",
+        "name": "MAYA_RS_TM_070",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -1200,7 +1200,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_071",
+        "name": "MAYA_RS_TM_071",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -1215,7 +1215,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_072",
+        "name": "MAYA_RS_TM_072",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -1230,7 +1230,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_073",
+        "name": "MAYA_RS_TM_073",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -1246,7 +1246,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_074",
+        "name": "MAYA_RS_TM_074",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -1266,7 +1266,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_075",
+        "name": "MAYA_RS_TM_075",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -1285,7 +1285,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_076",
+        "name": "MAYA_RS_TM_076",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
@@ -1305,7 +1305,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_077",
+        "name": "MAYA_RS_TM_077",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -1326,7 +1326,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_078",
+        "name": "MAYA_RS_TM_078",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -1346,7 +1346,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_079",
+        "name": "MAYA_RS_TM_079",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -1367,7 +1367,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_080",
+        "name": "MAYA_RS_TM_080",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -1383,7 +1383,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_081",
+        "name": "MAYA_RS_TM_081",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -1400,7 +1400,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_082",
+        "name": "MAYA_RS_TM_082",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -1422,7 +1422,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_083",
+        "name": "MAYA_RS_TM_083",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
@@ -1443,7 +1443,7 @@
         "scene": "maya_shaderball.ma"
     },
     {
-        "case": "MAYA_RS_TM_084",
+        "name": "MAYA_RS_TM_084",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
