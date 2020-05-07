@@ -5,7 +5,7 @@
         "script_info": [
             "Max time - 10 seconds"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
@@ -22,7 +22,7 @@
             "Max Iterations - 100",
             "Max Time Seconds - 0"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
@@ -39,7 +39,7 @@
             "Max Iterations - 1000",
             "Max Time Seconds - 0"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
@@ -58,7 +58,7 @@
             "Max Time Seconds - 0",
             "Threshold - 0"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
@@ -79,7 +79,7 @@
             "Max Time Seconds - 0",
             "Threshold - 0.01"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
@@ -100,7 +100,7 @@
             "Max Time Seconds - 0",
             "Threshold - 0.5"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
@@ -121,7 +121,7 @@
             "Max Time Seconds - 0",
             "Threshold - 1"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
@@ -143,7 +143,7 @@
             "Max Time Seconds - 0",
             "Threshold - 1"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 100)",
@@ -166,7 +166,7 @@
             "Max Time Seconds - 0",
             "Threshold - 0"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 100)",
@@ -187,7 +187,7 @@
             "Max Time Seconds - 59",
             "Threshold - 0"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
@@ -206,7 +206,7 @@
             "Max Time Seconds - 59",
             "Threshold - 1"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
@@ -224,7 +224,7 @@
         "script_info": [
             "Max Time Minutes - 1"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)",
@@ -242,7 +242,7 @@
             "Max Time Minutes - 1",
             "Threshold - 0"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)",
@@ -262,7 +262,7 @@
             "Max Time Minutes - 1",
             "Threshold - 1"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)",
@@ -284,7 +284,7 @@
             "Set Max Time Minutes - 2",
             "Set Threshold - 1"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -308,7 +308,7 @@
             "Set Max Time Minutes - 2",
             "Set Threshold - 0"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -334,7 +334,7 @@
             "Max Time Hours - 0",
             "Threshold - 0.050"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -359,7 +359,7 @@
             "Max Time Hours - 0",
             "Threshold - 0"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 0)",
@@ -383,7 +383,7 @@
            "Threshold - 0.05",
            "Tile Render Enabled"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 0)",
@@ -407,7 +407,7 @@
             "Tile X - 16",
             "Tile Y - 16"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 1)",
@@ -435,7 +435,7 @@
             "Tile X - 512",
             "Tile Y - 512"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 1)",
@@ -467,7 +467,7 @@
             "Tile X - 512",
             "Tile Y - 512"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -499,7 +499,7 @@
             "Threshold - 0",
             "AOV UV enabled"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -527,7 +527,7 @@
             "Threshold - 0",
             "AOV -  UV checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -557,7 +557,7 @@
             "Threshold - 0",
             "AOV -  Material Index checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -587,7 +587,7 @@
             "Threshold - 0",
             "AOV -  Geometric Normal checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -617,7 +617,7 @@
             "Threshold - 0",
             "AOV -  Shading Normal checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -647,7 +647,7 @@
             "Threshold - 0",
             "AOV -  Depth checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -677,7 +677,7 @@
             "Threshold - 0",
             "AOV -  Object ID checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -707,7 +707,7 @@
             "Threshold - 0",
             "AOV -  Albedo checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -737,7 +737,7 @@
             "Threshold - 0",
             "AOV -  Shadow Catcher checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -767,7 +767,7 @@
             "Threshold - 0",
             "AOV -  Emission checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -797,7 +797,7 @@
             "Threshold - 0",
             "AOV -  Velocity checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -827,7 +827,7 @@
             "Threshold - 0",
             "AOV -  Direct Illumination checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -857,7 +857,7 @@
             "Threshold - 0",
             "AOV -  Indirect Illumination checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -887,7 +887,7 @@
             "Threshold - 0",
             "AOV -  Ambient Occlusion checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -917,7 +917,7 @@
             "Threshold - 0",
             "AOV -  Diffuse Direct checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",

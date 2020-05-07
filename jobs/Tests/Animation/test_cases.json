@@ -5,7 +5,7 @@
         "script_info": [
             "Frame: 91"
         ],
-        "scene": "KeyedAnimation.ma", 
+        "scene": "KeyedAnimation.ma",
         "functions": [
             "cmds.currentTime(91)",
             "rpr_render(case)"
@@ -17,7 +17,7 @@
         "script_info": [
             "Frame: 92"
         ],
-        "scene": "KeyedAnimation.ma", 
+        "scene": "KeyedAnimation.ma",
         "functions": [
             "cmds.currentTime(92)",
             "rpr_render(case)"
@@ -29,7 +29,7 @@
         "script_info": [
             "Frame: 93"
         ],
-        "scene": "KeyedAnimation.ma", 
+        "scene": "KeyedAnimation.ma",
         "functions": [
             "cmds.currentTime(93)",
             "rpr_render(case)"
@@ -41,7 +41,7 @@
         "script_info": [
             "Frame: 201"
         ],
-        "scene": "KeyedAnimation.ma", 
+        "scene": "KeyedAnimation.ma",
         "functions": [
             "cmds.currentTime(201)",
             "rpr_render(case)"
@@ -53,7 +53,7 @@
         "script_info": [
             "Frame: 202"
         ],
-        "scene": "KeyedAnimation.ma", 
+        "scene": "KeyedAnimation.ma",
         "functions": [
             "cmds.currentTime(202)",
             "rpr_render(case)"
@@ -65,7 +65,7 @@
         "script_info": [
             "Frame: 203"
         ],
-        "scene": "KeyedAnimation.ma", 
+        "scene": "KeyedAnimation.ma",
         "functions": [
             "cmds.currentTime(203)",
             "rpr_render(case)"
@@ -77,7 +77,7 @@
         "script_info": [
             "Frame: 291"
         ],
-        "scene": "KeyedAnimation.ma", 
+        "scene": "KeyedAnimation.ma",
         "functions": [
             "cmds.currentTime(291)",
             "rpr_render(case)"
@@ -89,7 +89,7 @@
         "script_info": [
             "Frame: 292"
         ],
-        "scene": "KeyedAnimation.ma", 
+        "scene": "KeyedAnimation.ma",
         "functions": [
             "cmds.currentTime(292)",
             "rpr_render(case)"
@@ -101,7 +101,7 @@
         "script_info": [
             "Frame: 293"
         ],
-        "scene": "KeyedAnimation.ma", 
+        "scene": "KeyedAnimation.ma",
         "functions": [
             "cmds.currentTime(293)",
             "rpr_render(case)"
@@ -113,7 +113,7 @@
         "script_info": [
             "Frame: 11"
         ],
-        "scene": "NonKeyed_Rigid.ma", 
+        "scene": "NonKeyed_Rigid.ma",
         "functions": [
             "cmds.currentTime(11)",
             "rpr_render(case)",
@@ -126,7 +126,7 @@
         "script_info": [
             "Frame: 12"
         ],
-        "scene": "NonKeyed_Rigid.ma", 
+        "scene": "NonKeyed_Rigid.ma",
         "functions": [
             "cmds.currentTime(12)",
             "rpr_render(case)",
@@ -139,7 +139,7 @@
         "script_info": [
             "Frame: 13"
         ],
-        "scene": "NonKeyed_Rigid.ma", 
+        "scene": "NonKeyed_Rigid.ma",
         "functions": [
             "cmds.currentTime(13)",
             "rpr_render(case)",
@@ -152,7 +152,7 @@
         "script_info": [
             "Frame: 14"
         ],
-        "scene": "NonKeyed_Rigid.ma", 
+        "scene": "NonKeyed_Rigid.ma",
         "functions": [
             "cmds.currentTime(14)",
             "rpr_render(case)",
@@ -165,7 +165,7 @@
         "script_info": [
             "Frame: 15"
         ],
-        "scene": "NonKeyed_Rigid.ma", 
+        "scene": "NonKeyed_Rigid.ma",
         "functions": [
             "cmds.currentTime(15)",
             "rpr_render(case)",
@@ -178,7 +178,7 @@
         "script_info": [
             "Frame: 16"
         ],
-        "scene": "NonKeyed_Rigid.ma", 
+        "scene": "NonKeyed_Rigid.ma",
         "functions": [
             "cmds.currentTime(16)",
             "rpr_render(case)",
@@ -191,7 +191,7 @@
         "script_info": [
             "Frame: 17"
         ],
-        "scene": "NonKeyed_Rigid.ma", 
+        "scene": "NonKeyed_Rigid.ma",
         "functions": [
             "cmds.currentTime(17)",
             "rpr_render(case)",
@@ -204,7 +204,7 @@
         "script_info": [
             "Frame: 18"
         ],
-        "scene": "NonKeyed_Rigid.ma", 
+        "scene": "NonKeyed_Rigid.ma",
         "functions": [
             "cmds.currentTime(18)",
             "rpr_render(case)",
@@ -217,7 +217,7 @@
         "script_info": [
             "Frame: 19"
         ],
-        "scene": "NonKeyed_Rigid.ma", 
+        "scene": "NonKeyed_Rigid.ma",
         "functions": [
             "cmds.currentTime(19)",
             "rpr_render(case)",
@@ -230,7 +230,7 @@
         "script_info": [
             "Frame-60"
         ],
-        "scene": "Blue_Fire.ma", 
+        "scene": "Blue_Fire.ma",
         "functions": [
             "cmds.currentTime(60)",
             "rpr_render(case)"
@@ -242,7 +242,7 @@
         "script_info": [
             "Frame-120"
         ],
-        "scene": "Blue_Fire.ma", 
+        "scene": "Blue_Fire.ma",
         "functions": [
             "cmds.currentTime(120)",
             "time.sleep(5)",
@@ -255,7 +255,7 @@
         "script_info": [
             "Frame -60 Color Change"
         ],
-        "scene": "Blue_Fire.ma", 
+        "scene": "Blue_Fire.ma",
         "functions": [
             "cmds.currentTime(60)",
             "time.sleep(5)",
@@ -271,7 +271,7 @@
         "script_info": [
             "Frame-60"
         ],
-        "scene": "Explosion.ma", 
+        "scene": "Explosion.ma",
         "functions": [
             "cmds.currentTime(60)",
             "time.sleep(5)",
@@ -284,7 +284,7 @@
         "script_info": [
             "Frame-120"
         ],
-        "scene": "Explosion.ma", 
+        "scene": "Explosion.ma",
         "functions": [
             "cmds.currentTime(120)",
             "time.sleep(5)",
@@ -297,7 +297,7 @@
         "script_info": [
             "Frame -60 Color Change "
         ],
-        "scene": "Explosion.ma", 
+        "scene": "Explosion.ma",
         "functions": [
             "cmds.currentTime(60)",
             "time.sleep(5)",
@@ -313,7 +313,7 @@
         "script_info": [
             "Frame-60"
         ],
-        "scene": "Fire.ma", 
+        "scene": "Fire.ma",
         "functions": [
             "cmds.currentTime(60)",
             "time.sleep(5)",
@@ -332,7 +332,7 @@
         "script_info": [
             "Frame-120"
         ],
-        "scene": "Fire.ma", 
+        "scene": "Fire.ma",
         "functions": [
             "cmds.currentTime(120)",
             "time.sleep(5)",
@@ -345,7 +345,7 @@
         "script_info": [
             "Frame -60 Color Change "
         ],
-        "scene": "Fire.ma", 
+        "scene": "Fire.ma",
         "functions": [
             "cmds.currentTime(60)",
             "time.sleep(5)",
@@ -361,7 +361,7 @@
         "script_info": [
             "Frame -10"
         ],
-        "scene": "Bifrost_Particle.ma", 
+        "scene": "Bifrost_Particle.ma",
         "functions": [
             "cmds.currentTime(10)",
             "time.sleep(5)",
@@ -374,7 +374,7 @@
         "script_info": [
             "Frame -30"
         ],
-        "scene": "Bifrost_Particle.ma", 
+        "scene": "Bifrost_Particle.ma",
         "functions": [
             "cmds.currentTime(30)",
             "rpr_render(case)"
@@ -386,7 +386,7 @@
         "script_info": [
             "Frame - 50 "
         ],
-        "scene": "Bifrost_Particle.ma", 
+        "scene": "Bifrost_Particle.ma",
         "functions": [
             "cmds.currentTime(50)",
             "time.sleep(5)",
@@ -399,7 +399,7 @@
         "script_info": [
             "Frame - 60"
         ],
-        "scene": "Bifrost_Particle.ma", 
+        "scene": "Bifrost_Particle.ma",
         "functions": [
             "cmds.currentTime(60)",
             "time.sleep(5)",
@@ -412,7 +412,7 @@
         "script_info": [
             "Frame - 10"
         ],
-        "scene": "Mocap.ma", 
+        "scene": "Mocap.ma",
         "functions": [
             "cmds.currentTime(10)",
             "rpr_render(case)"
@@ -424,7 +424,7 @@
         "script_info": [
             "Frame - 30"
         ],
-        "scene": "Mocap.ma", 
+        "scene": "Mocap.ma",
         "functions": [
             "cmds.currentTime(30)",
             "rpr_render(case)"
@@ -436,7 +436,7 @@
         "script_info": [
             "Frame - 60"
         ],
-        "scene": "Mocap.ma", 
+        "scene": "Mocap.ma",
         "functions": [
             "cmds.currentTime(60)",
             "rpr_render(case)"

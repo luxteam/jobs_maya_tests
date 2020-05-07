@@ -6,7 +6,7 @@
             "AA filter: Box",
             "Filter Size: 1"
         ],
-        "scene": "maya_shaderball.ma", 
+        "scene": "maya_shaderball.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.filter', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 1)",
@@ -20,7 +20,7 @@
             "AA filter: Box",
             "Filter Size: 5"
         ],
-        "scene": "maya_shaderball.ma", 
+        "scene": "maya_shaderball.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.filter', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 5)",
@@ -34,7 +34,7 @@
             "AA filter: Box",
             "Filter Size: 10"
         ],
-        "scene": "maya_shaderball.ma", 
+        "scene": "maya_shaderball.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.filter', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 10)",
@@ -48,7 +48,7 @@
             "AA filter: Lanczos",
             "Filter Size: 1"
         ],
-        "scene": "maya_shaderball.ma", 
+        "scene": "maya_shaderball.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.filter', 2)",
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 1)",
@@ -62,7 +62,7 @@
             "AA filter: Lanczos",
             "Filter Size: 5"
         ],
-        "scene": "maya_shaderball.ma", 
+        "scene": "maya_shaderball.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.filter', 2)",
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 5)",
@@ -76,7 +76,7 @@
             "AA filter: Lanczos",
             "Filter Size: 10"
         ],
-        "scene": "maya_shaderball.ma", 
+        "scene": "maya_shaderball.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.filter', 2)",
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 10)",
@@ -90,7 +90,7 @@
             "AA filter: Triangle",
             "Filter Size: 1"
         ],
-        "scene": "maya_shaderball.ma", 
+        "scene": "maya_shaderball.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.filter', 3)",
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 1)",
@@ -104,7 +104,7 @@
             "AA filter: Triangle",
             "Filter Size: 5"
         ],
-        "scene": "maya_shaderball.ma", 
+        "scene": "maya_shaderball.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.filter', 3)",
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 5)",
@@ -118,7 +118,7 @@
             "AA filter: Triangle",
             "Filter Size: 10"
         ],
-        "scene": "maya_shaderball.ma", 
+        "scene": "maya_shaderball.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.filter', 3)",
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 10)",
@@ -132,7 +132,7 @@
             "AA filter: Box",
             "Filter Size: 1"
         ],
-        "scene": "maya_shaderball.ma", 
+        "scene": "maya_shaderball.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.filter', 4)",
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 1)",
@@ -146,7 +146,7 @@
             "AA filter: Box",
             "Filter Size: 5"
         ],
-        "scene": "maya_shaderball.ma", 
+        "scene": "maya_shaderball.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.filter', 4)",
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 5)",
@@ -160,7 +160,7 @@
             "AA filter: Box",
             "Filter Size: 10"
         ],
-        "scene": "maya_shaderball.ma", 
+        "scene": "maya_shaderball.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.filter', 4)",
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 10)",
@@ -174,7 +174,7 @@
             "AA filter: Gaussian",
             "Filter Size: 1"
         ],
-        "scene": "maya_shaderball.ma", 
+        "scene": "maya_shaderball.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.filter', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 1)",
@@ -188,7 +188,7 @@
             "AA filter: Gaussian",
             "Filter Size: 5"
         ],
-        "scene": "maya_shaderball.ma", 
+        "scene": "maya_shaderball.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.filter', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 5)",
@@ -202,7 +202,7 @@
             "AA filter: Gaussian",
             "Filter Size: 10"
         ],
-        "scene": "maya_shaderball.ma", 
+        "scene": "maya_shaderball.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.filter', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 10)",
@@ -216,7 +216,7 @@
             "AA filter: Blackmanharris",
             "Filter Size: 1"
         ],
-        "scene": "maya_shaderball.ma", 
+        "scene": "maya_shaderball.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.filter', 6)",
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 1)",
@@ -230,7 +230,7 @@
             "AA filter: Blackmanharris",
             "Filter Size: 5"
         ],
-        "scene": "maya_shaderball.ma", 
+        "scene": "maya_shaderball.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.filter', 6)",
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 5)",
@@ -244,7 +244,7 @@
             "AA filter: Blackmanharris",
             "Filter Size: 10"
         ],
-        "scene": "maya_shaderball.ma", 
+        "scene": "maya_shaderball.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.filter', 6)",
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 10)",

@@ -1,29 +1,29 @@
 [
     {
-        "name": "MAYA_RS_2019_001", 
-        "status": "active", 
+        "name": "MAYA_RS_2019_001",
+        "status": "active",
         "functions": [
             "cmds.lookThru('persp3', 'modelPanel4')",
             "rpr_render(case)"
-        ], 
+        ],
         "script_info": [
             "Maya 2019 checking"
-        ], 
+        ],
         "scene": "Lambo_Lebrov.ma"
     },
     {
-        "name": "MAYA_RS_2019_002", 
-        "status": "active", 
+        "name": "MAYA_RS_2019_002",
+        "status": "active",
         "functions": [
             "cmds.lookThru('persp3', 'modelPanel4')",
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)", 
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
-        ], 
+        ],
         "script_info": [
             "Maya ML 2019 checking"
-        ], 
+        ],
         "scene": "Lambo_Lebrov.ma"
     }
 ]
