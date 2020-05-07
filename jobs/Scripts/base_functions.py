@@ -60,29 +60,6 @@ def reportToJSON(case, render_time=0):
         file.write(json.dumps([report], indent=4))
 
 
-def render_tool_log_path(name):
-    return path.join(LOGS_DIR, name + '.log')
-
-
-def validateFiles():
-    logging('Repath scene')
-    # TODO: repath from folder with group
-    unresolved_files = cmds.filePathEditor(
-        query=True, listFiles='', unresolved=True, attributeOnly=True)
-    if unresolved_files:
-        for item in unresolved_files:
-            cmds.filePathEditor(item, repath=RES_PATH, recursive=True, ra=1)
-
-
-def enable_rpr():
-    if not cmds.pluginInfo('RadeonProRender', query=True, loaded=True):
-        cmds.loadPlugin('RadeonProRender', quiet=True)
-        logging('Load rpr')
-    if not cmds.pluginInfo('fbxmaya', query=True, loaded=True):
-        cmds.loadPlugin('fbxmaya', quiet=True)
-        logging('Load fbx')
-
-
 def rpr_render(case):
     logging('Render image')
 
@@ -106,11 +83,16 @@ def prerender(case):
     if scene_name != scene:
         try:
             cmds.file(scene, f=True, op='v=0;', prompt=False, iv=True, o=True)
-            validateFiles()
-            enable_rpr()
         except:
             logging("Can't load scene. Exit Maya")
             cmds.evalDeferred('cmds.quit(abort=True)')
+
+        logging('Repath scene')
+        unresolved_files = cmds.filePathEditor(
+            query=True, listFiles='', unresolved=True, attributeOnly=True)
+        if unresolved_files:
+            for item in unresolved_files:
+                cmds.filePathEditor(item, repath=RES_PATH, recursive=True, ra=1)
 
     mel.eval('athenaEnable -ae false')
 
@@ -148,9 +130,6 @@ def prerender(case):
 def save_report(case):
     logging('Save report without rendering for ' + case['case'])
 
-    if not os.path.exists(os.path.join(WORK_DIR, 'Color')):
-        os.makedirs(os.path.join(WORK_DIR, 'Color'))
-
     work_dir = path.join(WORK_DIR, 'Color', case['case'] + '.jpg')
     source_dir = path.join(WORK_DIR, '..', '..', '..',
                            '..', 'jobs_launcher', 'common', 'img')
@@ -160,8 +139,6 @@ def save_report(case):
     else:
         copyfile(
             path.join(source_dir, case['status'] + '.jpg'), work_dir)
-
-    enable_rpr()
 
     reportToJSON(case)
 
@@ -187,8 +164,18 @@ def case_function(case):
             logging("Can't set project in '" + projPath + "'")
             cmds.evalDeferred('cmds.quit(abort=True)')
 
-    # 2- retries count
-    if case['status'] == 'fail' or case.get('number_of_tries', 1) == 2:
+    try:
+        if not cmds.pluginInfo('RadeonProRender', query=True, loaded=True):
+            cmds.loadPlugin('RadeonProRender', quiet=True)
+            logging('Load rpr')
+        if not cmds.pluginInfo('fbxmaya', query=True, loaded=True):
+            cmds.loadPlugin('fbxmaya', quiet=True)
+            logging('Load fbx')
+    except:
+        logging("Can't activate rpr")
+        cmds.evalDeferred('cmds.quit(abort=True)')
+
+    if case['status'] == 'fail' or case.get('number_of_tries', 1) >= 2:
         case['status'] = 'error'
         func = 'save_report'
     elif case['status'] == 'skipped':
@@ -217,7 +204,7 @@ def main():
             with open(path.join(WORK_DIR, 'test_cases.json'), 'w') as file:
                 json.dump(cases, file, indent=4)
 
-            log_path = render_tool_log_path(case['case'])
+            log_path = path.join(LOGS_DIR, case['case'] + '.log')
             if not path.exists(log_path):
                 with open(log_path, 'w'):
                     logging('Create log file for ' + case['case'])
@@ -231,8 +218,8 @@ def main():
             case['time_taken'] = case_time
 
             if case['status'] == 'inprogress':
-                case['status'] = 'done'
-                logging(case['case'] + ' done')
+                case['status'] = 'passed'
+                logging(case['case'] + ' passed')
 
             with open(path.join(WORK_DIR, 'test_cases.json'), 'w') as file:
                 json.dump(cases, file, indent=4)

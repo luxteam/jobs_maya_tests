@@ -198,25 +198,23 @@ def main(args):
         args.tool = re.sub('[0-9]{4}', args.testType[-4:], args.tool)
 
     if which(args.tool) is None:
-        core_config.main_logger.error('Can\'t find tool ' + args.tool)
-        exit(-1)
-
-    core_config.main_logger.info('Make "base_functions.py"')
-
-    try:
-        cases = json.load(open(os.path.realpath(
-            os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'))))
-    except Exception as e:
-        core_config.logging.error("Can't load test_cases.json")
-        core_config.main_logger.error(str(e))
+        core_config.main_logger.error("Can't find tool " + args.tool)
         exit(-1)
 
     try:
         with open(os.path.join(os.path.dirname(__file__), 'base_functions.py')) as f:
             script = f.read()
     except OSError as e:
+        core_config.logging.error("Can't load base_functions.json")
         core_config.main_logger.error(str(e))
-        return 1
+        exit(-1)
+
+    core_config.main_logger.info('Make "base_functions.py"')
+
+    work_dir = os.path.abspath(args.output).replace('\\', '/')
+    res_path = os.path.abspath(args.res_path).replace('\\', '/')
+    images_jobs_launcher = os.path.abspath(os.path.join(work_dir, '..', '..', '..', '..', 'jobs_launcher',
+                                                        'common', 'img'))
 
     if os.path.exists(os.path.join(os.path.dirname(__file__), 'extensions', args.testType + '.py')):
         with open(os.path.join(os.path.dirname(__file__), 'extensions', args.testType + '.py')) as f:
@@ -224,19 +222,17 @@ def main(args):
         script = script.split('# place for extension functions')
         script = script[0] + extension_script + script[1]
 
-    work_dir = os.path.abspath(args.output).replace('\\', '/')
-    res_path = os.path.abspath(args.res_path).replace('\\', '/')
-    images_jobs_launcher = os.path.abspath(os.path.join(work_dir, '..', '..', '..', '..', 'jobs_launcher',
-                                                        'common', 'img'))
-
-    maya_scenes = {x.get('scene', '') for x in cases if x.get('scene', '')}
-    check_licenses(args.res_path, maya_scenes, args.testType)
-
     script = script.format(work_dir=work_dir, testType=args.testType, render_device=args.render_device, res_path=res_path, pass_limit=args.pass_limit,
                            resolution_x=args.resolution_x, resolution_y=args.resolution_y, SPU=args.SPU, threshold=args.threshold)
 
     with open(os.path.join(args.output, 'base_functions.py'), 'w') as file:
         file.write(script)
+
+    cases = json.load(open(os.path.realpath(
+            os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'))))
+
+    maya_scenes = {x.get('scene', '') for x in cases if x.get('scene', '')}
+    check_licenses(args.res_path, maya_scenes, args.testType)
 
     if (os.path.exists(args.testCases) and '.json' in args.testCases):
         with open(os.path.join(args.testCases)) as f:
@@ -260,12 +256,9 @@ def main(args):
 
     for case in cases:
         if sum([render_platform & set(skip_conf) == set(skip_conf) for skip_conf in case.get('skip_on', '')]):
-            for i in case['skip_on']:
-                skip_on = set(i)
-                if render_platform.intersection(skip_on) == skip_on:
-                    case['status'] = 'skipped'
+            case['status'] = 'skipped'
 
-        if case['status'] != 'done':
+        if case['status'] != core_config.TEST_SUCCESS_STATUS:
             if case['status'] == 'inprogress':
                 case['status'] = 'active'
                 case['number_of_tries'] = case.get('number_of_tries', 0) + 1
@@ -326,13 +319,8 @@ def main(args):
 
 
 def group_failed(args):
-    try:
-        cases = json.load(open(os.path.realpath(
+    cases = json.load(open(os.path.realpath(
             os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'))))
-    except Exception as e:
-        core_config.logging.error("Can't load test_cases.json")
-        core_config.main_logger.error(str(e))
-        exit(-1)
 
     for case in cases:
         if case['status'] == 'active':
@@ -356,7 +344,8 @@ if __name__ == '__main__':
     try:
         os.makedirs(args.output)
     except OSError as e:
-        pass
+        core_config.main_logger.error("Can't create " + args.output)
+        exit(-1)
 
     iteration = 0
 

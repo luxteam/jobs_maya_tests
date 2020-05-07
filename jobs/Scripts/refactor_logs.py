@@ -13,6 +13,15 @@ errors = [
      'message': 'Error occurred during execution of MEL script'}
 ]
 
+statuses_description = '''\tPossible case statuses:\nActive: Case will be executed.
+Inprogress: Case is in progress (if maya was crashed, case will be inprogress).
+Fail: Maya was crashed during case. Fail report will be created.
+Error: Maya was crashed during case. Fail report is already created.
+Passed: Case was finished successfully.
+Skipped: Case will be skipped. Skip report will be created.\n
+Case\t\tStatus\tTime\tTries
+\n'''
+
 
 def createArgsParser():
     parser = argparse.ArgumentParser()
@@ -24,9 +33,8 @@ def createArgsParser():
 
 def main(args):
     work_dir = os.path.abspath(args.output).replace('\\', '/')
-    files = [f for f in os.listdir(
-        work_dir) if os.path.isfile(os.path.join(work_dir, f))]
-    files = [f for f in files if 'renderTool' in f]
+    files = [f for f in os.listdir(work_dir)
+             if os.path.isfile(os.path.join(work_dir, f) and 'renderTool' in f)]
 
     logs = ''
 
@@ -56,18 +64,11 @@ def main(args):
         f.write('Error cases: {}\n'.format(
             len([n for n in cases if n['status'] == 'error'])))
         f.write('Done cases: {}\n'.format(
-            len([n for n in cases if n['status'] == 'done'])))
+            len([n for n in cases if n['status'] == 'passed'])))
         f.write('Skipped cases: {}\n\n'.format(
             len([n for n in cases if n['status'] == 'skipped'])))
 
-        f.write('''\tPossible case statuses:\nActive: Case will be executed.
-Inprogress: Case is in progress (if maya was crashed, case will be inprogress).
-Fail: Maya was crashed during case. Fail report will be created.
-Error: Maya was crashed during case. Fail report is already created.
-Done: Case was finished successfully.
-Skipped: Case will be skipped. Skip report will be created.\n
-Case\t\tStatus\tTime\tTries
-\n''')
+        f.write(statuses_description)
 
         total_time = 0
 
