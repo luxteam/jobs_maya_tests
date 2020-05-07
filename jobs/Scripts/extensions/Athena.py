@@ -3,7 +3,7 @@ from shutil import copyfile
 import sys
 
 
-try:
+try: # TODO: rewrite this
     with open(path.join(sys.argv[1], 'renderTool.log')) as f:
         if 'successfully uploaded data to AWS!' in f.read():
             copyfile(path.join(sys.argv[1], '..', '..', '..', '..', 'jobs_launcher', 'common',

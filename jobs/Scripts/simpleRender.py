@@ -1,6 +1,3 @@
-import jobs_launcher.core.config as core_config
-from jobs_launcher.core.system_info import get_gpu
-from jobs_launcher.core.kill_process import kill_process
 import argparse
 import os
 import subprocess
@@ -17,6 +14,10 @@ import time
 
 sys.path.append(os.path.abspath(os.path.join(
     os.path.dirname(__file__), os.path.pardir, os.path.pardir)))
+
+from jobs_launcher.core.kill_process import kill_process
+from jobs_launcher.core.system_info import get_gpu
+import jobs_launcher.core.config as core_config
 
 
 ROOT_DIR = os.path.abspath(os.path.join(
@@ -189,10 +190,6 @@ def launchMaya(cmdScriptPath, work_dir):
         else:
             rc = 0
             break
-
-    if args.testType in ['Athena']:
-        subprocess.call([sys.executable, os.path.realpath(os.path.join(
-            os.path.dirname(__file__), 'extensions', args.testType + '.py')), args.output])
     return rc
 
 
@@ -229,6 +226,8 @@ def main(args):
 
     work_dir = os.path.abspath(args.output).replace('\\', '/')
     res_path = os.path.abspath(args.res_path).replace('\\', '/')
+    images_jobs_launcher = os.path.abspath(os.path.join(work_dir, '..', '..', '..', '..', 'jobs_launcher',
+                                                        'common', 'img'))
 
     maya_scenes = {x.get('scene', '') for x in cases if x.get('scene', '')}
     check_licenses(args.res_path, maya_scenes, args.testType)
@@ -251,8 +250,8 @@ def main(args):
 
     if not os.path.exists(os.path.join(work_dir, 'Color')):
         os.makedirs(os.path.join(work_dir, 'Color'))
-    copyfile(os.path.abspath(os.path.join(work_dir, '..', '..', '..', '..', 'jobs_launcher',
-                                          'common', 'img', 'error.jpg')), os.path.join(work_dir, 'Color', 'failed.jpg'))
+    copyfile(os.path.join(images_jobs_launcher, core_config.TEST_CRASH_STATUS + '.jpg'),
+             os.path.join(work_dir, 'Color', core_config.TEST_CRASH_STATUS + '.jpg'))
 
     gpu = get_gpu()
     if not gpu:
@@ -277,8 +276,9 @@ def main(args):
             template['test_status'] = 'error'
             template['script_info'] = case['script_info']
             template['scene_name'] = case.get('scene', '')
-            template['file_name'] = 'failed.jpg'
-            template['render_color_path'] = os.path.join('Color', 'failed.jpg')
+            template['file_name'] = core_config.TEST_CRASH_STATUS + '.jpg'
+            template['render_color_path'] = os.path.join(
+                'Color', core_config.TEST_CRASH_STATUS + '.jpg')
             template['test_group'] = args.testType
             template['date_time'] = datetime.now().strftime(
                 '%m/%d/%Y %H:%M:%S')
@@ -321,6 +321,7 @@ def main(args):
         subprocess.call([sys.executable, os.path.realpath(os.path.join(
             os.path.dirname(__file__), 'extensions', args.testType + '.py')), args.output])
     core_config.main_logger.info('Main func return : {}'.format(rc))
+
     return rc
 
 
