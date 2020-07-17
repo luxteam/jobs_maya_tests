@@ -6,12 +6,12 @@ global proc auto_config(){
     }
 
     // int $selected[] = `optionVar -q "RPR_DevicesSelected"`;
-    
-    
+
+
     string $scriptPath = stringRemovePrefix (`whatIs auto_config`, "Mel procedure found in: ");
     string $pathArray[] = stringToStringArray($scriptPath, "/");
     string $resultsDirectory = "";
-    
+
     int $i = 0;
     for ($i = 0; $i < size($pathArray)-1; $i++){       //- to delete *.mel name
         $resultsDirectory = $resultsDirectory + $pathArray[$i] + "/";
@@ -23,13 +23,13 @@ global proc auto_config(){
 
     string $gpuDevices[];
     if (`optionVar -as "RPR_DevicesName"` == 0){
-        $gpuDevices[0] = "CPU";    
+        $gpuDevices[0] = "CPU";
     }else{
         $gpuDevices = `optionVar -q "RPR_DevicesName"`;
         for($i=0; $i < size($gpuDevices); $i++){
             $gpuDevices[$i] = `substitute "/" $gpuDevices[$i] ""`;
         }
-    
+
         stringArrayInsertAtIndex(size($gpuDevices), $gpuDevices, "CPU");
     }
     string $text;

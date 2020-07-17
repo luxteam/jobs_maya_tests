@@ -745,9 +745,9 @@
         ],
         "scene": "HybridSamples.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 0)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserRadius', 5)", 
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserRadius', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
@@ -764,9 +764,9 @@
         ],
         "scene": "HybridSamples.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 0)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserRadius', 5)", 
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserRadius', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
@@ -783,9 +783,9 @@
         ],
         "scene": "HybridSamples.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 0)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserRadius', 5)", 
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserRadius', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
@@ -802,9 +802,9 @@
         ],
         "scene": "HybridSamples.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 1)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserFilterRadius', 5)", 
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserFilterRadius', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
@@ -818,9 +818,9 @@
         ],
         "scene": "HybridSamples.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 1)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserFilterRadius', 5)", 
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserFilterRadius', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
@@ -834,9 +834,9 @@
         ],
         "scene": "HybridSamples.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 2)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserFilterRadius', 5)", 
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 2)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserFilterRadius', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
@@ -850,8 +850,8 @@
         ],
         "scene": "HybridSamples.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 2)", 
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 2)",
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
@@ -865,8 +865,8 @@
         ],
         "scene": "HybridSamples.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 2)", 
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 2)",
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
@@ -880,8 +880,8 @@
         ],
         "scene": "HybridSamples.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 2)", 
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 2)",
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
@@ -895,8 +895,8 @@
         ],
         "scene": "HybridSamples.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)", 
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
@@ -910,8 +910,8 @@
         ],
         "scene": "HybridSamples.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)", 
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
@@ -925,8 +925,8 @@
         ],
         "scene": "HybridSamples.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)", 
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
@@ -940,9 +940,9 @@
         ],
         "scene": "HybridSamples.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserColorOnly', 1)", 
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserColorOnly', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
@@ -956,9 +956,9 @@
         ],
         "scene": "HybridSamples.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserColorOnly', 1)", 
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserColorOnly', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
@@ -972,9 +972,9 @@
         ],
         "scene": "HybridSamples.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserColorOnly', 1)", 
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserColorOnly', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"

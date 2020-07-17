@@ -1,6 +1,6 @@
 name: Automatic pull request review
 
-on: 
+on:
   pull_request:
     paths:
       - jobs/**/*.json
@@ -8,7 +8,7 @@ on:
 jobs:
   automate-pullrequest-review:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Approve pull request
         uses: andrewmusgrave/automatic-pull-request-review@0.0.2
@@ -16,7 +16,7 @@ jobs:
           repo-token: '${{ secrets.GITHUB_TOKEN }}'
           event: APPROVE
           body: 'Test cases update.'
-          
+
   auto-assign:
     runs-on: ubuntu-latest
 

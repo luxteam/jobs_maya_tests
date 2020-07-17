@@ -1,14 +1,14 @@
 [
     {
-        "case": "MAYA_MAT_VDB_001", 
-        "status": "active", 
+        "case": "MAYA_MAT_VDB_001",
+        "status": "active",
         "functions": [
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
             "cmds.setAttr('vdbObj.densityMultiplier', 300)",
             "cmds.setAttr('vdbObj.albedoSelectedGrid', 'ls_bunny', type='string')",
             "rpr_render(case)",
             "cmds.setAttr('vdbObj.albedoEnabled', 0)"
-        ], 
+        ],
         "script_info": [
             "bunny.vdb",
             "Desnity=300",
@@ -17,15 +17,15 @@
         "scene": "bunny.ma"
     },
     {
-        "case": "MAYA_MAT_VDB_002", 
-        "status": "active", 
+        "case": "MAYA_MAT_VDB_002",
+        "status": "active",
         "functions": [
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
             "cmds.setAttr('vdbObj.densityMultiplier', 3000)",
             "cmds.setAttr('vdbObj.albedoSelectedGrid', 'ls_bunny', type='string')",
             "rpr_render(case)",
             "cmds.setAttr('vdbObj.albedoEnabled', 0)"
-        ], 
+        ],
         "script_info": [
             "bunny.vdb",
             "Density=3000"
@@ -33,15 +33,15 @@
         "scene": "bunny.ma"
     },
     {
-        "case": "MAYA_MAT_VDB_003", 
-        "status": "active", 
+        "case": "MAYA_MAT_VDB_003",
+        "status": "active",
         "functions": [
             "cmds.setAttr('vdbObj.emissionEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoEnabled', 0)",
             "cmds.setAttr('vdbObj.emissionSelectedGrid', 'density', type='string')",
             "rpr_render(case)",
             "cmds.setAttr('vdbObj.emissionEnabled', 0)"
-        ], 
+        ],
         "script_info": [
             "bunny_cloud.vdb",
             "Emission=On",
@@ -50,8 +50,8 @@
         "scene": "bunny_cloud.ma"
     },
     {
-        "case": "MAYA_MAT_VDB_004", 
-        "status": "active", 
+        "case": "MAYA_MAT_VDB_004",
+        "status": "active",
         "functions": [
             "cmds.setAttr('vdbObj.emissionEnabled', 1)",
             "cmds.setAttr('vdbObj.emissionSelectedGrid', 'density', type='string')",
@@ -62,7 +62,7 @@
             "rpr_render(case)",
             "cmds.setAttr('vdbObj.albedoEnabled', 0)",
             "cmds.setAttr('vdbObj.emissionEnabled', 0)"
-        ], 
+        ],
         "script_info": [
             "bunny_cloud.vdb",
             "Emission=5",
@@ -72,14 +72,14 @@
         "scene": "bunny_cloud.ma"
     },
     {
-        "case": "MAYA_MAT_VDB_005", 
-        "status": "active", 
+        "case": "MAYA_MAT_VDB_005",
+        "status": "active",
         "functions": [
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoSelectedGrid', 'density', type='string')",
             "rpr_render(case)",
             "cmds.setAttr('vdbObj.albedoEnabled', 0)"
-        ], 
+        ],
         "script_info": [
             "bunny_cloud.vdb",
             "Albedo=On(density)"
@@ -87,8 +87,8 @@
         "scene": "bunny_cloud.ma"
     },
     {
-        "case": "MAYA_MAT_VDB_006", 
-        "status": "active", 
+        "case": "MAYA_MAT_VDB_006",
+        "status": "active",
         "functions": [
             "cmds.setAttr('vdbObj.emissionEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
@@ -97,7 +97,7 @@
             "rpr_render(case)",
             "cmds.setAttr('vdbObj.emissionEnabled', 0)",
             "cmds.setAttr('vdbObj.albedoEnabled', 0)"
-        ], 
+        ],
         "script_info": [
             "bunny_cloud.vdb",
             "Albedo=On(density)",
@@ -106,8 +106,8 @@
         "scene": "bunny_cloud.ma"
     },
     {
-        "case": "MAYA_MAT_VDB_007", 
-        "status": "active", 
+        "case": "MAYA_MAT_VDB_007",
+        "status": "active",
         "functions": [
             "cmds.setAttr('vdbObj.emissionEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
@@ -122,7 +122,7 @@
             "cmds.setAttr('vdb.rotateZ', 0)",
             "cmds.setAttr('vdbObj.emissionEnabled', 0)",
             "cmds.setAttr('vdbObj.albedoEnabled', 0)"
-        ], 
+        ],
         "script_info": [
             "bunny_cloud.vdb",
             "Albedo=On",
@@ -132,8 +132,8 @@
         "scene": "bunny_cloud.ma"
     },
     {
-        "case": "MAYA_MAT_VDB_008", 
-        "status": "active", 
+        "case": "MAYA_MAT_VDB_008",
+        "status": "active",
         "functions": [
             "cmds.setAttr('vdbObj.emissionEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
@@ -142,7 +142,7 @@
             "rpr_render(case)",
             "cmds.setAttr('vdbObj.albedoEnabled', 0)",
             "cmds.setAttr('vdbObj.emissionEnabled', 0)"
-        ], 
+        ],
         "script_info": [
             "explosion.vdb",
             "Emission=On(Temperature)",
@@ -151,8 +151,8 @@
         "scene": "explosion.ma"
     },
     {
-        "case": "MAYA_MAT_VDB_009", 
-        "status": "active", 
+        "case": "MAYA_MAT_VDB_009",
+        "status": "active",
         "functions": [
             "cmds.setAttr('vdbObj.emissionEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
@@ -162,7 +162,7 @@
             "rpr_render(case)",
             "cmds.setAttr('vdbObj.albedoEnabled', 0)",
             "cmds.setAttr('vdbObj.emissionEnabled', 0)"
-        ], 
+        ],
         "script_info": [
             "explosion.vdb",
             "Density=10000",
@@ -171,8 +171,8 @@
         "scene": "explosion.ma"
     },
     {
-        "case": "MAYA_MAT_VDB_010", 
-        "status": "active", 
+        "case": "MAYA_MAT_VDB_010",
+        "status": "active",
         "functions": [
             "cmds.setAttr('vdbObj.emissionEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
@@ -181,7 +181,7 @@
             "rpr_render(case)",
             "cmds.setAttr('vdbObj.albedoEnabled', 0)",
             "cmds.setAttr('vdbObj.emissionEnabled', 0)"
-        ], 
+        ],
         "script_info": [
             "fire.vdb",
             "Emission=On(Temperature)",
@@ -190,8 +190,8 @@
         "scene": "fire.ma"
     },
     {
-        "case": "MAYA_MAT_VDB_011", 
-        "status": "active", 
+        "case": "MAYA_MAT_VDB_011",
+        "status": "active",
         "functions": [
             "cmds.setAttr('vdbObj.emissionEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
@@ -200,7 +200,7 @@
             "cmds.setAttr('vdbObj.densitySelectedGrid', 'temperature', type='string')",
             "rpr_render(case)",
             "cmds.setAttr('vdbObj.albedoEnabled', 0)"
-        ], 
+        ],
         "script_info": [
             "fire.vdb",
             "Emission=On(Density)",
@@ -210,14 +210,14 @@
         "scene": "fire.ma"
     },
     {
-        "case": "MAYA_MAT_VDB_012", 
-        "status": "active", 
+        "case": "MAYA_MAT_VDB_012",
+        "status": "active",
         "functions": [
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoSelectedGrid', 'density', type='string')",
             "cmds.setAttr('vdbObj.densityMultiplier', 6000)",
             "rpr_render(case)"
-        ], 
+        ],
         "script_info": [
             "smoke1.vdb",
             "Density=6000"
@@ -225,15 +225,15 @@
         "scene": "smoke1.ma"
     },
     {
-        "case": "MAYA_MAT_VDB_013", 
-        "status": "active", 
+        "case": "MAYA_MAT_VDB_013",
+        "status": "active",
         "functions": [
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoSelectedGrid', 'density', type='string')",
             "cmds.setAttr('vdbObj.densityMultiplier', 6000)",
             "rpr_render(case)",
             "cmds.setAttr('vdbObj.albedoEnabled', 0)"
-        ], 
+        ],
         "script_info": [
             "smoke2.vdb",
             "Density=6000"
@@ -241,28 +241,28 @@
         "scene": "smoke2.ma"
     },
     {
-        "case": "MAYA_MAT_VDB_014", 
-        "status": "active", 
+        "case": "MAYA_MAT_VDB_014",
+        "status": "active",
         "functions": [
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoSelectedGrid', 'ls_space', type='string')",
             "rpr_render(case)",
             "cmds.setAttr('vdbObj.albedoEnabled', 0)"
-        ], 
+        ],
         "script_info": [
             "space.vdb"
         ],
         "scene": "space.ma"
     },
     {
-        "case": "MAYA_MAT_VDB_015", 
-        "status": "active", 
+        "case": "MAYA_MAT_VDB_015",
+        "status": "active",
         "functions": [
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoSelectedGrid', 'ls_sphere', type='string')",
             "rpr_render(case)",
             "cmds.setAttr('vdbObj.albedoEnabled', 0)"
-        ], 
+        ],
         "script_info": [
             "sphere.vdb",
             "Albedo=On"
@@ -270,14 +270,14 @@
         "scene": "sphere.ma"
     },
     {
-        "case": "MAYA_MAT_VDB_016", 
-        "status": "active", 
+        "case": "MAYA_MAT_VDB_016",
+        "status": "active",
         "functions": [
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoSelectedGrid', 'ls_torus', type='string')",
             "rpr_render(case)",
             "cmds.setAttr('vdbObj.albedoEnabled', 0)"
-        ], 
+        ],
         "script_info": [
             "torus.vdb",
             "Albedo=On"
@@ -285,15 +285,15 @@
         "scene": "torus.ma"
     },
     {
-        "case": "MAYA_MAT_VDB_017", 
-        "status": "active", 
+        "case": "MAYA_MAT_VDB_017",
+        "status": "active",
         "functions": [
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoSelectedGrid', 'TorusKnotHelix', type='string')",
             "cmds.setAttr('vdbObj.densityMultiplier', 6000)",
             "rpr_render(case)",
             "cmds.setAttr('vdbObj.albedoEnabled', 0)"
-        ], 
+        ],
         "script_info": [
             "torus_knot_helix.vdb",
             "Albedo=On"
@@ -301,8 +301,8 @@
         "scene": "torus_knot_helix.ma"
     },
     {
-        "case": "MAYA_MAT_VDB_018", 
-        "status": "active", 
+        "case": "MAYA_MAT_VDB_018",
+        "status": "active",
         "functions": [
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
             "cmds.setAttr('vdb.scaleX', 8)",
@@ -310,7 +310,7 @@
             "rpr_render(case)",
             "cmds.setAttr('vdb.scaleX', 3.573)",
             "cmds.setAttr('vdbObj.albedoEnabled', 0)"
-        ], 
+        ],
         "script_info": [
             "venusstatue.vdb",
             "Albedo=On",
@@ -319,19 +319,19 @@
         "scene": "venus.ma"
     },
     {
-        "case": "MAYA_MAT_VDB_019", 
-        "status": "active", 
+        "case": "MAYA_MAT_VDB_019",
+        "status": "active",
         "functions": [
             "rpr_render(case)"
-        ], 
+        ],
         "script_info": [
             "Multiple VDBs"
         ],
         "scene": "multi.ma"
     },
     {
-        "case": "MAYA_MAT_VDB_020", 
-        "status": "active", 
+        "case": "MAYA_MAT_VDB_020",
+        "status": "active",
         "functions": [
             "mel.eval('createVolumeRPR()')",
             "cmds.setAttr('RPRVolume1.scaleX', 2)",
@@ -342,7 +342,7 @@
             "cmds.setAttr('RPRVolume1.translateZ', -4)",
             "cmds.setAttr('RPRVolumeObj.VdbFilePath', RES_PATH + '/VDB/vdb/bunny_cloud.vdb-1.0.0/bunny_cloud.vdb', type='string')",
             "rpr_render(case)"
-        ], 
+        ],
         "script_info": [
             "Create second VDB"
         ],

@@ -534,7 +534,7 @@
         ],
         "scene": "IntensityLight1.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 200)", 
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 200)",
             "rpr_render(case)"
         ],
         "skip_on":[
@@ -1025,7 +1025,7 @@
         "skip_on":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
-    },  
+    },
     {
         "case": "MAYA_RS_NRT_058",
         "status": "active",
@@ -1219,29 +1219,29 @@
         ]
     },
     {
-        "case": "MAYA_RS_NRT_067", 
-        "status": "active", 
+        "case": "MAYA_RS_NRT_067",
+        "status": "active",
         "functions": [
             "rpr_render(case)"
-        ], 
+        ],
         "script_info": [
             "Maya 2018 checking"
-        ], 
+        ],
         "scene": "Lambo_Lebrov.ma",
         "skip_on":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
-        "case": "MAYA_RS_NRT_068", 
-        "status": "active", 
+        "case": "MAYA_RS_NRT_068",
+        "status": "active",
         "functions": [
             "cmds.lookThru('persp3', 'modelPanel4')",
             "rpr_render(case)"
-        ], 
+        ],
         "script_info": [
             "Maya 2019 checking"
-        ], 
+        ],
         "scene": "Lambo_Lebrov.ma",
         "skip_on":[
             ["AMD Radeon RX Vega 56 (Metal)"]

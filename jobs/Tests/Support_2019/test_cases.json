@@ -1,29 +1,29 @@
 [
     {
-        "case": "MAYA_RS_2019_001", 
-        "status": "active", 
+        "case": "MAYA_RS_2019_001",
+        "status": "active",
         "functions": [
             "cmds.lookThru('persp3', 'modelPanel4')",
             "rpr_render(case)"
-        ], 
+        ],
         "script_info": [
             "Maya 2019 checking"
-        ], 
+        ],
         "scene": "Lambo_Lebrov.ma"
     },
     {
-        "case": "MAYA_RS_2019_002", 
-        "status": "active", 
+        "case": "MAYA_RS_2019_002",
+        "status": "active",
         "functions": [
             "cmds.lookThru('persp3', 'modelPanel4')",
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)", 
-            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)", 
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
-        ], 
+        ],
         "script_info": [
             "Maya ML 2019 checking"
-        ], 
+        ],
         "scene": "Lambo_Lebrov.ma",
         "skip_on": [
             ["AMD Radeon RX Vega 56 (Metal)"]

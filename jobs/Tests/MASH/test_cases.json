@@ -5,7 +5,7 @@
         "script_info": [
             "Audio node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('auduo_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -19,7 +19,7 @@
         "script_info": [
             "Curve node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('curve_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -33,7 +33,7 @@
         "script_info": [
             "Color node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('world_color_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -47,7 +47,7 @@
         "script_info": [
             "Delay node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('random_delay_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -61,7 +61,7 @@
         "script_info": [
             "Dynamics node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('dynamic_ID_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -75,7 +75,7 @@
         "script_info": [
             "Flight node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('flight_trails_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -89,7 +89,7 @@
         "script_info": [
             "ID node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('dynamic_ID_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -103,7 +103,7 @@
         "script_info": [
             "Influence node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('influence_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -117,7 +117,7 @@
         "script_info": [
             "Merge node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('merge_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -131,7 +131,7 @@
         "script_info": [
             "Offset node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('offset_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -145,7 +145,7 @@
         "script_info": [
             "Orient node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('orient_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -159,7 +159,7 @@
         "script_info": [
             "Placer node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('placer_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -173,7 +173,7 @@
         "script_info": [
             "Random node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('random_delay_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -187,7 +187,7 @@
         "script_info": [
             "Replicator node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('replicator_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -201,7 +201,7 @@
         "script_info": [
             "Signal node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('signal_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -215,7 +215,7 @@
         "script_info": [
             "Spring node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('spring_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -229,7 +229,7 @@
         "script_info": [
             "Strength node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('strength_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -243,7 +243,7 @@
         "script_info": [
             "Symmetry node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('symmetry_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -257,7 +257,7 @@
         "script_info": [
             "Time node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('time_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -271,7 +271,7 @@
         "script_info": [
             "Transform node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('visibility_transform_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -285,7 +285,7 @@
         "script_info": [
             "Visibility node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('visibility_transform_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -299,7 +299,7 @@
         "script_info": [
             "World node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('world_color_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -313,7 +313,7 @@
         "script_info": [
             "Breakout node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('breakout_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -327,7 +327,7 @@
         "script_info": [
             "Explode node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('explode_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -341,7 +341,7 @@
         "script_info": [
             "Points node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('points_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -355,7 +355,7 @@
         "script_info": [
             "Trails node"
         ],
-        "scene": "mash.ma", 
+        "scene": "mash.ma",
         "functions": [
             "cmds.setAttr('flight_trails_node.visibility', 1)",
             "cmds.currentTime(40)",
@@ -369,7 +369,7 @@
         "script_info": [
             "Mash Complex Driving by Boss cache"
         ],
-        "scene": "Ocean_Mash.ma", 
+        "scene": "Ocean_Mash.ma",
         "functions": [
             "cmds.currentTime(20)",
             "rpr_render(case)"

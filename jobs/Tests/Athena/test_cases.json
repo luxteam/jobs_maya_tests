@@ -1,14 +1,14 @@
 [
     {
-        "case": "MAYA_RS_AWS_001", 
-        "status": "active", 
+        "case": "MAYA_RS_AWS_001",
+        "status": "active",
         "functions": [
             "mel.eval('athenaEnable -ae true')",
             "rpr_render(case)"
-        ], 
+        ],
         "script_info": [
             "Athena check"
-        ], 
+        ],
         "scene": "instances.ma"
     }
 ]

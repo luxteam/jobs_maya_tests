@@ -17,7 +17,7 @@
         <argument>--threshold {threshold}</argument>
         <argument>--engine "{engine}"</argument>
     </execute>
-    
+
     <execute command='python "{CWD}/Scripts/refactor_logs.py"' timeout="60">
         <argument>--output "{OutputDir}"</argument>
     </execute>
