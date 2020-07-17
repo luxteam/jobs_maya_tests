@@ -13,7 +13,6 @@ parser.add_argument('--work_dir', required=True)
 
 args = parser.parse_args()
 directory = args.work_dir
-perf_count.event_record(directory, 'Make report json', True)
 
 files = os.listdir(directory)
 json_files = list(filter(lambda x: x.endswith('RPR.json'), files))
@@ -54,5 +53,3 @@ for file in range(len(json_files)):
 
 with open(os.path.join(directory, "report.json"), 'w') as file:
     file.write(result_json)
-
-perf_count.event_record(directory, 'Make report json', False)

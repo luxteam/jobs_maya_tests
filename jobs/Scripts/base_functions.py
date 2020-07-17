@@ -7,7 +7,6 @@ import re
 import os.path as path
 import os
 from shutil import copyfile
-import glob
 import fireRender.rpr_material_browser
 
 WORK_DIR = '{work_dir}'
