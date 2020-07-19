@@ -1,5 +1,6 @@
 import maya.mel as mel
 import maya.cmds as cmds
+import glob
 import datetime
 import time
 import json

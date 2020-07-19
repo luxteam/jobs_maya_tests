@@ -2,6 +2,7 @@ import argparse
 import os
 import json
 import datetime
+import glob
 
 
 errors = [
@@ -70,10 +71,11 @@ Case\t\tStatus\tTime\tTries
 
         f.write(logs)
 
-		for case in cases:
-			case_time = '{:.2f}'.format(case.get("time_taken", 0))
-			f.write('{}\t{}\t{}\t{}\n'.format(case['case'], case['status'], case_time, case.get('number_of_tries', 1)))
-			total_time += float(case.get('time_taken', '0'))
+        for case in cases:
+            case_time = '{:.2f}'.format(case.get("time_taken", 0))
+            f.write('{}\t{}\t{}\t{}\n'.format(
+                case['case'], case['status'], case_time, case.get('number_of_tries', 1)))
+
 
 def performance_count(work_dir):
     old_event = {'name': 'init', 'time': '', 'start': True}
