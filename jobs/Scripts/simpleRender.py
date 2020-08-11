@@ -208,10 +208,6 @@ def main(args):
     if args.testType in ['Support_2019', 'Support_2018']:
         args.tool = re.sub('[0-9]{4}', args.testType[-4:], args.tool)
 
-    if which(args.tool) is None:
-        core_config.main_logger.error('Can\'t find tool ' + args.tool)
-        exit(-1)
-
     core_config.main_logger.info('Make "base_functions.py"')
 
     try:
@@ -322,6 +318,10 @@ def main(args):
         with open(cmdScriptPath, 'w') as file:
             file.write(cmdRun)
         os.system('chmod +x {}'.format(cmdScriptPath))
+
+    if which(args.tool) is None:
+        core_config.main_logger.error('Can\'t find tool ' + args.tool)
+        exit(-1)
 
     perf_count.event_record(args.output, 'Prepare tests', False)
 
