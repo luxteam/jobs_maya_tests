@@ -291,6 +291,8 @@ def main(args, error_windows):
             template['test_group'] = args.testType
             template['date_time'] = datetime.now().strftime(
                 '%m/%d/%Y %H:%M:%S')
+            if case['status'] != 'skipped':
+                template['group_timeout_exceeded'] = False
 
             with open(os.path.join(work_dir, case['case'] + core_config.CASE_REPORT_SUFFIX), 'w') as f:
                 f.write(json.dumps([template], indent=4))
