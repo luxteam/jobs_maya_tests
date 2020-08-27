@@ -266,6 +266,7 @@ def main(args):
     if not gpu:
         core_config.main_logger.error("Can't get gpu name")
     render_platform = {platform.system(), gpu}
+    system_pl = platform.system()
 
     for case in cases:
         if sum([render_platform & set(skip_conf) == set(skip_conf) for skip_conf in case.get('skip_on', '')]):
@@ -294,10 +295,41 @@ def main(args):
             with open(os.path.join(work_dir, case['case'] + core_config.CASE_REPORT_SUFFIX), 'w') as f:
                 f.write(json.dumps([template], indent=4))
 
+        if system_pl == "Windows":
+            baseline_path_tr = os.path.join(
+                'c:/TestResources/rpr_maya_autotests_baselines', args.testType)
+        else:
+            baseline_path_tr = os.path.expandvars(os.path.join(
+                '$CIS_TOOLS/JN/TestResources/rpr_maya_autotests_baselines', args.testType))
+
+        if args.engine == '2':
+            baseline_path_tr = baseline_path_tr + '-NorthStar'
+
+        baseline_path = os.path.join(
+            work_dir, os.path.pardir, os.path.pardir, os.path.pardir, 'Baseline', args.testType)
+
+        if not os.path.exists(baseline_path):
+            os.makedirs(baseline_path)
+            os.makedirs(os.path.join(baseline_path, 'Color'))
+
+        try:
+            copyfile(os.path.join(baseline_path_tr, case['case'] + core_config.CASE_REPORT_SUFFIX),
+                     os.path.join(baseline_path, case['case'] + core_config.CASE_REPORT_SUFFIX))
+
+            with open(os.path.join(baseline_path, case['case'] + core_config.CASE_REPORT_SUFFIX)) as baseline:
+                baseline_json = json.load(baseline)
+
+            for thumb in list(set().union([''], core_config.THUMBNAIL_PREFIXES)):
+                if thumb + 'render_color_path' and os.path.exists(os.path.join(baseline_path_tr, baseline_json[thumb + 'render_color_path'])):
+                    copyfile(os.path.join(baseline_path_tr, baseline_json[thumb + 'render_color_path']),
+                             os.path.join(baseline_path, baseline_json[thumb + 'render_color_path']))
+        except:
+            core_config.main_logger.error('Failed to copy baseline ' +
+                                          os.path.join(baseline_path_tr, case['case'] + core_config.CASE_REPORT_SUFFIX))
+
     with open(os.path.join(work_dir, 'test_cases.json'), 'w+') as f:
         json.dump(cases, f, indent=4)
 
-    system_pl = platform.system()
     if system_pl == 'Windows':
         cmdRun = '''
 		  set MAYA_CMD_FILE_OUTPUT=%cd%/renderTool.log
