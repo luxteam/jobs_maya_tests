@@ -268,6 +268,23 @@ def main(args):
     render_platform = {platform.system(), gpu}
     system_pl = platform.system()
 
+    if system_pl == "Windows":
+        baseline_path_tr = os.path.join(
+            'c:/TestResources/rpr_maya_autotests_baselines', args.testType)
+    else:
+        baseline_path_tr = os.path.expandvars(os.path.join(
+            '$CIS_TOOLS/JN/TestResources/rpr_maya_autotests_baselines', args.testType))
+
+    if args.engine == '2':
+        baseline_path_tr = baseline_path_tr + '-NorthStar'
+
+    baseline_path = os.path.join(
+        work_dir, os.path.pardir, os.path.pardir, os.path.pardir, 'Baseline', args.testType)
+
+    if not os.path.exists(baseline_path):
+        os.makedirs(baseline_path)
+        os.makedirs(os.path.join(baseline_path, 'Color'))
+
     for case in cases:
         if sum([render_platform & set(skip_conf) == set(skip_conf) for skip_conf in case.get('skip_on', '')]):
             for i in case['skip_on']:
@@ -294,23 +311,6 @@ def main(args):
 
             with open(os.path.join(work_dir, case['case'] + core_config.CASE_REPORT_SUFFIX), 'w') as f:
                 f.write(json.dumps([template], indent=4))
-
-        if system_pl == "Windows":
-            baseline_path_tr = os.path.join(
-                'c:/TestResources/rpr_maya_autotests_baselines', args.testType)
-        else:
-            baseline_path_tr = os.path.expandvars(os.path.join(
-                '$CIS_TOOLS/JN/TestResources/rpr_maya_autotests_baselines', args.testType))
-
-        if args.engine == '2':
-            baseline_path_tr = baseline_path_tr + '-NorthStar'
-
-        baseline_path = os.path.join(
-            work_dir, os.path.pardir, os.path.pardir, os.path.pardir, 'Baseline', args.testType)
-
-        if not os.path.exists(baseline_path):
-            os.makedirs(baseline_path)
-            os.makedirs(os.path.join(baseline_path, 'Color'))
 
         try:
             copyfile(os.path.join(baseline_path_tr, case['case'] + core_config.CASE_REPORT_SUFFIX),
