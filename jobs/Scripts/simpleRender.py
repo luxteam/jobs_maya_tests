@@ -273,7 +273,7 @@ def main(args):
             'c:/TestResources/rpr_maya_autotests_baselines', args.testType)
     else:
         baseline_path_tr = os.path.expandvars(os.path.join(
-            '$CIS_TOOLS/JN/TestResources/rpr_maya_autotests_baselines', args.testType))
+            '$CIS_TOOLS/../JN/TestResources/rpr_maya_autotests_baselines', args.testType))
 
     if args.engine == '2':
         baseline_path_tr = baseline_path_tr + '-NorthStar'
