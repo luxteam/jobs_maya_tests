@@ -123,7 +123,7 @@ def check_licenses(res_path, maya_scenes, testType):
             'Error while deleting student license: {}'.format(ex))
 
 
-def launchMaya(cmdScriptPath, work_dir):
+def launchMaya(cmdScriptPath, work_dir, error_windows):
     system_pl = platform.system()
     core_config.main_logger.info(
         'Launch script on Maya ({})'.format(cmdScriptPath))
@@ -150,6 +150,7 @@ def launchMaya(cmdScriptPath, work_dir):
                     'Error window found: {}'.format(error_window))
                 core_config.main_logger.warning(
                     'Found windows: {}'.format(window_titles))
+                error_windows.update(error_window)
                 rc = -1
 
                 if system_pl == 'Windows':
@@ -203,14 +204,10 @@ def launchMaya(cmdScriptPath, work_dir):
     return rc
 
 
-def main(args):
+def main(args, error_windows):
     perf_count.event_record(args.output, 'Prepare tests', True)
     if args.testType in ['Support_2019', 'Support_2018']:
         args.tool = re.sub('[0-9]{4}', args.testType[-4:], args.tool)
-
-    if which(args.tool) is None:
-        core_config.main_logger.error('Can\'t find tool ' + args.tool)
-        exit(-1)
 
     core_config.main_logger.info('Make "base_functions.py"')
 
@@ -308,6 +305,8 @@ def main(args):
             template['test_group'] = args.testType
             template['date_time'] = datetime.now().strftime(
                 '%m/%d/%Y %H:%M:%S')
+            if case['status'] != 'skipped':
+                template['group_timeout_exceeded'] = False
 
             with open(os.path.join(work_dir, case['case'] + core_config.CASE_REPORT_SUFFIX), 'w') as f:
                 f.write(json.dumps([template], indent=4))
@@ -355,9 +354,13 @@ def main(args):
             file.write(cmdRun)
         os.system('chmod +x {}'.format(cmdScriptPath))
 
+    if which(args.tool) is None:
+        core_config.main_logger.error('Can\'t find tool ' + args.tool)
+        exit(-1)
+
     perf_count.event_record(args.output, 'Prepare tests', False)
 
-    rc = launchMaya(cmdScriptPath, args.output)
+    rc = launchMaya(cmdScriptPath, args.output, error_windows)
 
     if args.testType in ['Athena']:
         subprocess.call([sys.executable, os.path.realpath(os.path.join(
@@ -366,7 +369,7 @@ def main(args):
     return rc
 
 
-def group_failed(args):
+def group_failed(args, error_windows):
     try:
         cases = json.load(open(os.path.realpath(
             os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'))))
@@ -382,7 +385,7 @@ def group_failed(args):
     with open(os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'test_cases.json'), 'w+') as f:
         json.dump(cases, f, indent=4)
 
-    rc = main(args)
+    rc = main(args, error_windows)
     kill_process(PROCESS)
     core_config.main_logger.info(
         'Finish simpleRender with code: {}'.format(rc))
@@ -438,13 +441,15 @@ if __name__ == '__main__':
         core_config.main_logger.error(str(e))
         exit(-1)
 
+    error_windows = set()
+
     while True:
         iteration += 1
 
         core_config.main_logger.info(
             'Try to run script in maya (#' + str(iteration) + ')')
 
-        rc = main(args)
+        rc = main(args, error_windows)
 
         try:
             move(os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'renderTool.log'),
@@ -467,7 +472,7 @@ if __name__ == '__main__':
             if case['status'] in ['fail', 'error', 'inprogress']:
                 current_error_count += 1
                 if args.error_count == current_error_count:
-                    group_failed(args)
+                    group_failed(args, error_windows)
             else:
                 current_error_count = 0
 
@@ -475,6 +480,32 @@ if __name__ == '__main__':
                 active_cases += 1
 
         if active_cases == 0 or iteration > len(cases) * 2:  # 2- retries count
+            for case in cases:
+                error_message = ''
+                number_of_tries = case.get('number_of_tries', 0)
+                if case['status'] in ['fail', 'error']:
+                    error_message = "Testcase wasn't executed successfully (all attempts were used). Number of tries: {}".format(str(number_of_tries))
+                elif case['status'] in ['active', 'inprogress']:
+                    if number_of_tries:
+                        error_message = "Testcase wasn't finished. Number of tries: {}".format(str(number_of_tries))
+                    else:
+                        error_message = "Testcase wasn't run"
+
+                if error_message:
+                    core_config.main_logger.info("Testcase {} wasn't finished successfully: {}".format(case['case'], error_message))
+                    path_to_file = os.path.join(args.output, case['case'] + '_RPR.json')
+
+                    with open(path_to_file, 'r') as file:
+                        report = json.load(file)
+
+                    report[0]['group_timeout_exceeded'] = False
+                    report[0]['message'].append(error_message)
+                    if len(error_windows) != 0:
+                        report[0]['message'].append("Error windows {}".format(error_windows))
+
+                    with open(path_to_file, 'w') as file:
+                        json.dump(report, file, indent=4)
+
             # exit script if base_functions don't change number of active cases
             kill_process(PROCESS)
             core_config.main_logger.info(

@@ -440,5 +440,475 @@
             "rpr_render(case)",
             "resetMaterial()"
         ]
+    },
+    {
+        "case": "MAYA_MAT_UT_035",
+        "status": "active",
+        "script_info": [
+            "Double Linear"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('AddDoubleLinear_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_036",
+        "status": "active",
+        "script_info": [
+            "Channels 1"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('Channels_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_037",
+        "status": "active",
+        "script_info": [
+            "Channels 2"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('Channels_M1')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_038",
+        "status": "active",
+        "script_info": [
+            "Channels 3"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('Channels_M2')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_039",
+        "status": "active",
+        "script_info": [
+            "Clamp"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('Clamp_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_040",
+        "status": "active",
+        "script_info": [
+            "Color condition"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('ColorCondition_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_041",
+        "status": "active",
+        "script_info": [
+            "Color Correct Clamp"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('ColorCorrect_Clamp_M2')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_042",
+        "status": "active",
+        "script_info": [
+            "Color Correct HUE"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('ColorCorrect_HUE_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_043",
+        "status": "active",
+        "script_info": [
+            "Color Correct"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('ColorCorrect_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_044",
+        "status": "active",
+        "script_info": [
+            "Color Correct Saturation"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('ColorCorrect_SATuration_M1')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_045",
+        "status": "active",
+        "script_info": [
+            "Color Correct Value"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('ColorCorrect_Value_M3')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_046",
+        "status": "active",
+        "script_info": [
+            "Color Logic"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('ColorLogic_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_047",
+        "status": "active",
+        "script_info": [
+            "Color Mask"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('ColorMask_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_048",
+        "status": "active",
+        "script_info": [
+            "Color Math"
+        ],
+        "scene": "ColorMath_M.ma",
+        "functions": [
+            "assignMaterial('ColorMath_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_049",
+        "status": "active",
+        "script_info": [
+            "Color Composite"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('Color_Composite_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_050",
+        "status": "active",
+        "script_info": [
+            "Color Constant"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('Color_Constant_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_051",
+        "status": "active",
+        "script_info": [
+            "Condition"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('Condition_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_052",
+        "status": "active",
+        "script_info": [
+            "Contrast"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('Contrast')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_053",
+        "status": "active",
+        "script_info": [
+            "Gamma Correct"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('GammaCorrect_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_054",
+        "status": "active",
+        "script_info": [
+            "HSV to RGB"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('HSVTORGB_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_055",
+        "status": "active",
+        "script_info": [
+            "Multi Divide"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('Multi_Divide_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_056",
+        "status": "active",
+        "script_info": [
+            "Projection Sphere"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('Pojection_Sphere_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_057",
+        "status": "active",
+        "script_info": [
+            "Pre-multiply"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('PreMultiply_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_058",
+        "status": "active",
+        "script_info": [
+            "Projection Ball"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('Projection_Ball_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_059",
+        "status": "active",
+        "script_info": [
+            "Projection Camera"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "cmds.lookThru('camera3', 'modelPanel4')",
+            "assignMaterial('Projection_Camera_RenderWITHCAMERAPROJECTIONCAM_M')",
+            "rpr_render(case)",
+            "cmds.lookThru('persp', 'modelPanel4')",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_060",
+        "status": "active",
+        "script_info": [
+            "Projection Concentric"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('Projection_Concentric_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_061",
+        "status": "active",
+        "script_info": [
+            "Projection Cube"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('Projection_Cube_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_062",
+        "status": "active",
+        "script_info": [
+            "Projection Cylinder"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('Projection_Cylinder_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_063",
+        "status": "active",
+        "script_info": [
+            "Projection Perspective"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('Projection_Perpective_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_064",
+        "status": "active",
+        "script_info": [
+            "Projection Planar"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('Projection_Planar_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_065",
+        "status": "active",
+        "script_info": [
+            "Projection Triplanar"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('Projection_Triplaner_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_066",
+        "status": "active",
+        "script_info": [
+            "RGB to HSV"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('RGBTOHSV_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_067",
+        "status": "active",
+        "script_info": [
+            "Remap Color"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('Remap_Color_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_068",
+        "status": "active",
+        "script_info": [
+            "Remap HSV"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('Remap_HSV_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_069",
+        "status": "active",
+        "script_info": [
+            "Reverse"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('Reverse_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
+    },
+    {
+        "case": "MAYA_MAT_UT_070",
+        "status": "active",
+        "script_info": [
+            "Stencil"
+        ],
+        "scene": "shaderball.ma",
+        "functions": [
+            "assignMaterial('Stencil_M')",
+            "rpr_render(case)",
+            "resetMaterial()"
+        ]
     }
 ]

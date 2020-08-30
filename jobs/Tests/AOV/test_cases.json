@@ -340,5 +340,61 @@
             "cmds.setAttr('RadeonProRenderGlobals.aovReflectionCatcher', 1)",
             "rpr_render(case)"
         ]
+    },
+    {
+        "case": "MAYA_RS_AOV_025",
+        "status": "active",
+        "script_info": [
+            "AOV: Light group 0"
+        ],
+        "scene": "LightGroupAOV.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 23)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovLightGroup0', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovLightGroup0', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AOV_026",
+        "status": "active",
+        "script_info": [
+            "AOV: Light group 1"
+        ],
+        "scene": "LightGroupAOV.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 24)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovLightGroup1', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovLightGroup1', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AOV_027",
+        "status": "active",
+        "script_info": [
+            "AOV: Light group 2"
+        ],
+        "scene": "LightGroupAOV.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 25)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovLightGroup2', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovLightGroup2', 0)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AOV_028",
+        "status": "active",
+        "script_info": [
+            "AOV: Light group 3"
+        ],
+        "scene": "LightGroupAOV.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 26)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovLightGroup3', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovLightGroup3', 0)"
+        ]
     }
 ]

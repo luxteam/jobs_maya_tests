@@ -441,5 +441,41 @@
             "cmds.currentTime(60)",
             "rpr_render(case)"
         ]
+    },
+    {
+        "case": "MAYA_RS_AN_035",
+        "status": "active",
+        "script_info": [
+            "Image sequence - Frame 1"
+        ],
+        "scene": "ImageSequence.ma",
+        "functions": [
+            "cmds.currentTime(1)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_036",
+        "status": "active",
+        "script_info": [
+            "Image sequence - Frame 40"
+        ],
+        "scene": "ImageSequence.ma",
+        "functions": [
+            "cmds.currentTime(40)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_AN_037",
+        "status": "active",
+        "script_info": [
+            "Image sequence - Frame 80"
+        ],
+        "scene": "ImageSequence.ma",
+        "functions": [
+            "cmds.currentTime(80)",
+            "rpr_render(case)"
+        ]
     }
 ]
