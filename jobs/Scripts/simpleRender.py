@@ -265,15 +265,16 @@ def main(args, error_windows):
     render_platform = {platform.system(), gpu}
     system_pl = platform.system()
 
+    baseline_dir = 'rpr_maya_autotests_baselines'
+    if args.engine == '2' and not 'NorthStar' in args.testType:
+        baseline_dir += '-NorthStar'
+
     if system_pl == "Windows":
         baseline_path_tr = os.path.join(
-            'c:/TestResources/rpr_maya_autotests_baselines', args.testType)
+            'c:/TestResources', baseline_dir, args.testType)
     else:
         baseline_path_tr = os.path.expandvars(os.path.join(
-            '$CIS_TOOLS/../TestResources/rpr_maya_autotests_baselines', args.testType))
-
-    if args.engine == '2' and not 'NorthStar' in args.testType:
-        baseline_path_tr = baseline_path_tr + '-NorthStar'
+            '$CIS_TOOLS/../TestResources', baseline_dir, args.testType))
 
     baseline_path = os.path.join(
         work_dir, os.path.pardir, os.path.pardir, os.path.pardir, 'Baseline', args.testType)
