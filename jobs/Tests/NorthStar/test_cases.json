@@ -10,7 +10,7 @@
             "cmds.currentTime(91)",
             "rpr_render(case)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -25,7 +25,7 @@
             "cmds.currentTime(201)",
             "rpr_render(case)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -40,7 +40,7 @@
             "cmds.currentTime(11)",
             "rpr_render(case)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -55,7 +55,7 @@
             "cmds.currentTime(14)",
             "rpr_render(case)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -72,7 +72,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 5)",
             "rpr_render(case)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -89,7 +89,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 1)",
             "rpr_render(case)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -106,7 +106,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 10)",
             "rpr_render(case)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -123,7 +123,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 5)",
             "rpr_render(case)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -140,7 +140,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 5)",
             "rpr_render(case)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -157,7 +157,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 5)",
             "rpr_render(case)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -174,7 +174,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.aovUV', 1)",
             "rpr_render(case)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -192,7 +192,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.motionBlur', 1)",
             "rpr_render(case)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -209,7 +209,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.aovAlbedo', 1)",
             "rpr_render(case)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -231,7 +231,7 @@
             "rpr_render(case)",
             "cmds.delete(light_shape)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -252,7 +252,7 @@
             "rpr_render(case)",
             "cmds.delete(light_transform)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -273,7 +273,7 @@
             "rpr_render(case)",
             "cmds.delete(light_shape)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -295,7 +295,7 @@
             "rpr_render(case)",
             "cmds.delete(light_shape)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -320,7 +320,7 @@
             "rpr_render(case)",
             "cmds.delete(light_shape)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -335,7 +335,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 400)",
             "rpr_render(case)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -356,7 +356,7 @@
             "rpr_render(case)",
             "cmds.delete(ibl_shape)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -378,7 +378,7 @@
             "rpr_render(case)",
             "cmds.delete(ibl_shape)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -400,7 +400,7 @@
             "rpr_render(case)",
             "cmds.delete(ibl_shape)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -423,7 +423,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.flipIBL', 0)",
             "cmds.delete(ibl_shape)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -440,7 +440,7 @@
             "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/18.ies', type='string')",
             "rpr_render(case)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -457,7 +457,7 @@
             "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/24.ies', type='string')",
             "rpr_render(case)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -473,7 +473,7 @@
             "cmds.setAttr('defaultResolution.height', 1024.0)",
             "rpr_render(case)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -491,7 +491,7 @@
             "cmds.setAttr('defaultResolution.deviceAspectRatio', 0.707)",
             "rpr_render(case)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -506,7 +506,7 @@
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 8)",
             "rpr_render(case)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -522,7 +522,7 @@
             "rpr_render(case)",
             "setPass(case)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -537,7 +537,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 200)",
             "rpr_render(case)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -553,7 +553,7 @@
             "Material: BurnOutBlue Metallic"
         ],
         "scene": "MaterialTestScene.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -569,7 +569,7 @@
             "Material: EastwoodBluePearl Pearlescent"
         ],
         "scene": "MaterialTestScene.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -585,7 +585,7 @@
             "Material: Rubber SmoothShiny Blue"
         ],
         "scene": "MaterialTestScene.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -601,7 +601,7 @@
             "Material: Acrylic Refractive Glossy Neon Green"
         ],
         "scene": "MaterialTestScene.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -618,7 +618,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0.0)",
             "rpr_render(case)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -634,7 +634,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000.0)",
             "rpr_render(case)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -651,7 +651,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0.0)",
             "rpr_render(case)"
         ],
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -669,7 +669,7 @@
             "Metalness .jpg"
         ],
         "scene": "PBR.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -687,7 +687,7 @@
             "Specular  .tif"
         ],
         "scene": "PBR.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -705,7 +705,7 @@
             "Roughness .png"
         ],
         "scene": "PBR.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -722,7 +722,7 @@
             "Roughness=1"
         ],
         "scene": "PBR.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -739,7 +739,7 @@
             "Glass IOR=1"
         ],
         "scene": "PBR.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -757,7 +757,7 @@
             "Emissive Color HSV color: 40:1:1"
         ],
         "scene": "PBR.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -777,7 +777,7 @@
             "Subsurface Weight .exr"
         ],
         "scene": "PBR.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -805,7 +805,7 @@
             "Check Box Shadows - Activate"
         ],
         "scene": "Physical_Light.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -826,7 +826,7 @@
             "Outer Cone Angle - 179"
         ],
         "scene": "Physical_Light.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -847,7 +847,7 @@
             "Luminous Efficacy - 0.1"
         ],
         "scene": "Physical_Light.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -870,7 +870,7 @@
             "Temperature - 40000"
         ],
         "scene": "Physical_Light.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -890,7 +890,7 @@
             "Shadows - 0.5"
         ],
         "scene": "Physical_Light.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -906,7 +906,7 @@
             "Max Ray Depth - 2"
         ],
         "scene": "RayDepth.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -922,7 +922,7 @@
             "Max Ray Depth - 50"
         ],
         "scene": "RayDepth.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -938,7 +938,7 @@
             "Max Glossy - 50"
         ],
         "scene": "Glossy_ray_depth.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -954,7 +954,7 @@
             "Max Refraction - 50"
         ],
         "scene": "Refraction_ray_depth.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -970,7 +970,7 @@
             "Max Shadow - 2"
         ],
         "scene": "Shadow_ray_depth.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -986,7 +986,7 @@
             "Ray Epsilon - 2"
         ],
         "scene": "Ray_epsilon.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -1004,7 +1004,7 @@
             "GPU texture cache (MB) - 4096"
         ],
         "scene": "Ray_epsilon.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"],
             ["GeForce GTX 1080 Ti"],
             ["AMD Radeon (TM) Pro WX 7100 Graphics"]
@@ -1023,7 +1023,7 @@
             "Clamp Irradience Value - 100"
         ],
         "scene": "Clamp.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -1043,7 +1043,7 @@
             "Operation - Substract, Arythmetic_Blend_Gradient"
         ],
         "scene": "RPRNodes.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -1064,7 +1064,7 @@
             "Set 'Color 0' - 0, 255, 255"
         ],
         "scene": "RPRNodes.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -1085,7 +1085,7 @@
             "LookUpNoisePassthrought"
         ],
         "scene": "RPRNodes.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -1103,7 +1103,7 @@
             "Fresnel"
         ],
         "scene": "RPRNodes.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -1121,7 +1121,7 @@
             "RPR Lookup UV"
         ],
         "scene": "lookup.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -1148,7 +1148,7 @@
             "Sun Disk Size - 10"
         ],
         "scene": "Sun_Sky.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -1173,7 +1173,7 @@
             "Sun Disk Size - 0"
         ],
         "scene": "Sun_Sky.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -1194,7 +1194,7 @@
             "Sun Glow - 50"
         ],
         "scene": "Sun_Sky.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -1215,7 +1215,7 @@
             "Sun Glow - 100"
         ],
         "scene": "Sun_Sky.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -1229,7 +1229,7 @@
             "Maya 2018 checking"
         ],
         "scene": "Lambo_Lebrov.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -1244,7 +1244,7 @@
             "Maya 2019 checking"
         ],
         "scene": "Lambo_Lebrov.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -1263,7 +1263,7 @@
             "5 5 +gamma +white-balance"
         ],
         "scene": "maya_shaderball.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -1286,7 +1286,7 @@
             "5 5 +gamma"
         ],
         "scene": "maya_shaderball.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -1324,7 +1324,7 @@
             "Backscattering Color - diffuse_backscatteringcolor.exr"
         ],
         "scene": "Uber.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -1350,7 +1350,7 @@
             "Metalness - 1"
         ],
         "scene": "Uber.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -1377,7 +1377,7 @@
             "Allow Caustics - Activate"
         ],
         "scene": "Uber.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -1405,7 +1405,7 @@
             "Transmission Color - HSV: 0, 0, 0"
         ],
         "scene": "Uber.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -1424,7 +1424,7 @@
             "Transparency - transparency_transparency.jpeg"
         ],
         "scene": "Uber.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -1438,7 +1438,7 @@
             "UDIM"
         ],
         "scene": "Udim.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -1456,7 +1456,7 @@
             "Object ID"
         ],
         "scene": "AOVConstruct.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     }

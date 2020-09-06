@@ -25,7 +25,7 @@
             "Maya ML 2019 checking"
         ],
         "scene": "Lambo_Lebrov.ma",
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     }

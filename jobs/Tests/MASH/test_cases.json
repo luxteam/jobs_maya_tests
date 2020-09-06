@@ -374,7 +374,7 @@
             "cmds.currentTime(20)",
             "rpr_render(case)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     }

@@ -265,11 +265,14 @@ def main(args, error_windows):
     render_platform = {platform.system(), gpu}
 
     for case in cases:
-        if sum([render_platform & set(skip_conf) == set(skip_conf) for skip_conf in case.get('skip_on', '')]):
-            for i in case['skip_on']:
-                skip_on = set(i)
-                if render_platform.intersection(skip_on) == skip_on:
+        if sum([render_platform & set(skip_conf) == set(skip_conf) for skip_conf in case.get('skip_config', '')]):
+            for i in case['skip_config']:
+                skip_config = set(i)
+                if render_platform.intersection(skip_config) == skip_config:
                     case['status'] = 'skipped'
+
+        if sum([engine for engine in case.get('skip_engine', []) if engine == args.engine]):
+            case['status'] = 'skipped'
 
         if case['status'] != 'done':
             if case['status'] == 'inprogress':

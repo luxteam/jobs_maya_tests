@@ -691,7 +691,7 @@
             "Machine Learning"
         ],
         "scene": "Lamborginhi_Aventador.ma",
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -749,7 +749,7 @@
             "ML in CPU mode"
         ],
         "scene": "normal_scene.ma",
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -770,7 +770,7 @@
             "ML in CPU+GPU mode"
         ],
         "scene": "normal_scene.ma",
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },

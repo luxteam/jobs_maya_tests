@@ -18,7 +18,7 @@
             "Color"
         ],
         "scene": "ComplexLighting.ma",
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -41,7 +41,7 @@
             "ML denoiser"
         ],
         "scene": "ComplexLighting.ma",
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -620,7 +620,7 @@
             "Machine Learning type"
         ],
         "scene": "maya_shaderball.ma",
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -638,7 +638,7 @@
             "Color"
         ],
         "scene": "DenoiserMetal.ma",
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -656,7 +656,7 @@
             "Color+AOV"
         ],
         "scene": "DenoiserMetal.ma",
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -936,7 +936,7 @@
             "ML denoiser IES and Physical"
         ],
         "scene": "Denoiser_Light.ma",
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },

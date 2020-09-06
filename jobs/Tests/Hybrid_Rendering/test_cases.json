@@ -10,7 +10,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
             "rpr_render(case)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -25,7 +25,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 2)",
             "rpr_render(case)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -40,7 +40,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 3)",
             "rpr_render(case)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -56,7 +56,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
             "rpr_render(case)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -72,7 +72,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 2)",
             "rpr_render(case)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -88,7 +88,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 3)",
             "rpr_render(case)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -104,7 +104,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
             "rpr_render(case)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -120,7 +120,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 2)",
             "rpr_render(case)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -136,7 +136,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 3)",
             "rpr_render(case)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -152,7 +152,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
             "rpr_render(case)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -168,7 +168,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 2)",
             "rpr_render(case)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -184,7 +184,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 3)",
             "rpr_render(case)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -200,7 +200,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
             "rpr_render(case)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -216,7 +216,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 2)",
             "rpr_render(case)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -232,7 +232,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 3)",
             "rpr_render(case)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -247,7 +247,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
             "rpr_render(case)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -262,7 +262,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 2)",
             "rpr_render(case)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -277,7 +277,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 3)",
             "rpr_render(case)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -292,7 +292,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
             "rpr_render(case)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -307,7 +307,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 2)",
             "rpr_render(case)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -322,7 +322,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 3)",
             "rpr_render(case)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -339,7 +339,7 @@
             "rpr_render(case)",
             "detachMaterial()"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -356,7 +356,7 @@
             "rpr_render(case)",
             "detachMaterial()"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -373,7 +373,7 @@
             "rpr_render(case)",
             "detachMaterial()"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -390,7 +390,7 @@
             "rpr_render(case)",
             "detachMaterial()"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -407,7 +407,7 @@
             "rpr_render(case)",
             "detachMaterial()"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -424,7 +424,7 @@
             "rpr_render(case)",
             "detachMaterial()"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -441,7 +441,7 @@
             "rpr_render(case)",
             "detachMaterial()"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -458,7 +458,7 @@
             "rpr_render(case)",
             "detachMaterial()"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -475,7 +475,7 @@
             "rpr_render(case)",
             "detachMaterial()"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -492,7 +492,7 @@
             "rpr_render(case)",
             "detachMaterial()"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -509,7 +509,7 @@
             "rpr_render(case)",
             "detachMaterial()"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -526,7 +526,7 @@
             "rpr_render(case)",
             "detachMaterial()"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -541,7 +541,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 1)",
             "rpr_render(case)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -556,7 +556,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 2)",
             "rpr_render(case)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -595,7 +595,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthRefractionGlossy', 22)",
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthShadow', 14)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -622,7 +622,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthRefractionGlossy', 22)",
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthShadow', 14)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -649,7 +649,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthRefractionGlossy', 22)",
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthShadow', 14)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -676,7 +676,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthRefractionGlossy', 22)",
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthShadow', 14)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -703,7 +703,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthRefractionGlossy', 22)",
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthShadow', 14)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -744,7 +744,7 @@
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 0)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -761,7 +761,7 @@
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 0)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -778,7 +778,7 @@
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 0)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -797,7 +797,7 @@
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -816,7 +816,7 @@
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -835,7 +835,7 @@
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -854,7 +854,7 @@
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -873,7 +873,7 @@
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -892,7 +892,7 @@
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -910,7 +910,7 @@
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -928,7 +928,7 @@
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -946,7 +946,7 @@
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -964,7 +964,7 @@
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -982,7 +982,7 @@
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -1000,7 +1000,7 @@
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -1019,7 +1019,7 @@
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -1038,7 +1038,7 @@
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -1057,7 +1057,7 @@
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     }

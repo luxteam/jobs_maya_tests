@@ -244,7 +244,7 @@
             "SC ML Denoiser"
         ],
         "scene": "DenoiserShadowCatcher.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -323,7 +323,7 @@
             "SC ML Denoiser"
         ],
         "scene": "Corvette CorvetteRPR.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
@@ -342,7 +342,7 @@
             "Corvette SC ML+AOV Denoiser"
         ],
         "scene": "CorvetteRPR.ma",
-        "skip_on":[
+        "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     }
