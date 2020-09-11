@@ -271,7 +271,7 @@ def main(args, error_windows):
                 if render_platform.intersection(skip_config) == skip_config:
                     case['status'] = 'skipped'
 
-        if sum([engine for engine in case.get('skip_engine', []) if engine == args.engine]):
+        if any([engine for engine in case.get('skip_engine', []) if engine == args.engine]):
             case['status'] = 'skipped'
 
         if case['status'] != 'done':
