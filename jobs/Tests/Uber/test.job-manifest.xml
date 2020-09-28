@@ -16,6 +16,7 @@
         <argument>--SPU 150</argument>
         <argument>--threshold {threshold}</argument>
         <argument>--retries {retries}</argument>
+        <argument>--update_refs "{UpdateRefs}"</argument>
         <argument>--engine "{engine}"</argument>
     </execute>
 
@@ -26,6 +27,7 @@
     <execute command='python "{CommonDir}/scripts/compareByJSON.py"'>
         <argument>--work_dir "{OutputDir}"</argument>
         <argument>--base_dir "{BaselineDir}"</argument>
+        <argument>--update_refs "{UpdateRefs}"</argument>
     </execute>
 
     <execute command='python "{CWD}/Scripts/refactor_logs.py"' timeout="60">

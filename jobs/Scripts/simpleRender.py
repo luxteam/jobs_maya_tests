@@ -95,6 +95,7 @@ def createArgsParser():
     parser.add_argument('--threshold', required=False,
                         default=0.05, type=float)
     parser.add_argument('--retries', required=False, default=2, type=int)
+    parser.add_argument('--update_refs', required=True)
 
     return parser
 
@@ -324,20 +325,21 @@ def main(args, error_windows):
             with open(os.path.join(work_dir, case['case'] + core_config.CASE_REPORT_SUFFIX), 'w') as f:
                 f.write(json.dumps([template], indent=4))
 
-        try:
-            copyfile(os.path.join(baseline_path_tr, case['case'] + core_config.CASE_REPORT_SUFFIX),
-                     os.path.join(baseline_path, case['case'] + core_config.CASE_REPORT_SUFFIX))
+        if 'Update' not in args.update_refs:
+            try:
+                copyfile(os.path.join(baseline_path_tr, case['case'] + core_config.CASE_REPORT_SUFFIX),
+                         os.path.join(baseline_path, case['case'] + core_config.CASE_REPORT_SUFFIX))
 
-            with open(os.path.join(baseline_path, case['case'] + core_config.CASE_REPORT_SUFFIX)) as baseline:
-                baseline_json = json.load(baseline)
+                with open(os.path.join(baseline_path, case['case'] + core_config.CASE_REPORT_SUFFIX)) as baseline:
+                    baseline_json = json.load(baseline)
 
-            for thumb in [''] + core_config.THUMBNAIL_PREFIXES:
-                if thumb + 'render_color_path' and os.path.exists(os.path.join(baseline_path_tr, baseline_json[thumb + 'render_color_path'])):
-                    copyfile(os.path.join(baseline_path_tr, baseline_json[thumb + 'render_color_path']),
-                             os.path.join(baseline_path, baseline_json[thumb + 'render_color_path']))
-        except:
-            core_config.main_logger.error('Failed to copy baseline ' +
-                                          os.path.join(baseline_path_tr, case['case'] + core_config.CASE_REPORT_SUFFIX))
+                for thumb in [''] + core_config.THUMBNAIL_PREFIXES:
+                    if thumb + 'render_color_path' and os.path.exists(os.path.join(baseline_path_tr, baseline_json[thumb + 'render_color_path'])):
+                        copyfile(os.path.join(baseline_path_tr, baseline_json[thumb + 'render_color_path']),
+                                 os.path.join(baseline_path, baseline_json[thumb + 'render_color_path']))
+            except:
+                core_config.main_logger.error('Failed to copy baseline ' +
+                                              os.path.join(baseline_path_tr, case['case'] + core_config.CASE_REPORT_SUFFIX))
 
     with open(os.path.join(work_dir, 'test_cases.json'), 'w+') as f:
         json.dump(cases, f, indent=4)
