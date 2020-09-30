@@ -145,6 +145,7 @@
         "case": "MAYA_RS_AOV_011",
         "status": "skipped",
         "script_info": [
+			"Black image expected",
             "AOV: Emission"
         ],
         "scene": "AOVConstruct.ma",
@@ -159,6 +160,7 @@
         "case": "MAYA_RS_AOV_012",
         "status": "skipped",
         "script_info": [
+			"Black image expected",
             "AOV: Velocity"
         ],
         "scene": "AOVConstruct.ma",
@@ -174,6 +176,7 @@
         "case": "MAYA_RS_AOV_013",
         "status": "skipped",
         "script_info": [
+			"Black image expected",
             "AOV: Direct Illumination"
         ],
         "scene": "AOVConstruct.ma",
@@ -188,6 +191,7 @@
         "case": "MAYA_RS_AOV_014",
         "status": "skipped",
         "script_info": [
+			"Black image expected",
             "AOV: Indirect Illumination"
         ],
         "scene": "AOVConstruct.ma",
@@ -202,6 +206,7 @@
         "case": "MAYA_RS_AOV_015",
         "status": "skipped",
         "script_info": [
+			"Black image expected",
             "AOV: Ambient Occlusion"
         ],
         "scene": "AOVConstruct.ma",
@@ -216,6 +221,7 @@
         "case": "MAYA_RS_AOV_016",
         "status": "skipped",
         "script_info": [
+			"Black image expected",
             "AOV: Diffuse Direct"
         ],
         "scene": "AOVConstruct.ma",
@@ -230,6 +236,7 @@
         "case": "MAYA_RS_AOV_017",
         "status": "skipped",
         "script_info": [
+			"Black image expected",
             "AOV: Diffuse Direct"
         ],
         "scene": "AOVConstruct.ma",
@@ -244,6 +251,7 @@
         "case": "MAYA_RS_AOV_018",
         "status": "skipped",
         "script_info": [
+			"Black image expected",
             "AOV: Reflection Direct"
         ],
         "scene": "AOV_Better.ma",
@@ -258,6 +266,7 @@
         "case": "MAYA_RS_AOV_019",
         "status": "skipped",
         "script_info": [
+			"Black image expected",
             "AOV: Reflection Indirect"
         ],
         "scene": "AOV_Better.ma",
@@ -272,6 +281,7 @@
         "case": "MAYA_RS_AOV_020",
         "status": "skipped",
         "script_info": [
+			"Black image expected",
             "AOV: Refraction"
         ],
         "scene": "AOVConstruct.ma",
@@ -286,6 +296,7 @@
         "case": "MAYA_RS_AOV_021",
         "status": "skipped",
         "script_info": [
+			"Black image expected",
             "AOV: Volume"
         ],
         "scene": "AOVConstruct.ma",
@@ -317,6 +328,7 @@
         "case": "MAYA_RS_AOV_023",
         "status": "skipped",
         "script_info": [
+			"Black image expected",
             "Do not compare",
             "AOV: Variance"
         ],
@@ -331,6 +343,7 @@
         "case": "MAYA_RS_AOV_024",
         "status": "skipped",
         "script_info": [
+			"Black image expected",
             "AOV: Reflection Catcher"
         ],
         "scene": "AOVConstruct.ma",
@@ -345,6 +358,7 @@
         "case": "MAYA_RS_AOV_025",
         "status": "skipped",
         "script_info": [
+			"Black image expected",
             "AOV: Light group 0"
         ],
         "scene": "LightGroupAOV.ma",
@@ -359,6 +373,7 @@
         "case": "MAYA_RS_AOV_026",
         "status": "skipped",
         "script_info": [
+			"Black image expected",
             "AOV: Light group 1"
         ],
         "scene": "LightGroupAOV.ma",
@@ -373,6 +388,7 @@
         "case": "MAYA_RS_AOV_027",
         "status": "skipped",
         "script_info": [
+			"Black image expected",
             "AOV: Light group 2"
         ],
         "scene": "LightGroupAOV.ma",
@@ -387,6 +403,7 @@
         "case": "MAYA_RS_AOV_028",
         "status": "skipped",
         "script_info": [
+			"Black image expected",
             "AOV: Light group 3"
         ],
         "scene": "LightGroupAOV.ma",

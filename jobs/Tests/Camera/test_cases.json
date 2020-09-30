@@ -33,6 +33,7 @@
         "case": "MAYA_RS_CAM_003",
         "status": "active",
         "script_info": [
+			"Black image expected",
             "RPR Camera Type: Cubemap"
         ],
         "scene": "maya_shaderball.ma",
@@ -48,6 +49,7 @@
         "case": "MAYA_RS_CAM_004",
         "status": "active",
         "script_info": [
+			"Black image expected",
             "RPR Camera Type: Stereo cubemap"
         ],
         "scene": "maya_shaderball.ma",

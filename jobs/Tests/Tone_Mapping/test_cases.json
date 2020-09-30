@@ -60,6 +60,7 @@
             "resetAttributes()"
         ],
         "script_info": [
+			"Black image expected",
             "0 0 +gamma"
         ],
         "scene": "maya_shaderball.ma"
@@ -106,6 +107,7 @@
             "resetAttributes()"
         ],
         "script_info": [
+			"Black image expected",
             "0 0 +gamma +white-balance"
         ],
         "scene": "maya_shaderball.ma"
@@ -186,6 +188,7 @@
             "resetAttributes()"
         ],
         "script_info": [
+			"Black image expected",
             "0 0 +gamma +white-balance=9500"
         ],
         "scene": "maya_shaderball.ma"
@@ -283,6 +286,7 @@
             "resetAttributes()"
         ],
         "script_info": [
+			"Black image expected",
             "Type: Linear (Scale)=0",
             "0 0 +gamma"
         ],
@@ -338,6 +342,7 @@
             "resetAttributes()"
         ],
         "script_info": [
+			"Black image expected",
             "Type: Linear (Scale)=0",
             "0 0 +gamma +white-balance"
         ],
@@ -429,6 +434,7 @@
             "resetAttributes()"
         ],
         "script_info": [
+			"Black image expected",
             "Type: Linear (Scale)=0",
             "0 0 +gamma +white-balance=9500"
         ],
@@ -535,6 +541,7 @@
             "resetAttributes()"
         ],
         "script_info": [
+			"Black image expected",
             "Type: Photolinear (0 0 0)",
             "0 0 +gamma"
         ],
@@ -596,6 +603,7 @@
             "resetAttributes()"
         ],
         "script_info": [
+			"Black image expected",
             "Type: PhotoLinear (0 0 0)",
             "0 0 +gamma +white-balance"
         ],
@@ -693,6 +701,7 @@
             "resetAttributes()"
         ],
         "script_info": [
+			"Black image expected",
             "Type: PhotoLinear (0 0 0)",
             "0 0 +gamma +white-balance=9500"
         ],
@@ -800,6 +809,7 @@
             "resetAttributes()"
         ],
         "script_info": [
+			"Black image expected",
             "Type: Autolinear 0 0 +gamma"
         ],
         "scene": "maya_shaderball.ma"
@@ -849,6 +859,7 @@
             "resetAttributes()"
         ],
         "script_info": [
+			"Black image expected",
             "Type: Autolinear 0 0 +gamma +white-balance"
         ],
         "scene": "maya_shaderball.ma"
@@ -933,6 +944,7 @@
             "resetAttributes()"
         ],
         "script_info": [
+			"Black image expected",
             "Type: Autolinear 0 0 +gamma +white-balance=9500"
         ],
         "scene": "maya_shaderball.ma"
@@ -1031,6 +1043,7 @@
             "resetAttributes()"
         ],
         "script_info": [
+			"Black image expected",
             "Type: MaxWhite 0 0 +gamma"
         ],
         "scene": "maya_shaderball.ma"
@@ -1080,6 +1093,7 @@
             "resetAttributes()"
         ],
         "script_info": [
+			"Black image expected",
             "Type: MaxWhite 0 0 +gamma +white-balance"
         ],
         "scene": "maya_shaderball.ma"
@@ -1165,6 +1179,7 @@
             "resetAttributes()"
         ],
         "script_info": [
+			"Black image expected",
             "Type: MaxWhite 0 0 +gamma +white-balance=9500"
         ],
         "scene": "maya_shaderball.ma"
@@ -1266,6 +1281,7 @@
             "resetAttributes()"
         ],
         "script_info": [
+			"Black image expected",
             "Type: Reinhard02 (0 0 0)",
             "0 0 +gamma"
         ],
@@ -1326,6 +1342,7 @@
             "resetAttributes()"
         ],
         "script_info": [
+			"Black image expected",
             "Type: Reinhard02 (0 0 0)",
             "0 0 +gamma +white-balance"
         ],
@@ -1422,6 +1439,7 @@
             "resetAttributes()"
         ],
         "script_info": [
+			"Black image expected",
             "Type: Reinhard02 (0 0 0)",
             "0 0 +gamma +white-balance=9500"
         ],

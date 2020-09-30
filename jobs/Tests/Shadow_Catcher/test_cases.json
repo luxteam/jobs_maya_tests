@@ -42,6 +42,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 0)"
         ],
         "script_info": [
+			"Black image expected",
             "SC AOV"
         ],
         "scene": "SC.ma"

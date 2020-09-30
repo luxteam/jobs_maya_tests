@@ -12,6 +12,7 @@
             "rpr_render(case)"
         ],
         "script_info": [
+			"Black image expected",
             "Light Type - Area",
             "Area Width - 0",
             "Intensity Units - Radience",
@@ -31,6 +32,7 @@
             "rpr_render(case)"
         ],
         "script_info": [
+			"Black image expected",
             "Light Type - Area",
             "Area Width - 0",
             "Intensity Units - Mesh",
@@ -107,6 +109,7 @@
             "rpr_render(case)"
         ],
         "script_info": [
+			"Black image expected",
             "Light Type - Area",
             "Area Width - 10",
             "Area Lenght - 10",
@@ -210,6 +213,7 @@
             "rpr_render(case)"
         ],
         "script_info": [
+			"Black image expected",
             "Light Type - Area",
             "Area Lenght - 1",
             "Light Intensity - 0",
@@ -259,6 +263,7 @@
             "rpr_render(case)"
         ],
         "script_info": [
+			"Black image expected",
             "Light Type - Spot",
             "Light Intensity - 0",
             "Intensity Units - Watts",
@@ -280,6 +285,7 @@
             "rpr_render(case)"
         ],
         "script_info": [
+			"Black image expected",
             "Light Type - Spot",
             "Light Intensity - 0"
         ],
@@ -411,6 +417,7 @@
             "rpr_render(case)"
         ],
         "script_info": [
+			"Black image expected",
             "Light Type - Spot",
             "Light Intensity - 100",
             "Intensity Units - Watts",
@@ -529,6 +536,7 @@
             "rpr_render(case)"
         ],
         "script_info": [
+			"Black image expected",
             "Light Type - Spot",
             "Intensity Units Watts",
             "Color Mode - Temperature",
@@ -621,6 +629,7 @@
             "rpr_render(case)"
         ],
         "script_info": [
+			"Black image expected",
             "Light Type - Point",
             "Light Intensity - 0",
             "Intensity Units - Watts",
@@ -638,6 +647,7 @@
             "rpr_render(case)"
         ],
         "script_info": [
+			"Black image expected",
             "Light Type - Point",
             "Light Intensity - 0"
         ],
@@ -923,6 +933,7 @@
             "rpr_render(case)"
         ],
         "script_info": [
+			"Black image expected",
             "Light Type - Directional",
             "Light Intensity - 0",
             "Intensity Units - Radience",
@@ -945,6 +956,7 @@
             "rpr_render(case)"
         ],
         "script_info": [
+			"Black image expected",
             "Light Type - Directional",
             "Light Intensity - 0"
         ],
