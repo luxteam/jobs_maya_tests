@@ -54,8 +54,6 @@ def reportToJSON(case, render_time=0):
         report['file_name'] = case['case'] + '.jpg'
     else:
         report['file_name'] = case['case'] + case.get('extension', '.jpg')
-    # TODO: render device may be incorrect (if it changes in case)
-    report['render_device'] = cmds.optionVar(q='RPR_DevicesName')[0]
     report['tool'] = mel.eval('about -iv')
     report['date_time'] = datetime.datetime.now().strftime('%m/%d/%Y %H:%M:%S')
     report['render_version'] = mel.eval('getRPRPluginVersion()')
