@@ -149,7 +149,7 @@ def kill_maya(process):
         time.sleep(10)
         process.kill()
         time.sleep(10)
-        status = ch.status()
+        status = process.status()
         core_config.main_logger.error(
             'Process is alive: {}. Name: {}. Status: {}'.format(ch, ch.name(), status))
     except psutil.NoSuchProcess:
