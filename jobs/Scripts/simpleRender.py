@@ -158,9 +158,15 @@ def kill_maya(process):
 
 
 def get_finished_cases_number(output):
-    with open(os.path.join(os.path.abspath(output), 'test_cases.json')) as file:
-        test_cases = json.load(file)
-        return len([case['status'] for case in test_cases if case['status'] in ('skipped', 'error', 'done')])
+    for i in range(3):
+        try:
+            with open(os.path.join(os.path.abspath(output), 'test_cases.json')) as file:
+                test_cases = json.load(file)
+                return len([case['status'] for case in test_cases if case['status'] in ('skipped', 'error', 'done')])
+        except Exception as e:
+            core_config.main_logger.error('Failed to get number of finished cases (try #{}): Reason: {}'.format(i, str(e)))
+            time.sleep(5)
+    return -1
 
 
 def launchMaya(cmdScriptPath, work_dir, error_windows):
@@ -213,15 +219,19 @@ def launchMaya(cmdScriptPath, work_dir, error_windows):
                 break
             else:
                 new_done_test_cases_num = get_finished_cases_number(args.output)
-                if prev_done_test_cases == new_done_test_cases_num and current_restart_timeout <= 0:
-                    # if number of finished cases wasn't increased - Maya got stuck
-                    core_config.main_logger.error('Maya got stuck.')
-                    rc = -1
-                    current_restart_timeout = restart_timeout
-                    kill_maya(p)
-                    break
-                else:
-                    prev_done_test_cases = new_done_test_cases_num
+                if current_restart_timeout <= 0:
+                    if new_done_test_cases_num == -1:
+                        core_config.main_logger.error('Failed to get number of finished cases. Try to do that on next iteration')
+                    elif prev_done_test_cases == new_done_test_cases_num:
+                        # if number of finished cases wasn't increased - Maya got stuck
+                        core_config.main_logger.error('Maya got stuck.')
+                        rc = -1
+                        current_restart_timeout = restart_timeout
+                        kill_maya(p)
+                        break
+                    else:
+                        prev_done_test_cases = new_done_test_cases_num
+                        current_restart_timeout = restart_timeout
         else:
             rc = 0
             break
