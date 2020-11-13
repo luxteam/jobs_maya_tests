@@ -553,16 +553,15 @@ if __name__ == '__main__':
                 last_error_case = case
 
         if last_error_case and error_windows:
+            path_to_file = os.path.join(args.output, last_error_case['case'] + '_RPR.json')
+            with open(path_to_file, 'r') as file:
+                report = json.load(file)
+
             number_of_tries = last_error_case.get('number_of_tries', 1)
-            if number_of_tries == args.retries:
-                path_to_file = os.path.join(args.output, last_error_case['case'] + '_RPR.json')
-                with open(path_to_file, 'r') as file:
-                    report = json.load(file)
+            report[0]['message'].append("Error windows {} (try #{})".format(error_windows, number_of_tries))
 
-                report[0]['message'].append("Error windows: {}".format(error_windows))
-
-                with open(path_to_file, 'w') as file:
-                    json.dump(report, file, indent=4)
+            with open(path_to_file, 'w') as file:
+                json.dump(report, file, indent=4)
 
         if active_cases == 0 or iteration > len(cases) * args.retries:
             # exit script if base_functions don't change number of active cases
