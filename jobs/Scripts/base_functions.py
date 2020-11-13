@@ -52,7 +52,7 @@ def reportToJSON(case, render_time=0):
 
     if case['status'] == 'error':
         number_of_tries = case.get('number_of_tries', 0)
-        if number_of_tries == RETRIES
+        if number_of_tries == RETRIES:
             error_message = 'Testcase wasn\'t executed successfully (all attempts were used). Number of tries: {{}}'.format(str(number_of_tries))
         else:
             error_message = 'Testcase wasn\'t executed successfully. Number of tries: {{}}'.format(str(number_of_tries))

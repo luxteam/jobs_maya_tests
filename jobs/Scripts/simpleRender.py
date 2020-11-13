@@ -557,8 +557,7 @@ if __name__ == '__main__':
             with open(path_to_file, 'r') as file:
                 report = json.load(file)
 
-            number_of_tries = last_error_case.get('number_of_tries', 1)
-            report[0]['message'].append("Error windows {} (try #{})".format(error_windows, number_of_tries))
+            report[0]['message'].append("Error windows {}".format(error_windows))
 
             with open(path_to_file, 'w') as file:
                 json.dump(report, file, indent=4)
