@@ -477,7 +477,8 @@ def sync_time(work_dir):
 
                 synchronization_time = sync_minutes * 60 + sync_seconds + sync_milisec / 1000
                 rpr_json[0]['sync_time'] = synchronization_time
-                rpr_json[0]['render_time'] -= synchronization_time
+                if rpr_json[0]['render_time'] != 0:
+                    rpr_json[0]['render_time'] -= synchronization_time
 
                 with open(os.path.join(work_dir, rpr_json_path), 'w') as rpr_json_file:
                     rpr_json_file.write(json.dumps(rpr_json, indent=4))
