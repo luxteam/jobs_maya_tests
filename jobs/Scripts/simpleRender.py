@@ -32,11 +32,20 @@ if platform.system() == 'Darwin':
     from Quartz import kCGWindowListOptionOnScreenOnly
     from Quartz import kCGNullWindowID
     from Quartz import kCGWindowName
+    from Quartz import CGWindowListCreateImage
+    from Quartz import CGRectMake
+    from Quartz import kCGWindowImageDefault
 
 
 def get_windows_titles():
     try:
         if platform.system() == 'Darwin':
+            CGWindowListCreateImage(
+                CGRectMake(0, 0, 1, 1),
+                kCGWindowListOptionOnScreenOnly,
+                kCGNullWindowID,
+                kCGWindowImageDefault
+            )
             ws_options = kCGWindowListOptionOnScreenOnly
             windows_list = CGWindowListCopyWindowInfo(
                 ws_options, kCGNullWindowID)
@@ -44,7 +53,7 @@ def get_windows_titles():
                            for x in windows_list if 'Maya' in x['kCGWindowOwnerName']}
 
             # duct tape for windows with empty title
-            expected = {'Maya', 'Render View', 'Rendering...', 'Unknown'}
+            expected = {'Maya', 'Render View', 'Rendering...'}
             if maya_titles - expected:
                 maya_titles.add('Detected windows ERROR')
 
