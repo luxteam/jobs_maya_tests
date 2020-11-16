@@ -40,6 +40,7 @@ if platform.system() == 'Darwin':
 def get_windows_titles():
     try:
         if platform.system() == 'Darwin':
+            # for receive kCGWindowName values from CGWindowListCopyWindowInfo function it's necessary to call any function of Screen Record API
             CGWindowListCreateImage(
                 CGRectMake(0, 0, 1, 1),
                 kCGWindowListOptionOnScreenOnly,
