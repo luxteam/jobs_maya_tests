@@ -44,7 +44,7 @@ def get_windows_titles():
                            for x in windows_list if 'Maya' in x['kCGWindowOwnerName']}
 
             # duct tape for windows with empty title
-            expected = {'Maya', 'Render View', 'Rendering...'}
+            expected = {'Maya', 'Render View', 'Rendering...', 'Unknown'}
             if maya_titles - expected:
                 maya_titles.add('Detected windows ERROR')
 
