@@ -122,6 +122,7 @@ def enable_rpr(case):
 
 def rpr_render(case, mode='color'):
     event('Prerender', False, case['case'])
+    validateFiles()
     logging('Render image')
 
     mel.eval('fireRender -waitForItTwo')
@@ -252,7 +253,8 @@ def case_function(case):
             mel.eval('setProject("{{}}")'.format(projPath.replace('\\', '/')))
             '''
         except:
-            logging("Can't set project in '" + projPath + "'")
+            pass
+            # logging("Can't set project in '" + projPath + "'")
 
     if case['status'] == 'fail' or case.get('number_of_tries', 1) >= RETRIES:
         case['status'] = 'error'
