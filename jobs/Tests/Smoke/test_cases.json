@@ -41,7 +41,7 @@
         "case": "MAYA_SM_004",
         "status": "active",
         "functions": [
-            "cmds.file(RES_PATH + '/default/example.obj', i=True, type='OBJ', options='mo=-1', pr=True)",
+            "cmds.file(RES_PATH + '/Smoke/default/example.obj', i=True, type='OBJ', options='mo=-1', pr=True)",
             "cmds.rename('polySurface1', 'Shader_Ball')",
             "cmds.setAttr('Shader_Ball.translate', -3.774, -1.4, -3.865)",
             "cmds.setAttr('Shader_Ball.scale', 2, 2, 2)",

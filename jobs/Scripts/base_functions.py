@@ -157,7 +157,6 @@ def prerender(case):
             event('Open scene', True, case['case'])
             cmds.file(scenePath, f=True, op='v=0;', prompt=False, iv=True, o=True)
             event('Open scene', False, case['case'])
-            validateFiles()
             enable_rpr(case['case'])
         except Exception as e:
             logging(
