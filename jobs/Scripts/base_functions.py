@@ -41,11 +41,13 @@ def reportToJSON(case, render_time=0):
     with open(path_to_file, 'r') as file:
         report = json.loads(file.read())[0]
 
-    if case['status'] == 'inprogress':
-        report['test_status'] = 'passed'
-        report['group_timeout_exceeded'] = False
-    else:
-        report['test_status'] = case['status']
+    # status for Athena suite will be set later
+    if TEST_TYPE not in ['Athena']:
+        if case['status'] == 'inprogress':
+            report['test_status'] = 'passed'
+            report['group_timeout_exceeded'] = False
+        else:
+            report['test_status'] = case['status']
 
     logging('Create report json ({{}} {{}})'.format(
             case['case'], report['test_status']))
@@ -220,11 +222,13 @@ def save_report(case):
     source_dir = path.join(WORK_DIR, '..', '..', '..',
                            '..', 'jobs_launcher', 'common', 'img')
 
-    if case['status'] == 'inprogress':
-        copyfile(path.join(source_dir, 'passed.jpg'), work_dir)
-    elif case['status'] != 'skipped':
-        copyfile(
-            path.join(source_dir, case['status'] + '.jpg'), work_dir)
+    # image for Athena suite will be set later
+    if TEST_TYPE not in ['Athena']:
+        if case['status'] == 'inprogress':
+            copyfile(path.join(source_dir, 'passed.jpg'), work_dir)
+        elif case['status'] != 'skipped':
+            copyfile(
+                path.join(source_dir, case['status'] + '.jpg'), work_dir)
 
     enable_rpr(case['case'])
 
