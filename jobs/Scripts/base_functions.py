@@ -59,6 +59,7 @@ def reportToJSON(case, render_time=0):
         else:
             error_message = 'Testcase wasn\'t executed successfully. Number of tries: {{}}'.format(str(number_of_tries))
         report['message'] = [error_message]
+        template['group_timeout_exceeded'] = False
     else:
         report['message'] = []
 
