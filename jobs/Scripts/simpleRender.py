@@ -350,8 +350,7 @@ def main(args, error_windows):
 
             template = core_config.RENDER_REPORT_BASE.copy()
             template['test_case'] = case['case']
-            template['case_functions'] = ""
-            for functions in case["functions"]: template['case_functions'] += functions + "\n"
+            template['case_functions'] = case['functions']
             template['render_device'] = get_gpu()
             template['script_info'] = case['script_info']
             template['scene_name'] = case.get('scene', '')
