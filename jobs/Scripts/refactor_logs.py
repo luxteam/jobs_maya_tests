@@ -78,6 +78,7 @@ Case\t\tStatus\tTime\tTries
 
 
 def performance_count(work_dir):
+    end_of_script_events = ['Sync time count', 'Make report json']
     old_event = {'name': 'init', 'time': '', 'start': True}
     time_diffs = []
     time_diffs_summary = []
@@ -94,8 +95,8 @@ def performance_count(work_dir):
             if ((old_event['name'] == event['name'] and old_event['start'] and not event['start']) or
                 # or new event was started without finishing of previous one (e.g. timeouts)
                 (old_event['name'] != event['name'] and old_event['start'] and event['start']) or
-                # or there is delay between different events (e.g. start of new script execution; exclude render)
-                (old_event['name'] != event['name'] and old_event['name'] != 'Prerender' and not old_event['start'] and event['start'])):
+                # or new script started
+                (old_event['name'] != event['name'] and old_event['name'] in end_of_script_events and not old_event['start'] and event['start'])):
 
                 if old_event['name'] == event['name']:
                     event_name = event['name']
