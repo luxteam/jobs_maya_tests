@@ -89,24 +89,40 @@ def performance_count(work_dir):
     for f in files:
         with open(f, 'r') as json_file:
             event = json.load(json_file)
-        if old_event['name'] == event['name'] and old_event['start'] and not event['start']:
-            time_diff = datetime.datetime.strptime(
-                event['time'], '%d/%m/%Y %H:%M:%S.%f') - datetime.datetime.strptime(
-                old_event['time'], '%d/%m/%Y %H:%M:%S.%f')
-            event_case = old_event.get('case', '')
-            if not event_case:
-                event_case = event.get('case', '')
-            if event_case:
-                time_diffs.append(
-                    {'name': event['name'], 'time': time_diff.total_seconds(), 'case': event_case})
-            else:
-                time_diffs.append(
-                    {'name': event['name'], 'time': time_diff.total_seconds()})
-            if event['name'] not in events_order:
-                events_order.append(event['name'])
-            if event['name'] not in events_summary:
-                events_summary[event['name']] = 0
-            events_summary[event['name']] += time_diff.total_seconds()
+        if old_event['time']:
+            # if same event was started and finished
+            if ((old_event['name'] == event['name'] and old_event['start'] and not event['start']) or
+                # or new event was started without finishing of previous one (e.g. timeouts)
+                (old_event['name'] != event['name'] and old_event['start'] and event['start']) or
+                # or there is delay between different events (e.g. start of new script execution; exclude render)
+                (old_event['name'] != event['name'] and old_event['name'] != 'Prerender' and not old_event['start'] 
+                    and event['name'] != 'Postrender' and event['start'])):
+
+                if old_event['name'] == event['name']:
+                    event_name = event['name']
+                else:
+                    if old_event['start'] and event['start']:
+                        event_name = old_event['name']
+                    else:
+                        event_name = 'Switch script'
+
+                time_diff = datetime.datetime.strptime(
+                    event['time'], '%d/%m/%Y %H:%M:%S.%f') - datetime.datetime.strptime(
+                    old_event['time'], '%d/%m/%Y %H:%M:%S.%f')
+                event_case = old_event.get('case', '')
+                if not event_case:
+                    event_case = event.get('case', '')
+                if event_case:
+                    time_diffs.append(
+                        {'name': event['name'], 'time': time_diff.total_seconds(), 'case': event_case})
+                else:
+                    time_diffs.append(
+                        {'name': event['name'], 'time': time_diff.total_seconds()})
+                if event['name'] not in events_order:
+                    events_order.append(event['name'])
+                if event['name'] not in events_summary:
+                    events_summary[event['name']] = 0
+                events_summary[event['name']] += time_diff.total_seconds()
         old_event = event.copy()
     for event_name in events_order:
         time_diffs_summary.append(
