@@ -253,7 +253,7 @@
     },
     {
         "case": "MAYA_RS_CPU_019",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "rpr_render(case)"
         ],
