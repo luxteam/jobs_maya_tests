@@ -95,8 +95,7 @@ def performance_count(work_dir):
                 # or new event was started without finishing of previous one (e.g. timeouts)
                 (old_event['name'] != event['name'] and old_event['start'] and event['start']) or
                 # or there is delay between different events (e.g. start of new script execution; exclude render)
-                (old_event['name'] != event['name'] and old_event['name'] != 'Prerender' and not old_event['start'] 
-                    and event['name'] != 'Postrender' and event['start'])):
+                (old_event['name'] != event['name'] and old_event['name'] != 'Prerender' and not old_event['start'] and event['start'])):
 
                 if old_event['name'] == event['name']:
                     event_name = event['name']
