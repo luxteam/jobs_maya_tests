@@ -185,7 +185,6 @@ def pre_render(case=None, separate_case=True):
 
     event("Prerender", True, case['case'] if separate_case else "")
 
-    # cmds.setAttr('RadeonProRenderGlobals.detailedLog', True)
     logging("mel.eval: athenaEnable -ae false")
     mel.eval('athenaEnable -ae false')
 
@@ -220,8 +219,6 @@ def pre_render(case=None, separate_case=True):
         logging("cmds.setAttr: defaultResolution.height, RESOLUTION_Y")
         cmds.setAttr('defaultResolution.height', RESOLUTION_Y)
 
-    # cmds.setAttr('defaultRenderGlobals.currentRenderer',
-    #              type='string' 'FireRender')
     logging("cmds.setAttr: defaultRenderGlobals.imageFormat, 8")
     cmds.setAttr('defaultRenderGlobals.imageFormat', 8)
 
@@ -239,12 +236,6 @@ def pre_render(case=None, separate_case=True):
     cmds.setAttr("defaultRenderGlobals.startFrame", 1)
     cmds.setAttr("defaultRenderGlobals.endFrame", len(cases_num_queue))
     cmds.setAttr("defaultRenderGlobals.byFrameStep", 1)
-
-    #? Different tries to apply transform to image, but it doesn't work in batch render for some reason
-    # logging("cmds.colorManagementPrefs")
-    # cmds.colorManagementPrefs(e=True, cmEnabled=True, outputTransformEnabled=True, viewTransformName='sRGB gamma', outputUseViewTransform=True)
-    # cmds.colorManagementPrefs(e=True, cmEnabled=True, outputTransformEnabled=True, outputTransformName='sRGB gamma')
-    # cmds.colorManagementPrefs(e=True, outputUseViewTransform=True)
 
     if separate_case:
         pre_functions(case)
@@ -329,12 +320,6 @@ def post_render(case_num=None, separate_case=True):
         event("Close tool", True, case['case'])
     else:
         event("Close tool", True, "")
-    # ? Not sure if it's needed
-    # Athena need additional time for work before close maya
-    # if TEST_TYPE not in ['Athena']:
-    #     cmds.quit(abort=True)
-    # else:
-    #     cmds.evalDeferred('cmds.quit(abort=True)')
 
 
 # place for extension functions
@@ -369,7 +354,6 @@ def main(case_num=None, separate_case=True):
             case_num += 1
             
             if 'functions_before_render' not in case or not case['functions_before_render']:
-                #? Not sure about other statuses
                 if 'scene' in case and case['scene'] == scene_name and case['status'] in ['active', 'inprogress']:
                     if 'camera' not in case or case['camera'] == current_cam:
                         cases_num_queue.append(case_num)
