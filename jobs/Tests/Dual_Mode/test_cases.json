@@ -1,0 +1,389 @@
+[
+    {
+        "case": "MAYA_RS_DUAL_001",
+        "status": "active",
+        "functions": [
+            "rpr_render(case)"
+        ],
+        "script_info": [
+            "Default test"
+        ],
+        "scene": "adaptive_sampling.ma"
+    },
+    {
+        "case": "MAYA_RS_DUAL_002",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)"
+        ],
+        "script_info": [
+            "Adaptive sampling 0.1 Threshold"
+        ],
+        "scene": "adaptive_sampling.ma"
+    },
+    {
+        "case": "MAYA_RS_DUAL_003",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)"
+        ],
+        "script_info": [
+            "Adaptive sampling Threshold 1"
+        ],
+        "scene": "adaptive_sampling.ma"
+    },
+    {
+        "case": "MAYA_RS_DUAL_004",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "cmds.currentTime(440.0)",
+            "cmds.setAttr('RadeonProRenderGlobals.motionBlur', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.motionBlurCameraExposure', 1.0)",
+            "cmds.setAttr('RadeonProRenderGlobals.motionBlurScale', 5.0)",
+            "rpr_render(case)"
+        ],
+        "script_info": [
+            "Motion Blur"
+        ],
+        "scene": "motion_blur.ma"
+    },
+    {
+        "case": "MAYA_RS_DUAL_005",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 0)"
+        ],
+        "script_info": [
+            "Tile rendering"
+        ],
+        "scene": "adaptive_sampling.ma"
+    },
+    {
+        "case": "MAYA_RS_DUAL_006",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "script_info": [
+            "Bileteral denoiser"
+        ],
+        "scene": "adaptive_sampling.ma"
+    },
+    {
+        "case": "MAYA_RS_DUAL_007",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "script_info": [
+            "LWR denoiser"
+        ],
+        "scene": "adaptive_sampling.ma"
+    },
+    {
+        "case": "MAYA_RS_DUAL_008",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 2)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "script_info": [
+            "EAW denoiser"
+        ],
+        "scene": "adaptive_sampling.ma"
+    },
+    {
+        "case": "MAYA_RS_DUAL_009",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserColorOnly', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "script_info": [
+            "ML denoiser (Color + AOV)"
+        ],
+        "scene": "adaptive_sampling.ma"
+    },
+    {
+        "case": "MAYA_RS_DUAL_010",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserColorOnly', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "script_info": [
+            "ML denoiser (Color only)"
+        ],
+        "scene": "adaptive_sampling.ma"
+    },
+    {
+        "case": "MAYA_RS_DUAL_011",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.filter', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.filterSize', 5)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.filter', 4)",
+            "cmds.setAttr('RadeonProRenderGlobals.filterSize', 1.5)"
+        ],
+        "script_info": [
+            "Anti Aliasing"
+        ],
+        "scene": "adaptive_sampling.ma"
+    },
+    {
+        "case": "MAYA_RS_DUAL_012",
+        "status": "skipped",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 3)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovUV', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 0)"
+        ],
+        "script_info": [
+            "UV AOV"
+        ],
+        "scene": "adaptive_sampling.ma"
+    },
+    {
+        "case": "MAYA_RS_DUAL_013",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.useRenderStamp', True)",
+            "cmds.setAttr('RadeonProRenderGlobals.renderStampText',  \"Radeon ProRender for Maya %b | %h | Time: %pt | Passes: %pp | Objects: %so | Lights: %sl\", type='string')",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.useRenderStamp', False)"
+        ],
+        "script_info": [
+            "Do not compare",
+            "Render Stamp"
+        ],
+        "scene": "adaptive_sampling.ma"
+    },
+    {
+        "case": "MAYA_RS_DUAL_014",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 5)",
+            "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 5)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 2.2)",
+            "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)"
+        ],
+        "script_info": [
+            "Color Managment"
+        ],
+        "scene": "adaptive_sampling.ma"
+    },
+    {
+        "case": "MAYA_RS_DUAL_015",
+        "status": "active",
+        "functions": [
+            "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
+            "cmds.setAttr(ss_shape + '.intensity', 1)",
+            "cmds.setAttr(ss_shape + '.saturation', 1)",
+            "rpr_render(case)"
+        ],
+        "script_info": [
+            "Sun_Sky"
+        ],
+        "scene": "Sun_Sky.ma"
+    },
+    {
+        "case": "MAYA_RS_DUAL_016",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('vdbObj.emissionEnabled', 1)",
+            "cmds.setAttr('vdbObj.emissionSelectedGrid', 'density', type='string')",
+            "cmds.setAttr('vdbObj.densityMultiplier', 5000)",
+            "cmds.setAttr('vdbObj.emissionIntensity', 5)",
+            "cmds.setAttr('vdbObj.albedoEnabled', 1)",
+            "cmds.setAttr('vdbObj.albedoSelectedGrid', 'density', type='string')",
+            "rpr_render(case)"
+        ],
+        "script_info": [
+            "VDB"
+        ],
+        "scene": "bunny_cloud.ma"
+    },
+    {
+        "case": "MAYA_RS_DUAL_017",
+        "status": "active",
+        "functions": [
+            "rpr_render(case)"
+        ],
+        "script_info": [
+            "Complex 1"
+        ],
+        "scene": "Bathroom.ma"
+    },
+    {
+        "case": "MAYA_RS_DUAL_018",
+        "status": "active",
+        "functions": [
+            "rpr_render(case)"
+        ],
+        "script_info": [
+            "Complex 2"
+        ],
+        "scene": "CorvetteRPR.ma"
+    },
+    {
+        "case": "MAYA_RS_DUAL_019",
+        "status": "skipped",
+        "functions": [
+            "rpr_render(case)"
+        ],
+        "script_info": [
+            "DOF"
+        ],
+        "scene": "DenoiserDOF.ma"
+    },
+    {
+        "case": "MAYA_RS_DUAL_020",
+        "status": "skipped",
+        "functions": [
+            "set_render_device('cpu')",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserColorOnly', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "script_info": [
+            "Tile rendering + ML (Color + AOV)"
+        ],
+        "scene": "adaptive_sampling.ma"
+    },
+    {
+        "case": "MAYA_RS_DUAL_021",
+        "status": "skipped",
+        "functions": [
+            "set_render_device('cpu')",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserColorOnly', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "script_info": [
+            "Tile rendering + ML (Color only)"
+        ],
+        "scene": "adaptive_sampling.ma"
+    },
+    {
+        "case": "MAYA_RS_DUAL_022",
+        "status": "skipped",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.filter', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.filterSize', 5)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
+            "cmds.setAttr('RadeonProRenderGlobals.filter', 4)",
+            "cmds.setAttr('RadeonProRenderGlobals.filterSize', 1.5)",
+            "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 0)"
+        ],
+        "script_info": [
+            "Tile rendering + Anti Aliasing + Adaptive Sampling"
+        ],
+        "scene": "adaptive_sampling.ma"
+    },
+    {
+        "case": "MAYA_RS_DUAL_023",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserColorOnly', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 5)",
+            "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 5)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
+            "cmds.currentTime(440.0)",
+            "cmds.setAttr('RadeonProRenderGlobals.motionBlur', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.motionBlurCameraExposure', 1.0)",
+            "cmds.setAttr('RadeonProRenderGlobals.motionBlurScale', 5.0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 2.2)",
+            "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "script_info": [
+            "Motion Blur + ML (Color + AOV) + Color Managment"
+        ],
+        "scene": "motion_blur.ma"
+    },
+    {
+        "case": "MAYA_RS_DUAL_024",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserColorOnly', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.applyGammaToMayaViews', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 5)",
+            "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 5)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingType', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.toneMappingWhiteBalanceEnabled', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.displayGamma', 2.2)",
+            "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "script_info": [
+            "Motion Blur + ML (Color only) + Color Managment"
+        ],
+        "scene": "motion_blur.ma"
+    },
+    {
+        "case": "MAYA_RS_DUAL_025",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserColorOnly', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.filter', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.filterSize', 5)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 7)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.filter', 4)",
+            "cmds.setAttr('RadeonProRenderGlobals.filterSize', 1.5)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "script_info": [
+            "Anti Aliasing + ML (Color + AOV) + Time limit = 7 sec"
+        ],
+        "scene": "adaptive_sampling.ma"
+    }
+]
