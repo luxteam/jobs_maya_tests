@@ -4,6 +4,8 @@
         "Image_Size":"",
         "AOV":"",
         "Camera":"",
+        "CPU_Mode":"",
+        "Dual_Mode":"",
         "Contour":"",
         "Complex":"",
         "Smoke":"",
