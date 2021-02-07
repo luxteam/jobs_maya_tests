@@ -176,7 +176,7 @@ def enable_rpr(case):
 def rpr_render(case, mode='color'):
     event("Prerender", False, case['case'])
     validateFiles(case)
-    logging('Prerender done', case['case'])
+    logging('Prerender done', case)
     
     
 def pre_render(case=None, separate_case=True):
@@ -301,19 +301,8 @@ def post_render(case_num=None, separate_case=True):
         case['time_taken'] = case_time
         reportToJSON(case, case_time)
 
-        rpr_render_index = case['functions'].index("rpr_render(case)")
-        for function in case['functions'][rpr_render_index + 1:]:
-            try:
-                if re.match('((^\S+|^\S+ \S+) = |^print|^if|^for|^with)', function):
-                    logging("exec: {{}}".format(function))
-                    exec(function)
-                else:
-                    logging("eval: {{}}".format(function))
-                    eval(function)
-            except Exception as e:
-                logging('Error "{{}}" with string "{{}}"'.format(e, function))
+        post_functions(case)
         event("Postrender", False, case['case'])
-
         with open(path.join(WORK_DIR, 'test_cases.json'), 'w') as file:
             json.dump(cases, file, indent=4)
 
@@ -330,7 +319,6 @@ def main(case_num=None, separate_case=True):
     logging('Entered main')
     if separate_case:
         # Case number defined directly, if functions_before_render flag is True
-
         case = cases[case_num]
 
         if case['status'] == 'active':
