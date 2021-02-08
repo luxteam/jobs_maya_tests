@@ -371,7 +371,7 @@ def get_batch_render_cmds(args, cases, work_dir, res_path):
                 frame_option = ""
 
             cmds.append('''{python_alias} event_recorder.py "Open tool" True {case}'''.format(python_alias=python_alias, case=case['case']))
-            cmds.append('''"{tool}" -log "{local_log}" -proj "{project}" -r FireRender {frame_option} -devc "{render_device}" -rd "{result_dir}" -im "{img_name}" -preRender "python(\\"import base_functions; base_functions.main({case_num}, True)\\");" -postRender "python(\\"base_functions.post_render({case_num}, True)\\");" -g {cam_option} -fnc name.ext "{scene}" >> "{global_log}"'''.format(
+            cmds.append('''"{tool}" -log "{local_log}" -proj "{project}" -r FireRender {frame_option} -devc "{render_device}" -rd "{result_dir}" -im "{img_name}" -preRender "python(\\"import base_functions; base_functions.main({case_num}, True)\\");" -postRender "python(\\"base_functions.postrender({case_num}, True)\\");" -g {cam_option} -fnc name.ext "{scene}" >> "{global_log}"'''.format(
                 tool=args.tool,
                 local_log=os.path.join(work_dir, LOGS_DIR, case['case'] + '.log'),
                 global_log=os.path.join(work_dir, 'renderTool.log'),
@@ -403,7 +403,7 @@ def get_batch_render_cmds(args, cases, work_dir, res_path):
                 # Command to create event 'Open tool'
                 cmds.append('''{python_alias} event_recorder.py "Open tool" True {case}'''.format(python_alias=python_alias, case=case['case']))
                 # Command to start Render program
-                cmds.append('''"{tool}" -proj "{project}" -r FireRender {cam_option} -devc "{render_device}" -rd "{result_dir}" -im result -fnc name.# -preRender "python(\\"import base_functions; base_functions.main(None, False)\\");" -preFrame "python(\\"base_functions.pre_frame()\\");" -postFrame "python(\\"base_functions.post_frame()\\");" -postRender "python(\\"base_functions.post_render(None, False)\\");" -g "{scene}" >> "{log_path}"'''.format(
+                cmds.append('''"{tool}" -proj "{project}" -r FireRender {cam_option} -devc "{render_device}" -rd "{result_dir}" -im result -fnc name.# -preRender "python(\\"import base_functions; base_functions.main(None, False)\\");" -preFrame "python(\\"base_functions.preframe()\\");" -postFrame "python(\\"base_functions.postframe()\\");" -postRender "python(\\"base_functions.postrender(None, False)\\");" -g "{scene}" >> "{log_path}"'''.format(
                     tool=args.tool,
                     # log_path=os.path.join(work_dir, LOGS_DIR, case['scene'] + '.log'),
                     log_path=os.path.join(work_dir, 'renderTool.log'),
@@ -435,9 +435,8 @@ def main(args, error_windows):
         group_failed(args, error_windows)
         exit(-1)
 
-    base_functions_filename = 'base_functions.py' if not args.batchRender else 'base_functions_batch.py'
     try:
-        with open(os.path.join(os.path.dirname(__file__), base_functions_filename)) as f:
+        with open(os.path.join(os.path.dirname(__file__), 'base_functions.py')) as f:
             script = f.read()
     except OSError as e:
         core_config.main_logger.error(str(e))
@@ -457,7 +456,7 @@ def main(args, error_windows):
 
     script = script.format(work_dir=work_dir, testType=args.testType, render_device=args.render_device, res_path=res_path, pass_limit=args.pass_limit,
                            resolution_x=args.resolution_x, resolution_y=args.resolution_y, SPU=args.SPU, threshold=args.threshold, engine=args.engine,
-                           retries=args.retries)
+                           batch_render=args.batchRender ,retries=args.retries)
 
     with open(os.path.join(args.output, 'base_functions.py'), 'w') as file:
         file.write(script)
@@ -582,7 +581,7 @@ def main(args, error_windows):
             cmds.extend(get_batch_render_cmds(args, cases, work_dir, res_path))
         else:
             args.tool = os.path.join(args.tool, 'maya.exe')
-            cmds.append('"{tool}" -command "python(\\"import base_functions\\");"'.format(tool=args.tool))
+            cmds.append('"{tool}" -command "python(\\"import base_functions; base_functions.main()\\");"'.format(tool=args.tool))
         
         cmdScriptPath = os.path.join(args.output, 'script.bat')
         with open(cmdScriptPath, 'w') as file:
@@ -597,7 +596,7 @@ def main(args, error_windows):
             cmds.extend(get_batch_render_cmds(args, cases, work_dir, res_path))
         else:
             args.tool = os.path.join(args.tool, 'maya')
-            cmds.append('"{tool}" -command "python(\\"import base_functions\\");"'.format(tool=args.tool))
+            cmds.append('"{tool}" -command "python(\\"import base_functions; base_functions.main()\\");"'.format(tool=args.tool))
             
         cmdScriptPath = os.path.join(args.output, 'script.sh')
         with open(cmdScriptPath, 'w') as file:
