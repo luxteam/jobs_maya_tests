@@ -488,6 +488,7 @@ def group_failed(args, error_windows):
     exit(rc)
 
 def sync_time(work_dir):
+    perf_count.event_record(directory, 'Sync time count', True)
     for rpr_json_path in os.listdir(work_dir):
         if rpr_json_path.endswith('_RPR.json'):
             try:
@@ -517,6 +518,7 @@ def sync_time(work_dir):
                     rpr_json_file.write(json.dumps(rpr_json, indent=4))
             except:
                 core_config.main_logger.error("Can't count sync time for " + rpr_json_path)
+    perf_count.event_record(directory, 'Sync time count', False)
 
 
 if __name__ == '__main__':
