@@ -388,6 +388,7 @@ def main(args, error_windows):
                 with open(case_path) as f:
                     case_json = json.load(f)[0]
                     template["error_screen_path"] = case_json["error_screen_path"]
+                    template["number_of_tries"] = case_json["number_of_tries"]
 
             with open(case_path, 'w') as f:
                 f.write(json.dumps([template], indent=4))
