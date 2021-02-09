@@ -242,7 +242,7 @@
     },
     {
         "case": "MAYA_RS_DUAL_018",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "rpr_render(case)"
         ],
