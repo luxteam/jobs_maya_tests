@@ -54,11 +54,15 @@ def reportToJSON(case, render_time=0):
 
     number_of_tries = case.get('number_of_tries', 0)
     if case['status'] == 'error':
+        # remove old message
+        for message in report['message']:
+            if 'Testcase wasn\'t executed successfully' in message:
+                report['message'].remove(message)
         if number_of_tries == RETRIES:
             error_message = 'Testcase wasn\'t executed successfully (all attempts were used)'
         else:
             error_message = 'Testcase wasn\'t executed successfully'
-        report['message'] = [error_message]
+        report['message'].append(error_message)
         report['group_timeout_exceeded'] = False
     else:
         report['message'] = []
