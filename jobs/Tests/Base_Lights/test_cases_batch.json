@@ -6,7 +6,6 @@
             "Ambient light. Intensity: 1. Ambient Shade: 0.450 (standart)"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_shape = cmds.ambientLight()",
@@ -29,7 +28,6 @@
             "Ambient light. Intensity: 3. Ambient Shade: 0.450 (standart)"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_shape = cmds.ambientLight()",
@@ -52,7 +50,6 @@
             "Ambient light. Intensity: 3. Ambient Shade: 0"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_shape = cmds.ambientLight()",
@@ -75,7 +72,6 @@
             "Ambient light. Intensity: 3. Ambient Shade: 1"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_shape = cmds.ambientLight()",
@@ -98,7 +94,6 @@
             "Area light. Intensity: 500."
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_transform = cmds.shadingNode('areaLight', asLight=True)",
@@ -117,7 +112,6 @@
             "Area light. Intensity: 1500."
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_transform = cmds.shadingNode('areaLight', asLight=True)",
@@ -136,7 +130,6 @@
             "Area light. Intensity: 1500. Decay Rate: Linear"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_transform = cmds.shadingNode('areaLight', asLight=True)",
@@ -155,7 +148,6 @@
             "Area light. Intensity: 1500. Decay Rate: Quadratic"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_transform = cmds.shadingNode('areaLight', asLight=True)",
@@ -174,7 +166,6 @@
             "Area light. Intensity: 1500. Decay Rate: Cubic"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_transform = cmds.shadingNode('areaLight', asLight=True)",
@@ -193,7 +184,6 @@
             "Directional light. Intensity: 1."
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_shape = cmds.directionalLight()",
@@ -212,7 +202,6 @@
             "Directional light. Intensity: 1."
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_shape = cmds.directionalLight()",
@@ -231,7 +220,6 @@
             "Point light. Intensity: 1."
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_shape = cmds.pointLight()",
@@ -251,7 +239,6 @@
             "Point light. Intensity: 50."
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_shape = cmds.pointLight()",
@@ -271,7 +258,6 @@
             "Point light. Intensity: 100."
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_shape = cmds.pointLight()",
@@ -291,7 +277,6 @@
             "Point light. Intensity: 1. Decay Rate: Linear"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_shape = cmds.pointLight()",
@@ -311,7 +296,6 @@
             "Point light. Intensity: 1. Decay Rate: Quadratic"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_shape = cmds.pointLight()",
@@ -331,7 +315,6 @@
             "Point light. Intensity: 1. Decay Rate: Cubic"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_shape = cmds.pointLight()",
@@ -351,7 +334,6 @@
             "Spot light. Intensity: 1."
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_shape = cmds.spotLight()",
@@ -374,7 +356,6 @@
             "Spot light. Intensity: 1."
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_shape = cmds.spotLight()",
@@ -398,7 +379,6 @@
             "Spot light. Intensity: 40"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_shape = cmds.spotLight()",
@@ -421,7 +401,6 @@
             "Spot light. Intensity: 40"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_shape = cmds.spotLight()",
@@ -444,7 +423,6 @@
             "Spot light. Intensity: 40"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_shape = cmds.spotLight()",
@@ -467,7 +445,6 @@
             "Spot light. Intensity: 1. Decay Rate: Linear"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_shape = cmds.spotLight()",
@@ -490,7 +467,6 @@
             "Spot light. Intensity: 1. Decay Rate: Quadratic"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_shape = cmds.spotLight()",
@@ -513,7 +489,6 @@
             "Spot light. Intensity: 1. Decay Rate: Cubic"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "light_shape = cmds.spotLight()",

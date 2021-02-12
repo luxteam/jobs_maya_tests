@@ -6,7 +6,6 @@
             "Preset: 320x240"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 320.0)",
             "cmds.setAttr('defaultResolution.height', 240.0)",
@@ -22,7 +21,6 @@
             "Preset: 640x480"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 640.0)",
             "cmds.setAttr('defaultResolution.height', 480.0)",
@@ -38,7 +36,6 @@
             "Preset: 1k square"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 1024.0)",
             "cmds.setAttr('defaultResolution.height', 1024.0)",
@@ -53,7 +50,6 @@
             "Preset: 2k square"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 2048.0)",
             "cmds.setAttr('defaultResolution.height', 2048.0)",
@@ -68,7 +64,6 @@
             "Preset: 3k square"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 3072.0)",
             "cmds.setAttr('defaultResolution.height', 3072.0)",
@@ -83,7 +78,6 @@
             "Preset: 4k square"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 4096.0)",
             "cmds.setAttr('defaultResolution.height', 4096.0)",
@@ -98,7 +92,6 @@
             "Preset: CCIR_PAL Quantel PAL"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 720.0)",
             "cmds.setAttr('defaultResolution.height', 576.0)",
@@ -115,7 +108,6 @@
             "Preset: CCIR_601 Quantel NTSC"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 720.0)",
             "cmds.setAttr('defaultResolution.height', 486.0)",
@@ -132,7 +124,6 @@
             "Preset: Full 1024"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 1024.0)",
             "cmds.setAttr('defaultResolution.height', 768.0)",
@@ -148,7 +139,6 @@
             "Preset: Full 1280 Screen"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 1280.0)",
             "cmds.setAttr('defaultResolution.height', 1024.0)",
@@ -165,7 +155,6 @@
             "Preset: HD 540"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 960.0)",
             "cmds.setAttr('defaultResolution.height', 540.0)",
@@ -181,7 +170,6 @@
             "Preset: HD 720"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 1280.0)",
             "cmds.setAttr('defaultResolution.height', 720.0)",
@@ -197,7 +185,6 @@
             "Preset: HD 1080"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 1920.0)",
             "cmds.setAttr('defaultResolution.height', 1080.0)",
@@ -213,7 +200,6 @@
             "Preset: NTSC 4d"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 646.0)",
             "cmds.setAttr('defaultResolution.height', 485.0)",
@@ -230,7 +216,6 @@
             "Preset: PAL 768"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 768.0)",
             "cmds.setAttr('defaultResolution.height', 576.0)",
@@ -246,7 +231,6 @@
             "Preset: PAL 780"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 780.0)",
             "cmds.setAttr('defaultResolution.height', 576.0)",
@@ -263,7 +247,6 @@
             "Preset: Targa 486"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 512.0)",
             "cmds.setAttr('defaultResolution.height', 486.0)",
@@ -280,7 +263,6 @@
             "Preset: Targa NTSC"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 512.0)",
             "cmds.setAttr('defaultResolution.height', 482.0)",
@@ -297,7 +279,6 @@
             "Preset: Targa PAL"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 512.0)",
             "cmds.setAttr('defaultResolution.height', 576.0)",
@@ -314,7 +295,6 @@
             "Preset: Letter"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 2550.0)",
             "cmds.setAttr('defaultResolution.height', 3300.0)",
@@ -331,7 +311,6 @@
             "Preset: Legal"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 2550.0)",
             "cmds.setAttr('defaultResolution.height', 4200.0)",
@@ -348,7 +327,6 @@
             "Preset: Tabloid"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 5100.0)",
             "cmds.setAttr('defaultResolution.height', 3300.0)",
@@ -365,7 +343,6 @@
             "Preset: A4"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 2480.0)",
             "cmds.setAttr('defaultResolution.height', 3508.0)",
@@ -382,7 +359,6 @@
             "Preset: A3"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 3507.0)",
             "cmds.setAttr('defaultResolution.height', 4962.0)",
@@ -399,7 +375,6 @@
             "Preset: B5"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 2079.0)",
             "cmds.setAttr('defaultResolution.height', 2952.0)",
@@ -416,7 +391,6 @@
             "Preset: B4"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 2952.0)",
             "cmds.setAttr('defaultResolution.height', 4170.0)",
@@ -433,7 +407,6 @@
             "Preset: B3"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 4170.0)",
             "cmds.setAttr('defaultResolution.height', 5907.0)",
@@ -450,7 +423,6 @@
             "Preset: 2 x3"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 600.0)",
             "cmds.setAttr('defaultResolution.height', 900.0)",
@@ -467,7 +439,6 @@
             "Preset: 4 x6"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 1200.0)",
             "cmds.setAttr('defaultResolution.height', 1800.0)",
@@ -484,7 +455,6 @@
             "Preset: 5 x7"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 1500.0)",
             "cmds.setAttr('defaultResolution.height', 2100.0)",
@@ -501,7 +471,6 @@
             "Preset: 8 x10"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 2400.0)",
             "cmds.setAttr('defaultResolution.height', 3000.0)",
@@ -518,7 +487,6 @@
             "Preset: 2000x2000"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 2000.0)",
             "cmds.setAttr('defaultResolution.height', 2000.0)",
@@ -533,7 +501,6 @@
             "Preset: 3000x3000"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 3000.0)",
             "cmds.setAttr('defaultResolution.height', 3000.0)",
@@ -548,7 +515,6 @@
             "Preset: 4000x4000"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 4000.0)",
             "cmds.setAttr('defaultResolution.height', 4000.0)",
@@ -564,7 +530,6 @@
             "https://amdrender.atlassian.net/browse/RPRMAYA-2478"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 5000.0)",
             "cmds.setAttr('defaultResolution.height', 5000.0)",
@@ -582,7 +547,6 @@
             "Preset: 6000x6000"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 6000.0)",
             "cmds.setAttr('defaultResolution.height', 6000.0)",
@@ -597,7 +561,6 @@
             "Preset: 7000x7000"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 7000.0)",
             "cmds.setAttr('defaultResolution.height', 7000.0)",
@@ -612,7 +575,6 @@
             "Preset: 8000x8000"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 8000.0)",
             "cmds.setAttr('defaultResolution.height', 8000.0)",
@@ -627,7 +589,6 @@
             "Preset: 2K"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 2048.0)",
             "cmds.setAttr('defaultResolution.height', 1080.0)",
@@ -642,7 +603,6 @@
             "Preset: 4K"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 3840.0)",
             "cmds.setAttr('defaultResolution.height', 2160.0)",
@@ -657,7 +617,6 @@
             "Preset: 1500x1125"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 1500.0)",
             "cmds.setAttr('defaultResolution.height', 1125.0)",
@@ -672,7 +631,6 @@
             "Size units inches"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.imageSizeUnits', 1)",
             "cmds.setAttr('defaultResolution.width', 20.0)",
@@ -688,7 +646,6 @@
             "Size units cm"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.imageSizeUnits', 2)",
             "cmds.setAttr('defaultResolution.width', 67.733)",
@@ -704,7 +661,6 @@
             "Size units mm"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.imageSizeUnits', 3)",
             "cmds.setAttr('defaultResolution.width', 677.33)",
@@ -720,7 +676,6 @@
             "Size units points"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.imageSizeUnits', 4)",
             "cmds.setAttr('defaultResolution.width', 1800.0)",
@@ -736,7 +691,6 @@
             "Size units picas"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.imageSizeUnits', 5)",
             "cmds.setAttr('defaultResolution.width', 160.0)",
@@ -753,7 +707,6 @@
             "Resolution: 1"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 1280.0)",
             "cmds.setAttr('defaultResolution.height', 720.0)",
@@ -771,7 +724,6 @@
             "Resolution: 50"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 1280.0)",
             "cmds.setAttr('defaultResolution.height', 720.0)",
@@ -789,7 +741,6 @@
             "Resolution: 100"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 1280.0)",
             "cmds.setAttr('defaultResolution.height', 720.0)",
@@ -807,7 +758,6 @@
             "Resolution: 72"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultResolution.width', 1280.0)",
             "cmds.setAttr('defaultResolution.height', 720.0)",

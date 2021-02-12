@@ -8,7 +8,6 @@
             "Intensity: 0"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -27,7 +26,6 @@
             "Intensity: 1"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -46,7 +44,6 @@
             "Intensity: 2"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -65,7 +62,6 @@
             "Intensity: 3"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -84,7 +80,6 @@
             "Intensity: 5"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -103,7 +98,6 @@
             "Intensity: 7"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -122,7 +116,6 @@
             "Intensity: 10"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -142,7 +135,6 @@
             "Intensity: 0"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -162,7 +154,6 @@
             "Intensity: 1"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -182,7 +173,6 @@
             "Intensity: 2"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -202,7 +192,6 @@
             "Intensity: 3"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -222,7 +211,6 @@
             "Intensity: 5"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -242,7 +230,6 @@
             "Intensity: 7"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -262,7 +249,6 @@
             "Intensity: 10"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -283,7 +269,6 @@
             "Intensity: 0"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -303,7 +288,6 @@
             "Intensity: 1"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -323,7 +307,6 @@
             "Intensity: 2"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -343,7 +326,6 @@
             "Intensity: 3"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -363,7 +345,6 @@
             "Intensity: 5"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -383,7 +364,6 @@
             "Intensity: 7"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -403,7 +383,6 @@
             "Intensity: 10"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -422,7 +401,6 @@
             "IBL rotaion x"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -441,7 +419,6 @@
             "IBL rotation y"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -460,7 +437,6 @@
             "IBL rotation Z"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -479,7 +455,6 @@
             "IBL rotation z flipped"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -498,7 +473,6 @@
             "IBL rotation Y flipped"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -519,7 +493,6 @@
             "IBL rotation Z flipped"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -540,7 +513,6 @@
             "IBL rotation X flipped with Hybrid"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -566,7 +538,6 @@
             "IBL rotation Y Flipped with Hybrid"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -592,7 +563,6 @@
             "IBL rotation Z flipped with Hybrid"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -618,7 +588,6 @@
             "IBL rotation X Hybrid"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -642,7 +611,6 @@
             "IBL rotation Y Hybrid"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
@@ -666,7 +634,6 @@
             "IBL rotation Z Hybrid"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "removeEnvironment()",
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",

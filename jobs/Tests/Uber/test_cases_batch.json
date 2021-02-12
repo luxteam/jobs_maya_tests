@@ -2,7 +2,6 @@
     {
         "case": "MAYA_MAT_UBER_001",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.diffuseWeight', 0)",
@@ -29,7 +28,6 @@
     {
         "case": "MAYA_MAT_UBER_002",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('diffuseColor', 'outColor', 'sourceimages/diffuse_color.png')",
@@ -55,7 +53,6 @@
     {
         "case": "MAYA_MAT_UBER_003",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('diffuseColor', 'outColor', 'sourceimages/diffuse_color.tiff')",
@@ -91,7 +88,6 @@
     {
         "case": "MAYA_MAT_UBER_004",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('diffuseWeight', 'outAlpha', 'sourceimages/diffuse_weight.exr')",
@@ -121,7 +117,6 @@
     {
         "case": "MAYA_MAT_UBER_005",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.diffuseRoughness', 1)",
@@ -135,7 +130,6 @@
     {
         "case": "MAYA_MAT_UBER_006",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.reflectWeight', 0)",
@@ -164,7 +158,6 @@
     {
         "case": "MAYA_MAT_UBER_007",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('reflectWeight', 'outAlpha', 'sourceimages/reflection_weight.tiff')",
@@ -182,7 +175,6 @@
     {
         "case": "MAYA_MAT_UBER_008",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.reflectIOR', 0)",
@@ -196,7 +188,6 @@
     {
         "case": "MAYA_MAT_UBER_009",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('reflectColor', 'outColor', 'sourceimages/reflection_color.jpeg')",
@@ -220,7 +211,6 @@
     {
         "case": "MAYA_MAT_UBER_010",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('reflectColor', 'outColor', 'sourceimages/reflection_color.jpeg')",
@@ -250,7 +240,6 @@
     {
         "case": "MAYA_MAT_UBER_011",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('reflectColor', 'outColor', 'sourceimages/reflection_color.png')",
@@ -273,7 +262,6 @@
     {
         "case": "MAYA_MAT_UBER_012",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('reflectColor', 'outColor', 'sourceimages/reflection_color.png')",
@@ -297,7 +285,6 @@
     {
         "case": "MAYA_MAT_UBER_013",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('reflectColor', 'outColor', 'sourceimages/reflection_color.exr')",
@@ -326,7 +313,6 @@
     {
         "case": "MAYA_MAT_UBER_014",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('reflectColor', 'outColor', 'sourceimages/reflection_color.exr')",
@@ -347,7 +333,6 @@
     {
         "case": "MAYA_MAT_UBER_015",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('reflectColor', 'outColor', 'sourceimages/reflection_color.tiff')",
@@ -365,7 +350,6 @@
     {
         "case": "MAYA_MAT_UBER_016",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('reflectWeight', 'outAlpha', 'sourceimages/reflection_weight.exr')",
@@ -391,7 +375,6 @@
     {
         "case": "MAYA_MAT_UBER_017",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('reflectWeight', 'outAlpha', 'sourceimages/reflection_weight.tiff')",
@@ -415,7 +398,6 @@
     {
         "case": "MAYA_MAT_UBER_018",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('reflectWeight', 'outAlpha', 'sourceimages/reflection_weight.jpeg')",
@@ -438,7 +420,6 @@
     {
         "case": "MAYA_MAT_UBER_019",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('reflectWeight', 'outAlpha', 'sourceimages/reflection_weight.png')",
@@ -458,7 +439,6 @@
     {
         "case": "MAYA_MAT_UBER_020",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('reflectWeight', 'outAlpha', 'sourceimages/reflection_weight.exr')",
@@ -480,7 +460,6 @@
     {
         "case": "MAYA_MAT_UBER_021",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.reflectWeight', 0)",
@@ -505,7 +484,6 @@
     {
         "case": "MAYA_MAT_UBER_022",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.reflectIOR', 0)",
@@ -519,7 +497,6 @@
     {
         "case": "MAYA_MAT_UBER_023",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('refractColor', 'outColor', 'sourceimages/refraction_color.jpeg')",
@@ -545,7 +522,6 @@
     {
         "case": "MAYA_MAT_UBER_024",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('refractColor', 'outColor', 'sourceimages/refraction_color.jpeg')",
@@ -563,7 +539,6 @@
     {
         "case": "MAYA_MAT_UBER_025",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('refractColor', 'outColor', 'sourceimages/refraction_color.png')",
@@ -589,7 +564,6 @@
     {
         "case": "MAYA_MAT_UBER_026",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('refractColor', 'outColor', 'sourceimages/refraction_color.png')",
@@ -614,7 +588,6 @@
     {
         "case": "MAYA_MAT_UBER_027",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('refractColor', 'outColor', 'sourceimages/refraction_color.exr')",
@@ -641,7 +614,6 @@
     {
         "case": "MAYA_MAT_UBER_028",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('refractColor', 'outColor', 'sourceimages/refraction_color.exr')",
@@ -665,7 +637,6 @@
     {
         "case": "MAYA_MAT_UBER_029",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('refractColor', 'outColor', 'sourceimages/refraction_color.tiff')",
@@ -694,7 +665,6 @@
     {
         "case": "MAYA_MAT_UBER_030",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('refractColor', 'outColor', 'sourceimages/refraction_color.tiff')",
@@ -713,7 +683,6 @@
     {
         "case": "MAYA_MAT_UBER_031",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('refractRoughness', 'outAlpha', 'sourceimages/refraction_roughness.exr')",
@@ -734,7 +703,6 @@
     {
         "case": "MAYA_MAT_UBER_032",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('refractRoughness', 'outAlpha', 'sourceimages/refraction_roughness.exr')",
@@ -754,7 +722,6 @@
     {
         "case": "MAYA_MAT_UBER_033",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('refractWeight', 'outAlpha', 'sourceimages/refraction_weight.exr')",
@@ -779,7 +746,6 @@
     {
         "case": "MAYA_MAT_UBER_034",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.refractWeight', 0.5)",
@@ -797,7 +763,6 @@
     {
         "case": "MAYA_MAT_UBER_035",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "file_tmp1 = setAttribute('refractWeight', 'outAlpha', 'sourceimages/refraction_weight.jpeg')",
@@ -817,7 +782,6 @@
     {
         "case": "MAYA_MAT_UBER_036",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.clearCoat', 1)",
@@ -843,7 +807,6 @@
     {
         "case": "MAYA_MAT_UBER_037",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.clearCoat', 1)",
@@ -874,7 +837,6 @@
     {
         "case": "MAYA_MAT_UBER_038",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.clearCoat', 1)",
@@ -901,7 +863,6 @@
     {
         "case": "MAYA_MAT_UBER_039",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.clearCoat', 1)",
@@ -925,7 +886,6 @@
     {
         "case": "MAYA_MAT_UBER_040",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.clearCoat', 1)",
@@ -958,7 +918,6 @@
     {
         "case": "MAYA_MAT_UBER_041",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.clearCoat', 1)",
@@ -987,7 +946,6 @@
     {
         "case": "MAYA_MAT_UBER_042",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.clearCoat', 1)",
@@ -1015,7 +973,6 @@
     {
         "case": "MAYA_MAT_UBER_043",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.clearCoat', 1)",
@@ -1039,7 +996,6 @@
     {
         "case": "MAYA_MAT_UBER_044",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.clearCoat', 1)",
@@ -1065,7 +1021,6 @@
     {
         "case": "MAYA_MAT_UBER_045",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.clearCoat', 1)",
@@ -1087,7 +1042,6 @@
     {
         "case": "MAYA_MAT_UBER_046",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.clearCoat', 1)",
@@ -1117,7 +1071,6 @@
     {
         "case": "MAYA_MAT_UBER_047",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.clearCoat', 1)",
@@ -1146,7 +1099,6 @@
     {
         "case": "MAYA_MAT_UBER_048",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.clearCoat', 1)",
@@ -1172,7 +1124,6 @@
     {
         "case": "MAYA_MAT_UBER_049",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.emissive', 1)",
@@ -1195,7 +1146,6 @@
     {
         "case": "MAYA_MAT_UBER_050",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.emissive', 1)",
@@ -1217,7 +1167,6 @@
     {
         "case": "MAYA_MAT_UBER_051",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.emissive', 1)",
@@ -1239,7 +1188,6 @@
     {
         "case": "MAYA_MAT_UBER_052",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.emissive', 1)",
@@ -1260,7 +1208,6 @@
     {
         "case": "MAYA_MAT_UBER_053",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.emissive', 1)",
@@ -1284,7 +1231,6 @@
     {
         "case": "MAYA_MAT_UBER_054",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.emissive', 1)",
@@ -1305,7 +1251,6 @@
     {
         "case": "MAYA_MAT_UBER_055",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.emissive', 1)",
@@ -1322,7 +1267,6 @@
     {
         "case": "MAYA_MAT_UBER_056",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.emissive', 1)",
@@ -1348,7 +1292,6 @@
     {
         "case": "MAYA_MAT_UBER_057",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.emissive', 1)",
@@ -1368,7 +1311,6 @@
     {
         "case": "MAYA_MAT_UBER_058",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.emissive', 1)",
@@ -1391,7 +1333,6 @@
     {
         "case": "MAYA_MAT_UBER_059",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.emissive', 1)",
@@ -1409,7 +1350,6 @@
     {
         "case": "MAYA_MAT_UBER_060",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.emissive', 1)",
@@ -1428,7 +1368,6 @@
     {
         "case": "MAYA_MAT_UBER_061",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.emissive', 1)",
@@ -1449,7 +1388,6 @@
     {
         "case": "MAYA_MAT_UBER_062",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.emissive', 1)",
@@ -1474,7 +1412,6 @@
     {
         "case": "MAYA_MAT_UBER_063",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.emissive', 1)",
@@ -1493,7 +1430,6 @@
     {
         "case": "MAYA_MAT_UBER_064",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.sssEnable', 1)",
@@ -1517,7 +1453,6 @@
     {
         "case": "MAYA_MAT_UBER_065",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.sssEnable', 1)",
@@ -1538,7 +1473,6 @@
     {
         "case": "MAYA_MAT_UBER_066",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.sssEnable', 1)",
@@ -1561,7 +1495,6 @@
     {
         "case": "MAYA_MAT_UBER_067",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.sssEnable', 1)",
@@ -1584,7 +1517,6 @@
     {
         "case": "MAYA_MAT_UBER_068",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.sssEnable', 1)",
@@ -1614,7 +1546,6 @@
     {
         "case": "MAYA_MAT_UBER_069",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.sssEnable', 1)",
@@ -1639,7 +1570,6 @@
     {
         "case": "MAYA_MAT_UBER_070",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.sssEnable', 1)",
@@ -1662,7 +1592,6 @@
     {
         "case": "MAYA_MAT_UBER_071",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.sssEnable', 1)",
@@ -1684,7 +1613,6 @@
     {
         "case": "MAYA_MAT_UBER_072",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.sssEnable', 1)",
@@ -1706,7 +1634,6 @@
     {
         "case": "MAYA_MAT_UBER_073",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.sssEnable', 1)",
@@ -1726,7 +1653,6 @@
     {
         "case": "MAYA_MAT_UBER_074",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.sssEnable', 1)",
@@ -1748,7 +1674,6 @@
     {
         "case": "MAYA_MAT_UBER_075",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.sssEnable', 1)",
@@ -1769,7 +1694,6 @@
     {
         "case": "MAYA_MAT_UBER_076",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.transparencyEnable', 1)",
@@ -1786,7 +1710,6 @@
     {
         "case": "MAYA_MAT_UBER_077",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.transparencyEnable', 1)",
@@ -1803,7 +1726,6 @@
     {
         "case": "MAYA_MAT_UBER_078",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.transparencyEnable', 1)",
@@ -1820,7 +1742,6 @@
     {
         "case": "MAYA_MAT_UBER_079",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.transparencyEnable', 1)",
@@ -1836,7 +1757,6 @@
     {
         "case": "MAYA_MAT_UBER_080",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.normalMapEnable', 1)",
@@ -1853,7 +1773,6 @@
     {
         "case": "MAYA_MAT_UBER_081",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.normalMapEnable', 1)",
@@ -1869,7 +1788,6 @@
     {
         "case": "MAYA_MAT_UBER_082",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.normalMapEnable', 1)",
@@ -1885,7 +1803,6 @@
     {
         "case": "MAYA_MAT_UBER_083",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.normalMapEnable', 1)",
@@ -1901,7 +1818,6 @@
     {
         "case": "MAYA_MAT_UBER_084",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.displacementEnable', 1)",
@@ -1926,7 +1842,6 @@
     {
         "case": "MAYA_MAT_UBER_085",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.displacementEnable', 1)",
@@ -1949,7 +1864,6 @@
     {
         "case": "MAYA_MAT_UBER_086",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.displacementEnable', 1)",
@@ -1972,7 +1886,6 @@
     {
         "case": "MAYA_MAT_UBER_087",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.displacementEnable', 1)",
@@ -1991,7 +1904,6 @@
     {
         "case": "MAYA_MAT_UBER_088",
         "status": "skipped",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.displacementEnable', 1)",
@@ -2015,7 +1927,6 @@
     {
         "case": "MAYA_MAT_UBER_089",
         "status": "skipped",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.displacementEnable', 1)",
@@ -2037,7 +1948,6 @@
     {
         "case": "MAYA_MAT_UBER_090",
         "status": "skipped",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.displacementEnable', 1)",
@@ -2059,7 +1969,6 @@
     {
         "case": "MAYA_MAT_UBER_091",
         "status": "skipped",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.displacementEnable', 1)",
@@ -2081,7 +1990,6 @@
     {
         "case": "MAYA_MAT_UBER_092",
         "status": "skipped",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.displacementEnable', 1)",
@@ -2103,7 +2011,6 @@
     {
         "case": "MAYA_MAT_UBER_093",
         "status": "skipped",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.displacementEnable', 1)",
@@ -2123,7 +2030,6 @@
     {
         "case": "MAYA_MAT_UBER_094",
         "status": "skipped",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.displacementEnable', 1)",
@@ -2147,7 +2053,6 @@
     {
         "case": "MAYA_MAT_UBER_095",
         "status": "skipped",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.displacementEnable', 1)",
@@ -2172,7 +2077,6 @@
     {
         "case": "MAYA_MAT_UBER_096",
         "status": "skipped",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.displacementEnable', 1)",
@@ -2196,7 +2100,6 @@
     {
         "case": "MAYA_MAT_UBER_097",
         "status": "skipped",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.displacementEnable', 1)",
@@ -2218,7 +2121,6 @@
     {
         "case": "MAYA_MAT_UBER_098",
         "status": "skipped",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('R_UberMat.displacementEnable', 1)",

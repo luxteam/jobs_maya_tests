@@ -6,7 +6,6 @@
             "Image format: Alias PIX (als)"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 6)",
             "rpr_render(case)",
@@ -23,7 +22,6 @@
             "Image format: DDS (dds)"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 35)",
             "rpr_render(case)",
@@ -37,7 +35,6 @@
             "Image format: EPS (eps)"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 9)",
             "rpr_render(case)",
@@ -51,7 +48,6 @@
             "Image format: GIF (gif)"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 0)",
             "rpr_render(case)",
@@ -69,7 +65,6 @@
             "Image format: JPEG (jpg)"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 8)",
             "rpr_render(case)"
@@ -82,7 +77,6 @@
             "Image format: Maya IFF (iff)"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 7)",
             "rpr_render(case)",
@@ -96,7 +90,6 @@
             "Image format: Maya16 IFF (iff)"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 10)",
             "rpr_render(case)",
@@ -110,7 +103,6 @@
             "Image format: PSD (psd)"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 31)",
             "rpr_render(case)",
@@ -124,7 +116,6 @@
             "Image format: PSD Layered (psd)"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 36)",
             "rpr_render(case)",
@@ -138,7 +129,6 @@
             "Image format: PNG (png)"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 32)",
             "rpr_render(case)",
@@ -153,7 +143,6 @@
             "Image format: Quantel (yuv)"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 12)",
             "rpr_render(case)",
@@ -167,7 +156,6 @@
             "Image format: RLA (rla)"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 2)",
             "rpr_render(case)",
@@ -181,7 +169,6 @@
             "Image format: SGI (sgi)"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 5)",
             "rpr_render(case)",
@@ -195,7 +182,6 @@
             "Image format: SGI16 (sgi)"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 13)",
             "rpr_render(case)",
@@ -209,7 +195,6 @@
             "Image format: SoftImage (pic)"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 1)",
             "rpr_render(case)",
@@ -223,7 +208,6 @@
             "Image format: Targa (tga)"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 19)",
             "rpr_render(case)",
@@ -237,7 +221,6 @@
             "Image format: Tiff (tif)"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 3)",
             "rpr_render(case)",
@@ -251,7 +234,6 @@
             "Image format: Tiff16 (tif)"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 4)",
             "rpr_render(case)",
@@ -265,7 +247,6 @@
             "Image format: Windows Bitmap (bmp)"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 20)",
             "rpr_render(case)",
@@ -280,7 +261,6 @@
             "Image format: EXR (exr)"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 40)",
             "rpr_render(case)",
@@ -294,7 +274,6 @@
             "Image format: SonyPlaystation (tim)"
         ],
         "scene": "maya_shaderball.ma",
-        "functions_before_render": true,
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 63)",
             "rpr_render(case)",

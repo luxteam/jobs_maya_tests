@@ -40,7 +40,6 @@
     {
         "case": "MAYA_SM_004",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "cmds.file(RES_PATH + '/Smoke/default/example.obj', i=True, type='OBJ', options='mo=-1', pr=True)",
             "cmds.rename('polySurface1', 'Shader_Ball')",

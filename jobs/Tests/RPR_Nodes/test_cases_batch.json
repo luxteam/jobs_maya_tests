@@ -72,7 +72,6 @@
     {
         "case": "MAYA_MAT_NODE_007",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('ShadowCatcherMaterial.visibility', 1)",
@@ -93,7 +92,6 @@
     {
         "case": "MAYA_MAT_NODE_008",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('ShadowCatcherMaterial.visibility', 1)",
@@ -114,7 +112,6 @@
     {
         "case": "MAYA_MAT_NODE_009",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('BlendUbernPBRMaterials.visibility', 0)",
@@ -138,7 +135,6 @@
     {
         "case": "MAYA_MAT_NODE_010",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('BlendUbernPBRMaterials.visibility', 0)",
@@ -161,7 +157,6 @@
     {
         "case": "MAYA_MAT_NODE_011",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('BlendUbernPBRMaterials.visibility', 0)",
@@ -185,7 +180,6 @@
     {
         "case": "MAYA_MAT_NODE_012",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('BlendUbernPBRMaterials.visibility', 0)",
@@ -209,7 +203,6 @@
     {
         "case": "MAYA_MAT_NODE_013",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('BlendUbernPBRMaterials.visibility', 0)",
@@ -586,7 +579,6 @@
     {
         "case": "MAYA_MAT_NODE_036",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('Fresnel.visibility', 1)",
@@ -602,7 +594,6 @@
     {
         "case": "MAYA_MAT_NODE_037",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('Fresnel.visibility', 1)",
@@ -620,7 +611,6 @@
     {
         "case": "MAYA_MAT_NODE_038",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('Fresnel.visibility', 1)",
@@ -638,7 +628,6 @@
     {
         "case": "MAYA_MAT_NODE_039",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('Fresnel.visibility', 1)",
@@ -656,7 +645,6 @@
     {
         "case": "MAYA_MAT_NODE_040",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('Fresnel.visibility', 1)",
@@ -674,7 +662,6 @@
     {
         "case": "MAYA_MAT_NODE_041",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('Fresnel.visibility', 1)",
@@ -692,7 +679,6 @@
     {
         "case": "MAYA_MAT_NODE_042",
         "status": "active",
-        "functions_before_render": true,
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('Fresnel.visibility', 1)",
