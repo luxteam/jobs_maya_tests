@@ -338,7 +338,6 @@ def get_batch_render_cmds(args, cases, work_dir, res_path):
     else:
         python_alias = 'python3'
 
-    scenes_dict = {}
     case_num = -1
 
     for case in cases:
@@ -356,7 +355,7 @@ def get_batch_render_cmds(args, cases, work_dir, res_path):
         elif case['status'] == 'fail' or case.get('number_of_tries', 1) >= args.retries:
             case['status'] = 'error'
             save_report(args, case)
-        elif 'frame_number' in case or 'functions_before_render' in case and case['functions_before_render']:
+        else:
             # This block is for cases, whose functions don't work in preframe or postframe block
 
             # If desired camera was specified, batch render executes with '-cam' parameter
@@ -371,50 +370,19 @@ def get_batch_render_cmds(args, cases, work_dir, res_path):
                 frame_option = ""
 
             cmds.append('''{python_alias} event_recorder.py "Open tool" True {case}'''.format(python_alias=python_alias, case=case['case']))
-            cmds.append('''"{tool}" -log "{local_log}" -proj "{project}" -r FireRender {frame_option} -devc "{render_device}" -rd "{result_dir}" -im "{img_name}" -preRender "python(\\"import base_functions; base_functions.main({case_num}, True)\\");" -postRender "python(\\"base_functions.postrender({case_num}, True)\\");" -g {cam_option} -fnc name.ext "{scene}" >> "{global_log}"'''.format(
+            cmds.append('''"{tool}" -r FireRender -verb -proj "{project}" -log {log_file} {frame_option} {cam_option} -devc "{render_device}" -rd "{result_dir}" -im "{img_name}" -fnc name.ext -preRender "python(\\"import base_functions; base_functions.main({case_num})\\");" -postRender "python(\\"base_functions.postrender({case_num})\\");" -g "{scene}"'''.format(
                 tool=args.tool,
-                local_log=os.path.join(work_dir, LOGS_DIR, case['case'] + '.log'),
-                global_log=os.path.join(work_dir, 'renderTool.log'),
                 project=projPath,
+                log_file=os.path.join(work_dir, LOGS_DIR, case['case'] + '.log'),
                 frame_option=frame_option,
+                cam_option=cam_option,
+                render_device=args.render_device,
                 result_dir=os.path.join(work_dir, 'Color'),
                 img_name=case['case'],
-                render_device=args.render_device,
                 case_num=case_num,
-                cam_option=cam_option,
                 scene=case['scene']
             ));
             cmds.append('''{python_alias} event_recorder.py "Close tool" False {case}'''.format(python_alias=python_alias, case=case['case']))
-
-        else:
-            if case['scene'] not in scenes_dict:
-                scenes_dict[case['scene']] = {'cams' : [] }
-
-            camera = case.get('camera', None)
-
-            if camera not in scenes_dict[case['scene']]['cams']:
-                scenes_dict[case['scene']]['cams'].append(camera)
-
-                if camera is not None:
-                    cam_option = "-cam {}".format(camera)
-                else:
-                    cam_option = ""
-                
-                # Command to create event 'Open tool'
-                cmds.append('''{python_alias} event_recorder.py "Open tool" True {case}'''.format(python_alias=python_alias, case=case['case']))
-                # Command to start Render program
-                cmds.append('''"{tool}" -proj "{project}" -r FireRender {cam_option} -devc "{render_device}" -rd "{result_dir}" -im result -fnc name.# -preRender "python(\\"import base_functions; base_functions.main(None, False)\\");" -preFrame "python(\\"base_functions.preframe()\\");" -postFrame "python(\\"base_functions.postframe()\\");" -postRender "python(\\"base_functions.postrender(None, False)\\");" -g "{scene}" >> "{log_path}"'''.format(
-                    tool=args.tool,
-                    # log_path=os.path.join(work_dir, LOGS_DIR, case['scene'] + '.log'),
-                    log_path=os.path.join(work_dir, 'renderTool.log'),
-                    project=projPath,
-                    cam_option=cam_option,
-                    result_dir=os.path.join(work_dir, 'Color'),
-                    render_device=args.render_device,
-                    scene=case['scene']
-                ));
-                # Command to finish event 'Close tool', which was started in 'base_functions'
-                cmds.append('''{python_alias} event_recorder.py "Close tool" False ""'''.format(python_alias=python_alias, case=case['case']))
     # Cut last `Close tool` event, because it will be recorded at the end of the `launchMaya` function
     return cmds[:-1]
 
@@ -477,9 +445,6 @@ def main(args, error_windows):
     copyfile(os.path.abspath(os.path.join(work_dir, '..', '..', '..', '..', 'jobs_launcher',
                                           'common', 'img', 'error.jpg')), os.path.join(work_dir, 'Color', 'failed.jpg'))
 
-    if not os.path.exists(os.path.join(work_dir, LOGS_DIR)):
-        os.makedirs(os.path.join(work_dir, LOGS_DIR))
-    
     gpu = get_gpu()
     if not gpu:
         core_config.main_logger.error("Can't get gpu name")
@@ -509,6 +474,9 @@ def main(args, error_windows):
     if not os.path.exists(baseline_path):
         os.makedirs(baseline_path)
         os.makedirs(os.path.join(baseline_path, 'Color'))
+
+    if not os.path.exists(os.path.join(work_dir, LOGS_DIR)):
+        os.makedirs(os.path.join(work_dir, LOGS_DIR))
 
     for case in cases:
         if is_case_skipped(case, render_platform, args.engine):
@@ -573,13 +541,13 @@ def main(args, error_windows):
                                               os.path.join(baseline_path_tr, case['case'] + core_config.CASE_REPORT_SUFFIX))
 
     if system_pl == 'Windows':
-        cmds = ['set MAYA_CMD_FILE_OUTPUT=%cd%/renderTool.log',
-                'set PYTHONPATH=%cd%;PYTHONPATH',
+        cmds = ['set PYTHONPATH=%cd%;PYTHONPATH',
                 'set MAYA_SCRIPT_PATH=%cd%;%MAYA_SCRIPT_PATH%']
         if args.batchRender:
             args.tool = os.path.join(args.tool, 'Render.exe')
             cmds.extend(get_batch_render_cmds(args, cases, work_dir, res_path))
         else:
+            cmds.append('set MAYA_CMD_FILE_OUTPUT=%cd%/renderTool.log')
             args.tool = os.path.join(args.tool, 'maya.exe')
             cmds.append('"{tool}" -command "python(\\"import base_functions; base_functions.main()\\");"'.format(tool=args.tool))
         
@@ -588,13 +556,13 @@ def main(args, error_windows):
             file.write("\n".join(cmds))
 
     elif system_pl == 'Darwin':
-        cmds = ['export MAYA_CMD_FILE_OUTPUT=$PWD/renderTool.log'
-                'export PYTHONPATH=$PWD:$PYTHONPATH'
+        cmds = ['export PYTHONPATH=$PWD:$PYTHONPATH'
                 'export MAYA_SCRIPT_PATH=$PWD:$MAYA_SCRIPT_PATH']
         if args.batchRender:
             args.tool = os.path.join(args.tool, 'Render')
             cmds.extend(get_batch_render_cmds(args, cases, work_dir, res_path))
         else:
+            cmds.append('export MAYA_CMD_FILE_OUTPUT=$PWD/renderTool.log')
             args.tool = os.path.join(args.tool, 'maya')
             cmds.append('"{tool}" -command "python(\\"import base_functions; base_functions.main()\\");"'.format(tool=args.tool))
             
