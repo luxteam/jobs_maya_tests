@@ -531,7 +531,7 @@
     },
     {
         "case": "MAYA_MAT_NODE_033",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('BumpNormal.visibility', 1)",

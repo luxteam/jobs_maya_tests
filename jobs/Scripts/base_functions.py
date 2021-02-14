@@ -54,13 +54,17 @@ def reportToJSON(case, render_time=0):
     logging('Create report json ({{}} {{}})'.format(
             case['case'], report['test_status']), case['case'])
 
+    number_of_tries = case.get('number_of_tries', 0)
     if case['status'] == 'error':
-        number_of_tries = case.get('number_of_tries', 0)
+        # remove old message
+        for message in report['message']:
+            if 'Testcase wasn\'t executed successfully' in message:
+                report['message'].remove(message)
         if number_of_tries == RETRIES:
-            error_message = 'Testcase wasn\'t executed successfully (all attempts were used). Number of tries: {{}}'.format(str(number_of_tries))
+            error_message = 'Testcase wasn\'t executed successfully (all attempts were used)'
         else:
-            error_message = 'Testcase wasn\'t executed successfully. Number of tries: {{}}'.format(str(number_of_tries))
-        report['message'] = [error_message]
+            error_message = 'Testcase wasn\'t executed successfully'
+        report['message'].append(error_message)
         report['group_timeout_exceeded'] = False
     else:
         report['message'] = []
@@ -74,6 +78,7 @@ def reportToJSON(case, render_time=0):
     report['script_info'] = case['script_info']
     report['render_log'] = path.join('render_tool_logs', case['case'] + '.log')
     report['scene_name'] = case.get('scene', '')
+    report['number_of_tries'] = number_of_tries
     if case['status'] != 'skipped':
         report['file_name'] = case['case'] + case.get('extension', '.jpg')
         report['render_color_path'] = path.join('Color', report['file_name'])
@@ -313,7 +318,7 @@ def case_function(case):
             pass
             # logging("Can't set project in '" + projPath + "'")
 
-    if case['status'] == 'fail' or case.get('number_of_tries', 1) >= RETRIES:
+    if case['status'] == 'fail' or case.get('number_of_tries', 0) >= RETRIES:
         case['status'] = 'error'
         func = 'save_report'
     elif case['status'] == 'skipped':

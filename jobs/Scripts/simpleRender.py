@@ -520,6 +520,8 @@ def main(args, error_windows):
                 with open(case_path) as f:
                     case_json = json.load(f)[0]
                     template["error_screen_path"] = case_json["error_screen_path"]
+                    template["number_of_tries"] = case_json["number_of_tries"]
+                    template["message"] = case_json["message"]
 
             with open(case_path, 'w') as f:
                 f.write(json.dumps([template], indent=4))
@@ -626,6 +628,7 @@ def group_failed(args, error_windows):
     exit(rc)
 
 def sync_time(work_dir):
+    perf_count.event_record(work_dir, 'Sync time count', True)
     for rpr_json_path in os.listdir(work_dir):
         if rpr_json_path.endswith('_RPR.json'):
             try:
@@ -655,6 +658,7 @@ def sync_time(work_dir):
                     rpr_json_file.write(json.dumps(rpr_json, indent=4))
             except:
                 core_config.main_logger.error("Can't count sync time for " + rpr_json_path)
+    perf_count.event_record(work_dir, 'Sync time count', False)
 
 
 if __name__ == '__main__':
@@ -726,7 +730,7 @@ if __name__ == '__main__':
 
             path_to_file = os.path.join(args.output, case['case'] + '_RPR.json')
 
-            if case['status'] == 'error':
+            if case['status'] == 'inprogress':
                 last_error_case = case
 
         if last_error_case and error_windows:
@@ -734,7 +738,9 @@ if __name__ == '__main__':
             with open(path_to_file, 'r') as file:
                 report = json.load(file)
 
-            report[0]['message'].append("Error windows {}".format(error_windows))
+            error_windows_message = 'Error windows {}'.format(error_windows)
+            if error_windows_message not in report[0]['message']:
+                report[0]['message'].append(error_windows_message)
 
             with open(path_to_file, 'w') as file:
                 json.dump(report, file, indent=4)

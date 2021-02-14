@@ -269,7 +269,7 @@
     },
     {
         "case": "MAYA_RS_IF_022",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Image format: SonyPlaystation (tim)"
         ],

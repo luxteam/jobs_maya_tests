@@ -452,7 +452,7 @@
     },
     {
         "case": "MAYA_MAT_UT_035",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Double Linear"
         ],
@@ -465,7 +465,7 @@
     },
     {
         "case": "MAYA_MAT_UT_036",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Channels 1"
         ],
@@ -478,7 +478,7 @@
     },
     {
         "case": "MAYA_MAT_UT_037",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Channels 2"
         ],
@@ -491,7 +491,7 @@
     },
     {
         "case": "MAYA_MAT_UT_038",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Channels 3"
         ],
@@ -504,7 +504,7 @@
     },
     {
         "case": "MAYA_MAT_UT_039",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Clamp"
         ],
@@ -517,7 +517,7 @@
     },
     {
         "case": "MAYA_MAT_UT_040",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Color condition"
         ],
@@ -530,7 +530,7 @@
     },
     {
         "case": "MAYA_MAT_UT_041",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Color Correct Clamp"
         ],
@@ -543,7 +543,7 @@
     },
     {
         "case": "MAYA_MAT_UT_042",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Color Correct HUE"
         ],
@@ -556,7 +556,7 @@
     },
     {
         "case": "MAYA_MAT_UT_043",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Color Correct"
         ],
@@ -569,7 +569,7 @@
     },
     {
         "case": "MAYA_MAT_UT_044",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Color Correct Saturation"
         ],
@@ -582,7 +582,7 @@
     },
     {
         "case": "MAYA_MAT_UT_045",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Color Correct Value"
         ],
@@ -595,7 +595,7 @@
     },
     {
         "case": "MAYA_MAT_UT_046",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Color Logic"
         ],
@@ -608,7 +608,7 @@
     },
     {
         "case": "MAYA_MAT_UT_047",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Color Mask"
         ],
@@ -621,7 +621,7 @@
     },
     {
         "case": "MAYA_MAT_UT_048",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Color Math"
         ],
@@ -634,7 +634,7 @@
     },
     {
         "case": "MAYA_MAT_UT_049",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Color Composite"
         ],
@@ -647,7 +647,7 @@
     },
     {
         "case": "MAYA_MAT_UT_050",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Color Constant"
         ],
@@ -660,7 +660,7 @@
     },
     {
         "case": "MAYA_MAT_UT_051",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Condition"
         ],
@@ -673,7 +673,7 @@
     },
     {
         "case": "MAYA_MAT_UT_052",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Contrast"
         ],
@@ -686,7 +686,7 @@
     },
     {
         "case": "MAYA_MAT_UT_053",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Gamma Correct"
         ],
@@ -699,7 +699,7 @@
     },
     {
         "case": "MAYA_MAT_UT_054",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "HSV to RGB"
         ],
@@ -712,7 +712,7 @@
     },
     {
         "case": "MAYA_MAT_UT_055",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Multi Divide"
         ],
@@ -725,7 +725,7 @@
     },
     {
         "case": "MAYA_MAT_UT_056",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Projection Sphere"
         ],
@@ -738,7 +738,7 @@
     },
     {
         "case": "MAYA_MAT_UT_057",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Pre-multiply"
         ],
@@ -751,7 +751,7 @@
     },
     {
         "case": "MAYA_MAT_UT_058",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Projection Ball"
         ],
@@ -764,7 +764,7 @@
     },
     {
         "case": "MAYA_MAT_UT_059",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Projection Camera"
         ],
@@ -779,7 +779,7 @@
     },
     {
         "case": "MAYA_MAT_UT_060",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Projection Concentric"
         ],
@@ -792,7 +792,7 @@
     },
     {
         "case": "MAYA_MAT_UT_061",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Projection Cube"
         ],
@@ -805,7 +805,7 @@
     },
     {
         "case": "MAYA_MAT_UT_062",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Projection Cylinder"
         ],
@@ -818,7 +818,7 @@
     },
     {
         "case": "MAYA_MAT_UT_063",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Projection Perspective"
         ],
@@ -831,7 +831,7 @@
     },
     {
         "case": "MAYA_MAT_UT_064",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Projection Planar"
         ],
@@ -844,7 +844,7 @@
     },
     {
         "case": "MAYA_MAT_UT_065",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Projection Triplanar"
         ],
@@ -857,7 +857,7 @@
     },
     {
         "case": "MAYA_MAT_UT_066",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "RGB to HSV"
         ],
@@ -870,7 +870,7 @@
     },
     {
         "case": "MAYA_MAT_UT_067",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Remap Color"
         ],
@@ -883,7 +883,7 @@
     },
     {
         "case": "MAYA_MAT_UT_068",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Remap HSV"
         ],
@@ -896,7 +896,7 @@
     },
     {
         "case": "MAYA_MAT_UT_069",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Reverse"
         ],
@@ -909,7 +909,7 @@
     },
     {
         "case": "MAYA_MAT_UT_070",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Stencil"
         ],
