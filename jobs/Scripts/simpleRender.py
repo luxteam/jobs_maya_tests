@@ -370,7 +370,7 @@ def get_batch_render_cmds(args, cases, work_dir, res_path):
                 frame_option = ""
 
             cmds.append('''{python_alias} event_recorder.py "Open tool" True {case}'''.format(python_alias=python_alias, case=case['case']))
-            cmds.append('''"{tool}" -r FireRender -verb -proj "{project}" -log {log_file} {frame_option} {cam_option} -devc "{render_device}" -rd "{result_dir}" -im "{img_name}" -fnc name.ext -preRender "python(\\"import base_functions; base_functions.main({case_num})\\");" -postRender "python(\\"base_functions.postrender({case_num})\\");" -g "{scene}"'''.format(
+            cmds.append('''"{tool}" -r FireRender -proj "{project}" -log {log_file} {frame_option} {cam_option} -devc "{render_device}" -rd "{result_dir}" -im "{img_name}" -fnc name.ext -preRender "python(\\"import base_functions; base_functions.main({case_num})\\");" -postRender "python(\\"base_functions.postrender({case_num})\\");" -g "{scene}"'''.format(
                 tool=args.tool,
                 project=projPath,
                 log_file=os.path.join(work_dir, LOGS_DIR, case['case'] + '.log'),
