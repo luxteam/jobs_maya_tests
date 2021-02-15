@@ -383,8 +383,9 @@ def get_batch_render_cmds(args, cases, work_dir, res_path):
                 scene=case['scene']
             ));
             cmds.append('''{python_alias} event_recorder.py "Close tool" False {case}'''.format(python_alias=python_alias, case=case['case']))
+    # Cut first `Open tool` event, because it will be recorded before launching subprocess inside of launchMaya
     # Cut last `Close tool` event, because it will be recorded at the end of the `launchMaya` function
-    return cmds[:-1]
+    return cmds[1:-1]
 
 
 def main(args, error_windows):
