@@ -247,9 +247,13 @@
             "rpr_render(case)"
         ],
         "script_info": [
-            "Complex 2"
+            "Complex 2",
+            "https://amdrender.atlassian.net/browse/RPRMAYA-2660"
         ],
-        "scene": "CorvetteRPR.ma"
+        "scene": "CorvetteRPR.ma",
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_019",
