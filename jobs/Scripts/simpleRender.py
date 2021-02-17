@@ -270,43 +270,44 @@ def launchMaya(cmdScriptPath, work_dir, error_windows):
     while True:
         try:
             p.communicate(timeout=40)
-            if not args.batchRender:
-                window_titles = get_windows_titles()
-                core_config.main_logger.info(
-                    'Found windows: {}'.format(window_titles))
+            window_titles = get_windows_titles()
+            core_config.main_logger.info(
+                'Found windows: {}'.format(window_titles))
         except (psutil.TimeoutExpired, subprocess.TimeoutExpired) as err:
             current_restart_timeout -= 40
 
-            if not args.batchRender:
-                fatal_errors_titles = ['Detected windows ERROR', 'maya', 'Student Version File', 'Radeon ProRender Error', 'Script Editor',
-                                    'Autodesk Maya 2018 Error Report', 'Autodesk Maya 2018 Error Report', 'Autodesk Maya 2018 Error Report',
-                                    'Autodesk Maya 2019 Error Report', 'Autodesk Maya 2019 Error Report', 'Autodesk Maya 2019 Error Report',
-                                    'Autodesk Maya 2020 Error Report', 'Autodesk Maya 2020 Error Report', 'Autodesk Maya 2020 Error Report']
-                window_titles = get_windows_titles()
-                error_window = set(fatal_errors_titles).intersection(window_titles)
-                if error_window:
-                    core_config.main_logger.error(
-                        'Error window found: {}'.format(error_window))
-                    core_config.main_logger.warning(
-                        'Found windows: {}'.format(window_titles))
-                    error_windows.update(error_window)
-                    rc = -1
+            fatal_errors_titles = ['Detected windows ERROR', 'maya', 'Student Version File', 'Radeon ProRender Error', 'Script Editor',
+                                'Autodesk Maya 2018 Error Report', 'Autodesk Maya 2018 Error Report', 'Autodesk Maya 2018 Error Report',
+                                'Autodesk Maya 2019 Error Report', 'Autodesk Maya 2019 Error Report', 'Autodesk Maya 2019 Error Report',
+                                'Autodesk Maya 2020 Error Report', 'Autodesk Maya 2020 Error Report', 'Autodesk Maya 2020 Error Report']
+            window_titles = get_windows_titles()
+            error_window = set(fatal_errors_titles).intersection(window_titles)
+            if error_window:
+                core_config.main_logger.error(
+                    'Error window found: {}'.format(error_window))
+                core_config.main_logger.warning(
+                    'Found windows: {}'.format(window_titles))
+                error_windows.update(error_window)
+                rc = -1
 
-                    try:
-                        test_cases_path = os.path.join(work_dir, core_config.TEST_CASES_JSON_NAME[local_config.tool_name])
-                        error_case = utils.get_error_case(test_cases_path)
-                        if error_case:
-                            error_case_path = os.path.join(work_dir, error_case + core_config.CASE_REPORT_SUFFIX)
-                            relative_screen_path = os.path.join('Color', error_case + core_config.ERROR_SCREEN_SUFFIX + '.jpg')
-                            absolute_screen_path = os.path.join(args.output, relative_screen_path)
-                            utils.make_error_screen(error_case_path, absolute_screen_path, relative_screen_path)
-                        else:
-                            core_config.main_logger.error('Error case wasn\'t found. Can\'t save error screen')
-                    except Exception as e:
-                        core_config.main_logger.error('Failed to make error screen: {}'.format(str(e)))
+                try:
+                    test_cases_path = os.path.join(work_dir, core_config.TEST_CASES_JSON_NAME[local_config.tool_name])
+                    error_case = utils.get_error_case(test_cases_path)
+                    if error_case:
+                        error_case_path = os.path.join(work_dir, error_case + core_config.CASE_REPORT_SUFFIX)
+                        relative_screen_path = os.path.join('Color', error_case + core_config.ERROR_SCREEN_SUFFIX + '.jpg')
+                        absolute_screen_path = os.path.join(args.output, relative_screen_path)
+                        utils.make_error_screen(error_case_path, absolute_screen_path, relative_screen_path)
+                    else:
+                        core_config.main_logger.error('Error case wasn\'t found. Can\'t save error screen')
+                except Exception as e:
+                    core_config.main_logger.error('Failed to make error screen: {}'.format(str(e)))
 
+                if not args.batchRender:
                     kill_maya(p)
                     break
+                else:
+                    kill_process(PROCESS)
 
             new_done_test_cases_num = get_finished_cases_number(args.output)
             if current_restart_timeout <= 0:
