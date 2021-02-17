@@ -29,7 +29,7 @@ from jobs_launcher.core.kill_process import kill_process
 ROOT_DIR = os.path.abspath(os.path.join(
     os.path.dirname(__file__), os.path.pardir, os.path.pardir))
 LOGS_DIR = 'render_tool_logs'
-PROCESS = ['Maya', 'maya.exe']
+PROCESS = ['Maya', 'maya.exe', 'Render.exe', 'Render']
 
 if platform.system() == 'Darwin':
     from Quartz import CGWindowListCopyWindowInfo
@@ -317,8 +317,12 @@ def launchMaya(cmdScriptPath, work_dir, error_windows):
                     core_config.main_logger.error('Maya got stuck.')
                     rc = -1
                     current_restart_timeout = restart_timeout
-                    kill_maya(p)
-                    break
+                    if not args.batchRender:
+                        kill_maya(p)
+                        break
+                    else:
+                        # if stuck batch render process was killed, the next ones in the script will continue to run sequentially
+                        kill_process(PROCESS)
                 else:
                     prev_done_test_cases = new_done_test_cases_num
                     current_restart_timeout = restart_timeout
@@ -342,47 +346,48 @@ def get_batch_render_cmds(args, cases, work_dir, res_path):
 
     for case in cases:
         case_num += 1
-        try:
-            projPath = os.path.join(res_path, args.testType)
-            temp = os.path.join(projPath, case['scene'][:-3])
-            if os.path.isdir(temp):
-                projPath = temp
-        except:
-            pass
-        
-        if case['status'] == 'skipped' or case['functions'][0] == 'check_test_cases_success_save':
-            save_report(args, case)
-        elif case['status'] == 'fail' or case.get('number_of_tries', 1) >= args.retries:
-            case['status'] = 'error'
-            save_report(args, case)
-        else:
-            # This block is for cases, whose functions don't work in preframe or postframe block
-
-            # If desired camera was specified, batch render executes with '-cam' parameter
-            if 'camera' in case:
-                cam_option = "-cam {}".format(case['camera'])
-            else:
-                cam_option = ""
+        if case['status'] in ['active', 'fail', 'skipped']:
+            try:
+                projPath = os.path.join(res_path, args.testType)
+                temp = os.path.join(projPath, case['scene'][:-3])
+                if os.path.isdir(temp):
+                    projPath = temp
+            except:
+                pass
             
-            if 'frame_number' in case:
-                frame_option = "-s {}".format(case['frame_number'])
+            if case['status'] == 'skipped' or case['functions'][0] == 'check_test_cases_success_save':
+                save_report(args, case)
+            elif case['status'] == 'fail' or case.get('number_of_tries', 1) >= args.retries:
+                case['status'] = 'error'
+                save_report(args, case)
             else:
-                frame_option = ""
+                # This block is for cases, whose functions don't work in preframe or postframe block
 
-            cmds.append('''{python_alias} event_recorder.py "Open tool" True {case}'''.format(python_alias=python_alias, case=case['case']))
-            cmds.append('''"{tool}" -r FireRender -proj "{project}" -log {log_file} {frame_option} {cam_option} -devc "{render_device}" -rd "{result_dir}" -im "{img_name}" -fnc name.ext -preRender "python(\\"import base_functions; base_functions.main({case_num})\\");" -postRender "python(\\"base_functions.postrender({case_num})\\");" -g "{scene}"'''.format(
-                tool=args.tool,
-                project=projPath,
-                log_file=os.path.join(work_dir, LOGS_DIR, case['case'] + '.log'),
-                frame_option=frame_option,
-                cam_option=cam_option,
-                render_device=args.render_device,
-                result_dir=os.path.join(work_dir, 'Color'),
-                img_name=case['case'],
-                case_num=case_num,
-                scene=case['scene']
-            ));
-            cmds.append('''{python_alias} event_recorder.py "Close tool" False {case}'''.format(python_alias=python_alias, case=case['case']))
+                # If desired camera was specified, batch render executes with '-cam' parameter
+                if 'camera' in case:
+                    cam_option = "-cam {}".format(case['camera'])
+                else:
+                    cam_option = ""
+                
+                if 'frame_number' in case:
+                    frame_option = "-s {}".format(case['frame_number'])
+                else:
+                    frame_option = ""
+
+                cmds.append('''{python_alias} event_recorder.py "Open tool" True {case}'''.format(python_alias=python_alias, case=case['case']))
+                cmds.append('''"{tool}" -r FireRender -proj "{project}" -log {log_file} {frame_option} {cam_option} -devc "{render_device}" -rd "{result_dir}" -im "{img_name}" -fnc name.ext -preRender "python(\\"import base_functions; base_functions.main({case_num})\\");" -postRender "python(\\"base_functions.postrender({case_num})\\");" -g "{scene}"'''.format(
+                    tool=args.tool,
+                    project=projPath,
+                    log_file=os.path.join(work_dir, LOGS_DIR, case['case'] + '.log'),
+                    frame_option=frame_option,
+                    cam_option=cam_option,
+                    render_device=args.render_device,
+                    result_dir=os.path.join(work_dir, 'Color'),
+                    img_name=case['case'],
+                    case_num=case_num,
+                    scene=case['scene']
+                ));
+                cmds.append('''{python_alias} event_recorder.py "Close tool" False {case}'''.format(python_alias=python_alias, case=case['case']))
     # Cut first `Open tool` event, because it will be recorded before launching subprocess inside of launchMaya
     # Cut last `Close tool` event, because it will be recorded at the end of the `launchMaya` function
     return cmds[1:-1]
@@ -610,8 +615,12 @@ def group_failed(args, error_windows):
     except Exception as e:
         core_config.logging.error("Can't load test_cases.json")
         core_config.main_logger.error(str(e))
+        if args.batchRender:
+            test_cases_filename = 'test_cases_batch.json'
+        else:
+            test_cases_filename = 'test_cases.json'
         cases = json.load(open(os.path.realpath(os.path.join(os.path.dirname(
-            __file__), '..', 'Tests', args.testType, 'test_cases.json'))))
+            __file__), '..', 'Tests', args.testType, test_cases_filename))))
         status = 'inprogress'
 
     for case in cases:
@@ -622,8 +631,7 @@ def group_failed(args, error_windows):
         json.dump(cases, f, indent=4)
 
     rc = main(args, error_windows)
-    if not args.batchRender:
-        kill_process(PROCESS)
+    kill_process(PROCESS)
     core_config.main_logger.info(
         "Finish simpleRender with code: {}".format(rc))
     exit(rc)
@@ -748,8 +756,7 @@ if __name__ == '__main__':
 
         if active_cases == 0 or iteration > len(cases) * args.retries:
             # exit script if base_functions don't change number of active cases
-            if not args.batchRender:
-                kill_process(PROCESS)
+            kill_process(PROCESS)
             core_config.main_logger.info(
                 'Finish simpleRender with code: {}'.format(rc))
             sync_time(args.output)
