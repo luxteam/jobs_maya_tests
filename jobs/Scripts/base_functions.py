@@ -108,7 +108,7 @@ def render_tool_log_path(name):
 
 
 def get_scene_path(case):
-    scenePath = os.path.join(RES_PATH, TEST_TYPE)
+    scenePath = os.path.join(RES_PATH, 'Scenes')
     temp = os.path.join(scenePath, case['scene'][:-3])
     if os.path.isdir(temp):
         scenePath = temp
