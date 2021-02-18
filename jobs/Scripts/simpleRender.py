@@ -29,7 +29,7 @@ from jobs_launcher.core.kill_process import kill_process
 ROOT_DIR = os.path.abspath(os.path.join(
     os.path.dirname(__file__), os.path.pardir, os.path.pardir))
 LOGS_DIR = 'render_tool_logs'
-PROCESS = ['Maya', 'maya.exe', 'maya', 'Render.exe', 'Render']
+PROCESS = ['Maya', 'maya.exe', 'maya', 'mayabatch.exe', 'senddmp']
 
 if platform.system() == 'Darwin':
     from Quartz import CGWindowListCopyWindowInfo
@@ -263,7 +263,10 @@ def launchMaya(cmdScriptPath, work_dir, error_windows):
 
     prev_done_test_cases = get_finished_cases_number(args.output)
     # timeout after which Maya is considered hung
-    restart_timeout = 440
+    if not args.batchRender:
+        restart_timeout = 440
+    else:
+        restart_timeout = 160
     current_restart_timeout = restart_timeout
 
 
