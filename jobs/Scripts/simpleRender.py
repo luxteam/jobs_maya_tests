@@ -29,7 +29,7 @@ from jobs_launcher.core.kill_process import kill_process
 ROOT_DIR = os.path.abspath(os.path.join(
     os.path.dirname(__file__), os.path.pardir, os.path.pardir))
 LOGS_DIR = 'render_tool_logs'
-PROCESS = ['Maya', 'maya.exe', 'Render.exe', 'Render']
+PROCESS = ['Maya', 'maya.exe', 'maya', 'Render.exe', 'Render']
 
 if platform.system() == 'Darwin':
     from Quartz import CGWindowListCopyWindowInfo
@@ -55,7 +55,7 @@ def get_windows_titles():
             windows_list = CGWindowListCopyWindowInfo(
                 ws_options, kCGNullWindowID)
             maya_titles = {x.get('kCGWindowName', u'Unknown')
-                           for x in windows_list if 'Maya' in x['kCGWindowOwnerName']}
+                           for x in windows_list if 'Maya' in x['kCGWindowOwnerName'] or 'senddmp' in x['kCGWindowOwnerName']}
 
             # duct tape for windows with empty title
             expected = {'Maya', 'Render View', 'Rendering...'}
