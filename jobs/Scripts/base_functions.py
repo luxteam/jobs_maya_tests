@@ -119,12 +119,13 @@ def validateFiles(case):
     logging('Repath scene')
     cmds.filePathEditor(refresh=True)
     unresolved_files = cmds.filePathEditor(query=True, listFiles='', unresolved=True, attributeOnly=True)
+    source_path = os.path.join(RES_PATH, 'Sources')
     logging("Unresolved items: {{}}".format(str(unresolved_files)))
     logging('Start repath scene')
-    logging("Target path: {{}}".format(get_scene_path(case)))
+    logging("Source (target) path: {{}}".format(source_path))
     if unresolved_files:
         for item in unresolved_files:
-            cmds.filePathEditor(item, repath=get_scene_path(case), recursive=True, ra=1)
+            cmds.filePathEditor(item, repath=source_path, recursive=True, ra=1)
     unresolved_files = cmds.filePathEditor(query=True, listFiles='', unresolved=True, attributeOnly=True)
     logging("Unresolved items: {{}}".format(str(unresolved_files)))
     logging('Repath finished')
