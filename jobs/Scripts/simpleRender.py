@@ -110,6 +110,7 @@ def createArgsParser():
                         default=0.05, type=float)
     parser.add_argument('--retries', required=False, default=2, type=int)
     parser.add_argument('--update_refs', required=True)
+    parser.add_argument('--stucking_time', required=False, default=180, type=int)
 
     return parser
 
@@ -182,7 +183,7 @@ def get_finished_cases_number(output):
     return -1
 
 
-def launchMaya(cmdScriptPath, work_dir, error_windows):
+def launchMaya(cmdScriptPath, work_dir, error_windows, restart_timeout):
     system_pl = platform.system()
     core_config.main_logger.info(
         'Launch script on Maya ({})'.format(cmdScriptPath))
@@ -193,9 +194,7 @@ def launchMaya(cmdScriptPath, work_dir, error_windows):
 
     prev_done_test_cases = get_finished_cases_number(args.output)
     # timeout after which Maya is considered hung
-    restart_timeout = 440
     current_restart_timeout = restart_timeout
-
 
     while True:
         try:
@@ -443,7 +442,7 @@ def main(args, error_windows):
 
     perf_count.event_record(args.output, 'Prepare tests', False)
 
-    rc = launchMaya(cmdScriptPath, args.output, error_windows)
+    rc = launchMaya(cmdScriptPath, args.output, error_windows, args.stucking_time)
 
     if args.testType in ['Athena']:
         extension_module = importlib.import_module("extensions.{}".format(args.testType))
