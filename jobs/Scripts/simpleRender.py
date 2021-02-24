@@ -237,19 +237,18 @@ def launchMaya(cmdScriptPath, work_dir, error_windows):
                 break
             else:
                 new_done_test_cases_num = get_finished_cases_number(args.output)
-                if current_restart_timeout <= 0:
-                    if new_done_test_cases_num == -1:
-                        core_config.main_logger.error('Failed to get number of finished cases. Try to do that on next iteration')
-                    elif prev_done_test_cases == new_done_test_cases_num:
-                        # if number of finished cases wasn't increased - Maya got stuck
-                        core_config.main_logger.error('Maya got stuck.')
-                        rc = -1
-                        current_restart_timeout = restart_timeout
-                        kill_maya(p)
-                        break
-                    else:
-                        prev_done_test_cases = new_done_test_cases_num
-                        current_restart_timeout = restart_timeout
+                if new_done_test_cases_num == -1:
+                    core_config.main_logger.error('Failed to get number of finished cases. Try to do that on next iteration')
+                elif prev_done_test_cases != new_done_test_cases_num:
+                    prev_done_test_cases = new_done_test_cases_num
+                    current_restart_timeout = restart_timeout
+                elif current_restart_timeout <= 0:
+                    # if number of finished cases wasn't increased - Maya got stuck
+                    core_config.main_logger.error('Maya got stuck.')
+                    rc = -1
+                    current_restart_timeout = restart_timeout
+                    kill_maya(p)
+                    break
         else:
             rc = 0
             break
