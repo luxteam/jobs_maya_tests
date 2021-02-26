@@ -9,7 +9,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/1.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/1.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -23,7 +23,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/2.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/2.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -37,7 +37,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/3.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/3.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -51,7 +51,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/4.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/4.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -65,7 +65,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/5.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/5.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -79,7 +79,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/6.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/6.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -93,7 +93,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/7.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/7.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -107,7 +107,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/8.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/8.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -121,7 +121,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/9.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/9.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -135,7 +135,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/10.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/10.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -149,7 +149,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/11.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/11.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -163,7 +163,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/12.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/12.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -177,7 +177,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/13.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/13.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -191,7 +191,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/14.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/14.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -205,7 +205,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/15.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/15.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -219,7 +219,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/16.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/16.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -233,7 +233,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/17.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/17.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -247,7 +247,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/18.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/18.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -261,7 +261,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/19.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/19.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -275,7 +275,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/20.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/20.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -289,7 +289,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/21.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/21.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -303,7 +303,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/22.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/22.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -317,7 +317,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/23.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/23.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -331,7 +331,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/24.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/24.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -345,7 +345,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/25.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/25.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -359,7 +359,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/26.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/26.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -373,7 +373,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/27.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/27.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -387,7 +387,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/28.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/28.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -401,7 +401,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/29.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/29.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -415,7 +415,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/30.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/30.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -429,7 +429,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/31.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/31.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -443,7 +443,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/32.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/32.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -457,7 +457,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/33.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/33.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -471,7 +471,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/34.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/34.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -485,7 +485,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/35.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/35.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -499,7 +499,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/36.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/36.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -513,7 +513,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/37.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/37.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -527,7 +527,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/38.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/38.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -541,7 +541,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/39.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/39.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -555,7 +555,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/40.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/40.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -569,7 +569,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/41.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/41.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -583,7 +583,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/42.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/42.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -597,7 +597,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/43.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/43.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -611,7 +611,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/44.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/44.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -625,7 +625,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/45.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/45.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -639,7 +639,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/46.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/46.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -653,7 +653,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/47.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/47.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -667,7 +667,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/48.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/48.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -681,7 +681,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/49.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/49.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -695,7 +695,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/50.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/50.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -709,7 +709,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/51.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/51.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -723,7 +723,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/52.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/52.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -737,7 +737,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/53.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/53.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -751,7 +751,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/54.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/54.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -765,7 +765,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/55.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/55.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -779,7 +779,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/56.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/56.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -793,7 +793,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/57.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/57.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -807,7 +807,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/58.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/58.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -821,7 +821,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/59.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/59.ies', type='string')",
             "rpr_render(case)"
         ]
     },
@@ -835,7 +835,7 @@
         "scene": "maya_IES_solo.ma",
         "functions": [
             "cmds.setAttr('RPRIESLight.intensity', 0.5)",
-            "cmds.setAttr('RPRIESLight.iesFile',  'sourceimages/60.ies', type='string')",
+            "cmds.setAttr('RPRIESLight.iesFile',  RES_PATH + 'Source/sourceimages/60.ies', type='string')",
             "rpr_render(case)"
         ]
     }
