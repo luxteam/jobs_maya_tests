@@ -339,7 +339,7 @@ def launchMaya(cmdScriptPath, work_dir, error_windows):
     return rc
 
 
-def get_batch_render_cmds(args, cases, work_dir, res_path):
+def get_batch_render_cmds(args, cases, work_dir, res_path, required_tool):
     cmds = []
     if platform.system() == 'Windows':
         python_alias = 'python'
@@ -380,7 +380,7 @@ def get_batch_render_cmds(args, cases, work_dir, res_path):
 
                 cmds.append('''{python_alias} event_recorder.py "Open tool" True {case}'''.format(python_alias=python_alias, case=case['case']))
                 cmds.append('''"{tool}" -r FireRender -proj "{project}" -log {log_file} {frame_option} {cam_option} -devc "{render_device}" -rd "{result_dir}" -im "{img_name}" -fnc name.ext -preRender "python(\\"import base_functions; base_functions.main({case_num})\\");" -postRender "python(\\"base_functions.postrender({case_num})\\");" -g "{scene}"'''.format(
-                    tool=args.tool,
+                    tool=required_tool,
                     project=projPath,
                     log_file=os.path.join(work_dir, LOGS_DIR, case['case'] + '.log'),
                     frame_option=frame_option,
@@ -556,12 +556,12 @@ def main(args, error_windows):
         cmds = ['set PYTHONPATH=%cd%;PYTHONPATH',
                 'set MAYA_SCRIPT_PATH=%cd%;%MAYA_SCRIPT_PATH%']
         if args.batchRender:
-            args.tool = os.path.join(args.tool, 'Render.exe')
-            cmds.extend(get_batch_render_cmds(args, cases, work_dir, res_path))
+            required_tool = os.path.join(args.tool, 'Render.exe')
+            cmds.extend(get_batch_render_cmds(args, cases, work_dir, res_path, required_tool))
         else:
             cmds.append('set MAYA_CMD_FILE_OUTPUT=%cd%/renderTool.log')
-            args.tool = os.path.join(args.tool, 'maya.exe')
-            cmds.append('"{tool}" -command "python(\\"import base_functions; base_functions.main()\\");"'.format(tool=args.tool))
+            required_tool = os.path.join(args.tool, 'maya.exe')
+            cmds.append('"{tool}" -command "python(\\"import base_functions; base_functions.main()\\");"'.format(tool=required_tool))
         
         cmdScriptPath = os.path.join(args.output, 'script.bat')
         with open(cmdScriptPath, 'w') as file:
@@ -571,12 +571,12 @@ def main(args, error_windows):
         cmds = ['export PYTHONPATH=$PWD:$PYTHONPATH'
                 'export MAYA_SCRIPT_PATH=$PWD:$MAYA_SCRIPT_PATH']
         if args.batchRender:
-            args.tool = os.path.join(args.tool, 'Render')
-            cmds.extend(get_batch_render_cmds(args, cases, work_dir, res_path))
+            required_tool = os.path.join(args.tool, 'Render')
+            cmds.extend(get_batch_render_cmds(args, cases, work_dir, res_path, required_tool))
         else:
             cmds.append('export MAYA_CMD_FILE_OUTPUT=$PWD/renderTool.log')
-            args.tool = os.path.join(args.tool, 'maya')
-            cmds.append('"{tool}" -command "python(\\"import base_functions; base_functions.main()\\");"'.format(tool=args.tool))
+            required_tool = os.path.join(args.tool, 'maya')
+            cmds.append('"{tool}" -command "python(\\"import base_functions; base_functions.main()\\");"'.format(tool=required_tool))
             
         cmdScriptPath = os.path.join(args.output, 'script.sh')
         with open(cmdScriptPath, 'w') as file:
@@ -586,8 +586,8 @@ def main(args, error_windows):
     with open(os.path.join(work_dir, 'test_cases.json'), 'w+') as f:
         json.dump(cases, f, indent=4)
 
-    if which(args.tool) is None:
-        core_config.main_logger.error('Can\'t find tool ' + args.tool)
+    if which(required_tool) is None:
+        core_config.main_logger.error('Can\'t find tool ' + required_tool)
         exit(-1)
 
     perf_count.event_record(args.output, 'Prepare tests', False)
