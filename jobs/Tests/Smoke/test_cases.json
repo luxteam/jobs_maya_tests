@@ -90,7 +90,7 @@
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
             "ibl_transform = cmds.listRelatives(ibl_shape, p=True)[0]",
             "cmds.setAttr(ibl_transform + '.scale', 1001.25, 1001.25, 1001.25)",
-            "cmds.setAttr(ibl_shape + '.filePath', RES_PATH + '/Smoke/Lamborginhi_Aventador/sourceimages/Tropical_Beach_3k.hdr', type='string')",
+            "cmds.setAttr(ibl_shape + '.filePath', RES_PATH + '/Sources/sourceimages/Tropical_Beach_3k.hdr', type='string')",
             "rpr_render(case)",
             "cmds.showHidden('ground')",
             "cmds.delete(ibl_transform)"
@@ -109,7 +109,7 @@
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
             "ibl_transform = cmds.listRelatives(ibl_shape, p=True)[0]",
             "cmds.setAttr(ibl_transform + '.scale', 1001.25663706144, 1001.25663706144, 1001.25663706144)",
-            "cmds.setAttr(ibl_shape + '.filePath', RES_PATH + '/Smoke/Lamborginhi_Aventador/sourceimages/ibl_test.exr', type='string')",
+            "cmds.setAttr(ibl_shape + '.filePath', RES_PATH + '/Sources/sourceimages/ibl_test.exr', type='string')",
             "rpr_render(case)",
             "cmds.showHidden('ground')",
             "cmds.delete(ibl_transform)"
@@ -146,7 +146,7 @@
         "functions": [
             "rprLightShape = cmds.createNode('RPRIES', n='RPRIESLight')",
             "rprTransform = cmds.listRelatives(rprLightShape, p=True)[0]",
-            "cmds.setAttr(rprLightShape + '.iesFile', RES_PATH + '/Smoke/Lamborginhi_Aventador/sourceimages/1.IES', type='string')",
+            "cmds.setAttr(rprLightShape + '.iesFile', RES_PATH + '/Sources/sourceimages/1.ies', type='string')",
             "cmds.setAttr(rprTransform + '.translate', 15, 320, -100)",
             "cmds.setAttr(rprTransform + '.rotate', 90, 0, 0)",
             "cmds.setAttr(rprLightShape + '.intensity', 20)",
@@ -506,11 +506,11 @@
         "case": "MAYA_SM_032",
         "status": "active",
         "functions": [
-            "cmds.setAttr('RPRIESLight1.iesFile', (RES_PATH + '/Smoke/Lamborginhi_Aventador/sourceimages/1.IES'), type='string')",
+            "cmds.setAttr('RPRIESLight1.iesFile', (RES_PATH + '/Sourcesr/sourceimages/1.ies'), type='string')",
             "cmds.setAttr('RPRIESLight1.intensity', 2)",
-            "cmds.setAttr('RPRIESLight6.iesFile', (RES_PATH + '/Smoke/Lamborginhi_Aventador/sourceimages/1.IES'), type='string')",
+            "cmds.setAttr('RPRIESLight6.iesFile', (RES_PATH + '/Sources/sourceimages/1.ies'), type='string')",
             "cmds.setAttr('RPRIESLight6.intensity', 2)",
-            "cmds.setAttr('RPRIESLight12.iesFile', (RES_PATH + '/Smoke/Lamborginhi_Aventador/sourceimages/1.IES'), type='string')",
+            "cmds.setAttr('RPRIESLight12.iesFile', (RES_PATH + '/Sources/sourceimages/1.ies'), type='string')",
             "cmds.setAttr('RPRIESLight12.intensity', 2)",
             "rpr_render(case)"
         ],
@@ -670,7 +670,7 @@
         "case": "MAYA_SM_042",
         "status": "active",
         "functions": [
-            "file_tmp = setAttribute('emissionColor', 'outColor', RES_PATH + '/Smoke/VolumeRollingFog/sourceimages/EmissiveVariation1.exr')",
+            "file_tmp = setAttribute('emissionColor', 'outColor', RES_PATH + '/Sources/sourceimages/EmissiveVariation1.exr')",
             "cmds.setAttr(file_tmp + '.alphaIsLuminance', 1)",
             "cmds.setAttr('RPRVolumeMaterial1.scatterColor', 1, 1, 1, type='double3')",
             "cmds.setAttr('RPRVolumeMaterial1.transmissionColor', 1, 1, 1, type='double3')",
