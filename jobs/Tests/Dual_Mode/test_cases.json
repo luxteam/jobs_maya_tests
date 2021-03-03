@@ -317,7 +317,7 @@
         ],
         "scene": "DenoiserDOF.ma",
         "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal), Radeon RX Vega"]
+            ["Radeon RX Vega"]
         ]
     },
     {
