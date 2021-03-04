@@ -266,7 +266,7 @@ def launchMaya(cmdScriptPath, work_dir, error_windows):
     if not args.batchRender:
         restart_timeout = 440
     else:
-        restart_timeout = 160
+        restart_timeout = 240
     current_restart_timeout = restart_timeout
 
 
