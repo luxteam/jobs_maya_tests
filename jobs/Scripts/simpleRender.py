@@ -122,6 +122,7 @@ def createArgsParser():
                         default=0.05, type=float)
     parser.add_argument('--retries', required=False, default=2, type=int)
     parser.add_argument('--update_refs', required=True)
+    parser.add_argument('--stucking_time', required=False, default=180, type=int)
 
     return parser
 
@@ -252,7 +253,8 @@ def get_finished_cases_number(output):
             time.sleep(5)
     return -1
 
-def launchMaya(cmdScriptPath, work_dir, error_windows):
+
+def launchMaya(cmdScriptPath, work_dir, error_windows, restart_timeout):
     system_pl = platform.system()
     core_config.main_logger.info(
         'Launch script on Maya ({})'.format(cmdScriptPath))
@@ -263,12 +265,7 @@ def launchMaya(cmdScriptPath, work_dir, error_windows):
 
     prev_done_test_cases = get_finished_cases_number(args.output)
     # timeout after which Maya is considered hung
-    if not args.batchRender:
-        restart_timeout = 440
-    else:
-        restart_timeout = 240
     current_restart_timeout = restart_timeout
-
 
     while True:
         try:
@@ -311,12 +308,14 @@ def launchMaya(cmdScriptPath, work_dir, error_windows):
                     break
                 else:
                     kill_process(PROCESS)
-
-            new_done_test_cases_num = get_finished_cases_number(args.output)
-            if current_restart_timeout <= 0:
+            else:
+                new_done_test_cases_num = get_finished_cases_number(args.output)
                 if new_done_test_cases_num == -1:
                     core_config.main_logger.error('Failed to get number of finished cases. Try to do that on next iteration')
-                elif prev_done_test_cases == new_done_test_cases_num:
+                elif prev_done_test_cases != new_done_test_cases_num:
+                    prev_done_test_cases = new_done_test_cases_num
+                    current_restart_timeout = restart_timeout
+                elif current_restart_timeout <= 0:
                     # if number of finished cases wasn't increased - Maya got stuck
                     core_config.main_logger.error('Maya got stuck.')
                     rc = -1
@@ -327,9 +326,6 @@ def launchMaya(cmdScriptPath, work_dir, error_windows):
                     else:
                         # if stuck batch render process was killed, the next ones in the script will continue to run sequentially
                         kill_process(PROCESS)
-                else:
-                    prev_done_test_cases = new_done_test_cases_num
-                    current_restart_timeout = restart_timeout
         else:
             rc = 0
             break
@@ -592,7 +588,7 @@ def main(args, error_windows):
 
     perf_count.event_record(args.output, 'Prepare tests', False)
 
-    rc = launchMaya(cmdScriptPath, args.output, error_windows)
+    rc = launchMaya(cmdScriptPath, args.output, error_windows, args.stucking_time)
 
     if args.testType in ['Athena']:
         extension_module = importlib.import_module("extensions.{}".format(args.testType))
