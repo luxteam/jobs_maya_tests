@@ -38,3 +38,11 @@
     **The order of the arguments is important. You cannot skip arguments.**
 
     **Better to run via `CMD`. If you run through `PS`, empty arguments (like this "") will be ignored.**
+
+## How to update weights.json
+ 1. Move to jobs_launcher
+ 2. Init jobs_launcher submodule by commnad: git submodule update --init
+ 3. Move to common/scripts/manual
+ 4. Download from Weekly report session_report.json (Add Tahoe/summary_report.json or Northstar/summary_report.json to url with report)
+ 5. Run generation of new weights.json: python3 analyze_summary_report.py --path <path_to_summary_report.json> --results_path <where_to_save_weight.json>
+ 6. Move new weight.json to jobs_test_maya/jobs/
