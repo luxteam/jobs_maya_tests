@@ -8,7 +8,10 @@
         "script_info": [
             "Default test"
         ],
-        "scene": "adaptive_sampling.ma"
+        "scene": "adaptive_sampling.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_002",
@@ -21,7 +24,10 @@
         "script_info": [
             "Adaptive sampling 0.1 Threshold"
         ],
-        "scene": "adaptive_sampling.ma"
+        "scene": "adaptive_sampling.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_003",
@@ -34,7 +40,10 @@
         "script_info": [
             "Adaptive sampling Threshold 1"
         ],
-        "scene": "adaptive_sampling.ma"
+        "scene": "adaptive_sampling.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_004",
@@ -50,7 +59,10 @@
         "script_info": [
             "Motion Blur"
         ],
-        "scene": "motion_blur.ma"
+        "scene": "motion_blur.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_005",
@@ -63,7 +75,10 @@
         "script_info": [
             "Tile rendering"
         ],
-        "scene": "adaptive_sampling.ma"
+        "scene": "adaptive_sampling.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_006",
@@ -77,7 +92,10 @@
         "script_info": [
             "Bileteral denoiser"
         ],
-        "scene": "adaptive_sampling.ma"
+        "scene": "adaptive_sampling.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_007",
@@ -91,7 +109,10 @@
         "script_info": [
             "LWR denoiser"
         ],
-        "scene": "adaptive_sampling.ma"
+        "scene": "adaptive_sampling.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_008",
@@ -104,7 +125,10 @@
         "script_info": [
             "EAW denoiser"
         ],
-        "scene": "adaptive_sampling.ma"
+        "scene": "adaptive_sampling.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_009",
@@ -118,7 +142,10 @@
         "script_info": [
             "ML denoiser (Color + AOV)"
         ],
-        "scene": "adaptive_sampling.ma"
+        "scene": "adaptive_sampling.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_010",
@@ -132,7 +159,10 @@
         "script_info": [
             "ML denoiser (Color only)"
         ],
-        "scene": "adaptive_sampling.ma"
+        "scene": "adaptive_sampling.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_011",
@@ -147,7 +177,10 @@
         "script_info": [
             "Anti Aliasing"
         ],
-        "scene": "adaptive_sampling.ma"
+        "scene": "adaptive_sampling.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_012",
@@ -161,7 +194,10 @@
         "script_info": [
             "UV AOV"
         ],
-        "scene": "adaptive_sampling.ma"
+        "scene": "adaptive_sampling.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_013",
@@ -176,7 +212,10 @@
             "Do not compare",
             "Render Stamp"
         ],
-        "scene": "adaptive_sampling.ma"
+        "scene": "adaptive_sampling.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_014",
@@ -196,7 +235,10 @@
         "script_info": [
             "Color Managment"
         ],
-        "scene": "adaptive_sampling.ma"
+        "scene": "adaptive_sampling.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_015",
@@ -210,7 +252,10 @@
         "script_info": [
             "Sun_Sky"
         ],
-        "scene": "Sun_Sky.ma"
+        "scene": "Sun_Sky.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_016",
@@ -227,7 +272,10 @@
         "script_info": [
             "VDB"
         ],
-        "scene": "bunny_cloud.ma"
+        "scene": "bunny_cloud.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_017",
@@ -238,7 +286,10 @@
         "script_info": [
             "Complex 1"
         ],
-        "scene": "Bathroom.ma"
+        "scene": "Bathroom.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_018",
@@ -252,7 +303,7 @@
         ],
         "scene": "CorvetteRPR.ma",
         "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
+            ["AMD Radeon RX Vega 56 (Metal), Radeon RX Vega"]
         ]
     },
     {
@@ -264,7 +315,10 @@
         "script_info": [
             "DOF"
         ],
-        "scene": "DenoiserDOF.ma"
+        "scene": "DenoiserDOF.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_020",
@@ -281,7 +335,10 @@
         "script_info": [
             "Tile rendering + ML (Color + AOV)"
         ],
-        "scene": "adaptive_sampling.ma"
+        "scene": "adaptive_sampling.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_021",
@@ -298,7 +355,10 @@
         "script_info": [
             "Tile rendering + ML (Color only)"
         ],
-        "scene": "adaptive_sampling.ma"
+        "scene": "adaptive_sampling.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_022",
@@ -317,7 +377,10 @@
         "script_info": [
             "Tile rendering + Anti Aliasing + Adaptive Sampling"
         ],
-        "scene": "adaptive_sampling.ma"
+        "scene": "adaptive_sampling.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_023",
@@ -345,7 +408,10 @@
         "script_info": [
             "Motion Blur + ML (Color + AOV) + Color Managment"
         ],
-        "scene": "motion_blur.ma"
+        "scene": "motion_blur.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_024",
@@ -368,7 +434,10 @@
         "script_info": [
             "Motion Blur + ML (Color only) + Color Managment"
         ],
-        "scene": "motion_blur.ma"
+        "scene": "motion_blur.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_025",
@@ -388,6 +457,9 @@
         "script_info": [
             "Anti Aliasing + ML (Color + AOV) + Time limit = 7 sec"
         ],
-        "scene": "adaptive_sampling.ma"
+        "scene": "adaptive_sampling.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     }
 ]
