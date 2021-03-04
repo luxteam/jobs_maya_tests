@@ -273,10 +273,9 @@
             "VDB"
         ],
         "scene": "bunny_cloud.ma",
-        "skip_engine": 
-            ["Horthstar"],
-        "skip_config":
+        "skip_config": [
             ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_DUAL_017",
