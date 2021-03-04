@@ -227,7 +227,10 @@
         "script_info": [
             "VDB"
         ],
-        "scene": "bunny_cloud.ma"
+        "scene": "bunny_cloud.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_RS_CPU_017",
