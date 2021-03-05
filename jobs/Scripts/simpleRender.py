@@ -305,6 +305,7 @@ def launchMaya(cmdScriptPath, work_dir, error_windows, restart_timeout):
 
                 if not args.batchRender:
                     kill_maya(p)
+                    kill_process(PROCESS)
                     break
                 else:
                     kill_process(PROCESS)
