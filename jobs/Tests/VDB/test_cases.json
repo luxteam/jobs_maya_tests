@@ -175,7 +175,7 @@
     },
     {
         "case": "MAYA_MAT_VDB_008",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "cmds.setAttr('vdbObj.emissionEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
@@ -226,7 +226,7 @@
     },
     {
         "case": "MAYA_MAT_VDB_010",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "cmds.setAttr('vdbObj.emissionEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
@@ -470,7 +470,7 @@
     },
     {
         "case": "MAYA_MAT_VDB_021",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "cmds.currentTime(50)",
             "rpr_render(case)"
@@ -506,7 +506,7 @@
     },
     {
         "case": "MAYA_MAT_VDB_023",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "cmds.currentTime(100)",
             "set_render_device('cpu')",
