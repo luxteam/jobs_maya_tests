@@ -293,13 +293,14 @@
     },
     {
         "case": "MAYA_RS_DUAL_018",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "rpr_render(case)"
         ],
         "script_info": [
             "Complex 2",
-            "https://amdrender.atlassian.net/browse/RPRMAYA-2660"
+            "https://amdrender.atlassian.net/browse/RPRMAYA-2660",
+            "Random artefacts"
         ],
         "scene": "CorvetteRPR.ma",
         "skip_config": [
