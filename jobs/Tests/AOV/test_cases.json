@@ -294,7 +294,7 @@
     },
     {
         "case": "MAYA_RS_AOV_021",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Black image expected",
             "AOV: Volume"
