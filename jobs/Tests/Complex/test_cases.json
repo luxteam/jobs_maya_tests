@@ -1,0 +1,189 @@
+[
+    {
+        "case": "MAYA_RS_CMX_001",
+        "status": "active",
+        "script_info": [
+            "Brute Force Glass"
+        ],
+        "scene": "RPR_BruteForceGlass.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CMX_002",
+        "status": "active",
+        "script_info": [
+            "Brute Force Transparency"
+        ],
+        "scene": "RPR_BruteForceTransparency.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CMX_003",
+        "status": "active",
+        "script_info": [
+            "Directional only"
+        ],
+        "scene": "RPR_DirectionalOnly.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CMX_004",
+        "status": "active",
+        "script_info": [
+            "IBL only"
+        ],
+        "scene": "RPR_IBLOnly.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CMX_005",
+        "status": "active",
+        "script_info": [
+            "Lenses"
+        ],
+        "scene": "RPR_Lenses.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CMX_006",
+        "status": "active",
+        "script_info": [
+            "Area Lights"
+        ],
+        "scene": "RPR_LightComplexity_AreaLights.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CMX_007",
+        "status": "active",
+        "script_info": [
+            "Big Area Light"
+        ],
+        "scene": "RPR_LightComplexity_BigAreaLight.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CMX_008",
+        "status": "skipped",
+        "script_info": [
+            "Big Area Light Image"
+        ],
+        "scene": "RPR_LightComplexity_BigAreaLight_Image.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CMX_009",
+        "status": "active",
+        "script_info": [
+            "Point Lights"
+        ],
+        "scene": "RPR_LightComplexity_Pointlights.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CMX_010",
+        "status": "active",
+        "script_info": [
+            "Sky and Portals"
+        ],
+        "scene": "RPR_SkyAndPortals.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CMX_011",
+        "status": "skipped",
+        "script_info": [
+            "Bathroom"
+        ],
+        "scene": "RPR_Bathroom.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CMX_012",
+        "status": "skipped",
+        "script_info": [
+            "Caustics Bench"
+        ],
+        "scene": "RPR_Caustics_Bench.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CMX_013",
+        "status": "active",
+        "script_info": [
+            "Evermotion"
+        ],
+        "scene": "RPR_Evermotion.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CMX_014",
+        "status": "active",
+        "script_info": [
+            "Large Graph"
+        ],
+        "scene": "RPR_LargeGraph.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CMX_015",
+        "status": "skipped",
+        "script_info": [
+            "Lights"
+        ],
+        "scene": "RPR_Lights.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CMX_016",
+        "status": "active",
+        "script_info": [
+            "Playground"
+        ],
+        "scene": "Vray_RPR.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CMX_017",
+        "status": "skipped",
+        "script_info": [
+            "Laptop"
+        ],
+        "scene": "05_Laptop.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    }
+]

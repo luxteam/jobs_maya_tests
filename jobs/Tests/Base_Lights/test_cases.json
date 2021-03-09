@@ -16,6 +16,9 @@
             "cmds.setAttr(light_transform + '.ambientShade', 0.450)",
             "rpr_render(case)",
             "cmds.delete(light_shape)"
+        ],
+        "skip_engine": [
+            "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
         ]
     },
     {
@@ -35,6 +38,9 @@
             "cmds.setAttr(light_transform + '.ambientShade', 0.450)",
             "rpr_render(case)",
             "cmds.delete(light_shape)"
+        ],
+        "skip_engine": [
+            "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
         ]
     },
     {
@@ -54,6 +60,9 @@
             "cmds.setAttr(light_transform + '.ambientShade', 0)",
             "rpr_render(case)",
             "cmds.delete(light_shape)"
+        ],
+        "skip_engine": [
+            "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
         ]
     },
     {
@@ -73,6 +82,9 @@
             "cmds.setAttr(light_transform + '.ambientShade', 1)",
             "rpr_render(case)",
             "cmds.delete(light_shape)"
+        ],
+        "skip_engine": [
+            "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
         ]
     },
     {
@@ -363,6 +375,7 @@
         "case": "MAYA_L_BL_020",
         "status": "active",
         "script_info": [
+            "Black image expected",
             "Spot light. Intensity: 40"
         ],
         "scene": "maya_shaderball.ma",
@@ -374,7 +387,7 @@
             "cmds.setAttr(light_transform + '.rotate', -90, 0, 0)",
             "cmds.setAttr(light_transform + '.intensity', 40)",
             "cmds.setAttr(light_transform + '.decayRate', 0)",
-            "cmds.setAttr(light_transform + '.coneAngle', 0.006)",
+            "cmds.setAttr(light_transform + '.coneAngle', 50)",
             "cmds.setAttr(light_transform + '.penumbraAngle', -10)",
             "cmds.setAttr(light_transform + '.dropoff', 0)",
             "rpr_render(case)",

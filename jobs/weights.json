@@ -1,0 +1,152 @@
+{
+    "weights": [
+        {
+            "suite_name": "CPU_Mode",
+            "value": 3299
+        },
+        {
+            "suite_name": "Material_Library",
+            "value": 2572
+        },
+        {
+            "suite_name": "Uber",
+            "value": 2324
+        },
+        {
+            "suite_name": "Image_Size",
+            "value": 2096
+        },
+        {
+            "suite_name": "Contour",
+            "value": 1664
+        },
+        {
+            "suite_name": "Tone_Mapping",
+            "value": 1481
+        },
+        {
+            "suite_name": "Physical_Lights",
+            "value": 1399
+        },
+        {
+            "suite_name": "AOV",
+            "value": 1355
+        },
+        {
+            "suite_name": "PBR",
+            "value": 1265
+        },
+        {
+            "suite_name": "Sun_Sky",
+            "value": 1049
+        },
+        {
+            "suite_name": "Complex",
+            "value": 1043
+        },
+        {
+            "suite_name": "Animation",
+            "value": 1005
+        },
+        {
+            "suite_name": "Camera",
+            "value": 990
+        },
+        {
+            "suite_name": "Dual_Mode",
+            "value": 958
+        },
+        {
+            "suite_name": "RPR_Nodes",
+            "value": 926
+        },
+        {
+            "suite_name": "Anti_Aliasing",
+            "value": 907
+        },
+        {
+            "suite_name": "Shadow_Catcher",
+            "value": 901
+        },
+        {
+            "suite_name": "Smoke",
+            "value": 791
+        },
+        {
+            "suite_name": "Quality",
+            "value": 730
+        },
+        {
+            "suite_name": "Denoiser",
+            "value": 685
+        },
+        {
+            "suite_name": "MASH",
+            "value": 654
+        },
+        {
+            "suite_name": "XGen",
+            "value": 525
+        },
+        {
+            "suite_name": "Transform",
+            "value": 474
+        },
+        {
+            "suite_name": "Maya_Utilities",
+            "value": 448
+        },
+        {
+            "suite_name": "Intensity_Light",
+            "value": 442
+        },
+        {
+            "suite_name": "IES",
+            "value": 412
+        },
+        {
+            "suite_name": "Image_Formats",
+            "value": 402
+        },
+        {
+            "suite_name": "Base_Lights",
+            "value": 381
+        },
+        {
+            "suite_name": "IBL",
+            "value": 329
+        },
+        {
+            "suite_name": "Render_Layer",
+            "value": 281
+        },
+        {
+            "suite_name": "Motion_Blur",
+            "value": 253
+        },
+        {
+            "suite_name": "Support_2018",
+            "value": 239
+        },
+        {
+            "suite_name": "Support_2019",
+            "value": 212
+        },
+        {
+            "suite_name": "Render_Stamp",
+            "value": 199
+        },
+        {
+            "suite_name": "Emissive",
+            "value": 188
+        },
+        {
+            "suite_name": "NHair",
+            "value": 181
+        },
+        {
+            "suite_name": "Athena",
+            "value": 136
+        }
+    ]
+}

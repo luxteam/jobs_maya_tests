@@ -1,0 +1,13 @@
+{
+    "split":true,
+    "groups":{
+        "Smoke":"",
+        "Camera":"",
+        "IBL":"",
+        "IES":"",
+        "Render_Mode":"",
+        "Athena":"",
+        "Support_2019":"",
+        "Support_2018":""
+    }
+}

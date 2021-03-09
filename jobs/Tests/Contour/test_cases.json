@@ -1,0 +1,553 @@
+[
+    {
+        "case": "MAYA_RS_CNT_001",
+        "status": "active",
+        "script_info": [
+            "Object +",
+            "Material +",
+            "Normal +"
+        ],
+        "scene": "Bathroom.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.contourIsEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseObjectID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseMaterialID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseShadingNormal', 1)",
+            "rpr_render(case)"
+        ],
+        "skip_engine": [
+            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CNT_002",
+        "status": "active",
+        "script_info": [
+            "Object -",
+            "Material +",
+            "Normal +"
+        ],
+        "scene": "Bathroom.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.contourIsEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseObjectID', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseMaterialID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseShadingNormal', 1)",
+            "rpr_render(case)"
+        ],
+        "skip_engine": [
+            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CNT_003",
+        "status": "active",
+        "script_info": [
+            "Object +",
+            "Material -",
+            "Normal +"
+        ],
+        "scene": "Bathroom.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.contourIsEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseObjectID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseMaterialID', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseShadingNormal', 1)",
+            "rpr_render(case)"
+        ],
+        "skip_engine": [
+            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CNT_004",
+        "status": "active",
+        "script_info": [
+            "Object -",
+            "Material -",
+            "Normal +"
+        ],
+        "scene": "Bathroom.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.contourIsEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseObjectID', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseMaterialID', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseShadingNormal', 1)",
+            "rpr_render(case)"
+        ],
+        "skip_engine": [
+            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CNT_005",
+        "status": "active",
+        "script_info": [
+            "Object +",
+            "Material +",
+            "Normal -"
+        ],
+        "scene": "Bathroom.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.contourIsEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseObjectID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseMaterialID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseShadingNormal', 0)",
+            "rpr_render(case)"
+        ],
+        "skip_engine": [
+            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CNT_006",
+        "status": "active",
+        "script_info": [
+            "Object -",
+            "Material +",
+            "Normal -"
+        ],
+        "scene": "Bathroom.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.contourIsEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseObjectID', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseMaterialID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseShadingNormal', 0)",
+            "rpr_render(case)"
+        ],
+        "skip_engine": [
+            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CNT_007",
+        "status": "active",
+        "script_info": [
+            "Object +",
+            "Material -",
+            "Normal -"
+        ],
+        "scene": "Bathroom.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.contourIsEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseObjectID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseMaterialID', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseShadingNormal', 0)",
+            "rpr_render(case)"
+        ],
+        "skip_engine": [
+            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CNT_008",
+        "status": "active",
+        "script_info": [
+            "Object -",
+            "Material -",
+            "Normal -",
+            "Red image expected"
+        ],
+        "scene": "Bathroom.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.contourIsEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseObjectID', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseMaterialID', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseShadingNormal', 0)",
+            "rpr_render(case)"
+        ],
+        "skip_engine": [
+            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CNT_009",
+        "status": "active",
+        "script_info": [
+            "Object +",
+            "Material -",
+            "Normal -",
+            "Line Width 10"
+        ],
+        "scene": "Bathroom.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.contourIsEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseObjectID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseMaterialID', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseShadingNormal', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourLineWidthObjectID', 10)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourLineWidthObjectID', 1)"
+        ],
+        "skip_engine": [
+            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
+        ],
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
+        ]
+    },
+    {
+        "case": "MAYA_RS_CNT_010",
+        "status": "active",
+        "script_info": [
+            "Object -",
+            "Material +",
+            "Normal -",
+            "Line Width 10"
+        ],
+        "scene": "Bathroom.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.contourIsEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseObjectID', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseMaterialID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseShadingNormal', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourLineWidthMaterialID', 10)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourLineWidthMaterialID', 1)"
+        ],
+        "skip_engine": [
+            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
+        ],
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
+        ]
+    },
+    {
+        "case": "MAYA_RS_CNT_011",
+        "status": "active",
+        "script_info": [
+            "Object -",
+            "Material -",
+            "Normal +",
+            "Line Width 10"
+        ],
+        "scene": "Bathroom.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.contourIsEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseObjectID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseMaterialID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseShadingNormal', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourLineWidthShadingNormal', 10)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourLineWidthShadingNormal', 1)"
+        ],
+        "skip_engine": [
+            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
+        ],
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
+        ]
+    },
+    {
+        "case": "MAYA_RS_CNT_012",
+        "status": "active",
+        "script_info": [
+            "Object +",
+            "Material +",
+            "Normal +",
+            "Antialiasing 0.5"
+        ],
+        "scene": "Bathroom.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.contourIsEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseObjectID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseMaterialID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseShadingNormal', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourAntialiasing', 0.5)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourAntialiasing', 1)"
+        ],
+        "skip_engine": [
+            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CNT_013",
+        "status": "active",
+        "script_info": [
+            "Object +",
+            "Material +",
+            "Normal +",
+            "Antialiasing 0"
+        ],
+        "scene": "Bathroom.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.contourIsEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseObjectID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseMaterialID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseShadingNormal', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourAntialiasing', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourAntialiasing', 1)"
+        ],
+        "skip_engine": [
+            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CNT_014",
+        "status": "active",
+        "script_info": [
+            "Object -",
+            "Material -",
+            "Normal +",
+            "Threshold 0"
+        ],
+        "scene": "Bathroom.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.contourIsEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseObjectID', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseMaterialID', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseShadingNormal', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourNormalThreshold', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourNormalThreshold', 45)"
+        ],
+        "skip_engine": [
+            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CNT_015",
+        "status": "active",
+        "script_info": [
+            "Object -",
+            "Material -",
+            "Normal +",
+            "Threshold 75"
+        ],
+        "scene": "Bathroom.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.contourIsEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseObjectID', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseMaterialID', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseShadingNormal', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourNormalThreshold', 75)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourNormalThreshold', 45)"
+        ],
+        "skip_engine": [
+            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CNT_016",
+        "status": "active",
+        "script_info": [
+            "Object -",
+            "Material -",
+            "Normal +",
+            "Threshold 180",
+            "Empty image expected"
+        ],
+        "scene": "Bathroom.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.contourIsEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseObjectID', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseMaterialID', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseShadingNormal', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourNormalThreshold', 180)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourNormalThreshold', 45)"
+        ],
+        "skip_engine": [
+            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CNT_017",
+        "status": "active",
+        "script_info": [
+            "Object +",
+            "Material +",
+            "Normal +",
+            "Bileteral"
+        ],
+        "scene": "Bathroom.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.contourIsEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseObjectID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseMaterialID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseShadingNormal', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "skip_engine": [
+            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CNT_018",
+        "status": "active",
+        "script_info": [
+            "Object +",
+            "Material +",
+            "Normal +",
+            "LWR"
+        ],
+        "scene": "Bathroom.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.contourIsEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseObjectID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseMaterialID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseShadingNormal', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "skip_engine": [
+            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CNT_019",
+        "status": "active",
+        "script_info": [
+            "Object +",
+            "Material +",
+            "Normal +",
+            "EAW"
+        ],
+        "scene": "Bathroom.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.contourIsEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseObjectID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseMaterialID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseShadingNormal', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 2)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "skip_engine": [
+            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CNT_020",
+        "status": "active",
+        "script_info": [
+            "Object +",
+            "Material +",
+            "Normal +",
+            "ML Color"
+        ],
+        "scene": "Bathroom.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.contourIsEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseObjectID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseMaterialID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseShadingNormal', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserColorOnly', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "skip_engine": [
+            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CNT_021",
+        "status": "active",
+        "script_info": [
+            "Object +",
+            "Material +",
+            "Normal +",
+            "ML Color + AOV"
+        ],
+        "scene": "Bathroom.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.contourIsEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseObjectID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseMaterialID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseShadingNormal', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserColorOnly', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "skip_engine": [
+            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CNT_022",
+        "status": "active",
+        "script_info": [
+            "Object +",
+            "Material +",
+            "Normal +",
+            "Camera type - Spherical Panorama"
+        ],
+        "scene": "Bathroom.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.contourIsEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseObjectID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseMaterialID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseShadingNormal', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.cameraType', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.cameraType', 0)"
+        ],
+        "skip_engine": [
+            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CNT_023",
+        "status": "active",
+        "script_info": [
+            "Object +",
+            "Material +",
+            "Normal +",
+            "Motion Blur"
+        ],
+        "scene": "Bathroom.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.contourIsEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseObjectID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseMaterialID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseShadingNormal', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.motionBlur', 1)",
+            "cmds.currentTime(10)",
+            "rpr_render(case)",
+            "cmds.currentTime(3)",
+            "cmds.setAttr('RadeonProRenderGlobals.motionBlur', 0)"
+        ],
+        "skip_engine": [
+            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
+        ],
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
+        ]
+    },
+    {
+        "case": "MAYA_RS_CNT_024",
+        "status": "active",
+        "script_info": [
+            "Object +",
+            "Material +",
+            "Normal +",
+            "Contour visibility disabled in Object"
+        ],
+        "scene": "Bathroom.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.contourIsEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseObjectID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseMaterialID', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.contourUseShadingNormal', 1)",
+            "cmds.setAttr('lamp_obj_02.RPRContourVisibility', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('lamp_obj_02.RPRContourVisibility', 1)"
+        ],
+        "skip_engine": [
+            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
+        ]
+    }
+]

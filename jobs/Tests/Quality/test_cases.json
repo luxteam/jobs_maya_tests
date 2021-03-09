@@ -4,195 +4,183 @@
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxRayDepth', 2)",
-            "rpr_render(case)",
-            "resetAttributes()"
+            "rpr_render(case)"
         ],
         "script_info": [
             "Max Ray Depth - 2"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "RayDepth.ma"
     },
     {
         "case": "MAYA_RS_QL_002",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxRayDepth', 50)",
-            "rpr_render(case)",
-            "resetAttributes()"
+            "rpr_render(case)"
         ],
         "script_info": [
             "Max Ray Depth - 50"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "RayDepth.ma"
     },
     {
         "case": "MAYA_RS_QL_003",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthDiffuse', 2)",
-            "rpr_render(case)",
-            "resetAttributes()"
+            "rpr_render(case)"
         ],
         "script_info": [
             "Max Diffuse - 2"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "Diffuse_ray_depth.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_QL_004",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthDiffuse', 50)",
-            "rpr_render(case)",
-            "resetAttributes()"
+            "rpr_render(case)"
         ],
         "script_info": [
             "Max Diffuse - 50"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "Diffuse_ray_depth.ma"
     },
     {
         "case": "MAYA_RS_QL_005",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthGlossy', 2)",
-            "rpr_render(case)",
-            "resetAttributes()"
+            "rpr_render(case)"
         ],
         "script_info": [
             "Max Glossy - 2"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "Glossy_ray_depth.ma"
     },
     {
         "case": "MAYA_RS_QL_006",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthGlossy', 50)",
-            "rpr_render(case)",
-            "resetAttributes()"
+            "rpr_render(case)"
         ],
         "script_info": [
             "Max Glossy - 50"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "Glossy_ray_depth.ma"
     },
     {
         "case": "MAYA_RS_QL_007",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthRefraction', 2)",
-            "rpr_render(case)",
-            "resetAttributes()"
+            "rpr_render(case)"
         ],
         "script_info": [
             "Max Refraction - 2"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "Refraction_ray_depth.ma"
     },
     {
         "case": "MAYA_RS_QL_008",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthRefraction', 50)",
-            "rpr_render(case)",
-            "resetAttributes()"
+            "rpr_render(case)"
         ],
         "script_info": [
             "Max Refraction - 50"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "Refraction_ray_depth.ma"
     },
     {
         "case": "MAYA_RS_QL_009",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthRefractionGlossy', 2)",
-            "rpr_render(case)",
-            "resetAttributes()"
+            "rpr_render(case)"
         ],
         "script_info": [
             "Max Glossy Refraction - 2"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "Refraction_ray_depth.ma"
     },
     {
         "case": "MAYA_RS_QL_010",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthRefractionGlossy', 50)",
-            "rpr_render(case)",
-            "resetAttributes()"
+            "rpr_render(case)"
         ],
         "script_info": [
             "Max Glossy Refraction - 50"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "Refraction_ray_depth.ma"
     },
     {
         "case": "MAYA_RS_QL_011",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthShadow', 2)",
-            "rpr_render(case)",
-            "resetAttributes()"
+            "rpr_render(case)"
         ],
         "script_info": [
             "Max Shadow - 2"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "Shadow_ray_depth.ma"
     },
     {
         "case": "MAYA_RS_QL_012",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthShadow', 50)",
-            "rpr_render(case)",
-            "resetAttributes()"
+            "rpr_render(case)"
         ],
         "script_info": [
             "Max Shadow - 50"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "Shadow_ray_depth.ma"
     },
     {
         "case": "MAYA_RS_QL_013",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.raycastEpsilon', 0)",
-            "rpr_render(case)",
-            "resetAttributes()"
+            "rpr_render(case)"
         ],
         "script_info": [
             "Ray Epsilon - 0"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "Ray_epsilon.ma"
     },
     {
         "case": "MAYA_RS_QL_014",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.raycastEpsilon', 2)",
-            "rpr_render(case)",
-            "resetAttributes()"
+            "rpr_render(case)"
         ],
         "script_info": [
             "Ray Epsilon - 2"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "Ray_epsilon.ma"
     },
     {
         "case": "MAYA_RS_QL_015",
         "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.enableOOC', 1)",
-            "rpr_render(case)",
-            "resetAttributes()"
+            "rpr_render(case)"
         ],
         "script_info": [
             "Activate Enable Out of Core Textures checkbox"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "Ray_epsilon.ma"
     },
     {
         "case": "MAYA_RS_QL_016",
@@ -200,18 +188,17 @@
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.enableOOC', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.textureCacheSize', 4096)",
-            "rpr_render(case)",
-            "resetAttributes()"
+            "rpr_render(case)"
         ],
         "script_info": [
             "Activate Enable Out of Core Textures checkbox",
             "GPU texture cache (MB) - 4096"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "Ray_epsilon.ma"
     },
     {
         "case": "MAYA_RS_QL_017",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxRayDepth', 2)",
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthDiffuse', 2)",
@@ -220,8 +207,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthRefractionGlossy', 2)",
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthShadow', 2)",
             "cmds.setAttr('RadeonProRenderGlobals.raycastEpsilon', 0)",
-            "rpr_render(case)",
-            "resetAttributes()"
+            "rpr_render(case)"
         ],
         "script_info": [
             "Max Ray Depth - 2",
@@ -232,7 +218,7 @@
             "Max Shadow - 0",
             "Ray Epsilon - 0"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "ComplexLighting.ma"
     },
     {
         "case": "MAYA_RS_QL_018",
@@ -245,8 +231,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthRefractionGlossy', 50)",
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthShadow', 50)",
             "cmds.setAttr('RadeonProRenderGlobals.raycastEpsilon', 2)",
-            "rpr_render(case)",
-            "resetAttributes()"
+            "rpr_render(case)"
         ],
         "script_info": [
             "Max Ray Depth - 2",
@@ -257,7 +242,10 @@
             "Max Shadow - 0",
             "Ray Epsilon - 0"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "ComplexLighting.ma",
+        "skip_config": [
+            ["Radeon RX Vega"]
+        ]
     },
     {
         "case": "MAYA_RS_QL_019",
@@ -265,13 +253,12 @@
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.giClampIrradiance', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.giClampIrradianceValue', 50)",
-            "rpr_render(case)",
-            "resetAttributes()"
+            "rpr_render(case)"
         ],
         "script_info": [
             "Clamp Irradience Value - 50"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "Clamp.ma"
     },
     {
         "case": "MAYA_RS_QL_020",
@@ -279,13 +266,12 @@
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.giClampIrradiance', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.giClampIrradianceValue', 100)",
-            "rpr_render(case)",
-            "resetAttributes()"
+            "rpr_render(case)"
         ],
         "script_info": [
             "Clamp Irradience Value - 100"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "Clamp.ma"
     },
     {
         "case": "MAYA_RS_QL_021",
@@ -294,14 +280,13 @@
             "cmds.setAttr('RadeonProRenderGlobals.giClampIrradiance', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.giClampIrradianceValue', 50)",
             "cmds.setAttr('RadeonProRenderGlobals.textureCompression', 1)",
-            "rpr_render(case)",
-            "resetAttributes()"
+            "rpr_render(case)"
         ],
         "script_info": [
             "Activate Enable Out of Core Textures checkbox",
             "Clamp Irradience Value - 50"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "Clamp.ma"
     },
     {
         "case": "MAYA_RS_QL_022",
@@ -310,13 +295,12 @@
             "cmds.setAttr('RadeonProRenderGlobals.giClampIrradiance', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.giClampIrradianceValue', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.textureCompression', 1)",
-            "rpr_render(case)",
-            "resetAttributes()"
+            "rpr_render(case)"
         ],
         "script_info": [
             "Activate Enable Out of Core Textures checkbox",
             "Clamp Irradience Value - 100"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "Clamp.ma"
     }
 ]

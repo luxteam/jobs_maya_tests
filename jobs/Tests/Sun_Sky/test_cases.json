@@ -14,8 +14,8 @@
         ],
         "script_info": [
             "Turbidity - 0",
-            "Filter Color - HSV: 0, 0, 1",
-            "Ground Color - HSV: 0, 0, 1",
+            "Filter Color - HSV: 1, 1, 1",
+            "Ground Color - HSV: 1, 1, 1",
             "Sun Glow - 0",
             "Sun Disk Size - 0"
         ],
@@ -29,7 +29,7 @@
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.turbidity', 0)",
             "cmds.setAttr(ss_shape + '.intensity', 1)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.tga')",
+            "cmds.setAttr(ss_shape + '.filterColor', 1, 0, 0, type='double3'",
             "cmds.setAttr(ss_shape + '.groundColor', 0, 0, 0, type='double3')",
             "cmds.setAttr(ss_shape + '.sunGlow', 50)",
             "cmds.setAttr(ss_shape + '.sunDiskSize', 10)",
@@ -38,12 +38,15 @@
         "script_info": [
             "Intensity - 1",
             "Turbidity - 0",
-            "Filter Color - sunsky_filtercolor.tga",
+            "Filter Color - HSV: 1, 0, 0",
             "Ground Color - HSV: 0, 0, 0",
             "Sun Glow - 50",
             "Sun Disk Size - 10"
         ],
-        "scene": "Sun_Sky.ma"
+        "scene": "Sun_Sky.ma",
+        "skip_engine": [
+            "Hybrid_Medium"
+        ]
     },
     {
         "case": "MAYA_RS_SS_065",
@@ -53,16 +56,16 @@
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.turbidity', 0)",
             "cmds.setAttr(ss_shape + '.intensity', 1)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.png')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.png')",
+            "cmds.setAttr(ss_shape + '.filterColor', 0, 1, 0, type='double3'",
+            "cmds.setAttr(ss_shape + '.groundColor', 0.5, 0.5, 0.5, type='double3'",
             "cmds.setAttr(ss_shape + '.sunGlow', 100)",
             "rpr_render(case)"
         ],
         "script_info": [
             "Intensity - 1",
             "Turbidity - 0",
-            "Filter Color - sunsky_filtercolor.png",
-            "Ground Color - sunsky_groundcolor.png",
+            "Filter Color - HSV: 0, 1, 0",
+            "Ground Color - HSV: 0.5, 0.5, 0.5",
             "Sun Glow - 100"
         ],
         "scene": "Sun_Sky.ma"
@@ -75,16 +78,16 @@
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.turbidity', 50)",
             "cmds.setAttr(ss_shape + '.intensity', 2)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.png')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.png')",
+            "cmds.setAttr(ss_shape + '.filterColor', 0, 1, 0, type='double3'",
+            "cmds.setAttr(ss_shape + '.groundColor', 0.5, 0.5, 0.5, type='double3'",
             "cmds.setAttr(ss_shape + '.sunDiskSize', 0)",
             "rpr_render(case)"
         ],
         "script_info": [
             "Intensity - 2",
             "Turbidity - 50",
-            "Filter Color - sunsky_filtercolor.png",
-            "Ground Color - sunsky_groundcolor.png",
+            "Filter Color - HSV:  0, 1, 0",
+            "Ground Color - HSV: 0.5, 0.5, 0.5",
             "Sun Disk Size - 0"
         ],
         "scene": "Sun_Sky.ma"
@@ -97,8 +100,8 @@
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.turbidity', 50)",
             "cmds.setAttr(ss_shape + '.intensity', 1)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.tga')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.tga')",
+            "cmds.setAttr(ss_shape + '.filterColor', 1, 0, 0, type='double3'",
+            "cmds.setAttr(ss_shape + '.groundColor', 1, 1, 1, type='double3'",
             "cmds.setAttr(ss_shape + '.sunGlow', 0)",
             "cmds.setAttr(ss_shape + '.sunDiskSize', 10)",
             "rpr_render(case)"
@@ -106,8 +109,8 @@
         "script_info": [
             "Intensity - 1",
             "Turbidity - 50",
-            "Filter Color - sunsky_filtercolor.tga",
-            "Ground Color - sunsky_groundcolor.tga",
+            "Filter Color - HSV: 1, 0, 0",
+            "Ground Color - HSV: 1, 1, 1",
             "Sun Glow - 0",
             "Sun Disk Size - 10"
         ],
@@ -120,15 +123,15 @@
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.turbidity', 50)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.png')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.png')",
+            "cmds.setAttr(ss_shape + '.filterColor', 0, 1, 0, type='double3'",
+            "cmds.setAttr(ss_shape + '.groundColor', 0.5, 0.5, 0.5, type='double3'",
             "cmds.setAttr(ss_shape + '.sunGlow', 50)",
             "rpr_render(case)"
         ],
         "script_info": [
             "Turbidity - 50",
-            "Filter Color - sunsky_filtercolor.png",
-            "Ground Color - sunsky_groundcolor.png",
+            "Filter Color - HSV: 0, 1, 0",
+            "Ground Color - HSV: 0.5, 0.5, 0.5",
             "Sun Glow - 50"
         ],
         "scene": "Sun_Sky.ma"
@@ -146,7 +149,7 @@
         ],
         "script_info": [
             "Turbidity - 50",
-            "Ground Color - HSV: 0, 0, 1",
+            "Ground Color - HSV: 1, 1, 1",
             "Sun Glow - 100"
         ],
         "scene": "Sun_Sky.ma"
@@ -164,7 +167,7 @@
         ],
         "script_info": [
             "Turbidity - 50",
-            "Filter Color - HSV: 0, 0, 1",
+            "Filter Color - HSV: 1, 1, 1",
             "Ground Color - HSV: 0, 0, 0"
         ],
         "scene": "Sun_Sky.ma"
@@ -176,16 +179,19 @@
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.turbidity', 50)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.tga')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.tga')",
+            "cmds.setAttr(ss_shape + '.filterColor', 1, 0, 0, type='double3'",
+            "cmds.setAttr(ss_shape + '.groundColor', 1, 1, 1, type='double3'",
             "rpr_render(case)"
         ],
         "script_info": [
             "Turbidity - 50",
-            "Filter Color - sunsky_filtercolor.tga",
-            "Ground Color - sunsky_groundcolor.tga"
+            "Filter Color - HSV: 1, 0, 0",
+            "Ground Color - HSV: 1, 1, 1"
         ],
-        "scene": "Sun_Sky.ma"
+        "scene": "Sun_Sky.ma",
+        "skip_engine": [
+            "Hybrid_Medium"
+        ]
     },
     {
         "case": "MAYA_RS_SS_072",
@@ -194,15 +200,15 @@
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.intensity', 3)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.png')",
+            "cmds.setAttr(ss_shape + '.filterColor', 0, 1, 0, type='double3'",
             "cmds.setAttr(ss_shape + '.groundColor', 1, 1, 1, type='double3')",
             "cmds.setAttr(ss_shape + '.sunDiskSize', 0)",
             "rpr_render(case)"
         ],
         "script_info": [
             "Intensity - 3",
-            "Filter Color - sunsky_filtercolor.png",
-            "Ground Color - HSV: 0, 0, 1",
+            "Filter Color - HSV: 0, 1, 0",
+            "Ground Color - HSV: 1, 1, 1",
             "Sun Disk Size - 0"
         ],
         "scene": "Sun_Sky.ma"
@@ -230,13 +236,13 @@
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.filterColor', 1, 1, 1, type='double3')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.tga')",
+            "cmds.setAttr(ss_shape + '.groundColor', 1, 1, 1, type='double3'",
             "cmds.setAttr(ss_shape + '.sunGlow', 0)",
             "rpr_render(case)"
         ],
         "script_info": [
-            "Filter Color - HSV: 0, 0, 1",
-            "Ground Color - sunsky_groundcolor.tga",
+            "Filter Color - HSV: 1, 1, 1",
+            "Ground Color - HSV: 1, 1, 1",
             "Sun Glow - 0"
         ],
         "scene": "Sun_Sky.ma"
@@ -247,14 +253,14 @@
         "functions": [
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.tga')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.png')",
+            "cmds.setAttr(ss_shape + '.filterColor', 1, 0, 0, type='double3'",
+            "cmds.setAttr(ss_shape + '.groundColor', 0.5, 0.5, 0.5, type='double3'",
             "cmds.setAttr(ss_shape + '.sunGlow', 50)",
             "rpr_render(case)"
         ],
         "script_info": [
-            "Filter Color - sunsky_filtercolor.tga",
-            "Ground Color - sunsky_groundcolor.png",
+            "Filter Color - HSV: 1, 0, 0",
+            "Ground Color - HSV: 0.5, 0.5, 0.5",
             "Sun Glow - 50"
         ],
         "scene": "Sun_Sky.ma"
@@ -266,15 +272,15 @@
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.intensity', 0.1)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.png')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.tga')",
+            "cmds.setAttr(ss_shape + '.filterColor', 0, 1, 0, type='double3'",
+            "cmds.setAttr(ss_shape + '.groundColor', 1, 1, 1, type='double3'",
             "cmds.setAttr(ss_shape + '.sunGlow', 100)",
             "rpr_render(case)"
         ],
         "script_info": [
             "Intensity - 0.1",
-            "Filter Color - sunsky_filtercolor.png",
-            "Ground Color - sunsky_groundcolor.tga",
+            "Filter Color - HSV: 0, 1, 0",
+            "Ground Color - HSV: 1, 1, 1",
             "Sun Glow - 100"
         ],
         "scene": "Sun_Sky.ma"
@@ -286,14 +292,14 @@
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.intensity', 1)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.tga')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.png')",
+            "cmds.setAttr(ss_shape + '.filterColor', 1, 0, 0, type='double3'",
+            "cmds.setAttr(ss_shape + '.groundColor', 0.5, 0.5, 0.5, type='double3'",
             "rpr_render(case)"
         ],
         "script_info": [
             "Intensity - 1",
-            "Filter Color - sunsky_filtercolor.tga",
-            "Ground Color - sunsky_groundcolor.png"
+            "Filter Color - HSV: 1, 0, 0",
+            "Ground Color - HSV: 0.5, 0.5, 0.5"
         ],
         "scene": "Sun_Sky.ma"
     },
@@ -304,13 +310,13 @@
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.filterColor', 1, 1, 1, type='double3')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.png')",
+            "cmds.setAttr(ss_shape + '.groundColor', 0.5, 0.5, 0.5, type='double3'",
             "cmds.setAttr(ss_shape + '.sunDiskSize', 0)",
             "rpr_render(case)"
         ],
         "script_info": [
-            "Filter Color - HSV: 0, 0, 1",
-            "Ground Color - sunsky_groundcolor.png",
+            "Filter Color - HSV: 1, 1, 1",
+            "Ground Color - HSV: 0.5, 0.5, 0.5",
             "Sun Disk Size - 0"
         ],
         "scene": "Sun_Sky.ma"
@@ -321,17 +327,20 @@
         "functions": [
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.tga')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.tga')",
+            "cmds.setAttr(ss_shape + '.filterColor', 1, 0, 0, type='double3'",
+            "cmds.setAttr(ss_shape + '.groundColor', 1, 1, 1, type='double3'",
             "cmds.setAttr(ss_shape + '.sunDiskSize', 10)",
             "rpr_render(case)"
         ],
         "script_info": [
-            "Filter Color - sunsky_filtercolor.tga",
-            "Ground Color - sunsky_groundcolor.tga",
+            "Filter Color - HSV: 1, 0, 0",
+            "Ground Color - HSV: 1, 1, 1",
             "Sun Disk Size - 10"
         ],
-        "scene": "Sun_Sky.ma"
+        "scene": "Sun_Sky.ma",
+        "skip_engine": [
+            "Hybrid_Medium"
+        ]
     },
     {
         "case": "MAYA_RS_SS_080",
@@ -339,13 +348,13 @@
         "functions": [
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.png')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.png')",
+            "cmds.setAttr(ss_shape + '.filterColor', 0, 1, 0, type='double3'",
+            "cmds.setAttr(ss_shape + '.groundColor', 0.5, 0.5, 0.5, type='double3'",
             "rpr_render(case)"
         ],
         "script_info": [
-            "Filter Color - sunsky_filtercolor.png",
-            "Ground Color - sunsky_groundcolor.png"
+            "Filter Color - HSV: 0, 1, 0",
+            "Ground Color - HSV: 0.5, 0.5, 0.5"
         ],
         "scene": "Sun_Sky.ma"
     },
@@ -356,15 +365,15 @@
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.intensity', 0.1)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.tga')",
+            "cmds.setAttr(ss_shape + '.filterColor', 1, 0, 0, type='double3'",
             "cmds.setAttr(ss_shape + '.groundColor', 1, 1, 1, type='double3')",
             "cmds.setAttr(ss_shape + '.sunGlow', 0)",
             "rpr_render(case)"
         ],
         "script_info": [
             "Intensity - 0.1",
-            "Filter Color - sunsky_filtercolor.tga",
-            "Ground Color - HSV: 0, 0, 1",
+            "Filter Color - HSV: 1, 0, 0",
+            "Ground Color - HSV: 1, 1, 1",
             "Sun Glow - 0"
         ],
         "scene": "Sun_Sky.ma"
@@ -376,14 +385,14 @@
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.intensity', 2)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.png')",
+            "cmds.setAttr(ss_shape + '.filterColor', 0, 1, 0, type='double3'",
             "cmds.setAttr(ss_shape + '.groundColor', 0, 0, 0, type='double3')",
             "cmds.setAttr(ss_shape + '.sunGlow', 50)",
             "rpr_render(case)"
         ],
         "script_info": [
             "Intensity - 2",
-            "Filter Color - sunsky_filtercolor.png",
+            "Filter Color - HSV: 0, 1, 0",
             "Ground Color - HSV: 0, 0, 0",
             "Sun Glow - 50"
         ],
@@ -396,13 +405,13 @@
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.intensity', 10)",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.tga')",
+            "cmds.setAttr(ss_shape + '.groundColor', 1, 1, 1, type='double3'",
             "cmds.setAttr(ss_shape + '.sunGlow', 100)",
             "rpr_render(case)"
         ],
         "script_info": [
             "Intensity - 10",
-            "Ground Color - sunsky_groundcolor.tga",
+            "Ground Color - HSV: 1, 1, 1",
             "Sun Glow - 100"
         ],
         "scene": "Sun_Sky.ma"
@@ -413,15 +422,15 @@
         "functions": [
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.png')",
+            "cmds.setAttr(ss_shape + '.filterColor', 0, 1, 0, type='double3'",
             "cmds.setAttr(ss_shape + '.groundColor', 1, 1, 1, type='double3')",
             "cmds.setAttr(ss_shape + '.sunGlow', 100)",
             "cmds.setAttr(ss_shape + '.sunDiskSize', 0)",
             "rpr_render(case)"
         ],
         "script_info": [
-            "Filter Color - sunsky_filtercolor.png",
-            "Ground Color - HSV: 0, 0, 1",
+            "Filter Color - HSV: 0, 1, 0",
+            "Ground Color - HSV: 1, 1, 1",
             "Sun Glow - 100",
             "Sun Disk Size - 0"
         ],
@@ -433,13 +442,13 @@
         "functions": [
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.tga')",
+            "cmds.setAttr(ss_shape + '.filterColor', 1, 0, 0, type='double3'",
             "cmds.setAttr(ss_shape + '.groundColor', 0, 0, 0, type='double3')",
             "cmds.setAttr(ss_shape + '.sunDiskSize', 10)",
             "rpr_render(case)"
         ],
         "script_info": [
-            "Filter Color - sunsky_filtercolor.tga",
+            "Filter Color - HSV: 1, 0, 0",
             "Ground Color - HSV: 0, 0, 0",
             "Sun Disk Size - 10"
         ],
@@ -452,14 +461,14 @@
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.intensity', 1)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.png')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.tga')",
+            "cmds.setAttr(ss_shape + '.filterColor', 0, 1, 0, type='double3'",
+            "cmds.setAttr(ss_shape + '.groundColor', 1, 1, 1, type='double3'",
             "rpr_render(case)"
         ],
         "script_info": [
             "Intensity - 1",
-            "Filter Color - sunsky_filtercolor.png",
-            "Ground Color - sunsky_groundcolor.tga"
+            "Filter Color - HSV: 0, 1, 0",
+            "Ground Color - HSV: 1, 1, 1"
         ],
         "scene": "Sun_Sky.ma"
     },
@@ -470,12 +479,12 @@
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.intensity', 2)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.png')",
+            "cmds.setAttr(ss_shape + '.filterColor', 0, 1, 0, type='double3'",
             "rpr_render(case)"
         ],
         "script_info": [
             "Intensity - 2",
-            "Filter Color - sunsky_filtercolor.png"
+            "Filter Color - HSV: 0, 1, 0"
         ],
         "scene": "Sun_Sky.ma"
     },
@@ -487,14 +496,14 @@
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.intensity', 1)",
             "cmds.setAttr(ss_shape + '.filterColor', 1, 1, 1, type='double3')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.tga')",
+            "cmds.setAttr(ss_shape + '.groundColor', 1, 1, 1, type='double3'",
             "cmds.setAttr(ss_shape + '.sunGlow', 0)",
             "rpr_render(case)"
         ],
         "script_info": [
             "Intensity - 1",
-            "Filter Color - HSV: 0, 0, 1",
-            "Ground Color - sunsky_groundcolor.tga",
+            "Filter Color - HSV: 1, 1, 1",
+            "Ground Color - HSV: 1, 1, 1",
             "Sun Glow - 0"
         ],
         "scene": "Sun_Sky.ma"
@@ -505,14 +514,14 @@
         "functions": [
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.tga')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.png')",
+            "cmds.setAttr(ss_shape + '.filterColor', 1, 0, 0, type='double3'",
+            "cmds.setAttr(ss_shape + '.groundColor', 0.5, 0.5, 0.5, type='double3'",
             "cmds.setAttr(ss_shape + '.sunGlow', 50)",
             "rpr_render(case)"
         ],
         "script_info": [
-            "Filter Color - sunsky_filtercolor.tga",
-            "Ground Color - sunsky_groundcolor.png",
+            "Filter Color - HSV: 1, 0, 0",
+            "Ground Color - HSV: 0.5, 0.5, 0.5",
             "Sun Glow - 50"
         ],
         "scene": "Sun_Sky.ma"
@@ -523,15 +532,15 @@
         "functions": [
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.png')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.png')",
+            "cmds.setAttr(ss_shape + '.filterColor', 0, 1, 0, type='double3'",
+            "cmds.setAttr(ss_shape + '.groundColor', 0.5, 0.5, 0.5, type='double3'",
             "cmds.setAttr(ss_shape + '.sunGlow', 50)",
             "cmds.setAttr(ss_shape + '.sunDiskSize', 0)",
             "rpr_render(case)"
         ],
         "script_info": [
-            "Filter Color - sunsky_filtercolor.png",
-            "Ground Color - sunsky_groundcolor.png",
+            "Filter Color - HSV: 0, 1, 0",
+            "Ground Color - HSV: 0.5, 0.5, 0.5",
             "Sun Glow - 50",
             "Sun Disk Size - 0"
         ],
@@ -544,14 +553,14 @@
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.intensity', 0.1)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.tga')",
+            "cmds.setAttr(ss_shape + '.filterColor', 1, 0, 0, type='double3'",
             "cmds.setAttr(ss_shape + '.sunGlow', 100)",
             "cmds.setAttr(ss_shape + '.sunDiskSize', 10)",
             "rpr_render(case)"
         ],
         "script_info": [
             "Intensity - 0.1",
-            "Filter Color - sunsky_filtercolor.tga",
+            "Filter Color - HSV: 1, 0, 0",
             "Sun Glow - 100",
             "Sun Disk Size - 10"
         ],
@@ -565,13 +574,13 @@
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.intensity', 2)",
             "cmds.setAttr(ss_shape + '.filterColor', 1, 1, 1, type='double3')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.png')",
+            "cmds.setAttr(ss_shape + '.groundColor', 0.5, 0.5, 0.5, type='double3'",
             "rpr_render(case)"
         ],
         "script_info": [
             "Intensity - 2",
-            "Filter Color - HSV: 0, 0, 1",
-            "Ground Color - sunsky_groundcolor.png"
+            "Filter Color - HSV: 1, 1, 1",
+            "Ground Color - HSV: 0.5, 0.5, 0.5"
         ],
         "scene": "Sun_Sky.ma"
     },
@@ -582,14 +591,14 @@
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.intensity', 10)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.tga')",
+            "cmds.setAttr(ss_shape + '.filterColor', 1, 0, 0, type='double3'",
             "cmds.setAttr(ss_shape + '.groundColor', 1, 1, 1, type='double3')",
             "rpr_render(case)"
         ],
         "script_info": [
             "Intensity - 10",
-            "Filter Color - sunsky_filtercolor.tga",
-            "Ground Color - HSV: 0, 0, 1"
+            "Filter Color - HSV: 1, 0, 0",
+            "Ground Color - HSV: 1, 1, 1"
         ],
         "scene": "Sun_Sky.ma"
     },
@@ -599,12 +608,12 @@
         "functions": [
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.png')",
+            "cmds.setAttr(ss_shape + '.filterColor', 0, 1, 0, type='double3'",
             "cmds.setAttr(ss_shape + '.groundColor', 0, 0, 0, type='double3')",
             "rpr_render(case)"
         ],
         "script_info": [
-            "Filter Color - sunsky_filtercolor.png",
+            "Filter Color - HSV: 0, 1, 0",
             "Ground Color - HSV: 0, 0, 0"
         ],
         "scene": "Sun_Sky.ma"
@@ -615,14 +624,14 @@
         "functions": [
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.tga')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.tga')",
+            "cmds.setAttr(ss_shape + '.filterColor', 1, 0, 0, type='double3'",
+            "cmds.setAttr(ss_shape + '.groundColor', 1, 1, 1, type='double3'",
             "cmds.setAttr(ss_shape + '.sunGlow', 0)",
             "rpr_render(case)"
         ],
         "script_info": [
-            "Filter Color - sunsky_filtercolor.tga",
-            "Ground Color - sunsky_groundcolor.tga",
+            "Filter Color - HSV: 1, 0, 0",
+            "Ground Color - HSV: 1, 1, 1",
             "Sun Glow - 0"
         ],
         "scene": "Sun_Sky.ma"
@@ -743,6 +752,7 @@
             "rpr_render(case)"
         ],
         "script_info": [
+            "Black image expected",
             "Intensity - 1",
             "Sun Position - Altitude & Azimuth",
             "Altitude - 0"
@@ -914,8 +924,8 @@
         "script_info": [
             "Intensity - 1",
             "Turbidity - 0",
-            "Filter Color - HSV: 0, 0, 1",
-            "Ground Color - HSV: 0, 0, 1",
+            "Filter Color - HSV: 1, 1, 1",
+            "Ground Color - HSV: 1, 1, 1",
             "Sun Glow - 0",
             "Sun Disk Size - 0",
             "Sun Position - Time Location",
@@ -932,7 +942,7 @@
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.turbidity', 0)",
             "cmds.setAttr(ss_shape + '.intensity', 1)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.tga')",
+            "cmds.setAttr(ss_shape + '.filterColor', 1, 0, 0, type='double3'",
             "cmds.setAttr(ss_shape + '.groundColor', 0, 0, 0, type='double3')",
             "cmds.setAttr(ss_shape + '.sunGlow', 50)",
             "cmds.setAttr(ss_shape + '.sunDiskSize', 10)",
@@ -945,7 +955,7 @@
         "script_info": [
             "Intensity - 1",
             "Turbidity - 0",
-            "Filter Color - sunsky_filtercolor.tga",
+            "Filter Color - HSV: 1, 0, 0",
             "Ground Color - HSV: 0, 0, 0",
             "Sun Glow - 50",
             "Sun Disk Size - 10",
@@ -964,8 +974,8 @@
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.turbidity', 0)",
             "cmds.setAttr(ss_shape + '.intensity', 0.1)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.png')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.tga')",
+            "cmds.setAttr(ss_shape + '.filterColor', 0, 1, 0, type='double3'",
+            "cmds.setAttr(ss_shape + '.groundColor', 1, 1, 1, type='double3'",
             "cmds.setAttr(ss_shape + '.sunGlow', 100)",
             "cmds.setAttr(ss_shape + '.sunPositionType', 1)",
             "cmds.setAttr(ss_shape + '.year', -2000)",
@@ -974,10 +984,11 @@
             "rpr_render(case)"
         ],
         "script_info": [
+            "Black image expected",
             "Intensity - 0.1",
             "Turbidity - 0",
-            "Filter Color - sunsky_filtercolor.png",
-            "Ground Color - sunsky_groundcolor.tga",
+            "Filter Color - HSV: 0, 1, 0",
+            "Ground Color - HSV: 1, 1, 1",
             "Sun Glow - 100",
             "Sun Position - Time Location",
             "Year - -2000",
@@ -994,8 +1005,8 @@
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.turbidity', 50)",
             "cmds.setAttr(ss_shape + '.intensity', 2)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.png')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.png')",
+            "cmds.setAttr(ss_shape + '.filterColor', 0, 1, 0, type='double3'",
+            "cmds.setAttr(ss_shape + '.groundColor', 0.5, 0.5, 0.5, type='double3'",
             "cmds.setAttr(ss_shape + '.sunDiskSize', 0)",
             "cmds.setAttr(ss_shape + '.sunPositionType', 1)",
             "cmds.setAttr(ss_shape + '.month', 1)",
@@ -1006,8 +1017,8 @@
         "script_info": [
             "Intensity - 2",
             "Turbidity - 50",
-            "Filter Color - sunsky_filtercolor.png",
-            "Ground Color - sunsky_groundcolor.png",
+            "Filter Color - HSV: 0, 1, 0",
+            "Ground Color - HSV: 0.5, 0.5, 0.5",
             "Sun Disk Size - 0",
             "Sun Position - Time Location",
             "Month - 1",
@@ -1024,8 +1035,8 @@
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.turbidity', 50)",
             "cmds.setAttr(ss_shape + '.intensity', 1)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.tga')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.tga')",
+            "cmds.setAttr(ss_shape + '.filterColor', 1, 0, 0, type='double3'",
+            "cmds.setAttr(ss_shape + '.groundColor', 1, 1, 1, type='double3'",
             "cmds.setAttr(ss_shape + '.sunGlow', 0)",
             "cmds.setAttr(ss_shape + '.sunDiskSize', 10)",
             "cmds.setAttr(ss_shape + '.sunPositionType', 1)",
@@ -1037,8 +1048,8 @@
         "script_info": [
             "Intensity - 1",
             "Turbidity - 50",
-            "Filter Color - sunsky_filtercolor.tga",
-            "Ground Color - sunsky_groundcolor.tga",
+            "Filter Color - HSV: 1, 0, 0",
+            "Ground Color - HSV: 1, 1, 1",
             "Sun Glow - 0",
             "Sun Disk Size - 10",
             "Sun Position - Time Location",
@@ -1056,8 +1067,8 @@
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.turbidity', 50)",
             "cmds.setAttr(ss_shape + '.intensity', 0.1)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.tga')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.tga')",
+            "cmds.setAttr(ss_shape + '.filterColor', 1, 0, 0, type='double3'",
+            "cmds.setAttr(ss_shape + '.groundColor', 1, 1, 1, type='double3'",
             "cmds.setAttr(ss_shape + '.sunPositionType', 1)",
             "cmds.setAttr(ss_shape + '.day', 31)",
             "cmds.setAttr(ss_shape + '.seconds', 60)",
@@ -1065,10 +1076,11 @@
             "rpr_render(case)"
         ],
         "script_info": [
+            "Black image expected",
             "Intensity - 0.1",
             "Turbidity - 50",
-            "Filter Color - sunsky_filtercolor.tga",
-            "Ground Color - sunsky_groundcolor.tga",
+            "Filter Color - HSV: 1, 0, 0",
+            "Ground Color - HSV: 1, 1, 1",
             "Sun Position - Time Location",
             "Day - 31",
             "Seconds - 60",
@@ -1083,7 +1095,7 @@
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.intensity', 1)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.png')",
+            "cmds.setAttr(ss_shape + '.filterColor', 0, 1, 0, type='double3'",
             "cmds.setAttr(ss_shape + '.groundColor', 1, 1, 1, type='double3')",
             "cmds.setAttr(ss_shape + '.sunDiskSize', 0)",
             "cmds.setAttr(ss_shape + '.sunPositionType', 1)",
@@ -1096,8 +1108,8 @@
         ],
         "script_info": [
             "Intensity - 1",
-            "Filter Color - sunsky_filtercolor.png",
-            "Ground Color - HSV: 0, 0, 1",
+            "Filter Color - HSV: 0, 1, 0",
+            "Ground Color - HSV: 1, 1, 1",
             "Sun Disk Size - 0",
             "Sun Position - Time Location",
             "Month - 1",
@@ -1115,8 +1127,8 @@
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.intensity', 1)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.png')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.tga')",
+            "cmds.setAttr(ss_shape + '.filterColor', 0, 1, 0, type='double3'",
+            "cmds.setAttr(ss_shape + '.groundColor', 1, 1, 1, type='double3'",
             "cmds.setAttr(ss_shape + '.sunGlow', 100)",
             "cmds.setAttr(ss_shape + '.sunPositionType', 1)",
             "cmds.setAttr(ss_shape + '.month', 12)",
@@ -1127,8 +1139,8 @@
         ],
         "script_info": [
             "Intensity - 1",
-            "Filter Color - sunsky_filtercolor.png",
-            "Ground Color - sunsky_groundcolor.tga",
+            "Filter Color - HSV: 0, 1, 0",
+            "Ground Color - HSV: 1, 1, 1",
             "Sun Glow - 100",
             "Sun Position - Time Location",
             "Month - 12",
@@ -1145,15 +1157,15 @@
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.intensity', 2)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.tga')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.png')",
+            "cmds.setAttr(ss_shape + '.filterColor', 1, 0, 0, type='double3'",
+            "cmds.setAttr(ss_shape + '.groundColor', 0.5, 0.5, 0.5, type='double3'",
             "cmds.setAttr(ss_shape + '.sunPositionType', 1)",
             "rpr_render(case)"
         ],
         "script_info": [
             "Intensity - 2",
-            "Filter Color - sunsky_filtercolor.tga",
-            "Ground Color - sunsky_groundcolor.png",
+            "Filter Color - HSV: 1, 0, 0",
+            "Ground Color - HSV: 0.5, 0.5, 0.5",
             "Sun Position - Time Location"
         ],
         "scene": "Sun_Sky.ma"
@@ -1165,7 +1177,7 @@
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.intensity', 1)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.tga')",
+            "cmds.setAttr(ss_shape + '.filterColor', 1, 0, 0, type='double3'",
             "cmds.setAttr(ss_shape + '.groundColor', 1, 1, 1, type='double3')",
             "cmds.setAttr(ss_shape + '.sunGlow', 0)",
             "cmds.setAttr(ss_shape + '.sunPositionType', 1)",
@@ -1176,8 +1188,8 @@
         ],
         "script_info": [
             "Intensity - 1",
-            "Filter Color - sunsky_filtercolor.tga",
-            "Ground Color - HSV: 0, 0, 1",
+            "Filter Color - HSV: 1, 0, 0",
+            "Ground Color - HSV: 1, 1, 1",
             "Sun Glow - 0",
             "Sun Position - Time Location",
             "Day - 1",
@@ -1193,7 +1205,7 @@
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.intensity', 2)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.png')",
+            "cmds.setAttr(ss_shape + '.filterColor', 0, 1, 0, type='double3'",
             "cmds.setAttr(ss_shape + '.groundColor', 0, 0, 0, type='double3')",
             "cmds.setAttr(ss_shape + '.sunGlow', 50)",
             "cmds.setAttr(ss_shape + '.sunPositionType', 1)",
@@ -1203,8 +1215,9 @@
             "rpr_render(case)"
         ],
         "script_info": [
+            "Black image expected",
             "Intensity - 2",
-            "Filter Color - sunsky_filtercolor.png",
+            "Filter Color - HSV: 0, 1, 0",
             "Ground Color - HSV: 0, 0, 0",
             "Sun Glow - 50",
             "Sun Position - Time Location",
@@ -1221,7 +1234,7 @@
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.intensity', 1)",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.tga')",
+            "cmds.setAttr(ss_shape + '.groundColor', 1, 1, 1, type='double3'",
             "cmds.setAttr(ss_shape + '.sunGlow', 100)",
             "cmds.setAttr(ss_shape + '.sunPositionType', 1)",
             "cmds.setAttr(ss_shape + '.year', 6000)",
@@ -1232,7 +1245,7 @@
         ],
         "script_info": [
             "Intensity - 1",
-            "Ground Color - sunsky_groundcolor.tga",
+            "Ground Color - HSV: 1, 1, 1",
             "Sun Glow - 100",
             "Sun Position - Time Location",
             "Year - 6000",
@@ -1249,17 +1262,18 @@
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.intensity', 0.1)",
-            "setAttribute(ss_shape, 'filterColor', 'sunsky_filtercolor.png')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.tga')",
+            "cmds.setAttr(ss_shape + '.filterColor', 0, 1, 0, type='double3'",
+            "cmds.setAttr(ss_shape + '.groundColor', 1, 1, 1, type='double3'",
             "cmds.setAttr(ss_shape + '.sunPositionType', 1)",
             "cmds.setAttr(ss_shape + '.minutes', 60)",
             "cmds.setAttr(ss_shape + '.seconds', 1)",
             "rpr_render(case)"
         ],
         "script_info": [
+            "Black image expected",
             "Intensity - 0.1",
-            "Filter Color - sunsky_filtercolor.png",
-            "Ground Color - sunsky_groundcolor.tga",
+            "Filter Color - HSV: 0, 1, 0",
+            "Ground Color - HSV: 1, 1, 1",
             "Sun Position - Time Location",
             "Minutes - 60",
             "Seconds - 1"
@@ -1273,7 +1287,7 @@
             "removeEnvironment()",
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.intensity', 2)",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.png')",
+            "cmds.setAttr(ss_shape + '.groundColor', 0.5, 0.5, 0.5, type='double3'",
             "cmds.setAttr(ss_shape + '.sunPositionType', 1)",
             "cmds.setAttr(ss_shape + '.year', 6000)",
             "cmds.setAttr(ss_shape + '.seconds', 60)",
@@ -1281,8 +1295,9 @@
             "rpr_render(case)"
         ],
         "script_info": [
+            "Black image expected",
             "Intensity - 2",
-            "Ground Color - sunsky_groundcolor.png",
+            "Ground Color - HSV: 0.5, 0.5, 0.5",
             "Sun Position - Time Location",
             "Year - 6000",
             "Seconds - 60",
@@ -1298,7 +1313,7 @@
             "ss_shape = cmds.createNode('RPRSky', n='RPRSkyShape')",
             "cmds.setAttr(ss_shape + '.intensity', 1)",
             "cmds.setAttr(ss_shape + '.filterColor', 1, 1, 1, type='double3')",
-            "setAttribute(ss_shape, 'groundColor', 'sunsky_groundcolor.tga')",
+            "cmds.setAttr(ss_shape + '.groundColor', 1, 1, 1, type='double3'",
             "cmds.setAttr(ss_shape + '.sunGlow', 0)",
             "cmds.setAttr(ss_shape + '.sunPositionType', 1)",
             "cmds.setAttr(ss_shape + '.year', -2000)",
@@ -1309,8 +1324,8 @@
         ],
         "script_info": [
             "Intensity - 1",
-            "Filter Color - HSV: 0, 0, 1",
-            "Ground Color - sunsky_groundcolor.tga",
+            "Filter Color - HSV: 1, 1, 1",
+            "Ground Color - HSV: 1, 1, 1",
             "Sun Glow - 0",
             "Sun Position - Time Location",
             "Year - -2000",
@@ -1337,6 +1352,7 @@
             "rpr_render(case)"
         ],
         "script_info": [
+            "Black image expected",
             "Intensity - 1",
             "Sun Position - Time Location",
             "Year - 2018",
@@ -1421,6 +1437,7 @@
             "rpr_render(case)"
         ],
         "script_info": [
+            "Black image expected",
             "Intensity - 1",
             "Sun Position - Time Location",
             "Year - 2018",
@@ -1449,6 +1466,7 @@
             "rpr_render(case)"
         ],
         "script_info": [
+            "Black image expected",
             "Intensity - 1",
             "Sun Position - Time Location",
             "Year - 2018",
@@ -1478,6 +1496,7 @@
             "rpr_render(case)"
         ],
         "script_info": [
+            "Black image expected",
             "Intensity - 1",
             "Sun Position - Time Location",
             "Year - 2018",
@@ -1538,6 +1557,7 @@
             "rpr_render(case)"
         ],
         "script_info": [
+            "Black image expected",
             "Intensity - 1",
             "Sun Position - Time Location",
             "Year - 2018",
@@ -1568,6 +1588,7 @@
             "rpr_render(case)"
         ],
         "script_info": [
+            "Black image expected",
             "Intensity - 1",
             "Sun Position - Time Location",
             "Year - 2018",
@@ -1628,6 +1649,7 @@
             "rpr_render(case)"
         ],
         "script_info": [
+            "Black image expected",
             "Intensity - 1",
             "Sun Position - Time Location",
             "Year - 2018",

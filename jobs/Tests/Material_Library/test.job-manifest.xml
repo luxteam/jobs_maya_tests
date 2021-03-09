@@ -3,7 +3,7 @@
 
     <outpath value="{OutputDir}"/>
 
-    <execute command='python "{CWD}/Scripts/simpleRender.py"' timeout="7200">
+    <execute command='python "{CWD}/Scripts/simpleRender.py"' timeout="6000">
         <argument>--tool "{Tool}"</argument>
         <argument>--render_device "{RenderDevice}"</argument>
         <argument>--output "{OutputDir}"</argument>
@@ -14,25 +14,25 @@
         <argument>--res_path "{ScenesDir}"</argument>
         <argument>--testCases "{TestCases}"</argument>
         <argument>--SPU 50</argument>
-        <argument>--fail_count 20</argument>
+        <argument>--error_count 20</argument>
         <argument>--threshold {threshold}</argument>
-    </execute>
-    
-    <execute command='python "{CWD}/Scripts/refactor_logs.py"' timeout="60">
-        <argument>--output "{OutputDir}"</argument>
+        <argument>--engine "{engine}"</argument>
+        <argument>--retries {retries}</argument>
+        <argument>--update_refs "{UpdateRefs}"</argument>
     </execute>
 
-    <execute command='python "{CWD}/Scripts/make_report_json.py"'>
+    <execute command='python "{CommonDir}/scripts/makeReport.py"'>
         <argument>--work_dir "{OutputDir}"</argument>
     </execute>
 
-    <execute command='python "{CommonDir}/scripts/ImageComparator/compareByJSON.py"'>
+    <execute command='python "{CommonDir}/scripts/compareByJSON.py"'>
         <argument>--work_dir "{OutputDir}"</argument>
         <argument>--base_dir "{BaselineDir}"</argument>
+        <argument>--update_refs "{UpdateRefs}"</argument>
     </execute>
 
-    <execute command='python "{CommonDir}/scripts/HtmlTemplate/htmlBuilder.py"'>
-        <argument>--work_dir "{OutputDir}"</argument>
+    <execute command='python "{CWD}/Scripts/refactor_logs.py"' timeout="60">
+        <argument>--output "{OutputDir}"</argument>
     </execute>
 
 </job-manifest>

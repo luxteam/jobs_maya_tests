@@ -1209,19 +1209,6 @@
         "scene": "MaterialTestScene.ma"
     },
     {
-        "case": "MAYA_MAT_LIB_094",
-        "status": "skipped",
-        "functions": [
-            "applyMaterial('Lead_Matte')",
-            "rpr_render(case)",
-            "detachMaterial()"
-        ],
-        "script_info": [
-            "Material: Lead Matte"
-        ],
-        "scene": "MaterialTestScene.ma"
-    },
-    {
         "case": "MAYA_MAT_LIB_095",
         "status": "active",
         "functions": [
@@ -3506,32 +3493,6 @@
         ],
         "script_info": [
             "Material: Rubber Used"
-        ],
-        "scene": "MaterialTestScene.ma"
-    },
-    {
-        "case": "MAYA_MAT_LIB_271",
-        "status": "skipped",
-        "functions": [
-            "applyMaterial('Diffuse_Shadow_Catcher')",
-            "rpr_render(case)",
-            "detachMaterial()"
-        ],
-        "script_info": [
-            "Material: Diffuse Shadow Catcher"
-        ],
-        "scene": "MaterialTestScene.ma"
-    },
-    {
-        "case": "MAYA_MAT_LIB_272",
-        "status": "skipped",
-        "functions": [
-            "applyMaterial('Reflective_Shadow_Catcher')",
-            "rpr_render(case)",
-            "detachMaterial()"
-        ],
-        "script_info": [
-            "Material: Reflective Shadow Catcher"
         ],
         "scene": "MaterialTestScene.ma"
     },

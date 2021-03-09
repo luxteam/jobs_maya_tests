@@ -1,0 +1,57 @@
+[
+    {
+        "case": "MAYA_NHR_001",
+        "status": "active",
+        "script_info": [
+            "Braids"
+        ],
+        "scene": "Braids.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_NHR_002",
+        "status": "active",
+        "script_info": [
+            "Long hair"
+        ],
+        "scene": "Long.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_NHR_003",
+        "status": "active",
+        "script_info": [
+            "Pig tail"
+        ],
+        "scene": "Pig.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_NHR_004",
+        "status": "active",
+        "script_info": [
+            "Spiky"
+        ],
+        "scene": "Spiky.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_NHR_005",
+        "status": "active",
+        "script_info": [
+            "Straight long"
+        ],
+        "scene": "Straight.ma",
+        "functions": [
+            "rpr_render(case)"
+        ]
+    }
+]

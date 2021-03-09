@@ -1,0 +1,377 @@
+[
+    {
+        "case": "MAYA_MAT_SC_001",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.motionBlur', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.motionBlurCameraExposure', 1)",
+            "rpr_render(case)"
+        ],
+        "script_info": [
+            "SC + Motion Blur"
+        ],
+        "scene": "scmotion.ma",
+        "skip_config":[
+            ["AMD Radeon RX Vega 56 (Metal)"]
+        ]
+    },
+    {
+        "case": "MAYA_MAT_SC_002",
+        "status": "active",
+        "functions": [
+            "rpr_render(case, 'mask')"
+        ],
+        "script_info": [
+            "SC Alpha"
+        ],
+        "scene": "SC.ma"
+    },
+    {
+        "case": "MAYA_MAT_SC_003",
+        "status": "active",
+        "functions": [
+            "rpr_render(case)"
+        ],
+        "script_info": [
+            "SC Reflection"
+        ],
+        "scene": "Reflection.ma"
+    },
+    {
+        "case": "MAYA_MAT_SC_004",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 10)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 0)"
+        ],
+        "script_info": [
+            "Black image expected",
+            "SC AOV",
+            "https://amdrender.atlassian.net/browse/RPRMAYA-2603"
+        ],
+        "scene": "SC.ma",
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
+        ]
+    },
+    {
+        "case": "MAYA_MAT_SC_005",
+        "status": "active",
+        "functions": [
+            "rpr_render(case)"
+        ],
+        "script_info": [
+            "SC Backplate",
+            "https://amdrender.atlassian.net/browse/RPRMAYA-2603"
+        ],
+        "scene": "Backplate.ma",
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
+        ]
+    },
+    {
+        "case": "MAYA_MAT_SC_006",
+        "status": "active",
+        "functions": [
+            "rpr_render(case)"
+        ],
+        "script_info": [
+            "SC + Refraction"
+        ],
+        "scene": "SC.ma"
+    },
+    {
+        "case": "MAYA_MAT_SC_007",
+        "status": "active",
+        "functions": [
+            "rpr_render(case)"
+        ],
+        "script_info": [
+            "SC Shadow attributes"
+        ],
+        "scene": "SCShadowAttributes.ma"
+    },
+    {
+        "case": "MAYA_MAT_SC_008",
+        "status": "skipped",
+        "functions": [
+            "rpr_render(case)"
+        ],
+        "script_info": [
+            "SC Reflection attributes"
+        ],
+        "scene": "SCReflectionAttributes.ma"
+    },
+    {
+        "case": "MAYA_MAT_SC_009",
+        "status": "active",
+        "functions": [
+            "rpr_render(case)"
+        ],
+        "script_info": [
+            "SC background"
+        ],
+        "scene": "BackGround.ma"
+    },
+    {
+        "case": "MAYA_MAT_SC_010",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "script_info": [
+            "SC Bileteral Denoiser"
+        ],
+        "scene": "DenoiserShadowCatcher.ma"
+    },
+    {
+        "case": "MAYA_MAT_SC_011",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "script_info": [
+            "SC LWR Denoiser"
+        ],
+        "scene": "DenoiserShadowCatcher.ma"
+    },
+    {
+        "case": "MAYA_MAT_SC_012",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 2)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "script_info": [
+            "SC EAW Denoiser",
+            "https://amdrender.atlassian.net/browse/RPRMAYA-2603"
+        ],
+        "scene": "DenoiserShadowCatcher.ma",
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
+        ]
+    },
+    {
+        "case": "MAYA_MAT_SC_013",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "script_info": [
+            "SC ML Denoiser"
+        ],
+        "scene": "DenoiserShadowCatcher.ma",
+        "skip_config":[
+            ["AMD Radeon RX Vega 56 (Metal)"]
+        ]
+    },
+    {
+        "case": "MAYA_MAT_SC_014",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserColorOnly', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserColorOnly', 0)"
+        ],
+        "script_info": [
+            "SC ML + AOV Denoiser",
+            "https://amdrender.atlassian.net/browse/RPRMAYA-2603"
+        ],
+        "scene": "DenoiserShadowCatcher.ma",
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
+        ]
+    },
+    {
+        "case": "MAYA_MAT_SC_015",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 0)",
+            "cmds.setAttr('RPRMatteMaterial1.rcenabled', 1)",
+            "cmds.setAttr('RPRMatteMaterial1.scenabled', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRMatteMaterial1.rcenabled', 0)",
+            "cmds.setAttr('RPRMatteMaterial1.scenabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "script_info": [
+            "SC Bileteral Denoiser",
+            "https://amdrender.atlassian.net/browse/RPRMAYA-2603"
+        ],
+        "scene": "DenoiserShadowCatcher.ma",
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
+        ]
+    },
+    {
+        "case": "MAYA_MAT_SC_016",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 1)",
+            "cmds.setAttr('RPRMatteMaterial1.rcenabled', 1)",
+            "cmds.setAttr('RPRMatteMaterial1.scenabled', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRMatteMaterial1.rcenabled', 0)",
+            "cmds.setAttr('RPRMatteMaterial1.scenabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "script_info": [
+            "SC LWR Denoiser"
+        ],
+        "scene": "DenoiserShadowCatcher.ma"
+    },
+    {
+        "case": "MAYA_MAT_SC_017",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 2",
+            "cmds.setAttr('RPRMatteMaterial1.rcenabled', 1)",
+            "cmds.setAttr('RPRMatteMaterial1.scenabled', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRMatteMaterial1.rcenabled', 0)",
+            "cmds.setAttr('RPRMatteMaterial1.scenabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "script_info": [
+            "SC EAW Denoiser"
+        ],
+        "scene": "DenoiserShadowCatcher.ma"
+    },
+    {
+        "case": "MAYA_MAT_SC_018",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
+            "cmds.setAttr('RPRMatteMaterial1.rcenabled', 1)",
+            "cmds.setAttr('RPRMatteMaterial1.scenabled', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRMatteMaterial1.rcenabled', 0)",
+            "cmds.setAttr('RPRMatteMaterial1.scenabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "script_info": [
+            "SC ML Denoiser"
+        ],
+        "scene": "DenoiserShadowCatcher.ma",
+        "skip_config":[
+            ["AMD Radeon RX Vega 56 (Metal)"]
+        ]
+    },
+    {
+        "case": "MAYA_MAT_SC_019",
+        "status": "skipped",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserColorOnly', 1)",
+            "cmds.setAttr('RPRMatteMaterial1.rcenabled', 1)",
+            "cmds.setAttr('RPRMatteMaterial1.scenabled', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRMatteMaterial1.rcenabled', 0)",
+            "cmds.setAttr('RPRMatteMaterial1.scenabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserColorOnly', 0)"
+        ],
+        "script_info": [
+            "SC ML+AOV Denoiser"
+        ],
+        "scene": "DenoiserShadowCatcher.ma"
+    },
+    {
+        "case": "MAYA_MAT_SC_020",
+        "status": "skipped",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "script_info": [
+            "Corvette SC Bileteral Denoiser"
+        ],
+        "scene": "CorvetteRPR.ma"
+    },
+    {
+        "case": "MAYA_MAT_SC_021",
+        "status": "skipped",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "script_info": [
+            "Corvette SC LWR Denoiser"
+        ],
+        "scene": "CorvetteRPR.ma"
+    },
+    {
+        "case": "MAYA_MAT_SC_022",
+        "status": "skipped",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 2",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "script_info": [
+            "Corvette SC EAW Denoiser"
+        ],
+        "scene": "CorvetteRPR.ma"
+    },
+    {
+        "case": "MAYA_MAT_SC_023",
+        "status": "skipped",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
+        ],
+        "script_info": [
+            "SC ML Denoiser"
+        ],
+        "scene": "Corvette CorvetteRPR.ma",
+        "skip_config":[
+            ["AMD Radeon RX Vega 56 (Metal)"]
+        ]
+    },
+    {
+        "case": "MAYA_MAT_SC_024",
+        "status": "skipped",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserColorOnly', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.denoiserColorOnly', 0)"
+        ],
+        "script_info": [
+            "Corvette SC ML+AOV Denoiser"
+        ],
+        "scene": "CorvetteRPR.ma",
+        "skip_config":[
+            ["AMD Radeon RX Vega 56 (Metal)"]
+        ]
+    }
+]

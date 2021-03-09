@@ -71,7 +71,7 @@
     },
     {
         "case": "MAYA_MAT_NODE_007",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('ShadowCatcherMaterial.visibility', 1)",
@@ -91,7 +91,7 @@
     },
     {
         "case": "MAYA_MAT_NODE_008",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('ShadowCatcherMaterial.visibility', 1)",
@@ -408,7 +408,7 @@
     },
     {
         "case": "MAYA_MAT_NODE_025",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('Arythmetic_Blend_Gradient.visibility', 1)",
@@ -426,7 +426,7 @@
     },
     {
         "case": "MAYA_MAT_NODE_026",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('Arythmetic_Blend_Gradient.visibility', 1)",
@@ -495,7 +495,7 @@
     },
     {
         "case": "MAYA_MAT_NODE_031",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('LookUpNoisePassthrough.visibility', 1)",
@@ -531,7 +531,7 @@
     },
     {
         "case": "MAYA_MAT_NODE_033",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('BumpNormal.visibility', 1)",
@@ -559,7 +559,7 @@
     },
     {
         "case": "MAYA_MAT_NODE_035",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('CheckerDotTexture.visibility', 1)",
@@ -674,7 +674,7 @@
     },
     {
         "case": "MAYA_MAT_NODE_042",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('Fresnel.visibility', 1)",
@@ -687,7 +687,10 @@
         "script_info": [
             "Displacement node"
         ],
-        "scene": "RPRNodes.ma"
+        "scene": "RPRNodes.ma",
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
+        ]
     },
     {
         "case": "MAYA_MAT_NODE_044",
@@ -708,7 +711,10 @@
         "script_info": [
             "Displacement node"
         ],
-        "scene": "RPRNodes.ma"
+        "scene": "RPRNodes.ma",
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
+        ]
     },
     {
         "case": "MAYA_MAT_NODE_045",
@@ -729,7 +735,10 @@
         "script_info": [
             "Displacement node"
         ],
-        "scene": "RPRNodes.ma"
+        "scene": "RPRNodes.ma",
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
+        ]
     },
     {
         "case": "MAYA_MAT_NODE_046",
@@ -750,7 +759,10 @@
         "script_info": [
             "Displacement node"
         ],
-        "scene": "RPRNodes.ma"
+        "scene": "RPRNodes.ma",
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
+        ]
     },
     {
         "case": "MAYA_MAT_NODE_047",
@@ -844,7 +856,7 @@
     },
     {
         "case": "MAYA_MAT_NODE_053",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('Lookup.visibility', 1)",
             "cmds.setAttr('RPRLookup1.type', 11)",
@@ -853,6 +865,7 @@
             "cmds.setAttr('Lookup.visibility', 0)"
         ],
         "script_info": [
+            "Do not compare",
             "RPR Lookup Random Color",
             "(Seed required)"
         ],
@@ -885,7 +898,7 @@
         "script_info": [
             "RPRTransparentMaterial"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "maya_shaderball_rprn.ma"
     },
     {
         "case": "MAYA_MAT_NODE_056",
@@ -899,6 +912,20 @@
         "script_info": [
             "RPRFlatColorMaterial"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "maya_shaderball_rprn.ma"
+    },
+    {
+        "case": "MAYA_MAT_NODE_057",
+        "status": "active",
+        "functions": [
+            "rpr_render(case)"
+        ],
+        "script_info": [
+            "DDS"
+        ],
+        "scene": "DDS.ma",
+        "skip_engine":[
+            "Northstar"
+        ]
     }
 ]

@@ -1,0 +1,9 @@
+{
+    "split":true,
+    "groups":{
+        "Smoke":"",
+        "Athena":"",
+        "Support_2019":"",
+        "Support_2018":""
+    }
+}

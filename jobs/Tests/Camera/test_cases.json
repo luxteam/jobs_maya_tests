@@ -33,6 +33,7 @@
         "case": "MAYA_RS_CAM_003",
         "status": "active",
         "script_info": [
+            "Black image expected",
             "RPR Camera Type: Cubemap"
         ],
         "scene": "maya_shaderball.ma",
@@ -48,6 +49,7 @@
         "case": "MAYA_RS_CAM_004",
         "status": "active",
         "script_info": [
+            "Black image expected",
             "RPR Camera Type: Stereo cubemap"
         ],
         "scene": "maya_shaderball.ma",
@@ -489,6 +491,9 @@
             "cmds.setAttr('Camera00Shape1.filmRollValue', 0.1)",
             "rpr_render(case)",
             "resetAttributes()"
+        ],
+        "skip_engine": [
+            "Hybrid_Medium"
         ]
     },
     {
@@ -581,6 +586,9 @@
             "cmds.setAttr('Camera00Shape1.filmRollOrder', 1.0)",
             "rpr_render(case)",
             "resetAttributes()"
+        ],
+        "skip_engine": [
+            "Hybrid_Medium"
         ]
     },
     {
@@ -638,6 +646,9 @@
             "cmds.setAttr('Camera00Shape1.filmRollOrder', 1.0)",
             "rpr_render(case)",
             "resetAttributes()"
+        ],
+        "skip_engine": [
+            "Hybrid_Medium"
         ]
     },
     {
@@ -680,6 +691,9 @@
             "cmds.setAttr('Camera00Shape1.filmRollOrder', 1.0)",
             "rpr_render(case)",
             "resetAttributes()"
+        ],
+        "skip_engine": [
+            "Hybrid_Medium"
         ]
     },
     {
@@ -722,6 +736,9 @@
             "cmds.setAttr('Camera00Shape1.filmRollOrder', 1.0)",
             "rpr_render(case)",
             "resetAttributes()"
+        ],
+        "skip_engine": [
+            "Hybrid_Medium"
         ]
     },
     {

@@ -5,7 +5,7 @@
         "script_info": [
             "Max time - 10 seconds"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
@@ -13,6 +13,9 @@
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
+        ],
+        "skip_engine": [
+            "Hybrid_Medium"
         ]
     },
     {
@@ -22,7 +25,7 @@
             "Max Iterations - 100",
             "Max Time Seconds - 0"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
@@ -39,7 +42,7 @@
             "Max Iterations - 1000",
             "Max Time Seconds - 0"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
@@ -58,7 +61,7 @@
             "Max Time Seconds - 0",
             "Threshold - 0"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
@@ -69,6 +72,9 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
+        ],
+        "skip_engine": [
+            "Hybrid_Medium"
         ]
     },
     {
@@ -79,7 +85,7 @@
             "Max Time Seconds - 0",
             "Threshold - 0.01"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
@@ -100,7 +106,7 @@
             "Max Time Seconds - 0",
             "Threshold - 0.5"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
@@ -111,6 +117,9 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
+        ],
+        "skip_engine": [
+            "Hybrid_Medium"
         ]
     },
     {
@@ -121,7 +130,7 @@
             "Max Time Seconds - 0",
             "Threshold - 1"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
@@ -143,7 +152,7 @@
             "Max Time Seconds - 0",
             "Threshold - 1"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 100)",
@@ -166,7 +175,7 @@
             "Max Time Seconds - 0",
             "Threshold - 0"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 100)",
@@ -178,6 +187,9 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
+        ],
+        "skip_engine": [
+            "Hybrid_Medium"
         ]
     },
     {
@@ -187,7 +199,7 @@
             "Max Time Seconds - 59",
             "Threshold - 0"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
@@ -206,7 +218,7 @@
             "Max Time Seconds - 59",
             "Threshold - 1"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
@@ -224,7 +236,7 @@
         "script_info": [
             "Max Time Minutes - 1"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)",
@@ -233,6 +245,9 @@
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
+        ],
+        "skip_engine": [
+            "Hybrid_Medium"
         ]
     },
     {
@@ -242,7 +257,7 @@
             "Max Time Minutes - 1",
             "Threshold - 0"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)",
@@ -262,7 +277,7 @@
             "Max Time Minutes - 1",
             "Threshold - 1"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)",
@@ -284,7 +299,7 @@
             "Set Max Time Minutes - 2",
             "Set Threshold - 1"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -297,6 +312,9 @@
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
+        ],
+        "skip_engine": [
+            "Hybrid_Medium"
         ]
     },
     {
@@ -308,7 +326,7 @@
             "Set Max Time Minutes - 2",
             "Set Threshold - 0"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -321,6 +339,9 @@
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
+        ],
+        "skip_engine": [
+            "Hybrid_Medium"
         ]
     },
     {
@@ -334,7 +355,7 @@
             "Max Time Hours - 0",
             "Threshold - 0.050"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 5)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -359,7 +380,7 @@
             "Max Time Hours - 0",
             "Threshold - 0"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 0)",
@@ -376,14 +397,14 @@
     },
     {
         "case": "MAYA_RS_AS_019",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
            "Max Iterations - 100",
            "Max Time Seconds - 0",
            "Threshold - 0.05",
            "Tile Render Enabled"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 0)",
@@ -407,7 +428,7 @@
             "Tile X - 16",
             "Tile Y - 16"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 1)",
@@ -426,7 +447,7 @@
     },
     {
         "case": "MAYA_RS_AS_021",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Max Iterations - 100",
             "Max Time Seconds - 0",
@@ -435,7 +456,7 @@
             "Tile X - 512",
             "Tile Y - 512"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 1)",
@@ -467,7 +488,7 @@
             "Tile X - 512",
             "Tile Y - 512"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -489,7 +510,7 @@
     },
     {
         "case": "MAYA_RS_AS_023",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Min iteration- 20",
             "Max Iterations - 1000",
@@ -499,7 +520,7 @@
             "Threshold - 0",
             "AOV UV enabled"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -513,6 +534,12 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
+        ],
+        "skip_engine": [
+            "Hybrid_Medium"
+        ],
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
@@ -527,7 +554,7 @@
             "Threshold - 0",
             "AOV -  UV checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -543,6 +570,12 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
+        ],
+        "skip_engine": [
+            "Hybrid_Medium"
+        ],
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
@@ -557,7 +590,7 @@
             "Threshold - 0",
             "AOV -  Material Index checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -573,6 +606,9 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
+        ],
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
@@ -587,7 +623,7 @@
             "Threshold - 0",
             "AOV -  Geometric Normal checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -603,6 +639,12 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
+        ],
+        "skip_engine": [
+            "Hybrid_Medium"
+        ],
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
@@ -617,7 +659,7 @@
             "Threshold - 0",
             "AOV -  Shading Normal checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -633,6 +675,12 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
+        ],
+        "skip_engine": [
+            "Hybrid_Medium"
+        ],
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
@@ -647,7 +695,7 @@
             "Threshold - 0",
             "AOV -  Depth checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -663,6 +711,12 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
+        ],
+        "skip_engine": [
+            "Hybrid_Medium"
+        ],
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
@@ -677,7 +731,7 @@
             "Threshold - 0",
             "AOV -  Object ID checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -707,7 +761,7 @@
             "Threshold - 0",
             "AOV -  Albedo checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -723,12 +777,19 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
+        ],
+        "skip_engine": [
+            "Hybrid_Medium"
+        ],
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
         "case": "MAYA_RS_AS_031",
         "status": "active",
         "script_info": [
+            "Black image expected",
             "Min iteration- 20",
             "Max Iterations - 1000",
             "Max Time Minutes - 1",
@@ -737,7 +798,7 @@
             "Threshold - 0",
             "AOV -  Shadow Catcher checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -753,11 +814,17 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
+        ],
+        "skip_engine": [
+            "Hybrid_Medium", "Tahoe", "Northstar"
+        ],
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
         "case": "MAYA_RS_AS_032",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Min iteration- 20",
             "Max Iterations - 1000",
@@ -767,7 +834,7 @@
             "Threshold - 0",
             "AOV -  Emission checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -783,12 +850,16 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
+        ],
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
         "case": "MAYA_RS_AS_033",
         "status": "active",
         "script_info": [
+            "Black image expected",
             "Min iteration- 20",
             "Max Iterations - 1000",
             "Max Time Minutes - 1",
@@ -797,7 +868,7 @@
             "Threshold - 0",
             "AOV -  Velocity checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -813,6 +884,12 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
+        ],
+        "skip_engine": [
+            "Hybrid_Medium", "Tahoe", "Northstar"
+        ],
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
@@ -827,7 +904,7 @@
             "Threshold - 0",
             "AOV -  Direct Illumination checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -843,6 +920,9 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
+        ],
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
@@ -857,7 +937,7 @@
             "Threshold - 0",
             "AOV -  Indirect Illumination checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -873,6 +953,9 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
+        ],
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
@@ -887,7 +970,7 @@
             "Threshold - 0",
             "AOV -  Ambient Occlusion checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -903,6 +986,12 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
+        ],
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
+        ],
+        "skip_engine": [
+            "Northstar"
         ]
     },
     {
@@ -917,7 +1006,7 @@
             "Threshold - 0",
             "AOV -  Diffuse Direct checkbox"
         ],
-        "scene": "adaptive_sampling.ma", 
+        "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 1000)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 20)",
@@ -933,6 +1022,9 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
+        ],
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     }
 ]

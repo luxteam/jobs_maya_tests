@@ -1,4 +1,4 @@
 #!/bin/bash
-export PYTHONPATH=../jobs_launcher/:$PYTHONPATH
+DELETE_BASELINES=${1:False}
 
-python3 ../jobs_launcher/common/scripts/generate_baseline.py --results_root ../Work/Results/Maya --baseline_root ../Work/Baseline
+python ../jobs_launcher/common/scripts/generate_baselines.py --results_root ../Work/Results/Maya --baseline_root ../Work/GeneratedBaselines --remove_old $DELETE_BASELINES

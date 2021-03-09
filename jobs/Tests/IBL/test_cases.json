@@ -3,6 +3,7 @@
         "case": "MAYA_RS_IBL_001",
         "status": "active",
         "script_info": [
+            "Black image expected",
             "Type: Color",
             "Intensity: 0"
         ],
@@ -129,6 +130,7 @@
         "case": "MAYA_RS_IBL_008",
         "status": "active",
         "script_info": [
+            "Black image expected",
             "Type: IBL with hdr map",
             "Intensity: 0"
         ],
@@ -262,6 +264,7 @@
         "case": "MAYA_RS_IBL_015",
         "status": "active",
         "script_info": [
+            "Black image expected",
             "Type: IBL with exr map",
             "Intensity: 0"
         ],
@@ -524,7 +527,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 0)",
             "cmds.delete(ibl_shape)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -549,7 +552,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 0)",
             "cmds.delete(ibl_shape)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -574,7 +577,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 0)",
             "cmds.delete(ibl_shape)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -597,7 +600,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 0)",
             "cmds.delete(ibl_shape)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -620,7 +623,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 0)",
             "cmds.delete(ibl_shape)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     },
@@ -643,7 +646,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.renderQualityFinalRender', 0)",
             "cmds.delete(ibl_shape)"
         ],
-        "skip_on": [
+        "skip_config": [
             ["AMD Radeon RX 5700 XT"]
         ]
     }

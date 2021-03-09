@@ -37,7 +37,7 @@ for file in range(len(json_files)):
         result_json += text
 
     else:
-        f = open(os.path.join(directory, json_files[file]), 'r')    
+        f = open(os.path.join(directory, json_files[file]), 'r')
         text = f.read()
         f.close()
         text = text[2:]
