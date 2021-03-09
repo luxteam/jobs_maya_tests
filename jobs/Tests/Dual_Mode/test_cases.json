@@ -299,8 +299,7 @@
         ],
         "script_info": [
             "Complex 2",
-            "https://amdrender.atlassian.net/browse/RPRMAYA-2660",
-            "Random artefacts"
+            "https://amdrender.atlassian.net/browse/RPRMAYA-2663"
         ],
         "scene": "CorvetteRPR.ma",
         "skip_config": [
