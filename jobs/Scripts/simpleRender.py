@@ -29,7 +29,7 @@ from jobs_launcher.core.kill_process import kill_process
 ROOT_DIR = os.path.abspath(os.path.join(
     os.path.dirname(__file__), os.path.pardir, os.path.pardir))
 LOGS_DIR = 'render_tool_logs'
-PROCESS = ['Maya', 'maya.exe', 'maya', 'mayabatch.exe', 'senddmp']
+PROCESS = ['Maya', 'maya.exe', 'maya', 'mayabatch.exe', 'senddmp', 'senddmp.exe']
 
 if platform.system() == 'Darwin':
     from Quartz import CGWindowListCopyWindowInfo
