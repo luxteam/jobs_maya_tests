@@ -616,12 +616,8 @@ def group_failed(args, error_windows):
     except Exception as e:
         core_config.logging.error("Can't load test_cases.json")
         core_config.main_logger.error(str(e))
-        if args.batchRender:
-            test_cases_filename = 'test_cases_batch.json'
-        else:
-            test_cases_filename = 'test_cases.json'
         cases = json.load(open(os.path.realpath(os.path.join(os.path.dirname(
-            __file__), '..', 'Tests', args.testType, test_cases_filename))))
+            __file__), '..', 'Tests', args.testType, 'test_cases.json'))))
         status = 'inprogress'
 
     for case in cases:
@@ -683,18 +679,13 @@ if __name__ == '__main__':
 
     iteration = 0
 
-    if args.batchRender:
-        test_cases_filename = 'test_cases_batch.json'
-    else:
-        test_cases_filename = 'test_cases.json'
-
     try:
         copyfile(os.path.realpath(os.path.join(os.path.dirname(
-            __file__), '..', 'Tests', args.testType, test_cases_filename)),
+            __file__), '..', 'Tests', args.testType, 'test_cases.json')),
             os.path.realpath(os.path.join(os.path.abspath(
                 args.output).replace('\\', '/'), 'test_cases.json')))
     except:
-        core_config.logging.error("Can't copy {}".format(test_cases_filename))
+        core_config.logging.error("Can't copy {}".format('test_cases.json'))
         core_config.main_logger.error(str(e))
         exit(-1)
 
