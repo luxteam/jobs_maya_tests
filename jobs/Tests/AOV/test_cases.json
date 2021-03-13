@@ -294,7 +294,7 @@
     },
     {
         "case": "MAYA_RS_AOV_021",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Black image expected",
             "AOV: Volume"
@@ -420,12 +420,15 @@
         "script_info": [
             "AOV: Cryptomatte Object 0"
         ],
-        "scene": "maya_shaderball.ma",
+        "scene": "maya_shaderball_4.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 48)",
             "cmds.setAttr('RadeonProRenderGlobals.aovCryptoMaterialObj0', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.aovCryptoMaterialObj0', 0)"
+        ],
+        "skip_engine": [
+            "Tahoe"
         ]
     },
     {
@@ -435,12 +438,15 @@
             "Black image expected",
             "AOV: Cryptomatte Object 1"
         ],
-        "scene": "maya_shaderball.ma",
+        "scene": "maya_shaderball_4.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 49)",
             "cmds.setAttr('RadeonProRenderGlobals.aovCryptoMaterialObj1', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.aovCryptoMaterialObj1', 0)"
+        ],
+        "skip_engine": [
+            "Tahoe"
         ]
     },
     {
@@ -450,12 +456,15 @@
             "Black image expected",
             "AOV: Cryptomatte Object 2"
         ],
-        "scene": "maya_shaderball.ma",
+        "scene": "maya_shaderball_4.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 50)",
             "cmds.setAttr('RadeonProRenderGlobals.aovCryptoMaterialObj2', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.aovCryptoMaterialObj2', 0)"
+        ],
+        "skip_engine": [
+            "Tahoe"
         ]
     },
     {
@@ -464,12 +473,15 @@
         "script_info": [
             "AOV: Cryptomatte Material 0"
         ],
-        "scene": "maya_shaderball.ma",
+        "scene": "maya_shaderball_4.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 56)",
             "cmds.setAttr('RadeonProRenderGlobals.aovCryptoMaterialMat0', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.aovCryptoMaterialMat0', 0)"
+        ],
+        "skip_engine": [
+            "Tahoe"
         ]
     },
     {
@@ -479,12 +491,15 @@
             "Black image expected",
             "AOV: Cryptomatte Material 1"
         ],
-        "scene": "maya_shaderball.ma",
+        "scene": "maya_shaderball_4.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 57)",
             "cmds.setAttr('RadeonProRenderGlobals.aovCryptoMaterialMat1', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.aovCryptoMaterialMat1', 0)"
+        ],
+        "skip_engine": [
+            "Tahoe"
         ]
     },
     {
@@ -494,12 +509,15 @@
             "Black image expected",
             "AOV: Cryptomatte Material 2"
         ],
-        "scene": "maya_shaderball.ma",
+        "scene": "maya_shaderball_4.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 58)",
             "cmds.setAttr('RadeonProRenderGlobals.aovCryptoMaterialMat2', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.aovCryptoMaterialMat2', 0)"
+        ],
+        "skip_engine": [
+            "Tahoe"
         ]
     }
 ]

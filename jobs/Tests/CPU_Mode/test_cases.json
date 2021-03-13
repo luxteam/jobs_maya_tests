@@ -214,7 +214,7 @@
     },
     {
         "case": "MAYA_RS_CPU_016",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "cmds.setAttr('vdbObj.emissionEnabled', 1)",
             "cmds.setAttr('vdbObj.emissionSelectedGrid', 'density', type='string')",
@@ -227,7 +227,10 @@
         "script_info": [
             "VDB"
         ],
-        "scene": "bunny_cloud.ma"
+        "scene": "bunny_cloud.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_RS_CPU_017",
@@ -242,12 +245,13 @@
     },
     {
         "case": "MAYA_RS_CPU_018",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "rpr_render(case)"
         ],
         "script_info": [
-            "Complex 2"
+            "Complex 2",
+            "https://amdrender.atlassian.net/browse/RPRMAYA-2663"
         ],
         "scene": "CorvetteRPR.ma"
     },

@@ -110,7 +110,7 @@ def render_tool_log_path(name):
 
 
 def get_scene_path(case):
-    scenePath = os.path.join(RES_PATH, TEST_TYPE)
+    scenePath = os.path.join(RES_PATH, 'Scenes')
     temp = os.path.join(scenePath, case['scene'][:-3])
     if os.path.isdir(temp):
         scenePath = temp
@@ -135,12 +135,13 @@ def validateFiles(case):
     logging('Repath scene', case['case'])
     cmds.filePathEditor(refresh=True)
     unresolved_files = cmds.filePathEditor(query=True, listFiles='', unresolved=True, attributeOnly=True)
+    source_path = os.path.join(RES_PATH, 'Sources')
     logging("Unresolved items: {{}}".format(str(unresolved_files)), case['case'])
     logging('Start repath scene', case['case'])
-    logging("Target path: {{}}".format(get_scene_path(case)), case['case'])
+    logging("Source (target) path: {{}}".format(source_path), case['case'])
     if unresolved_files:
         for item in unresolved_files:
-            cmds.filePathEditor(item, repath=get_scene_path(case), recursive=True, ra=1)
+            cmds.filePathEditor(item, repath=source_path, recursive=True, ra=1)
     unresolved_files = cmds.filePathEditor(query=True, listFiles='', unresolved=True, attributeOnly=True)
     logging("Unresolved items: {{}}".format(str(unresolved_files)), case['case'])
     logging('Repath finished', case['case'])
