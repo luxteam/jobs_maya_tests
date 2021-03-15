@@ -33,9 +33,6 @@
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 300)",
             "rpr_render(case)"
-        ],
-        "skip_config": [
-            "AMD Radeon RX Vega 56 (Metal)"
         ]
     }
 ]
