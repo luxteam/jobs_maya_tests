@@ -200,7 +200,7 @@
     },
     {
         "case": "MAYA_MAT_VDB_009",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "cmds.setAttr('vdbObj.emissionEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
@@ -214,7 +214,8 @@
         "script_info": [
             "explosion.vdb",
             "Density=10000",
-            "Albedo=On(density)"
+            "Albedo=On(density)",
+            "https://amdrender.atlassian.net/browse/RPRMAYA-2687"
         ],
         "scene": "explosion.ma",
         "skip_engine": [
@@ -251,7 +252,7 @@
     },
     {
         "case": "MAYA_MAT_VDB_011",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "cmds.setAttr('vdbObj.emissionEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
@@ -488,13 +489,14 @@
     },
     {
         "case": "MAYA_MAT_VDB_022",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "cmds.currentTime(100)",
             "rpr_render(case)"
         ],
         "script_info": [
-            "VDB sequence - Frame 100"
+            "VDB sequence - Frame 100",
+            "https://amdrender.atlassian.net/browse/RPRMAYA-2687"
         ],
         "scene": "gas.ma",
         "skip_engine": [
@@ -525,14 +527,15 @@
     },
     {
         "case": "MAYA_MAT_VDB_024",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "cmds.currentTime(100)",
             "set_render_device('dual')",
             "rpr_render(case)"
         ],
         "script_info": [
-            "VDB Dual"
+            "VDB Dual",
+            "https://amdrender.atlassian.net/browse/RPRMAYA-2687"
         ],
         "scene": "non-gpu.ma",
         "skip_engine": [
