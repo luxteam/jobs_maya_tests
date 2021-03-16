@@ -348,13 +348,6 @@ def get_batch_render_cmds(args, cases, work_dir, res_path, required_tool):
     for case in cases:
         case_num += 1
         if case['status'] in ['active', 'fail', 'skipped']:
-            try:
-                projPath = os.path.join(res_path, args.testType)
-                temp = os.path.join(projPath, case['scene'][:-3])
-                if os.path.isdir(temp):
-                    projPath = temp
-            except:
-                pass
             
             if case['status'] == 'skipped' or case['functions'][0] == 'check_test_cases_success_save':
                 save_report(args, case)
@@ -378,7 +371,7 @@ def get_batch_render_cmds(args, cases, work_dir, res_path, required_tool):
                 cmds.append('''{python_alias} event_recorder.py "Open tool" True {case}'''.format(python_alias=python_alias, case=case['case']))
                 cmds.append('''"{tool}" -r FireRender -proj "{project}" -log {log_file} {frame_option} {cam_option} -devc "{render_device}" -rd "{result_dir}" -im "{img_name}" -fnc name.ext -preRender "python(\\"import base_functions; base_functions.main({case_num})\\");" -postRender "python(\\"base_functions.postrender({case_num})\\");" -g "{scene}"'''.format(
                     tool=required_tool,
-                    project=projPath,
+                    project=os.path.join(res_path, 'Scenes'),
                     log_file=os.path.join(work_dir, LOGS_DIR, case['case'] + '.log'),
                     frame_option=frame_option,
                     cam_option=cam_option,
