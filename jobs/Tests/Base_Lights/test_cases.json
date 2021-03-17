@@ -483,7 +483,7 @@
         ]
     },
     {
-        "case": "MAYA_L_BL_025  ",
+        "case": "MAYA_L_BL_025",
         "status": "active",
         "script_info": [
             "Spot light. Intensity: 1. Decay Rate: Cubic"
