@@ -94,7 +94,7 @@
     },
     {
         "case": "MAYA_MAT_SC_008",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "rpr_render(case)"
         ],
@@ -278,7 +278,7 @@
     },
     {
         "case": "MAYA_MAT_SC_019",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
