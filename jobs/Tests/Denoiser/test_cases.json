@@ -1,7 +1,7 @@
 [
     {
         "case": "MAYA_RS_DEN_061",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100.0)",
             "cmds.setAttr('RadeonProRenderGlobals.samplesPerUpdate', 50)",
@@ -26,7 +26,7 @@
     },
     {
         "case": "MAYA_RS_DEN_062",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100.0)",
             "cmds.setAttr('RadeonProRenderGlobals.samplesPerUpdate', 50)",
@@ -51,7 +51,7 @@
     },
     {
         "case": "MAYA_RS_DEN_063",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100.0)",
             "cmds.setAttr('RadeonProRenderGlobals.samplesPerUpdate', 50)",
@@ -72,7 +72,7 @@
     },
     {
         "case": "MAYA_RS_DEN_064",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100.0)",
             "cmds.setAttr('RadeonProRenderGlobals.samplesPerUpdate', 50)",
@@ -93,7 +93,7 @@
     },
     {
         "case": "MAYA_RS_DEN_065",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100.0)",
             "cmds.setAttr('RadeonProRenderGlobals.samplesPerUpdate', 50)",
@@ -114,7 +114,7 @@
     },
     {
         "case": "MAYA_RS_DEN_066",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -131,7 +131,7 @@
     },
     {
         "case": "MAYA_RS_DEN_067",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -148,7 +148,7 @@
     },
     {
         "case": "MAYA_RS_DEN_068",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 2)",
@@ -163,7 +163,7 @@
     },
     {
         "case": "MAYA_RS_DEN_069",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 1)",
@@ -178,7 +178,7 @@
     },
     {
         "case": "MAYA_RS_DEN_070",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 0)",
@@ -646,7 +646,7 @@
     },
     {
         "case": "MAYA_RS_DEN_026",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -664,7 +664,7 @@
     },
     {
         "case": "MAYA_RS_DEN_027",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -682,7 +682,7 @@
     },
     {
         "case": "MAYA_RS_DEN_028",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -700,7 +700,7 @@
     },
     {
         "case": "MAYA_RS_DEN_029",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -763,7 +763,7 @@
     },
     {
         "case": "MAYA_RS_DEN_033",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 0)",
@@ -911,7 +911,7 @@
     },
     {
         "case": "MAYA_RS_DEN_041",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -930,7 +930,7 @@
     },
     {
         "case": "MAYA_RS_DEN_042",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -949,7 +949,7 @@
     },
     {
         "case": "MAYA_RS_DEN_043",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -971,7 +971,7 @@
     },
     {
         "case": "MAYA_RS_DEN_044",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -1080,7 +1080,7 @@
     },
     {
         "case": "MAYA_RS_DEN_050",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 1)",
@@ -1095,7 +1095,7 @@
     },
     {
         "case": "MAYA_RS_DEN_051",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -1109,7 +1109,7 @@
     },
     {
         "case": "MAYA_RS_DEN_052",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -1123,7 +1123,7 @@
     },
     {
         "case": "MAYA_RS_DEN_053",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 2)",
@@ -1136,7 +1136,7 @@
     },
     {
         "case": "MAYA_RS_DEN_054",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 1)",
@@ -1149,7 +1149,7 @@
     },
     {
         "case": "MAYA_RS_DEN_055",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 0)",
@@ -1162,7 +1162,7 @@
     },
     {
         "case": "MAYA_RS_DEN_056",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -1178,7 +1178,7 @@
     },
     {
         "case": "MAYA_RS_DEN_057",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -1228,7 +1228,7 @@
     },
     {
         "case": "MAYA_RS_DEN_060",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 0)",
@@ -1242,7 +1242,7 @@
     },
     {
         "case": "MAYA_RS_DEN_071",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",

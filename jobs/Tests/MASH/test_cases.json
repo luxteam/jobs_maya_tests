@@ -71,7 +71,7 @@
     },
     {
         "case": "MAYA_RS_MASH_006",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Flight node"
         ],
@@ -211,7 +211,7 @@
     },
     {
         "case": "MAYA_RS_MASH_016",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Spring node"
         ],
@@ -354,7 +354,7 @@
     },
     {
         "case": "MAYA_RS_MASH_026",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Trails node"
         ],
