@@ -3,11 +3,13 @@ from shutil import copyfile
 import sys
 import traceback
 import json
+import time
 sys.path.append(path.abspath(path.join(path.dirname(__file__), path.pardir, path.pardir, path.pardir)))
 from jobs_launcher.core.config import main_logger
 
 
 def process_results(output):
+    time.sleep(60)
     try:
         with open(path.join(output, 'MAYA_RS_AWS_001_RPR.json'), 'r') as file:
             report = json.load(file)[0]
