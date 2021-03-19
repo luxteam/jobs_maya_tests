@@ -28,11 +28,11 @@ LOGS_DIR = path.join(WORK_DIR, 'render_tool_logs')
 RENDER_TOOL_LOG = path.join(WORK_DIR, 'renderTool.log')
 
 def logging(message, case=None):
-    message = ' >>> [RPR TEST] [' + datetime.datetime.now().strftime('%H:%M:%S') + '] ' + message + '\n'
+    message = ' >>> [RPR TEST] [' + datetime.datetime.now().strftime('%H:%M:%S') + '] ' + message
     print(message)
     if BATCH_RENDER and case is not None:
         with open(RENDER_TOOL_LOG, 'a') as f:
-            f.write(message)
+            f.write(message + '\n')
     
 
 def reportToJSON(case, render_time=0):
