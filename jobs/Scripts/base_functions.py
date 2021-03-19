@@ -232,7 +232,6 @@ def prerender(case):
         enable_rpr(case['case'])
         event("Prerender", True, case['case'])
 
-    logging("mel.eval: athenaEnable -ae false")
     mel.eval('athenaEnable -ae false')
 
     if ENGINE == 'Tahoe':
