@@ -96,6 +96,9 @@
         "scene": "RPR_LightComplexity_Pointlights.ma",
         "functions": [
             "rpr_render(case)"
+        ],
+        "skip_engine": [
+            "Tahoe"
         ]
     },
     {
