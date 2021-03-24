@@ -6,11 +6,13 @@
             "rpr_render(case)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "Default test"
         ],
         "scene": "adaptive_sampling.ma",
         "skip_config": [
-            ["Radeon RX Vega"]
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     },
     {
@@ -22,11 +24,13 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "Adaptive sampling 0.1 Threshold"
         ],
         "scene": "adaptive_sampling.ma",
         "skip_config": [
-            ["Radeon RX Vega"]
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     },
     {
@@ -38,11 +42,13 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "Adaptive sampling Threshold 1"
         ],
         "scene": "adaptive_sampling.ma",
         "skip_config": [
-            ["Radeon RX Vega"]
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     },
     {
@@ -57,27 +63,31 @@
             "rpr_render(case)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "Motion Blur"
         ],
         "scene": "motion_blur.ma",
         "skip_config": [
-            ["Radeon RX Vega"]
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     },
     {
         "case": "MAYA_RS_DUAL_005",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 0)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "Tile rendering"
         ],
         "scene": "adaptive_sampling.ma",
         "skip_config": [
-            ["Radeon RX Vega"]
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     },
     {
@@ -90,11 +100,13 @@
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "Bileteral denoiser"
         ],
         "scene": "adaptive_sampling.ma",
         "skip_config": [
-            ["Radeon RX Vega"]
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     },
     {
@@ -107,11 +119,13 @@
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "LWR denoiser"
         ],
         "scene": "adaptive_sampling.ma",
         "skip_config": [
-            ["Radeon RX Vega"]
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     },
     {
@@ -123,11 +137,13 @@
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "EAW denoiser"
         ],
         "scene": "adaptive_sampling.ma",
         "skip_config": [
-            ["Radeon RX Vega"]
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     },
     {
@@ -140,11 +156,13 @@
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "ML denoiser (Color + AOV)"
         ],
         "scene": "adaptive_sampling.ma",
         "skip_config": [
-            ["Radeon RX Vega"]
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     },
     {
@@ -157,11 +175,13 @@
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "ML denoiser (Color only)"
         ],
         "scene": "adaptive_sampling.ma",
         "skip_config": [
-            ["Radeon RX Vega"]
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     },
     {
@@ -175,11 +195,13 @@
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 1.5)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "Anti Aliasing"
         ],
         "scene": "adaptive_sampling.ma",
         "skip_config": [
-            ["Radeon RX Vega"]
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     },
     {
@@ -192,11 +214,13 @@
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 0)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "UV AOV"
         ],
         "scene": "adaptive_sampling.ma",
         "skip_config": [
-            ["Radeon RX Vega"]
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     },
     {
@@ -209,12 +233,14 @@
             "cmds.setAttr('RadeonProRenderGlobals.useRenderStamp', False)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "Do not compare",
             "Render Stamp"
         ],
         "scene": "adaptive_sampling.ma",
         "skip_config": [
-            ["Radeon RX Vega"]
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     },
     {
@@ -233,11 +259,13 @@
             "cmds.setAttr('RadeonProRenderGlobals.textureGamma', 1)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "Color Managment"
         ],
         "scene": "adaptive_sampling.ma",
         "skip_config": [
-            ["Radeon RX Vega"]
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     },
     {
@@ -250,16 +278,18 @@
             "rpr_render(case)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "Sun_Sky"
         ],
         "scene": "Sun_Sky.ma",
         "skip_config": [
-            ["Radeon RX Vega"]
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     },
     {
         "case": "MAYA_RS_DUAL_016",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "cmds.setAttr('vdbObj.emissionEnabled', 1)",
             "cmds.setAttr('vdbObj.emissionSelectedGrid', 'density', type='string')",
@@ -270,11 +300,13 @@
             "rpr_render(case)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "VDB"
         ],
         "scene": "bunny_cloud.ma",
         "skip_config": [
-            ["Radeon RX Vega"]
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     },
     {
@@ -284,11 +316,13 @@
             "rpr_render(case)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "Complex 1"
         ],
         "scene": "Bathroom.ma",
         "skip_config": [
-            ["Radeon RX Vega"]
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     },
     {
@@ -298,12 +332,15 @@
             "rpr_render(case)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "Complex 2",
             "https://amdrender.atlassian.net/browse/RPRMAYA-2663"
         ],
         "scene": "CorvetteRPR.ma",
         "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal), Radeon RX Vega"]
+            ["AMD Radeon RX Vega 56 (Metal)"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     },
     {
@@ -313,11 +350,13 @@
             "rpr_render(case)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "DOF"
         ],
         "scene": "DenoiserDOF.ma",
         "skip_config": [
-            ["Radeon RX Vega"]
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     },
     {
@@ -333,11 +372,13 @@
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "Tile rendering + ML (Color + AOV)"
         ],
         "scene": "adaptive_sampling.ma",
         "skip_config": [
-            ["Radeon RX Vega"]
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     },
     {
@@ -353,11 +394,13 @@
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "Tile rendering + ML (Color only)"
         ],
         "scene": "adaptive_sampling.ma",
         "skip_config": [
-            ["Radeon RX Vega"]
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     },
     {
@@ -375,11 +418,13 @@
             "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 0)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "Tile rendering + Anti Aliasing + Adaptive Sampling"
         ],
         "scene": "adaptive_sampling.ma",
         "skip_config": [
-            ["Radeon RX Vega"]
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     },
     {
@@ -406,11 +451,13 @@
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "Motion Blur + ML (Color + AOV) + Color Managment"
         ],
         "scene": "motion_blur.ma",
         "skip_config": [
-            ["Radeon RX Vega"]
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     },
     {
@@ -432,11 +479,13 @@
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "Motion Blur + ML (Color only) + Color Managment"
         ],
         "scene": "motion_blur.ma",
         "skip_config": [
-            ["Radeon RX Vega"]
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     },
     {
@@ -455,11 +504,13 @@
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 0)"
         ],
         "script_info": [
+            "https://amdrender.atlassian.net/browse/RPRNEXT-629",
             "Anti Aliasing + ML (Color + AOV) + Time limit = 7 sec"
         ],
         "scene": "adaptive_sampling.ma",
         "skip_config": [
-            ["Radeon RX Vega"]
+            ["Radeon RX Vega"],
+            ["AMD Radeon RX 5700 XT"]	
         ]
     }
 ]
