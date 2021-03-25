@@ -7,6 +7,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "save_viewport(case)"
         ]
@@ -19,6 +20,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -vm \"directIllumination\"')",
             "save_viewport(case)"
@@ -32,6 +34,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -vm \"directIlluminationNoShadow\"')",
             "save_viewport(case)"
@@ -45,6 +48,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -vm \"wireframe\"')",
             "save_viewport(case)"
@@ -58,6 +62,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -vm \"materialId\"')",
             "save_viewport(case)"
@@ -71,6 +76,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -vm \"position\"')",
             "save_viewport(case)"
@@ -84,6 +90,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -vm \"normal\"')",
             "save_viewport(case)"
@@ -97,6 +104,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -vm \"texcoord\"')",
             "save_viewport(case)"
@@ -110,6 +118,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -vm \"ambientOcclusion\"')",
             "save_viewport(case)"
@@ -123,6 +132,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -va 1')",
             "save_viewport(case)"
@@ -136,6 +146,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -va 2')",
             "save_viewport(case)"
@@ -149,6 +160,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -va 3')",
             "save_viewport(case)"
@@ -162,6 +174,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -va 4')",
             "save_viewport(case)"
@@ -175,6 +188,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -va 5')",
             "save_viewport(case)"
@@ -188,6 +202,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -va 6')",
             "save_viewport(case)"
@@ -201,6 +216,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -va 7')",
             "save_viewport(case)"
@@ -214,6 +230,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -va 8')",
             "save_viewport(case)"
@@ -227,6 +244,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -va 9')",
             "save_viewport(case)"
@@ -240,6 +258,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -va 10')",
             "save_viewport(case)"
@@ -253,6 +272,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -va 11')",
             "save_viewport(case)"
@@ -266,6 +286,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -va 12')",
             "save_viewport(case)"
@@ -279,6 +300,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -va 13')",
             "save_viewport(case)"
@@ -292,6 +314,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -va 14')",
             "save_viewport(case)"
@@ -305,6 +328,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -va 15')",
             "save_viewport(case)"
@@ -318,6 +342,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -va 16')",
             "save_viewport(case)"
@@ -331,6 +356,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -va 17')",
             "save_viewport(case)"
@@ -344,6 +370,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -va 18')",
             "save_viewport(case)"
@@ -357,6 +384,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -va 19')",
             "save_viewport(case)"
@@ -370,6 +398,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -va 20')",
             "save_viewport(case)"
@@ -383,6 +412,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -va 21')",
             "save_viewport(case)"
@@ -396,6 +426,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -va 22')",
             "save_viewport(case)"
@@ -409,6 +440,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -va 23')",
             "save_viewport(case)"
@@ -422,6 +454,7 @@
         ],
         "scene": "House.ma",
         "functions": [
+            "mel.eval('modelEditor -e -rom \"FireRenderOverride\" modelPanel4')",
             "rpr_render(case)",
             "mel.eval('fireRenderViewport -p \"modelPanel4\" -va 24')",
             "save_viewport(case)"
