@@ -255,6 +255,9 @@ def prerender(case):
         cmds.setAttr('defaultResolution.width', RESOLUTION_X)
         cmds.setAttr('defaultResolution.height', RESOLUTION_Y)
 
+    cmds.setAttr('defaultRenderGlobals.currentRenderer',
+                 type='string' 'FireRender')
+                 
     cmds.setAttr('defaultRenderGlobals.imageFormat', 8)
 
     cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', THRESHOLD)
