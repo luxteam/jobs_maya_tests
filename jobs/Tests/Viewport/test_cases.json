@@ -3,6 +3,7 @@
         "case": "MAYA_RS_VIEW_001",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "Global Illumination"
         ],
         "scene": "House.ma",
@@ -16,6 +17,7 @@
         "case": "MAYA_RS_VIEW_002",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "Direct Illumination"
         ],
         "scene": "House.ma",
@@ -30,6 +32,7 @@
         "case": "MAYA_RS_VIEW_003",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "SDirect Illumination No Shadow"
         ],
         "scene": "House.ma",
@@ -44,6 +47,7 @@
         "case": "MAYA_RS_VIEW_004",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "Wireframe"
         ],
         "scene": "House.ma",
@@ -58,6 +62,7 @@
         "case": "MAYA_RS_VIEW_005",
         "status": "skipped",
         "script_info": [
+            "Do not compare",
             "Material ID"
         ],
         "scene": "House.ma",
@@ -72,6 +77,7 @@
         "case": "MAYA_RS_VIEW_006",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "Position"
         ],
         "scene": "House.ma",
@@ -86,6 +92,7 @@
         "case": "MAYA_RS_VIEW_007",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "Normal"
         ],
         "scene": "House.ma",
@@ -100,6 +107,7 @@
         "case": "MAYA_RS_VIEW_008",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "TexCoord"
         ],
         "scene": "House.ma",
@@ -114,6 +122,7 @@
         "case": "MAYA_RS_VIEW_009",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "Ambient Occlusion"
         ],
         "scene": "House.ma",
@@ -128,6 +137,7 @@
         "case": "MAYA_RS_VIEW_010",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "Opacity"
         ],
         "scene": "House.ma",
@@ -142,6 +152,7 @@
         "case": "MAYA_RS_VIEW_011",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "World Corrdinate"
         ],
         "scene": "House.ma",
@@ -156,6 +167,7 @@
         "case": "MAYA_RS_VIEW_012",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "UV"
         ],
         "scene": "House.ma",
@@ -170,6 +182,7 @@
         "case": "MAYA_RS_VIEW_013",
         "status": "skipped",
         "script_info": [
+            "Do not compare",
             "Material Idx"
         ],
         "scene": "House.ma",
@@ -184,6 +197,7 @@
         "case": "MAYA_RS_VIEW_014",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "Geometric Normal"
         ],
         "scene": "House.ma",
@@ -198,6 +212,7 @@
         "case": "MAYA_RS_VIEW_015",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "Shading Normal"
         ],
         "scene": "House.ma",
@@ -212,6 +227,7 @@
         "case": "MAYA_RS_VIEW_016",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "Depth"
         ],
         "scene": "House.ma",
@@ -226,6 +242,7 @@
         "case": "MAYA_RS_VIEW_017",
         "status": "skipped",
         "script_info": [
+            "Do not compare",
             "Object ID"
         ],
         "scene": "House.ma",
@@ -240,6 +257,7 @@
         "case": "MAYA_RS_VIEW_018",
         "status": "skipped",
         "script_info": [
+            "Do not compare",
             "Object Group ID"
         ],
         "scene": "House.ma",
@@ -254,6 +272,7 @@
         "case": "MAYA_RS_VIEW_019",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "Shadow Catcher"
         ],
         "scene": "House.ma",
@@ -268,6 +287,7 @@
         "case": "MAYA_RS_VIEW_020",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "Background"
         ],
         "scene": "House.ma",
@@ -282,6 +302,7 @@
         "case": "MAYA_RS_VIEW_021",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "Emission"
         ],
         "scene": "House.ma",
@@ -296,6 +317,7 @@
         "case": "MAYA_RS_VIEW_022",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "Velocity"
         ],
         "scene": "House.ma",
@@ -310,6 +332,7 @@
         "case": "MAYA_RS_VIEW_023",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "Direct Illumination"
         ],
         "scene": "House.ma",
@@ -324,6 +347,7 @@
         "case": "MAYA_RS_VIEW_024",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "Indirect Illumination"
         ],
         "scene": "House.ma",
@@ -338,6 +362,7 @@
         "case": "MAYA_RS_VIEW_025",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "AO"
         ],
         "scene": "House.ma",
@@ -352,6 +377,7 @@
         "case": "MAYA_RS_VIEW_026",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "Direct Diffuse"
         ],
         "scene": "House.ma",
@@ -366,6 +392,7 @@
         "case": "MAYA_RS_VIEW_027",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "Direct Reflect"
         ],
         "scene": "House.ma",
@@ -380,6 +407,7 @@
         "case": "MAYA_RS_VIEW_028",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "Indirect Diffuse"
         ],
         "scene": "House.ma",
@@ -394,6 +422,7 @@
         "case": "MAYA_RS_VIEW_029",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "Indirect Reflect"
         ],
         "scene": "House.ma",
@@ -408,6 +437,7 @@
         "case": "MAYA_RS_VIEW_030",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "Refract"
         ],
         "scene": "House.ma",
@@ -422,6 +452,7 @@
         "case": "MAYA_RS_VIEW_031",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "Subsurface / Volume"
         ],
         "scene": "House.ma",
@@ -436,6 +467,7 @@
         "case": "MAYA_RS_VIEW_032",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "Albedo"
         ],
         "scene": "House.ma",
@@ -450,6 +482,7 @@
         "case": "MAYA_RS_VIEW_033",
         "status": "active",
         "script_info": [
+            "Do not compare",
             "Variance"
         ],
         "scene": "House.ma",
