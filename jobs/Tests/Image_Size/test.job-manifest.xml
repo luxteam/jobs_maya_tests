@@ -8,6 +8,7 @@
         <argument>--render_device "{RenderDevice}"</argument>
         <argument>--output "{OutputDir}"</argument>
         <argument>--testType Image_Size</argument>
+        <argument>--batchRender false</argument>
         <argument>--pass_limit 25</argument>
         <argument>--resolution_x {rx}</argument>
         <argument>--resolution_y {ry}</argument>

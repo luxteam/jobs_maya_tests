@@ -8,6 +8,7 @@
         <argument>--render_device "{RenderDevice}"</argument>
         <argument>--output "{OutputDir}"</argument>
         <argument>--testType PBR</argument>
+        <argument>--batchRender false</argument>
         <argument>--pass_limit 100</argument>
         <argument>--resolution_x 800</argument>
         <argument>--resolution_y 600</argument>

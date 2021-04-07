@@ -28,7 +28,8 @@ from jobs_launcher.core.kill_process import kill_process
 
 ROOT_DIR = os.path.abspath(os.path.join(
     os.path.dirname(__file__), os.path.pardir, os.path.pardir))
-PROCESS = ['Maya', 'maya.exe']
+LOGS_DIR = 'render_tool_logs'
+PROCESS = ['Maya', 'maya.exe', 'maya', 'mayabatch.exe', 'senddmp', 'senddmp.exe']
 
 if platform.system() == 'Darwin':
     from Quartz import CGWindowListCopyWindowInfo
@@ -54,7 +55,7 @@ def get_windows_titles():
             windows_list = CGWindowListCopyWindowInfo(
                 ws_options, kCGNullWindowID)
             maya_titles = {x.get('kCGWindowName', u'Unknown')
-                           for x in windows_list if 'Maya' in x['kCGWindowOwnerName']}
+                           for x in windows_list if 'Maya' in x['kCGWindowOwnerName'] or 'senddmp' in x['kCGWindowOwnerName']}
 
             # duct tape for windows with empty title
             expected = {'Maya', 'Render View', 'Rendering...'}
@@ -90,14 +91,25 @@ def get_windows_titles():
 
     return []
 
-
 def createArgsParser():
+    def str2bool(v):
+        if isinstance(v, bool):
+            return v
+        if v.lower() in ('yes', 'true', 't', 'y', '1'):
+            return True
+        elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+            return False
+        else:
+            raise argparse.ArgumentTypeError('Boolean value expected.')
+
+
     parser = argparse.ArgumentParser()
 
     parser.add_argument('--tool', required=True, metavar='<path>')
     parser.add_argument('--render_device', required=True)
     parser.add_argument('--output', required=True, metavar='<dir>')
     parser.add_argument('--testType', required=True)
+    parser.add_argument('--batchRender', required=False, default=False, type=str2bool)
     parser.add_argument('--res_path', required=True)
     parser.add_argument('--pass_limit', required=False, default=50, type=int)
     parser.add_argument('--resolution_x', required=False, default=0, type=int)
@@ -113,6 +125,65 @@ def createArgsParser():
     parser.add_argument('--stucking_time', required=False, default=180, type=int)
 
     return parser
+
+
+def save_report(args, case):
+    work_dir = args.output
+
+    if case['status'] == 'active':
+        case['status'] = 'inprogress'
+
+    if not os.path.exists(os.path.join(work_dir, 'Color')):
+        os.makedirs(os.path.join(work_dir, 'Color'))
+
+    dest = os.path.join(work_dir, 'Color', case['case'] + '.jpg')
+    src = os.path.join(work_dir, '..', '..', '..',
+                        '..', 'jobs_launcher', 'common', 'img')
+
+    if case['status'] == 'inprogress':
+        copyfile(os.path.join(src, 'passed.jpg'), dest)
+    elif case['status'] != 'skipped':
+        copyfile(
+            os.path.join(src, case['status'] + '.jpg'), dest)
+
+
+    path_to_file = os.path.join(work_dir, case['case'] + '_RPR.json')
+
+    with open(path_to_file, 'r') as file:
+        report = json.loads(file.read())[0]
+
+    if case['status'] == 'inprogress':
+        case['status'] = 'done'
+        report['test_status'] = 'passed'
+        report['group_timeout_exceeded'] = False
+    else:
+        report['test_status'] = case['status']
+    
+    if case['status'] == 'error':
+        number_of_tries = case.get('number_of_tries', 0)
+        if number_of_tries == args.retries:
+            error_message = 'Testcase wasn\'t executed successfully (all attempts were used). Number of tries: {}'.format(str(number_of_tries))
+        else:
+            error_message = 'Testcase wasn\'t executed successfully. Number of tries: {}'.format(str(number_of_tries))
+        report['message'] = [error_message]
+    else:
+        report['message'] = []
+
+    
+    report['date_time'] = datetime.now().strftime('%m/%d/%Y %H:%M:%S')
+    report['render_time'] = 0.0
+    report['test_group'] = args.testType
+    report['test_case'] = case['case']
+    report['difference_color'] = 0
+    report['script_info'] = case['script_info']
+    report['render_log'] = os.path.join('render_tool_logs', case['case'] + '.log')
+    report['scene_name'] = case.get('scene', '')
+    if case['status'] != 'skipped':
+        report['file_name'] = case['case'] + case.get('extension', '.jpg')
+        report['render_color_path'] = os.path.join('Color', report['file_name'])
+
+    with open(path_to_file, 'w') as file:
+        file.write(json.dumps([report], indent=4))
 
 
 def check_licenses(res_path, maya_scenes, testType):
@@ -204,10 +275,11 @@ def launchMaya(cmdScriptPath, work_dir, error_windows, restart_timeout):
                 'Found windows: {}'.format(window_titles))
         except (psutil.TimeoutExpired, subprocess.TimeoutExpired) as err:
             current_restart_timeout -= 40
+
             fatal_errors_titles = ['Detected windows ERROR', 'maya', 'Student Version File', 'Radeon ProRender Error', 'Script Editor',
-                                   'Autodesk Maya 2018 Error Report', 'Autodesk Maya 2018 Error Report', 'Autodesk Maya 2018 Error Report',
-                                   'Autodesk Maya 2019 Error Report', 'Autodesk Maya 2019 Error Report', 'Autodesk Maya 2019 Error Report',
-                                   'Autodesk Maya 2020 Error Report', 'Autodesk Maya 2020 Error Report', 'Autodesk Maya 2020 Error Report']
+                                'Autodesk Maya 2018 Error Report', 'Autodesk Maya 2018 Error Report', 'Autodesk Maya 2018 Error Report',
+                                'Autodesk Maya 2019 Error Report', 'Autodesk Maya 2019 Error Report', 'Autodesk Maya 2019 Error Report',
+                                'Autodesk Maya 2020 Error Report', 'Autodesk Maya 2020 Error Report', 'Autodesk Maya 2020 Error Report']
             window_titles = get_windows_titles()
             error_window = set(fatal_errors_titles).intersection(window_titles)
             if error_window:
@@ -231,9 +303,12 @@ def launchMaya(cmdScriptPath, work_dir, error_windows, restart_timeout):
                 except Exception as e:
                     core_config.main_logger.error('Failed to make error screen: {}'.format(str(e)))
 
-                kill_maya(p)
-
-                break
+                if not args.batchRender:
+                    kill_maya(p)
+                    kill_process(PROCESS)
+                    break
+                else:
+                    kill_process(PROCESS)
             else:
                 new_done_test_cases_num = get_finished_cases_number(args.output)
                 if new_done_test_cases_num == -1:
@@ -246,8 +321,12 @@ def launchMaya(cmdScriptPath, work_dir, error_windows, restart_timeout):
                     core_config.main_logger.error('Maya got stuck.')
                     rc = -1
                     current_restart_timeout = restart_timeout
-                    kill_maya(p)
-                    break
+                    if not args.batchRender:
+                        kill_maya(p)
+                        break
+                    else:
+                        # if stuck batch render process was killed, the next ones in the script will continue to run sequentially
+                        kill_process(PROCESS)
         else:
             rc = 0
             break
@@ -255,6 +334,57 @@ def launchMaya(cmdScriptPath, work_dir, error_windows, restart_timeout):
     perf_count.event_record(args.output, 'Close tool', False)
 
     return rc
+
+
+def get_batch_render_cmds(args, cases, work_dir, res_path, required_tool):
+    cmds = []
+    if platform.system() == 'Windows':
+        python_alias = 'python'
+    else:
+        python_alias = 'python3'
+
+    case_num = -1
+
+    for case in cases:
+        case_num += 1
+        if case['status'] in ['active', 'fail', 'skipped']:
+            
+            if case['status'] == 'skipped' or case['functions'][0] == 'check_test_cases_success_save':
+                save_report(args, case)
+            elif case['status'] == 'fail' or case.get('number_of_tries', 1) >= args.retries:
+                case['status'] = 'error'
+                save_report(args, case)
+            else:
+                # This block is for cases, whose functions don't work in preframe or postframe block
+
+                # If desired camera was specified, batch render executes with '-cam' parameter
+                if 'camera' in case:
+                    cam_option = "-cam {}".format(case['camera'])
+                else:
+                    cam_option = ""
+                
+                if 'frame_number' in case:
+                    frame_option = "-s {}".format(case['frame_number'])
+                else:
+                    frame_option = ""
+
+                cmds.append('''{python_alias} event_recorder.py "Open tool" True {case}'''.format(python_alias=python_alias, case=case['case']))
+                cmds.append('''"{tool}" -r FireRender -proj "{project}" -log {log_file} {frame_option} {cam_option} -devc "{render_device}" -rd "{result_dir}" -im "{img_name}" -fnc name.ext -preRender "python(\\"import base_functions; base_functions.main({case_num})\\");" -postRender "python(\\"base_functions.postrender({case_num})\\");" -g "{scene}"'''.format(
+                    tool=required_tool,
+                    project=os.path.join(res_path, 'Scenes'),
+                    log_file=os.path.join(work_dir, LOGS_DIR, case['case'] + '.log'),
+                    frame_option=frame_option,
+                    cam_option=cam_option,
+                    render_device=args.render_device,
+                    result_dir=os.path.join(work_dir, 'Color'),
+                    img_name=case['case'],
+                    case_num=case_num,
+                    scene=case['scene']
+                ));
+                cmds.append('''{python_alias} event_recorder.py "Close tool" False {case}'''.format(python_alias=python_alias, case=case['case']))
+    # Cut first `Open tool` event, because it will be recorded before launching subprocess inside of launchMaya
+    # Cut last `Close tool` event, because it will be recorded at the end of the `launchMaya` function
+    return cmds[1:-1]
 
 
 def main(args, error_windows):
@@ -294,10 +424,11 @@ def main(args, error_windows):
 
     script = script.format(work_dir=work_dir, testType=args.testType, render_device=args.render_device, res_path=res_path, pass_limit=args.pass_limit,
                            resolution_x=args.resolution_x, resolution_y=args.resolution_y, SPU=args.SPU, threshold=args.threshold, engine=args.engine,
-                           retries=args.retries)
+                           batch_render=args.batchRender ,retries=args.retries)
 
     with open(os.path.join(args.output, 'base_functions.py'), 'w') as file:
         file.write(script)
+    copyfile(os.path.join(os.path.dirname(__file__), 'event_recorder.py'), os.path.join(args.output, 'event_recorder.py'))
 
     if os.path.exists(args.testCases) and args.testCases:
         with open(args.testCases) as f:
@@ -343,6 +474,9 @@ def main(args, error_windows):
     if not os.path.exists(baseline_path):
         os.makedirs(baseline_path)
         os.makedirs(os.path.join(baseline_path, 'Color'))
+
+    if not os.path.exists(os.path.join(work_dir, LOGS_DIR)):
+        os.makedirs(os.path.join(work_dir, LOGS_DIR))
 
     for case in cases:
         if is_case_skipped(case, render_platform, args.engine):
@@ -408,36 +542,42 @@ def main(args, error_windows):
                 core_config.main_logger.error('Failed to copy baseline ' +
                                               os.path.join(baseline_path_tr, case['case'] + core_config.CASE_REPORT_SUFFIX))
 
+    if system_pl == 'Windows':
+        cmds = ['set PYTHONPATH=%cd%;PYTHONPATH',
+                'set MAYA_SCRIPT_PATH=%cd%;%MAYA_SCRIPT_PATH%']
+        if args.batchRender:
+            required_tool = os.path.join(args.tool, 'Render.exe')
+            cmds.extend(get_batch_render_cmds(args, cases, work_dir, res_path, required_tool))
+        else:
+            cmds.append('set MAYA_CMD_FILE_OUTPUT=%cd%/renderTool.log')
+            required_tool = os.path.join(args.tool, 'maya.exe')
+            cmds.append('"{tool}" -command "python(\\"import base_functions; base_functions.main()\\");"'.format(tool=required_tool))
+        
+        cmdScriptPath = os.path.join(args.output, 'script.bat')
+        with open(cmdScriptPath, 'w') as file:
+            file.write("\n".join(cmds))
+
+    elif system_pl == 'Darwin':
+        cmds = ['export PYTHONPATH=$PWD:$PYTHONPATH'
+                'export MAYA_SCRIPT_PATH=$PWD:$MAYA_SCRIPT_PATH']
+        if args.batchRender:
+            required_tool = os.path.join(args.tool, 'Render')
+            cmds.extend(get_batch_render_cmds(args, cases, work_dir, res_path, required_tool))
+        else:
+            cmds.append('export MAYA_CMD_FILE_OUTPUT=$PWD/renderTool.log')
+            required_tool = os.path.join(args.tool, 'maya')
+            cmds.append('"{tool}" -command "python(\\"import base_functions; base_functions.main()\\");"'.format(tool=required_tool))
+            
+        cmdScriptPath = os.path.join(args.output, 'script.sh')
+        with open(cmdScriptPath, 'w') as file:
+            file.write("\n".join(cmds))
+        os.system('chmod +x {}'.format(cmdScriptPath))
+
     with open(os.path.join(work_dir, 'test_cases.json'), 'w+') as f:
         json.dump(cases, f, indent=4)
 
-    if system_pl == 'Windows':
-        cmdRun = '''
-          set MAYA_CMD_FILE_OUTPUT=%cd%/renderTool.log
-          set PYTHONPATH=%cd%;PYTHONPATH
-          set MAYA_SCRIPT_PATH=%cd%;%MAYA_SCRIPT_PATH%
-          "{tool}" -command "python(\\"import base_functions\\");"
-        '''.format(tool=args.tool)
-
-        cmdScriptPath = os.path.join(args.output, 'script.bat')
-        with open(cmdScriptPath, 'w') as file:
-            file.write(cmdRun)
-
-    elif system_pl == 'Darwin':
-        cmdRun = '''
-          export MAYA_CMD_FILE_OUTPUT=$PWD/renderTool.log
-          export PYTHONPATH=$PWD:$PYTHONPATH
-          export MAYA_SCRIPT_PATH=$PWD:$MAYA_SCRIPT_PATH
-          "{tool}" -command "python(\\"import base_functions\\");"
-        '''.format(tool=args.tool)
-
-        cmdScriptPath = os.path.join(args.output, 'script.sh')
-        with open(cmdScriptPath, 'w') as file:
-            file.write(cmdRun)
-        os.system('chmod +x {}'.format(cmdScriptPath))
-
-    if which(args.tool) is None:
-        core_config.main_logger.error('Can\'t find tool ' + args.tool)
+    if which(required_tool) is None:
+        core_config.main_logger.error('Can\'t find tool ' + required_tool)
         exit(-1)
 
     perf_count.event_record(args.output, 'Prepare tests', False)
@@ -538,7 +678,7 @@ if __name__ == '__main__':
             os.path.realpath(os.path.join(os.path.abspath(
                 args.output).replace('\\', '/'), 'test_cases.json')))
     except:
-        core_config.logging.error("Can't copy test_cases.json")
+        core_config.logging.error("Can't copy {}".format('test_cases.json'))
         core_config.main_logger.error(str(e))
         exit(-1)
 
@@ -555,7 +695,7 @@ if __name__ == '__main__':
 
         try:
             move(os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'renderTool.log'),
-                 os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'renderTool' + str(iteration) + '.log'))
+                    os.path.join(os.path.abspath(args.output).replace('\\', '/'), 'renderTool' + str(iteration) + '.log'))
         except:
             core_config.main_logger.error('No renderTool.log')
 
