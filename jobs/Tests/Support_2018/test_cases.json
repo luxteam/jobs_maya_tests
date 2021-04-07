@@ -8,7 +8,10 @@
         "script_info": [
             "Maya 2018 checking"
         ],
-        "scene": "Lambo_Lebrov.ma"
+        "scene": "Lambo_Lebrov.ma",
+        "skip_config": [
+            ["AMD Radeon RX 5700XT (Metal)"]
+        ]
     },
     {
         "case": "MAYA_RS_2018_002",
@@ -24,7 +27,7 @@
         ],
         "scene": "Lambo_Lebrov.ma",
         "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
+            ["AMD Radeon RX Vega 56 (Metal)", "AMD Radeon RX 5700XT (Metal)"]
         ]
     }
 ]

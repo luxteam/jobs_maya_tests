@@ -235,7 +235,7 @@
             "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
         ],
         "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
+            ["AMD Radeon RX Vega 56 (Metal)", "AMD Radeon RX 5700XT (Metal)"]
         ]
     },
     {
