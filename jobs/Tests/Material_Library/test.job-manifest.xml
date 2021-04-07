@@ -8,6 +8,7 @@
         <argument>--render_device "{RenderDevice}"</argument>
         <argument>--output "{OutputDir}"</argument>
         <argument>--testType Material_Library</argument>
+        <argument>--batchRender false</argument>
         <argument>--pass_limit 50</argument>
         <argument>--resolution_x 600</argument>
         <argument>--resolution_y 600</argument>

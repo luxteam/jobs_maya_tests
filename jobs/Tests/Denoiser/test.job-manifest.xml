@@ -8,6 +8,7 @@
         <argument>--render_device "{RenderDevice}"</argument>
         <argument>--output "{OutputDir}"</argument>
         <argument>--testType Denoiser</argument>
+        <argument>--batchRender false</argument>
         <argument>--pass_limit 50</argument>
         <argument>--resolution_x {rx}</argument>
         <argument>--resolution_y {ry}</argument>
