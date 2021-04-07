@@ -1,4 +1,4 @@
-set PATH=c:\python35\;c:\python35\scripts\;%PATH%
+set PATH=c:\python39\;c:\python39\scripts\;%PATH%
 set RENDER_DEVICE=%1
 set FILE_FILTER=%2
 set TESTS_FILTER="%3"
