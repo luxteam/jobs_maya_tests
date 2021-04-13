@@ -232,7 +232,7 @@ def prerender(case):
         enable_rpr(case['case'])
         event("Prerender", True, case['case'])
 
-    mel.eval('athenaEnable -ae false')
+    cmds.athenaEnable(ae=False)
 
     if ENGINE == 'Tahoe':
         cmds.setAttr('RadeonProRenderGlobals.tahoeVersion', 1)
