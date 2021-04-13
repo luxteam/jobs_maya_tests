@@ -1,7 +1,7 @@
 [
     {
         "case": "MAYA_RS_AWS_001",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "mel.eval('athenaEnable -ae true')",
             "rpr_render(case)"
