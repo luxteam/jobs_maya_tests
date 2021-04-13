@@ -368,7 +368,7 @@
     },
     {
         "case": "MAYA_RS_MASH_027",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Mash Complex Driving by Boss cache"
         ],
