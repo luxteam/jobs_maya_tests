@@ -291,7 +291,7 @@ def launchMaya(cmdScriptPath, work_dir, error_windows, restart_timeout):
                 rc = -1
 
                 try:
-                    test_cases_path = os.path.join(work_dir, core_config.TEST_CASES_JSON_NAME[local_config.tool_name])
+                    test_cases_path = os.path.join(work_dir, core_config.TEST_CASES_JSON_NAME)
                     error_case = utils.get_error_case(test_cases_path)
                     if error_case:
                         error_case_path = os.path.join(work_dir, error_case + core_config.CASE_REPORT_SUFFIX)
