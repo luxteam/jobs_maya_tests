@@ -18,6 +18,7 @@
         <argument>--retries {retries}</argument>
         <argument>--update_refs "{UpdateRefs}"</argument>
         <argument>--engine "{engine}"</argument>
+        <argument>--stucking_time 240</argument>
     </execute>
 
     <execute command='python "{CommonDir}/scripts/makeReport.py"'>
