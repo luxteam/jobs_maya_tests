@@ -3,7 +3,7 @@
 
     <outpath value="{OutputDir}"/>
 
-    <execute command='python "{CWD}/Scripts/simpleRender.py"' timeout="3600">
+    <execute command='python "{CWD}/Scripts/simpleRender.py"' timeout="9000">
         <argument>--tool "{Tool}"</argument>
         <argument>--render_device "cpu"</argument>
         <argument>--output "{OutputDir}"</argument>
@@ -18,7 +18,7 @@
         <argument>--engine "{engine}"</argument>
         <argument>--retries {retries}</argument>
         <argument>--update_refs "{UpdateRefs}"</argument>
-        <argument>--stucking_time 480</argument>
+        <argument>--stucking_time 960</argument>
     </execute>
 
     <execute command='python "{CommonDir}/scripts/makeReport.py"'>
