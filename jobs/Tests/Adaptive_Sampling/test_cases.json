@@ -816,7 +816,7 @@
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
         ],
         "skip_engine": [
-            "Hybrid_Medium"
+            "Hybrid_Medium", "Tahoe", "Northstar"
         ],
         "skip_config": [
             ["AMD Radeon RX Vega 56 (Metal)"]
@@ -884,6 +884,9 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
+        ],
+        "skip_engine": [
+            "Hybrid_Medium", "Tahoe", "Northstar"
         ],
         "skip_config": [
             ["AMD Radeon RX Vega 56 (Metal)"]
@@ -986,6 +989,9 @@
         ],
         "skip_config": [
             ["AMD Radeon RX Vega 56 (Metal)"]
+        ],
+        "skip_engine": [
+            "Northstar"
         ]
     },
     {

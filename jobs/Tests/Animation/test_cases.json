@@ -91,7 +91,7 @@
     },
     {
         "case": "MAYA_RS_AN_008",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Frame: 292"
         ],
@@ -459,7 +459,7 @@
     },
     {
         "case": "MAYA_RS_AN_035",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Image sequence - Frame 1"
         ],
@@ -474,7 +474,7 @@
     },
     {
         "case": "MAYA_RS_AN_036",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Image sequence - Frame 40"
         ],
@@ -486,7 +486,7 @@
     },
     {
         "case": "MAYA_RS_AN_037",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Image sequence - Frame 80"
         ],

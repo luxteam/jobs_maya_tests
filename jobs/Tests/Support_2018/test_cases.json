@@ -24,7 +24,7 @@
         ],
         "scene": "Lambo_Lebrov.ma",
         "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
+            ["AMD Radeon RX Vega 56 (Metal)"], ["AMD Radeon RX 5700XT (Metal)"]
         ]
     }
 ]

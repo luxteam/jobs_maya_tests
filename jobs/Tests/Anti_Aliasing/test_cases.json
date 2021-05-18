@@ -60,13 +60,17 @@
         "status": "active",
         "script_info": [
             "AA filter: Lanczos",
-            "Filter Size: 5"
+            "Filter Size: 5",
+            "https://amdrender.atlassian.net/browse/RPRMAYA-2706"
         ],
         "scene": "maya_shaderball.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.filter', 2)",
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 5)",
             "rpr_render(case)"
+        ],
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {

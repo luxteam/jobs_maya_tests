@@ -8,4 +8,6 @@ top-level.log
 Baseline/
 Work/*
 .idea
+.vscode
+
 launcher.engine.log

@@ -531,7 +531,7 @@
     },
     {
         "case": "MAYA_MAT_NODE_033",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "resetAttributes()",
             "cmds.setAttr('BumpNormal.visibility', 1)",
@@ -898,7 +898,7 @@
         "script_info": [
             "RPRTransparentMaterial"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "maya_shaderball_rprn.ma"
     },
     {
         "case": "MAYA_MAT_NODE_056",
@@ -912,7 +912,7 @@
         "script_info": [
             "RPRFlatColorMaterial"
         ],
-        "scene": "maya_shaderball.ma"
+        "scene": "maya_shaderball_rprn.ma"
     },
     {
         "case": "MAYA_MAT_NODE_057",

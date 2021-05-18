@@ -3,11 +3,12 @@
 
     <outpath value="{OutputDir}"/>
 
-    <execute command='python "{CWD}/Scripts/simpleRender.py"' timeout="2400">
+    <execute command='python "{CWD}/Scripts/simpleRender.py"' timeout="1800">
         <argument>--tool "{Tool}"</argument>
         <argument>--render_device "{RenderDevice}"</argument>
         <argument>--output "{OutputDir}"</argument>
         <argument>--testType AOV</argument>
+        <argument>--batchRender false</argument>
         <argument>--pass_limit {PassLimit}</argument>
         <argument>--resolution_x {rx}</argument>
         <argument>--resolution_y {ry}</argument>
@@ -20,7 +21,7 @@
         <argument>--update_refs "{UpdateRefs}"</argument>
     </execute>
 
-    <execute command='python "{CWD}/Scripts/make_report_json.py"'>
+    <execute command='python "{CommonDir}/scripts/makeReport.py"'>
         <argument>--work_dir "{OutputDir}"</argument>
     </execute>
 

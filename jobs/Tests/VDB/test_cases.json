@@ -15,6 +15,9 @@
             "Albedo=On(ls_bunny)"
         ],
         "scene": "bunny.ma",
+        "skip_engine": [
+            "Northstar"
+        ],
         "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
@@ -34,6 +37,9 @@
             "Density=3000"
         ],
         "scene": "bunny.ma",
+        "skip_engine": [
+            "Northstar"
+        ],
         "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
@@ -54,6 +60,9 @@
             "Albedo=Off"
         ],
         "scene": "bunny_cloud.ma",
+        "skip_engine": [
+            "Northstar"
+        ],
         "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
@@ -79,6 +88,9 @@
             "Albedo=On(density)"
         ],
         "scene": "bunny_cloud.ma",
+        "skip_engine": [
+            "Northstar"
+        ],
         "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
@@ -97,6 +109,9 @@
             "Albedo=On(density)"
         ],
         "scene": "bunny_cloud.ma",
+        "skip_engine": [
+            "Northstar"
+        ],
         "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
@@ -119,6 +134,9 @@
             "Emission=On"
         ],
         "scene": "bunny_cloud.ma",
+        "skip_engine": [
+            "Northstar"
+        ],
         "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
@@ -148,13 +166,16 @@
             "Rotated"
         ],
         "scene": "bunny_cloud.ma",
+        "skip_engine": [
+            "Northstar"
+        ],
         "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
         "case": "MAYA_MAT_VDB_008",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "cmds.setAttr('vdbObj.emissionEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
@@ -170,13 +191,16 @@
             "Albedo=On(temperature)"
         ],
         "scene": "explosion.ma",
+        "skip_engine": [
+            "Northstar"
+        ],
         "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
         "case": "MAYA_MAT_VDB_009",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "cmds.setAttr('vdbObj.emissionEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
@@ -190,16 +214,20 @@
         "script_info": [
             "explosion.vdb",
             "Density=10000",
-            "Albedo=On(density)"
+            "Albedo=On(density)",
+            "https://amdrender.atlassian.net/browse/RPRMAYA-2687"
         ],
         "scene": "explosion.ma",
+        "skip_engine": [
+            "Northstar"
+        ],
         "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
         "case": "MAYA_MAT_VDB_010",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "cmds.setAttr('vdbObj.emissionEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
@@ -215,13 +243,16 @@
             "Albedo=On(Temperature)"
         ],
         "scene": "fire.ma",
+        "skip_engine": [
+            "Northstar"
+        ],
         "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
         "case": "MAYA_MAT_VDB_011",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "cmds.setAttr('vdbObj.emissionEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
@@ -238,6 +269,9 @@
             "Albedo=On(Density)"
         ],
         "scene": "fire.ma",
+        "skip_engine": [
+            "Northstar"
+        ],
         "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
@@ -256,6 +290,9 @@
             "Density=6000"
         ],
         "scene": "smoke1.ma",
+        "skip_engine": [
+            "Northstar"
+        ],
         "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
@@ -275,6 +312,9 @@
             "Density=6000"
         ],
         "scene": "smoke2.ma",
+        "skip_engine": [
+            "Northstar"
+        ],
         "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
@@ -292,6 +332,9 @@
             "space.vdb"
         ],
         "scene": "space.ma",
+        "skip_engine": [
+            "Northstar"
+        ],
         "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
@@ -310,6 +353,9 @@
             "Albedo=On"
         ],
         "scene": "sphere.ma",
+        "skip_engine": [
+            "Northstar"
+        ],
         "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
@@ -328,6 +374,9 @@
             "Albedo=On"
         ],
         "scene": "torus.ma",
+        "skip_engine": [
+            "Northstar"
+        ],
         "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
@@ -347,6 +396,9 @@
             "Albedo=On"
         ],
         "scene": "torus_knot_helix.ma",
+        "skip_engine": [
+            "Northstar"
+        ],
         "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
@@ -368,6 +420,9 @@
             "ScaleX=8"
         ],
         "scene": "venus.ma",
+        "skip_engine": [
+            "Northstar"
+        ],
         "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
@@ -382,6 +437,9 @@
             "Multiple VDBs"
         ],
         "scene": "multi.ma",
+        "skip_engine": [
+            "Northstar"
+        ],
         "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
@@ -404,13 +462,16 @@
             "Create second VDB"
         ],
         "scene": "bunny.ma",
+        "skip_engine": [
+            "Northstar"
+        ],
         "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
         "case": "MAYA_MAT_VDB_021",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "cmds.currentTime(50)",
             "rpr_render(case)"
@@ -419,28 +480,35 @@
             "VDB sequence - Frame 50"
         ],
         "scene": "gas.ma",
+        "skip_engine": [
+            "Northstar"
+        ],
         "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
         "case": "MAYA_MAT_VDB_022",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "cmds.currentTime(100)",
             "rpr_render(case)"
         ],
         "script_info": [
-            "VDB sequence - Frame 100"
+            "VDB sequence - Frame 100",
+            "https://amdrender.atlassian.net/browse/RPRMAYA-2687"
         ],
         "scene": "gas.ma",
+        "skip_engine": [
+            "Northstar"
+        ],
         "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
         "case": "MAYA_MAT_VDB_023",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "cmds.currentTime(100)",
             "set_render_device('cpu')",
@@ -450,22 +518,29 @@
             "VDB CPU"
         ],
         "scene": "non-gpu.ma",
+        "skip_engine": [
+            "Northstar"
+        ],
         "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
         "case": "MAYA_MAT_VDB_024",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "cmds.currentTime(100)",
             "set_render_device('dual')",
             "rpr_render(case)"
         ],
         "script_info": [
-            "VDB Dual"
+            "VDB Dual",
+            "https://amdrender.atlassian.net/browse/RPRMAYA-2687"
         ],
         "scene": "non-gpu.ma",
+        "skip_engine": [
+            "Northstar"
+        ],
         "skip_config":[
             ["AMD Radeon RX Vega 56 (Metal)"]
         ]

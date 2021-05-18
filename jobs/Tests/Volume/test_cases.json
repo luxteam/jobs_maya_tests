@@ -19,7 +19,10 @@
             "Scattering Direction- (-1)",
             "ColorVariation1.jpg"
         ],
-        "scene": "VolumeRollingFog.ma"
+        "scene": "VolumeRollingFog.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_MAT_VM_002",
@@ -41,7 +44,10 @@
             "Scattering Direction- 0",
             "TransmissionVariation1.png"
         ],
-        "scene": "VolumeRollingFog.ma"
+        "scene": "VolumeRollingFog.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_MAT_VM_003",
@@ -65,7 +71,10 @@
             "Scattering Direction- 1",
             "EmissiveVariation1.exr"
         ],
-        "scene": "VolumeRollingFog.ma"
+        "scene": "VolumeRollingFog.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_MAT_VM_004",
@@ -87,7 +96,10 @@
             "Scattering Direction- (-0.5)",
             "ColorVariation1.tiff"
         ],
-        "scene": "VolumeRollingFog.ma"
+        "scene": "VolumeRollingFog.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_MAT_VM_005",
@@ -107,7 +119,10 @@
             "Transmission Color HVS: 0:0:1",
             "Emission Color HVS: 0:0:1"
         ],
-        "scene": "VolumeRollingFog.ma"
+        "scene": "VolumeRollingFog.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_MAT_VM_006",
@@ -129,7 +144,10 @@
             "Scattering Direction- (-1)",
             "TransmissionVariation1.png"
         ],
-        "scene": "VolumeRollingFog.ma"
+        "scene": "VolumeRollingFog.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_MAT_VM_007",
@@ -153,7 +171,10 @@
             "Scattering Direction- 1",
             "EmissiveVariation1.exr"
         ],
-        "scene": "VolumeRollingFog.ma"
+        "scene": "VolumeRollingFog.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_MAT_VM_008",
@@ -174,7 +195,10 @@
             "Transmission Color HVS: 300:0:1",
             "Emission Color HVS: 0:0:1"
         ],
-        "scene": "VolumeRollingFog.ma"
+        "scene": "VolumeRollingFog.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_MAT_VM_009",
@@ -196,7 +220,10 @@
             "Scattering Direction- 0.5",
             "ColorVariation1.png"
         ],
-        "scene": "VolumeRollingFog.ma"
+        "scene": "VolumeRollingFog.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_MAT_VM_010",
@@ -218,7 +245,10 @@
             "Scattering Direction- 0",
             "TransmissionVariation1.png"
         ],
-        "scene": "VolumeRollingFog.ma"
+        "scene": "VolumeRollingFog.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_MAT_VM_011",
@@ -266,7 +296,10 @@
             "Scattering Direction- (-0.5)",
             "EmissiveVariation1.exr"
         ],
-        "scene": "VolumeRollingFog.ma"
+        "scene": "VolumeRollingFog.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_MAT_VM_013",
@@ -288,7 +321,10 @@
             "Scattering Direction- 0.5",
             "ColorVariation1.jpg"
         ],
-        "scene": "VolumeRollingFog.ma"
+        "scene": "VolumeRollingFog.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_MAT_VM_014",
@@ -310,7 +346,10 @@
             "Scattering Direction- 0",
             "TransmissionVariation1.png"
         ],
-        "scene": "VolumeRollingFog.ma"
+        "scene": "VolumeRollingFog.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_MAT_VM_015",
@@ -332,7 +371,10 @@
             "Scattering Direction- (-1)",
             "ColorVariation1.exr"
         ],
-        "scene": "VolumeRollingFog.ma"
+        "scene": "VolumeRollingFog.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_MAT_VM_016",
@@ -354,7 +396,10 @@
             "Scattering Direction- (-0.5)",
             "TransmissionVariation1.png"
         ],
-        "scene": "VolumeRollingFog.ma"
+        "scene": "VolumeRollingFog.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_MAT_VM_017",
@@ -378,7 +423,10 @@
             "Scattering Direction- 0.5",
             "EmissiveVariation1.exr"
         ],
-        "scene": "VolumeRollingFog.ma"
+        "scene": "VolumeRollingFog.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_MAT_VM_018",
@@ -402,7 +450,10 @@
             "Scattering Direction- 0",
             "ColorVariation1.exr"
         ],
-        "scene": "VolumeRollingFog.ma"
+        "scene": "VolumeRollingFog.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_MAT_VM_019",
@@ -423,7 +474,10 @@
             "Density - 7.5",
             "Scattering Direction- (-1)"
         ],
-        "scene": "VolumeRollingFog.ma"
+        "scene": "VolumeRollingFog.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_MAT_VM_020",
@@ -445,7 +499,10 @@
             "Scattering Direction-1",
             "TransmissionVariation1.png"
         ],
-        "scene": "VolumeRollingFog.ma"
+        "scene": "VolumeRollingFog.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_MAT_VM_021",
@@ -469,7 +526,10 @@
             "Scattering Direction- 0.5",
             "EmissiveVariation1.exr"
         ],
-        "scene": "VolumeRollingFog.ma"
+        "scene": "VolumeRollingFog.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_MAT_VM_022",
@@ -490,7 +550,10 @@
             "Density - 10",
             "Scattering Direction- 0"
         ],
-        "scene": "VolumeRollingFog.ma"
+        "scene": "VolumeRollingFog.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_MAT_VM_023",
@@ -512,7 +575,10 @@
             "Scattering Direction- (-1)",
             "ColorVariation1.png"
         ],
-        "scene": "VolumeRollingFog.ma"
+        "scene": "VolumeRollingFog.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_MAT_VM_024",
@@ -534,7 +600,10 @@
             "Scattering Direction- 1",
             "TransmissionVariation1.png"
         ],
-        "scene": "VolumeRollingFog.ma"
+        "scene": "VolumeRollingFog.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     },
     {
         "case": "MAYA_MAT_VM_025",
@@ -558,6 +627,9 @@
             "Scattering Direction- (-0.5)",
             "EmissiveVariation1.exr"
         ],
-        "scene": "VolumeRollingFog.ma"
+        "scene": "VolumeRollingFog.ma",
+        "skip_engine": [
+            "Northstar"
+        ]
     }
 ]

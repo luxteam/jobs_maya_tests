@@ -81,7 +81,7 @@
         "case": "MAYA_XGN_HR_007",
         "status": "active",
         "script_info": [
-            "Xgen "
+            "XGen"
         ],
         "scene": "xgen.ma",
         "functions": [

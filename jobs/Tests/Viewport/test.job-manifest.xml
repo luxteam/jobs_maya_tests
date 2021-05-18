@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<job-manifest enable="False">
+
+    <outpath value="{OutputDir}"/>
+
+    <execute command='python "{CWD}/Scripts/simpleRender.py"' timeout="3600">
+        <argument>--tool "{Tool}"</argument>
+        <argument>--render_device "{RenderDevice}"</argument>
+        <argument>--output "{OutputDir}"</argument>
+        <argument>--testType Viewport</argument>
+        <argument>--pass_limit {PassLimit}</argument>
+        <argument>--resolution_x {rx}</argument>
+        <argument>--resolution_y {ry}</argument>
+        <argument>--res_path "{ScenesDir}"</argument>
+        <argument>--testCases "{TestCases}"</argument>
+        <argument>--SPU {SPU}</argument>
+        <argument>--threshold {threshold}</argument>
+        <argument>--retries {retries}</argument>
+        <argument>--update_refs "{UpdateRefs}"</argument>
+        <argument>--engine "{engine}"</argument>
+        <argument>--stucking_time 360</argument>
+    </execute>
+
+    <execute command='python "{CommonDir}/scripts/makeReport.py"'>
+        <argument>--work_dir "{OutputDir}"</argument>
+    </execute>
+
+    <execute command='python "{CommonDir}/scripts/compareByJSON.py"'>
+        <argument>--work_dir "{OutputDir}"</argument>
+        <argument>--base_dir "{BaselineDir}"</argument>
+        <argument>--update_refs "{UpdateRefs}"</argument>
+    </execute>
+
+    <execute command='python "{CWD}/Scripts/refactor_logs.py"' timeout="60">
+        <argument>--output "{OutputDir}"</argument>
+    </execute>
+
+</job-manifest>
