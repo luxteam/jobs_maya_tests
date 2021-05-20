@@ -194,7 +194,9 @@ def postrender(case_num):
     logging('Postrender', case['case'])
     event("Postrender", True, case['case'])
 
-    case_time = (datetime.datetime.now() - datetime.datetime.strptime(case['start_time'], '%Y-%m-%d %H:%M:%S.%f')).total_seconds()
+    end_time = datetime.datetime.now()
+    case['end_time'] = str(end_time)
+    case_time = (end_time - datetime.datetime.strptime(case['start_time'], '%Y-%m-%d %H:%M:%S.%f')).total_seconds()
     case['time_taken'] = case_time
     reportToJSON(case, case_time)
 
@@ -359,8 +361,11 @@ def main(case_num=None):
                 logging(case['case'] + ' in progress')
 
                 start_time = datetime.datetime.now()
+                case['start_time'] = str(start_time)
                 case_function(case)
-                case_time = (datetime.datetime.now() - start_time).total_seconds()
+                end_time = datetime.datetime.now()
+                case['end_time'] = str(end_time)
+                case_time = (end_time - start_time).total_seconds()
                 case['time_taken'] = case_time
 
                 if case['status'] == 'inprogress':
