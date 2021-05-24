@@ -30,8 +30,8 @@ ROOT_DIR = os.path.abspath(os.path.join(
     os.path.dirname(__file__), os.path.pardir, os.path.pardir))
 LOGS_DIR = 'render_tool_logs'
 PROCESS = ['Maya', 'maya.exe', 'maya', 'mayabatch.exe', 'senddmp', 'senddmp.exe']
-SYS_MON_CMD = ['python', os.path.join(ROOT_DIR, 'jobs_launcher', 'common', 'scripts', 'system_monitor.py'),
-    'trace', '--interval', '1', '--ram', '--net_io', '--disk_io', '--gpu', 'gr_clock', 'util', 'mem_usage']
+SYS_MON_CMD = ['python', os.path.join(ROOT_DIR, 'jobs_launcher', 'core', 'system_monitor.py'),
+    'trace', '--interval', '1', '--profile', 'full']
 
 if platform.system() == 'Darwin':
     from Quartz import CGWindowListCopyWindowInfo
