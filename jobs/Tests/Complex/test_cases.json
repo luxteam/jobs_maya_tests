@@ -138,11 +138,15 @@
         "case": "MAYA_RS_CMX_013",
         "status": "active",
         "script_info": [
-            "Evermotion"
+            "Evermotion",
+            "https://amdrender.atlassian.net/browse/RPRMAYA-2724"
         ],
         "scene": "RPR_Evermotion.ma",
         "functions": [
             "rpr_render(case)"
+        ],
+        "skip_engine": [
+            "Tahoe"
         ]
     },
     {
