@@ -70,6 +70,8 @@ def reportToJSON(case, render_time=0):
         report['message'] = []
 
     report['date_time'] = datetime.datetime.now().strftime('%m/%d/%Y %H:%M:%S')
+    report['start_time'] = case['start_time']
+    report['end_time'] = case['end_time']
     report['render_time'] = render_time
     report['test_group'] = TEST_TYPE
     report['test_case'] = case['case']
@@ -173,15 +175,15 @@ def rpr_render(case, mode='color'):
 
     if not BATCH_RENDER:
         mel.eval('fireRender -waitForItTwo')
-        start_time = time.time()
         mel.eval('renderIntoNewWindow render')
         cmds.sysFile(path.join(WORK_DIR, 'Color'), makeDir=True)
         test_case_path = path.join(WORK_DIR, 'Color', case['case'])
         cmds.renderWindowEditor('renderView', edit=1,  dst=mode)
         cmds.renderWindowEditor('renderView', edit=1, com=1,
                                 writeImage=test_case_path)
-        test_time = time.time() - start_time
-
+        end_time = datetime.datetime.now()
+        case['end_time'] = str(end_time)
+        test_time = (end_time - datetime.datetime.strptime(case['start_time'], '%Y-%m-%d %H:%M:%S.%f')).total_seconds()
         event('Postrender', True, case['case'])
         reportToJSON(case, test_time)
 
@@ -191,13 +193,12 @@ def postrender(case_num):
         cases = json.load(json_file)
     case = cases[case_num]
 
-    logging('Postrender', case['case'])
-    event("Postrender", True, case['case'])
-
     end_time = datetime.datetime.now()
     case['end_time'] = str(end_time)
     case_time = (end_time - datetime.datetime.strptime(case['start_time'], '%Y-%m-%d %H:%M:%S.%f')).total_seconds()
     case['time_taken'] = case_time
+    logging('Postrender', case['case'])
+    event("Postrender", True, case['case'])
     reportToJSON(case, case_time)
 
     apply_case_functions(case, case['functions'].index("rpr_render(case)") + 1, len(case['functions']))
@@ -360,13 +361,8 @@ def main(case_num=None):
 
                 logging(case['case'] + ' in progress')
 
-                start_time = datetime.datetime.now()
-                case['start_time'] = str(start_time)
+                case['start_time'] = str(datetime.datetime.now())
                 case_function(case)
-                end_time = datetime.datetime.now()
-                case['end_time'] = str(end_time)
-                case_time = (end_time - start_time).total_seconds()
-                case['time_taken'] = case_time
 
                 if case['status'] == 'inprogress':
                     case['status'] = 'done'
