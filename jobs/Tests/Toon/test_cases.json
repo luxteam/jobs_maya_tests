@@ -628,5 +628,16 @@
             "Normal - diffuse_normal.png"
         ],
         "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_028",
+        "status": "active",
+        "functions": [
+            "rpr_render(case)"
+        ],
+        "script_info": [
+            "Complex"
+        ],
+        "scene": "Toon_Shader.ma"
     }
 ]
