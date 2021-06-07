@@ -16,7 +16,12 @@ def main():
 
     try:
         print("Preparation for rendering")
-        cmds.setAttr('defaultRenderGlobals.currentRenderer', type='string' 'FireRender')
+        cmds.setAttr('defaultRenderGlobals.currentRenderer', 'FireRender', type='string')
+        engine = os.getenv('ENGINE', 'Tahoe')
+        if engine == "Tahoe":
+            cmds.setAttr('RadeonProRenderGlobals.tahoeVersion', 1)
+        elif engine == "Northstar":
+            cmds.setAttr('RadeonProRenderGlobals.tahoeVersion', 2)
         cmds.setAttr("RadeonProRenderGlobals.completionCriteriaSeconds", 30)
         cmds.setAttr('defaultRenderGlobals.imageFormat', 8)
         
