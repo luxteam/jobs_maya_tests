@@ -22,7 +22,7 @@ def main():
             cmds.setAttr('RadeonProRenderGlobals.tahoeVersion', 1)
         elif engine == "Northstar":
             cmds.setAttr('RadeonProRenderGlobals.tahoeVersion', 2)
-        cmds.setAttr("RadeonProRenderGlobals.completionCriteriaSeconds", 30)
+        cmds.setAttr("RadeonProRenderGlobals.completionCriteriaSeconds", 0)
         cmds.setAttr('defaultRenderGlobals.imageFormat', 8)
         
         mel.eval('fireRender -waitForItTwo')
