@@ -28,7 +28,7 @@ def main():
         mel.eval('fireRender -waitForItTwo')
         mel.eval('renderIntoNewWindow render')
         
-        results_dir = os.path.abspath(os.path.join(os.getcwd(), '..', '..', 'Work', 'Results', 'Maya'))
+        results_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'Work', 'Results', 'Maya')
         cmds.sysFile(results_dir, makeDir=True)
         test_case_path = os.path.join(results_dir, 'cache_building')
         cmds.renderWindowEditor('renderView', edit=1,  dst='color')
