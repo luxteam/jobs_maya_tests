@@ -265,6 +265,7 @@ def prerender(case):
         'RadeonProRenderGlobals.completionCriteriaIterations', PASS_LIMIT)
     cmds.setAttr('RadeonProRenderGlobals.samplesPerUpdate', SPU)
     cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)
+    cmds.fireRender(d=1)
 
     if not BATCH_RENDER:
         apply_case_functions(case, 0, len(case['functions']))
