@@ -7,4 +7,6 @@ TOOL=${1:-2020}
 ENGINE=${2:-Tahoe}
 
 maya${TOOL} -command "python(\"import cache_building\")" -file "$CIS_TOOLS/../TestResources/rpr_maya_autotests_assets/material_baseline.mb"
+
+echo "--------Script editor log--------"
 cat $MAYA_CMD_FILE_OUTPUT
