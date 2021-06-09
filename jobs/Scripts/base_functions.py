@@ -70,8 +70,8 @@ def reportToJSON(case, render_time=0):
         report['message'] = []
 
     report['date_time'] = datetime.datetime.now().strftime('%m/%d/%Y %H:%M:%S')
-    report['start_time'] = case['start_time']
-    report['end_time'] = case['end_time']
+    report['render_start_time'] = case['render_start_time']
+    report['render_end_time'] = case['render_end_time']
     report['render_time'] = render_time
     report['test_group'] = TEST_TYPE
     report['test_case'] = case['case']
@@ -175,17 +175,21 @@ def rpr_render(case, mode='color'):
 
     if not BATCH_RENDER:
         mel.eval('fireRender -waitForItTwo')
+        render_start_time = datetime.datetime.now()
+        case['render_start_time'] = str(render_start_time)
         mel.eval('renderIntoNewWindow render')
         cmds.sysFile(path.join(WORK_DIR, 'Color'), makeDir=True)
         test_case_path = path.join(WORK_DIR, 'Color', case['case'])
         cmds.renderWindowEditor('renderView', edit=1,  dst=mode)
         cmds.renderWindowEditor('renderView', edit=1, com=1,
                                 writeImage=test_case_path)
-        end_time = datetime.datetime.now()
-        case['end_time'] = str(end_time)
-        test_time = (end_time - datetime.datetime.strptime(case['start_time'], '%Y-%m-%d %H:%M:%S.%f')).total_seconds()
+        render_end_time = datetime.datetime.now()
+        case['render_end_time'] = str(render_end_time)
+        test_time = (render_end_time - render_start_time).total_seconds()
         event('Postrender', True, case['case'])
         reportToJSON(case, test_time)
+    else:
+        case['render_start_time'] = str(datetime.datetime.now())
 
 
 def postrender(case_num):
@@ -193,16 +197,19 @@ def postrender(case_num):
         cases = json.load(json_file)
     case = cases[case_num]
 
-    end_time = datetime.datetime.now()
-    case['end_time'] = str(end_time)
-    case_time = (end_time - datetime.datetime.strptime(case['start_time'], '%Y-%m-%d %H:%M:%S.%f')).total_seconds()
-    case['time_taken'] = case_time
+    render_end_time = datetime.datetime.now()
+    case['render_end_time'] = str(render_end_time)
+    test_time = (render_end_time - datetime.datetime.strptime(case['render_start_time'], '%Y-%m-%d %H:%M:%S.%f')).total_seconds()
     logging('Postrender', case['case'])
     event("Postrender", True, case['case'])
-    reportToJSON(case, case_time)
+    reportToJSON(case, test_time)
 
     apply_case_functions(case, case['functions'].index("rpr_render(case)") + 1, len(case['functions']))
     event("Postrender", False, case['case'])
+
+    case_end_time = datetime.datetime.now()
+    case['case_end_time'] = str(case_end_time)
+    case['time_taken'] = (case_end_time - datetime.datetime.strptime(case['case_start_time'], '%Y-%m-%d %H:%M:%S.%f')).total_seconds()
 
     with open(path.join(WORK_DIR, 'test_cases.json'), 'w') as file:
         json.dump(cases, file, indent=4)
@@ -361,8 +368,12 @@ def main(case_num=None):
 
                 logging(case['case'] + ' in progress')
 
-                case['start_time'] = str(datetime.datetime.now())
+                case_start_time = datetime.datetime.now()
+                case['case_start_time'] = str(case_start_time)
                 case_function(case)
+                case_end_time = datetime.datetime.now()
+                case['case_end_time'] = str(case_end_time)
+                case['time_taken'] = (case_end_time - case_start_time).total_seconds()
 
                 if case['status'] == 'inprogress':
                     case['status'] = 'done'
@@ -387,9 +398,11 @@ def main(case_num=None):
         if case['status'] == 'active':
             case['status'] = 'inprogress'
 
-        case['start_time'] = str(datetime.datetime.now())
+        case['case_start_time'] = str(datetime.datetime.now())
         case['number_of_tries'] = case.get('number_of_tries', 0) + 1
         
         with open(path.join(WORK_DIR, 'test_cases.json'), 'w') as file:
             json.dump(cases, file, indent=4)
         prerender(case)
+        with open(path.join(WORK_DIR, 'test_cases.json'), 'w') as file:
+            json.dump(cases, file, indent=4)
