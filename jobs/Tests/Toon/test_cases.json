@@ -25,7 +25,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_002",
+        "case": "MAYA_MAT_TOON_003",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRToonMaterial1.roughness', 0)",
@@ -38,7 +38,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_003",
+        "case": "MAYA_MAT_TOON_004",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRToonMaterial1.roughness', 0.5)",
@@ -51,7 +51,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_004",
+        "case": "MAYA_MAT_TOON_005",
         "status": "active",
         "functions": [
             "image1 = setAttribute('color', 'outColor', 'sourceimages/diffuse_color.png')",
@@ -67,7 +67,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_005",
+        "case": "MAYA_MAT_TOON_006",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
@@ -80,7 +80,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_006",
+        "case": "MAYA_MAT_TOON_007",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
@@ -95,7 +95,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_007",
+        "case": "MAYA_MAT_TOON_008",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
@@ -110,7 +110,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_008",
+        "case": "MAYA_MAT_TOON_009",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
@@ -125,7 +125,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_009",
+        "case": "MAYA_MAT_TOON_010",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
@@ -146,7 +146,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_010",
+        "case": "MAYA_MAT_TOON_011",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
@@ -170,7 +170,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_011",
+        "case": "MAYA_MAT_TOON_012",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
@@ -194,7 +194,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_012",
+        "case": "MAYA_MAT_TOON_013",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
@@ -218,7 +218,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_013",
+        "case": "MAYA_MAT_TOON_014",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
@@ -242,7 +242,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_014",
+        "case": "MAYA_MAT_TOON_015",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
@@ -266,7 +266,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_015",
+        "case": "MAYA_MAT_TOON_016",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
@@ -290,7 +290,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_016",
+        "case": "MAYA_MAT_TOON_017",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
@@ -317,7 +317,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_017",
+        "case": "MAYA_MAT_TOON_018",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
@@ -344,7 +344,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_018",
+        "case": "MAYA_MAT_TOON_019",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
@@ -368,7 +368,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_019",
+        "case": "MAYA_MAT_TOON_020",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
@@ -398,7 +398,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_020",
+        "case": "MAYA_MAT_TOON_021",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
@@ -428,7 +428,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_021",
+        "case": "MAYA_MAT_TOON_022",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
@@ -458,7 +458,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_022",
+        "case": "MAYA_MAT_TOON_023",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
@@ -488,7 +488,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_023",
+        "case": "MAYA_MAT_TOON_024",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
@@ -518,7 +518,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_024",
+        "case": "MAYA_MAT_TOON_025",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
@@ -548,7 +548,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_025",
+        "case": "MAYA_MAT_TOON_026",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
@@ -578,7 +578,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_026",
+        "case": "MAYA_MAT_TOON_027",
         "status": "active",
         "functions": [
             "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
@@ -608,7 +608,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_027",
+        "case": "MAYA_MAT_TOON_028",
         "status": "active",
         "functions": [
             "image1 = setAttribute('shadowColor', 'outColor', 'sourceimages/diffuse_color.png')",
@@ -630,7 +630,7 @@
         "scene": "Toon.ma"
     },
     {
-        "case": "MAYA_MAT_TOON_028",
+        "case": "MAYA_MAT_TOON_029",
         "status": "active",
         "functions": [
             "rpr_render(case)"
