@@ -143,7 +143,6 @@
         ],
         "scene": "RPR_Evermotion.ma",
         "functions": [
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 400)",
             "rpr_render(case)"
         ],
         "skip_engine": [
