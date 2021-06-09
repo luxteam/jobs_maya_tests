@@ -6,7 +6,7 @@
             "Evermotion",
             "https://amdrender.atlassian.net/browse/RPRMAYA-2724"
         ],
-        "scene": "RPR_Evermotion.ma",
+        "scene": "RPR_Evermotion2.ma",
         "functions": [
             "rpr_render(case)"
         ],
