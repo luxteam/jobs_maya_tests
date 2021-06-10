@@ -37,7 +37,7 @@
     },
     {
         "case": "MAYA_RS_AS_003",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Max Iterations - 1000",
             "Max Time Seconds - 0"
@@ -397,7 +397,7 @@
     },
     {
         "case": "MAYA_RS_AS_019",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
            "Max Iterations - 100",
            "Max Time Seconds - 0",
@@ -419,7 +419,7 @@
     },
     {
         "case": "MAYA_RS_AS_020",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Max Iterations - 100",
             "Max Time Seconds - 0",
@@ -475,7 +475,7 @@
     },
     {
         "case": "MAYA_RS_AS_022",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Min iteration- 20",
             "Max Iterations - 1000",
@@ -537,9 +537,6 @@
         ],
         "skip_engine": [
             "Hybrid_Medium"
-        ],
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
@@ -573,14 +570,11 @@
         ],
         "skip_engine": [
             "Hybrid_Medium"
-        ],
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
         "case": "MAYA_RS_AS_025",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Min iteration- 20",
             "Max Iterations - 1000",
@@ -606,9 +600,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
-        ],
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
@@ -642,9 +633,6 @@
         ],
         "skip_engine": [
             "Hybrid_Medium"
-        ],
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
@@ -678,9 +666,6 @@
         ],
         "skip_engine": [
             "Hybrid_Medium"
-        ],
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
@@ -714,14 +699,11 @@
         ],
         "skip_engine": [
             "Hybrid_Medium"
-        ],
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
         "case": "MAYA_RS_AS_029",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Min iteration- 20",
             "Max Iterations - 1000",
@@ -780,9 +762,6 @@
         ],
         "skip_engine": [
             "Hybrid_Medium"
-        ],
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
@@ -817,14 +796,11 @@
         ],
         "skip_engine": [
             "Hybrid_Medium", "Tahoe", "Northstar"
-        ],
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
         "case": "MAYA_RS_AS_032",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Min iteration- 20",
             "Max Iterations - 1000",
@@ -850,9 +826,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
-        ],
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
@@ -887,9 +860,6 @@
         ],
         "skip_engine": [
             "Hybrid_Medium", "Tahoe", "Northstar"
-        ],
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
@@ -920,9 +890,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
-        ],
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
@@ -953,9 +920,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
-        ],
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
@@ -986,12 +950,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
-        ],
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
-        ],
-        "skip_engine": [
-            "Northstar"
         ]
     },
     {
@@ -1022,9 +980,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 1)"
-        ],
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     }
 ]
