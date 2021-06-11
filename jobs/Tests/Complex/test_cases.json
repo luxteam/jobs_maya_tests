@@ -13,5 +13,35 @@
         "skip_engine": [
             "Tahoe"
         ]
+    },
+    {
+        "case": "MAYA_RS_CMX_101",
+        "status": "active",
+        "script_info": [
+            "Evermotion",
+            "https://amdrender.atlassian.net/browse/RPRMAYA-2724"
+        ],
+        "scene": "RPR_Evermotion2.ma",
+        "functions": [
+            "rpr_render(case)"
+        ],
+        "skip_engine": [
+            "Tahoe"
+        ]
+    },
+    {
+        "case": "MAYA_RS_CMX_102",
+        "status": "active",
+        "script_info": [
+            "Evermotion",
+            "https://amdrender.atlassian.net/browse/RPRMAYA-2724"
+        ],
+        "scene": "RPR_Evermotion2.ma",
+        "functions": [
+            "rpr_render(case)"
+        ],
+        "skip_engine": [
+            "Tahoe"
+        ]
     }
 ]
