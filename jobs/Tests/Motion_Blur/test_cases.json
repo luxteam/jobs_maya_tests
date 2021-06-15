@@ -240,5 +240,65 @@
             "cmds.setAttr('RadeonProRenderGlobals.motionBlur', 1)",
             "rpr_render(case)"
         ]
+    },
+    {
+        "case": "MAYA_RS_MB_017",
+        "status": "active",
+        "script_info": [
+            "Deformation motion blur"
+        ],
+        "scene": "deform.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.motionBlur', 1)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_MB_018",
+        "status": "active",
+        "script_info": [
+            "MASH deformation blur"
+        ],
+        "scene": "mashdeformer.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.motionBlur', 1)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_MB_019",
+        "status": "active",
+        "script_info": [
+            "Dynamic MASH deformation blur"
+        ],
+        "scene": "Mashdynamic.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.motionBlur', 1)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_MB_020",
+        "status": "active",
+        "script_info": [
+            "NCloth deformation motion blur"
+        ],
+        "scene": "NclothMb.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.motionBlur', 1)",
+            "rpr_render(case)"
+        ]
+    },
+    {
+        "case": "MAYA_RS_MB_021",
+        "status": "active",
+        "script_info": [
+            "Rigged deformation motion blur"
+        ],
+        "scene": "Rigged.ma",
+        "functions": [
+            "cmds.setAttr('RadeonProRenderGlobals.motionBlur', 1)",
+            "rpr_render(case)"
+        ]
     }
 ]
