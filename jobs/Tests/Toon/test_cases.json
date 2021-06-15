@@ -1,0 +1,645 @@
+[
+    {
+        "case": "MAYA_MAT_TOON_001",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.color', 1, 0, 0, type='double3')",
+            "rpr_render(case)"
+        ],
+        "script_info": [
+            "Color - Red"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_002",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.color', 0, 0, 1, type='double3')",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.color', 1, 0, 0, type='double3')"
+        ],
+        "script_info": [
+            "Color - Blue"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_003",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.roughness', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.roughness', 1)"
+        ],
+        "script_info": [
+            "Roughness - 0"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_004",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.roughness', 0.5)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.roughness', 1)"
+        ],
+        "script_info": [
+            "Roughness - 0.5"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_005",
+        "status": "active",
+        "functions": [
+            "image1 = setAttribute('color', 'outColor', 'sourceimages/diffuse_color.png')",
+            "normal1 = setAttribute('normal', 'outAlpha', 'sourceimages/diffuse_normal.png')",
+            "rpr_render(case)",
+            "cmds.disconnectAttr(str(image1) + '.outColor', 'RPRToonMaterial1.color')",
+            "cmds.disconnectAttr(str(normal1) + '.outAlpha', 'RPRToonMaterial1.normal')",
+            "cmds.setAttr('RPRToonMaterial1.color', 1, 0, 0, type='double3')"
+        ],
+        "script_info": [
+            "Color - diffuse_color.png",
+            "Normal - diffuse_normal.png"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_006",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 0)"
+        ],
+        "script_info": [
+            "Advanced Default"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_007",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 1, 0, 0, type='double3')",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 0.8, 0.8, 0.8, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 0)"
+        ],
+        "script_info": [
+            "Highlight Color - Red"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_008",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 0, 1, 0, type='double3')",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 0.4, 0.4, 0.4, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 0)"
+        ],
+        "script_info": [
+            "Mid Color - Green"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_009",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 1, 0, 0, type='double3')",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 0.8, 0.8, 0.8, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 0)"
+        ],
+        "script_info": [
+            "Shadow Color - Blue"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_010",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 1, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0, 1, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 1, type='double3')",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0.4, 0.4, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 0.8, 0.8, 0.8, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 0)"
+        ],
+        "script_info": [
+            "Highlight Color - Red",
+            "Mid Color - Green",
+            "Shadow Color - Blue"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_011",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
+            "cmds.setAttr('RPRToonMaterial1.rampPosition1', 0)",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 1, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0, 1, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 1, type='double3')",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0.4, 0.4, 0.4, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 0.8, 0.8, 0.8, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.rampPosition1', 0.5)",
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 0)"
+        ],
+        "script_info": [
+            "Highlight Color - Red",
+            "Mid Color - Green",
+            "Shadow Color - Blue",
+            "Mid Level - 0"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_012",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
+            "cmds.setAttr('RPRToonMaterial1.rampPosition1', 0.3)",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 1, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0, 1, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 1, type='double3')",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0.4, 0.4, 0.4, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 0.8, 0.8, 0.8, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.rampPosition1', 0.5)",
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 0)"
+        ],
+        "script_info": [
+            "Highlight Color - Red",
+            "Mid Color - Green",
+            "Shadow Color - Blue",
+            "Mid Level - 0.3"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_013",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
+            "cmds.setAttr('RPRToonMaterial1.rampPosition1', 1)",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 1, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0, 1, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 1, type='double3')",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0.4, 0.4, 0.4, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 0.8, 0.8, 0.8, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.rampPosition1', 0.5)",
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 0)"
+        ],
+        "script_info": [
+            "Highlight Color - Red",
+            "Mid Color - Green",
+            "Shadow Color - Blue",
+            "Mid Level - 1"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_014",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
+            "cmds.setAttr('RPRToonMaterial1.rampPosition2', 0)",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 1, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0, 1, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 1, type='double3')",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0.4, 0.4, 0.4, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 0.8, 0.8, 0.8, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.rampPosition2', 0.8)",
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 0)"
+        ],
+        "script_info": [
+            "Highlight Color - Red",
+            "Mid Color - Green",
+            "Shadow Color - Blue",
+            "Highlight Level - 0"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_015",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
+            "cmds.setAttr('RPRToonMaterial1.rampPosition2', 0.3)",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 1, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0, 1, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 1, type='double3')",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0.4, 0.4, 0.4, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 0.8, 0.8, 0.8, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.rampPosition2', 0.8)",
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 0)"
+        ],
+        "script_info": [
+            "Highlight Color - Red",
+            "Mid Color - Green",
+            "Shadow Color - Blue",
+            "Highlight Level - 0.3"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_016",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
+            "cmds.setAttr('RPRToonMaterial1.rampPosition2', 1)",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 1, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0, 1, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 1, type='double3')",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0.4, 0.4, 0.4, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 0.8, 0.8, 0.8, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.rampPosition2', 0.8)",
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 0)"
+        ],
+        "script_info": [
+            "Highlight Color - Red",
+            "Mid Color - Green",
+            "Shadow Color - Blue",
+            "Highlight Level - 1"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_017",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
+            "cmds.setAttr('RPRToonMaterial1.rampPosition1', 1)",
+            "cmds.setAttr('RPRToonMaterial1.rampPosition2', 1)",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 1, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0, 1, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 1, type='double3')",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0.4, 0.4, 0.4, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 0.8, 0.8, 0.8, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.rampPosition1', 0.5)",
+            "cmds.setAttr('RPRToonMaterial1.rampPosition2', 0.8)",
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 0)"
+        ],
+        "script_info": [
+            "Highlight Color - Red",
+            "Mid Color - Green",
+            "Shadow Color - Blue",
+            "Mid Level - 1",
+            "Highlight Level - 1"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_018",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
+            "cmds.setAttr('RPRToonMaterial1.rampPosition1', 0)",
+            "cmds.setAttr('RPRToonMaterial1.rampPosition2', 0)",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 1, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0, 1, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 1, type='double3')",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0.4, 0.4, 0.4, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 0.8, 0.8, 0.8, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.rampPosition1', 0.5)",
+            "cmds.setAttr('RPRToonMaterial1.rampPosition2', 0.8)",
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 0)"
+        ],
+        "script_info": [
+            "Highlight Color - Red",
+            "Mid Color - Green",
+            "Shadow Color - Blue",
+            "Mid Level - 0",
+            "Highlight Level - 0"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_019",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
+            "cmds.setAttr('RPRToonMaterial1.showMixLevels', 1)",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 1, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0, 1, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 1, type='double3')",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0.4, 0.4, 0.4, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 0.8, 0.8, 0.8, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.showMixLevels', 0)",
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 0)"
+        ],
+        "script_info": [
+            "Highlight Color - Red",
+            "Mid Color - Green",
+            "Shadow Color - Blue",
+            "Show Mix Levels"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_020",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
+            "cmds.setAttr('RPRToonMaterial1.showMixLevels', 1)",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 1, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0, 1, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 1, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.rampRange1', 0)",
+            "cmds.setAttr('RPRToonMaterial1.rampRange2', 0.1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.rampRange1', 0.1)",
+            "cmds.setAttr('RPRToonMaterial1.rampRange1', 0.1)",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0.4, 0.4, 0.4, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 0.8, 0.8, 0.8, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.showMixLevels', 0)",
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 0)"
+        ],
+        "script_info": [
+            "Highlight Color - Red",
+            "Mid Color - Green",
+            "Shadow Color - Blue",
+            "Mid Level Mix - 0",
+            "Highlight Level Mix - 0.1",
+            "Show Mix Levels"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_021",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
+            "cmds.setAttr('RPRToonMaterial1.showMixLevels', 1)",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 1, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0, 1, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 1, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.rampRange1', 0.5)",
+            "cmds.setAttr('RPRToonMaterial1.rampRange2', 0.1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.rampRange1', 0.1)",
+            "cmds.setAttr('RPRToonMaterial1.rampRange1', 0.1)",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0.4, 0.4, 0.4, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 0.8, 0.8, 0.8, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.showMixLevels', 0)",
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 0)"
+        ],
+        "script_info": [
+            "Highlight Color - Red",
+            "Mid Color - Green",
+            "Shadow Color - Blue",
+            "Mid Level Mix - 0",
+            "Highlight Level Mix - 0.5",
+            "Show Mix Levels"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_022",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
+            "cmds.setAttr('RPRToonMaterial1.showMixLevels', 1)",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 1, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0, 1, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 1, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.rampRange1', 1)",
+            "cmds.setAttr('RPRToonMaterial1.rampRange2', 0.1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.rampRange1', 0.1)",
+            "cmds.setAttr('RPRToonMaterial1.rampRange1', 0.1)",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0.4, 0.4, 0.4, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 0.8, 0.8, 0.8, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.showMixLevels', 0)",
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 0)"
+        ],
+        "script_info": [
+            "Highlight Color - Red",
+            "Mid Color - Green",
+            "Shadow Color - Blue",
+            "Mid Level Mix - 1",
+            "Highlight Level Mix - 0.1",
+            "Show Mix Levels"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_023",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
+            "cmds.setAttr('RPRToonMaterial1.showMixLevels', 1)",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 1, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0, 1, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 1, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.rampRange1', 0.1)",
+            "cmds.setAttr('RPRToonMaterial1.rampRange2', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.rampRange1', 0.1)",
+            "cmds.setAttr('RPRToonMaterial1.rampRange1', 0.1)",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0.4, 0.4, 0.4, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 0.8, 0.8, 0.8, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.showMixLevels', 0)",
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 0)"
+        ],
+        "script_info": [
+            "Highlight Color - Red",
+            "Mid Color - Green",
+            "Shadow Color - Blue",
+            "Mid Level Mix - 0.1",
+            "Highlight Level Mix - 0",
+            "Show Mix Levels"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_024",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
+            "cmds.setAttr('RPRToonMaterial1.showMixLevels', 1)",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 1, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0, 1, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 1, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.rampRange1', 0.1)",
+            "cmds.setAttr('RPRToonMaterial1.rampRange2', 0.5)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.rampRange1', 0.1)",
+            "cmds.setAttr('RPRToonMaterial1.rampRange1', 0.1)",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0.4, 0.4, 0.4, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 0.8, 0.8, 0.8, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.showMixLevels', 0)",
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 0)"
+        ],
+        "script_info": [
+            "Highlight Color - Red",
+            "Mid Color - Green",
+            "Shadow Color - Blue",
+            "Mid Level Mix - 0.1",
+            "Highlight Level Mix - 0.5",
+            "Show Mix Levels"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_025",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
+            "cmds.setAttr('RPRToonMaterial1.showMixLevels', 1)",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 1, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0, 1, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 1, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.rampRange1', 0.1)",
+            "cmds.setAttr('RPRToonMaterial1.rampRange2', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.rampRange1', 0.1)",
+            "cmds.setAttr('RPRToonMaterial1.rampRange1', 0.1)",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0.4, 0.4, 0.4, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 0.8, 0.8, 0.8, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.showMixLevels', 0)",
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 0)"
+        ],
+        "script_info": [
+            "Highlight Color - Red",
+            "Mid Color - Green",
+            "Shadow Color - Blue",
+            "Mid Level Mix - 0.1",
+            "Highlight Level Mix - 1",
+            "Show Mix Levels"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_026",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
+            "cmds.setAttr('RPRToonMaterial1.showMixLevels', 1)",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 1, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0, 1, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 1, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.rampRange1', 0)",
+            "cmds.setAttr('RPRToonMaterial1.rampRange2', 0)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.rampRange1', 0.1)",
+            "cmds.setAttr('RPRToonMaterial1.rampRange1', 0.1)",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0.4, 0.4, 0.4, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 0.8, 0.8, 0.8, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.showMixLevels', 0)",
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 0)"
+        ],
+        "script_info": [
+            "Highlight Color - Red",
+            "Mid Color - Green",
+            "Shadow Color - Blue",
+            "Mid Level Mix - 0",
+            "Highlight Level Mix - 0",
+            "Show Mix Levels"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_027",
+        "status": "active",
+        "functions": [
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 1)",
+            "cmds.setAttr('RPRToonMaterial1.showMixLevels', 1)",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 1, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0, 1, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 1, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.rampRange1', 1)",
+            "cmds.setAttr('RPRToonMaterial1.rampRange2', 1)",
+            "rpr_render(case)",
+            "cmds.setAttr('RPRToonMaterial1.rampRange1', 0.1)",
+            "cmds.setAttr('RPRToonMaterial1.rampRange1', 0.1)",
+            "cmds.setAttr('RPRToonMaterial1.shadowColor', 0, 0, 0, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.midColor', 0.4, 0.4, 0.4, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.highlightColor', 0.8, 0.8, 0.8, type='double3')",
+            "cmds.setAttr('RPRToonMaterial1.showMixLevels', 0)",
+            "cmds.setAttr('RPRToonMaterial1.showAdvanced', 0)"
+        ],
+        "script_info": [
+            "Highlight Color - Red",
+            "Mid Color - Green",
+            "Shadow Color - Blue",
+            "Mid Level Mix - 1",
+            "Highlight Level Mix - 1",
+            "Show Mix Levels"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_028",
+        "status": "active",
+        "functions": [
+            "image1 = setAttribute('shadowColor', 'outColor', 'sourceimages/diffuse_color.png')",
+            "normal1 = setAttribute('normal', 'outAlpha', 'sourceimages/diffuse_normal.png')",
+            "image1 = setAttribute('midColor', 'outColor', 'sourceimages/emissive_color.png')",
+            "image1 = setAttribute('highlightColor', 'outColor', 'sourceimages/coating_color.png')",
+            "rpr_render(case)",
+            "cmds.disconnectAttr(str(image1) + '.outColor', 'RPRToonMaterial1.shadowColor')",
+            "cmds.disconnectAttr(str(normal1) + '.outAlpha', 'RPRToonMaterial1.normal')",
+            "cmds.disconnectAttr(str(normal1) + '.outAlpha', 'RPRToonMaterial1.midColor')",
+            "cmds.disconnectAttr(str(normal1) + '.outAlpha', 'RPRToonMaterial1.highlightColor')",
+            "cmds.setAttr('RPRToonMaterial1.color', 1, 0, 0, type='double3')"
+        ],
+        "script_info": [
+            "Shadow Color - diffuse_color.png",
+            "Mid Color - emissive_color.png",
+            "Highlight Color - coating_color.png",
+            "Normal - diffuse_normal.png"
+        ],
+        "scene": "Toon.ma"
+    },
+    {
+        "case": "MAYA_MAT_TOON_029",
+        "status": "active",
+        "functions": [
+            "rpr_render(case)"
+        ],
+        "script_info": [
+            "Complex"
+        ],
+        "scene": "Toon_Shader.ma"
+    }
+]
