@@ -875,5 +875,16 @@
         "skip_engine": [
             "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
         ]
+    },
+    {
+        "case": "MAYA_SM_056",
+        "status": "active",
+        "functions": [
+            "rpr_render(case)"
+        ],
+        "script_info": [
+            "Sweep plugin"
+        ],
+        "scene": "sweep.ma"
     }
 ]
