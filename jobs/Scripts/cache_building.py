@@ -17,6 +17,7 @@ def main():
     try:
         print("[INFO] Preparing configurations for rendering...")
         cmds.setAttr('defaultRenderGlobals.currentRenderer', 'FireRender', type='string')
+        cmds.athenaEnable(ae=False)
         engine = os.getenv('ENGINE', 'Tahoe')
         if engine == "Tahoe":
             cmds.setAttr('RadeonProRenderGlobals.tahoeVersion', 1)
