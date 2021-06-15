@@ -6,16 +6,16 @@ import os
 def main():
     try:
         if not cmds.pluginInfo("RadeonProRender", query=True, loaded=True):
-            print("Plugin not loaded, try to load...")
+            print("[INFO] RadeonProRender plugin is not loaded. Loading RPR plugin ...")
             cmds.loadPlugin("RadeonProRender")
     except Exception as err:
-        print("Error during plugin load. {}".format(str(err)))
+        print("[ERROR] Failed to load RadeonProRender plugin. Error message: {}".format(str(err)))
         cmds.quit(abort=True)
 
-    print("Plugin has been loaded")
+    print("[INFO] RadeonProRender plugin has been successfully loaded.")
 
     try:
-        print("Preparation for rendering")
+        print("[INFO] Preparing configurations for rendering...")
         cmds.setAttr('defaultRenderGlobals.currentRenderer', 'FireRender', type='string')
         engine = os.getenv('ENGINE', 'Tahoe')
         if engine == "Tahoe":
@@ -33,12 +33,12 @@ def main():
         test_case_path = os.path.join(results_dir, 'cache_building')
         cmds.renderWindowEditor('renderView', edit=1,  dst='color')
         cmds.renderWindowEditor('renderView', edit=1, com=1, writeImage=test_case_path)
-        print("Render has been finished")
+        print("[INFO] Render has been finished")
     except Exception as err:
-        print("Error during rendering. {}".format(str(err)))
+        print("[ERROR] Failed to render the scene. Error message: {}".format(str(err)))
         cmds.quit(abort=True)
     finally:
-        print("Quit")
+        print("[INFO] Closing Maya.")
         cmds.evalDeferred("cmds.quit(abort=True)")
 
 
