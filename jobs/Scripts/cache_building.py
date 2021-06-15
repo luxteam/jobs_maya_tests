@@ -22,6 +22,7 @@ def main():
             cmds.setAttr('RadeonProRenderGlobals.tahoeVersion', 1)
         elif engine == "Northstar":
             cmds.setAttr('RadeonProRenderGlobals.tahoeVersion', 2)
+        print("[INFO] Current render engine: {}.".format(engine))
         cmds.setAttr("RadeonProRenderGlobals.completionCriteriaSeconds", 0)
         cmds.setAttr('defaultRenderGlobals.imageFormat', 8)
         
