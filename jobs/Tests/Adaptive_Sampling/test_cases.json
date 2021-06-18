@@ -352,7 +352,7 @@
         "case": "MAYA_RS_AS_018",
         "status": "active",
         "script_info": [
-            "Min iteration- 0",
+            "Min iteration- 16",
             "Max Iterations - 100",
             "Max Time Minutes - 0",
             "Max Time secounds - 0",
@@ -362,7 +362,7 @@
         "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 16)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaHours', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinutes', 0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaSeconds', 0)",
@@ -386,7 +386,7 @@
         "scene": "adaptive_sampling.ma",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
-            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 0)",
+            "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaMinIterations', 16)",
             "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.adaptiveThreshold', 0.05)",
             "rpr_render(case)",
