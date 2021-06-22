@@ -143,7 +143,7 @@
     },
     {
         "case": "MAYA_RS_AOV_011",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Black image expected",
             "AOV: Emission"
@@ -174,7 +174,7 @@
     },
     {
         "case": "MAYA_RS_AOV_013",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Black image expected",
             "AOV: Direct Illumination"
@@ -189,7 +189,7 @@
     },
     {
         "case": "MAYA_RS_AOV_014",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Black image expected",
             "AOV: Indirect Illumination"
@@ -219,7 +219,7 @@
     },
     {
         "case": "MAYA_RS_AOV_016",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Black image expected",
             "AOV: Diffuse Direct"
@@ -234,7 +234,7 @@
     },
     {
         "case": "MAYA_RS_AOV_017",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Black image expected",
             "AOV: Diffuse Direct"
@@ -249,7 +249,7 @@
     },
     {
         "case": "MAYA_RS_AOV_018",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Black image expected",
             "AOV: Reflection Direct"
@@ -264,7 +264,7 @@
     },
     {
         "case": "MAYA_RS_AOV_019",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Black image expected",
             "AOV: Reflection Indirect"
@@ -279,7 +279,7 @@
     },
     {
         "case": "MAYA_RS_AOV_020",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Black image expected",
             "AOV: Refraction"
@@ -294,7 +294,7 @@
     },
     {
         "case": "MAYA_RS_AOV_021",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Black image expected",
             "AOV: Volume"
