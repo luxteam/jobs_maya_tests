@@ -175,7 +175,7 @@
     },
     {
         "case": "MAYA_MAT_VDB_008",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('vdbObj.emissionEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
@@ -200,7 +200,7 @@
     },
     {
         "case": "MAYA_MAT_VDB_009",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('vdbObj.emissionEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
@@ -227,7 +227,7 @@
     },
     {
         "case": "MAYA_MAT_VDB_010",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('vdbObj.emissionEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
@@ -252,7 +252,7 @@
     },
     {
         "case": "MAYA_MAT_VDB_011",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('vdbObj.emissionEnabled', 1)",
             "cmds.setAttr('vdbObj.albedoEnabled', 1)",
@@ -471,7 +471,7 @@
     },
     {
         "case": "MAYA_MAT_VDB_021",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.currentTime(50)",
             "rpr_render(case)"
@@ -489,7 +489,7 @@
     },
     {
         "case": "MAYA_MAT_VDB_022",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.currentTime(100)",
             "rpr_render(case)"
@@ -508,7 +508,7 @@
     },
     {
         "case": "MAYA_MAT_VDB_023",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.currentTime(100)",
             "set_render_device('cpu')",
@@ -527,7 +527,7 @@
     },
     {
         "case": "MAYA_MAT_VDB_024",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.currentTime(100)",
             "set_render_device('dual')",

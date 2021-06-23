@@ -78,7 +78,7 @@
     },
     {
         "case": "MAYA_RS_CMX_008",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Big Area Light Image"
         ],
@@ -96,9 +96,6 @@
         "scene": "RPR_LightComplexity_Pointlights.ma",
         "functions": [
             "rpr_render(case)"
-        ],
-        "skip_engine": [
-            "Tahoe"
         ]
     },
     {
@@ -114,7 +111,7 @@
     },
     {
         "case": "MAYA_RS_CMX_011",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Bathroom"
         ],
@@ -125,7 +122,7 @@
     },
     {
         "case": "MAYA_RS_CMX_012",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Caustics Bench"
         ],
@@ -144,9 +141,6 @@
         "scene": "RPR_Evermotion.ma",
         "functions": [
             "rpr_render(case)"
-        ],
-        "skip_engine": [
-            "Tahoe"
         ]
     },
     {
@@ -162,7 +156,7 @@
     },
     {
         "case": "MAYA_RS_CMX_015",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Lights"
         ],
@@ -184,7 +178,7 @@
     },
     {
         "case": "MAYA_RS_CMX_017",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Laptop"
         ],

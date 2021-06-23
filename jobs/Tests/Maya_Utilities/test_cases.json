@@ -10,9 +10,6 @@
             "assignMaterial('Blend_colors')",
             "rpr_render(case)",
             "resetMaterial()"
-        ],
-        "skip_engine": [
-            "Hybrid_Medium", "Hybrid_High"
         ]
     },
     {
@@ -26,9 +23,6 @@
             "assignMaterial('Buldge')",
             "rpr_render(case)",
             "resetMaterial()"
-        ],
-        "skip_engine": [
-            "Hybrid_Medium", "Hybrid_High"
         ]
     },
     {
@@ -81,9 +75,6 @@
             "assignMaterial('Fractal_noise')",
             "rpr_render(case)",
             "resetMaterial()"
-        ],
-        "skip_engine": [
-            "Hybrid_Medium", "Hybrid_High"
         ]
     },
     {
@@ -452,7 +443,7 @@
     },
     {
         "case": "MAYA_MAT_UT_035",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Double Linear"
         ],
@@ -465,7 +456,7 @@
     },
     {
         "case": "MAYA_MAT_UT_036",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Channels 1"
         ],
@@ -478,7 +469,7 @@
     },
     {
         "case": "MAYA_MAT_UT_037",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Channels 2"
         ],
@@ -491,7 +482,7 @@
     },
     {
         "case": "MAYA_MAT_UT_038",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Channels 3"
         ],
@@ -504,7 +495,7 @@
     },
     {
         "case": "MAYA_MAT_UT_039",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Clamp"
         ],
@@ -517,7 +508,7 @@
     },
     {
         "case": "MAYA_MAT_UT_040",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Color condition"
         ],
@@ -530,7 +521,7 @@
     },
     {
         "case": "MAYA_MAT_UT_041",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Color Correct Clamp"
         ],
@@ -543,7 +534,7 @@
     },
     {
         "case": "MAYA_MAT_UT_042",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Color Correct HUE"
         ],
@@ -556,7 +547,7 @@
     },
     {
         "case": "MAYA_MAT_UT_043",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Color Correct"
         ],
@@ -569,7 +560,7 @@
     },
     {
         "case": "MAYA_MAT_UT_044",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Color Correct Saturation"
         ],
@@ -582,7 +573,7 @@
     },
     {
         "case": "MAYA_MAT_UT_045",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Color Correct Value"
         ],
@@ -595,7 +586,7 @@
     },
     {
         "case": "MAYA_MAT_UT_046",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Color Logic"
         ],
@@ -608,7 +599,7 @@
     },
     {
         "case": "MAYA_MAT_UT_047",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Color Mask"
         ],
@@ -621,7 +612,7 @@
     },
     {
         "case": "MAYA_MAT_UT_048",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Color Math"
         ],
@@ -634,7 +625,7 @@
     },
     {
         "case": "MAYA_MAT_UT_049",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Color Composite"
         ],
@@ -647,7 +638,7 @@
     },
     {
         "case": "MAYA_MAT_UT_050",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Color Constant"
         ],
@@ -660,7 +651,7 @@
     },
     {
         "case": "MAYA_MAT_UT_051",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Condition"
         ],
@@ -673,7 +664,7 @@
     },
     {
         "case": "MAYA_MAT_UT_052",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Contrast"
         ],
@@ -686,7 +677,7 @@
     },
     {
         "case": "MAYA_MAT_UT_053",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Gamma Correct"
         ],
@@ -699,7 +690,7 @@
     },
     {
         "case": "MAYA_MAT_UT_054",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "HSV to RGB"
         ],
@@ -712,7 +703,7 @@
     },
     {
         "case": "MAYA_MAT_UT_055",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Multi Divide"
         ],
@@ -725,7 +716,7 @@
     },
     {
         "case": "MAYA_MAT_UT_056",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Projection Sphere"
         ],
@@ -738,7 +729,7 @@
     },
     {
         "case": "MAYA_MAT_UT_057",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Pre-multiply"
         ],
@@ -751,7 +742,7 @@
     },
     {
         "case": "MAYA_MAT_UT_058",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Projection Ball"
         ],
@@ -764,7 +755,7 @@
     },
     {
         "case": "MAYA_MAT_UT_059",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Projection Camera"
         ],
@@ -779,7 +770,7 @@
     },
     {
         "case": "MAYA_MAT_UT_060",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Projection Concentric"
         ],
@@ -792,7 +783,7 @@
     },
     {
         "case": "MAYA_MAT_UT_061",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Projection Cube"
         ],
@@ -805,7 +796,7 @@
     },
     {
         "case": "MAYA_MAT_UT_062",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Projection Cylinder"
         ],
@@ -818,7 +809,7 @@
     },
     {
         "case": "MAYA_MAT_UT_063",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Projection Perspective"
         ],
@@ -831,7 +822,7 @@
     },
     {
         "case": "MAYA_MAT_UT_064",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Projection Planar"
         ],
@@ -844,7 +835,7 @@
     },
     {
         "case": "MAYA_MAT_UT_065",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Projection Triplanar"
         ],
@@ -857,7 +848,7 @@
     },
     {
         "case": "MAYA_MAT_UT_066",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "RGB to HSV"
         ],
@@ -870,7 +861,7 @@
     },
     {
         "case": "MAYA_MAT_UT_067",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Remap Color"
         ],
@@ -883,7 +874,7 @@
     },
     {
         "case": "MAYA_MAT_UT_068",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Remap HSV"
         ],
@@ -896,7 +887,7 @@
     },
     {
         "case": "MAYA_MAT_UT_069",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Reverse"
         ],
@@ -909,7 +900,7 @@
     },
     {
         "case": "MAYA_MAT_UT_070",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Stencil"
         ],

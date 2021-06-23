@@ -13,7 +13,7 @@
     },
     {
         "case": "MAYA_L_INT_002",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Iterations: 200"
         ],

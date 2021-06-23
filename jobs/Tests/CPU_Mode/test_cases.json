@@ -151,7 +151,7 @@
     },
     {
         "case": "MAYA_RS_CPU_012",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 3)",
             "cmds.setAttr('RadeonProRenderGlobals.aovUV', 1)",
@@ -214,7 +214,7 @@
     },
     {
         "case": "MAYA_RS_CPU_016",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('vdbObj.emissionEnabled', 1)",
             "cmds.setAttr('vdbObj.emissionSelectedGrid', 'density', type='string')",
@@ -227,10 +227,7 @@
         "script_info": [
             "VDB"
         ],
-        "scene": "bunny_cloud.ma",
-        "skip_engine": [
-            "Northstar"
-        ]
+        "scene": "bunny_cloud.ma"
     },
     {
         "case": "MAYA_RS_CPU_017",
@@ -245,7 +242,7 @@
     },
     {
         "case": "MAYA_RS_CPU_018",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "rpr_render(case)"
         ],
@@ -257,7 +254,7 @@
     },
     {
         "case": "MAYA_RS_CPU_019",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "rpr_render(case)"
         ],
@@ -268,7 +265,7 @@
     },
     {
         "case": "MAYA_RS_CPU_020",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserColorOnly', 0)",
@@ -284,7 +281,7 @@
     },
     {
         "case": "MAYA_RS_CPU_021",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserColorOnly', 1)",
@@ -300,7 +297,7 @@
     },
     {
         "case": "MAYA_RS_CPU_022",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.tileRenderEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.filter', 1)",

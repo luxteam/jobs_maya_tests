@@ -9,9 +9,6 @@
         "functions": [
             "cmds.currentTime(91)",
             "rpr_render(case)"
-        ],
-        "skip_engine": [
-            "Hybrid_Medium"
         ]
     },
     {
@@ -48,9 +45,6 @@
         "functions": [
             "cmds.currentTime(201)",
             "rpr_render(case)"
-        ],
-        "skip_engine": [
-            "Hybrid_Medium"
         ]
     },
     {
@@ -91,7 +85,7 @@
     },
     {
         "case": "MAYA_RS_AN_008",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Frame: 292"
         ],
@@ -124,9 +118,6 @@
             "cmds.currentTime(11)",
             "rpr_render(case)",
             "cmds.currentTime(1)"
-        ],
-        "skip_engine": [
-            "Hybrid_Medium"
         ]
     },
     {
@@ -166,9 +157,6 @@
             "cmds.currentTime(14)",
             "rpr_render(case)",
             "cmds.currentTime(1)"
-        ],
-        "skip_engine": [
-            "Hybrid_Medium"
         ]
     },
     {
@@ -238,7 +226,7 @@
     },
     {
         "case": "MAYA_RS_AN_019",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Frame-60"
         ],
@@ -250,7 +238,7 @@
     },
     {
         "case": "MAYA_RS_AN_020",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Frame-120"
         ],
@@ -263,7 +251,7 @@
     },
     {
         "case": "MAYA_RS_AN_021",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Frame -60 Color Change"
         ],
@@ -279,7 +267,7 @@
     },
     {
         "case": "MAYA_RS_AN_022",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Frame-60"
         ],
@@ -292,7 +280,7 @@
     },
     {
         "case": "MAYA_RS_AN_023",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Frame-120"
         ],
@@ -305,7 +293,7 @@
     },
     {
         "case": "MAYA_RS_AN_024",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Frame -60 Color Change "
         ],
@@ -321,7 +309,7 @@
     },
     {
         "case": "MAYA_RS_AN_025",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Frame-60"
         ],
@@ -340,7 +328,7 @@
     },
     {
         "case": "MAYA_RS_AN_026",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Frame-120"
         ],
@@ -353,7 +341,7 @@
     },
     {
         "case": "MAYA_RS_AN_027",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Frame -60 Color Change "
         ],
@@ -369,7 +357,7 @@
     },
     {
         "case": "MAYA_RS_AN_028",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Frame -10"
         ],
@@ -382,7 +370,7 @@
     },
     {
         "case": "MAYA_RS_AN_029",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Frame -30"
         ],
@@ -394,7 +382,7 @@
     },
     {
         "case": "MAYA_RS_AN_030",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Frame - 50 "
         ],
@@ -407,7 +395,7 @@
     },
     {
         "case": "MAYA_RS_AN_031",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Frame - 60"
         ],
@@ -428,9 +416,6 @@
         "functions": [
             "cmds.currentTime(10)",
             "rpr_render(case)"
-        ],
-        "skip_engine": [
-            "Hybrid_Medium"
         ]
     },
     {
@@ -459,7 +444,7 @@
     },
     {
         "case": "MAYA_RS_AN_035",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Image sequence - Frame 1"
         ],
@@ -467,14 +452,11 @@
         "functions": [
             "cmds.currentTime(1)",
             "rpr_render(case)"
-        ],
-        "skip_engine": [
-            "Hybrid_Medium"
         ]
     },
     {
         "case": "MAYA_RS_AN_036",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Image sequence - Frame 40"
         ],
@@ -486,7 +468,7 @@
     },
     {
         "case": "MAYA_RS_AN_037",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Image sequence - Frame 80"
         ],
@@ -494,9 +476,6 @@
         "functions": [
             "cmds.currentTime(80)",
             "rpr_render(case)"
-        ],
-        "skip_engine": [
-            "Hybrid_Medium"
         ]
     }
 ]

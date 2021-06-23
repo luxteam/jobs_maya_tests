@@ -610,7 +610,7 @@
     },
     {
         "case": "MAYA_TRANSFORM_044",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "resetLights()",
             "cmds.setAttr('RPRPhysicalLight2.visibility', 1)",

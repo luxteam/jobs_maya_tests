@@ -62,10 +62,7 @@
             "Luminous Efficacy - 100",
             "Light Shape - Sphere"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_004",
@@ -89,10 +86,7 @@
             "Check Box Visible - Activate",
             "Light Shape - Cylinder"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_005",
@@ -245,10 +239,7 @@
             "Light Shape - Cylinder",
             "Check Box Shadows - Activate"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_011",
@@ -1291,10 +1282,7 @@
             "Color Mode - Temperature",
             "Temperature - 7900"
         ],
-        "scene": "Physical_Light_Area.ma",
-        "skip_engine": [
-            "Hybrid_High"
-        ]
+        "scene": "Physical_Light_Area.ma"
     },
     {
         "case": "MAYA_L_PL_067",
@@ -1315,10 +1303,7 @@
             "Intensity units - Watts",
             "Light Intensity - 1.5"
         ],
-        "scene": "Physical_Light_Area.ma",
-        "skip_engine": [
-            "Hybrid_High"
-        ]
+        "scene": "Physical_Light_Area.ma"
     },
     {
         "case": "MAYA_L_PL_068",
@@ -2093,7 +2078,7 @@
     },
     {
         "case": "MAYA_L_PL_112",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "resetAttributes()",
             "rpr_render(case)"
@@ -2119,10 +2104,7 @@
             "Light intensity unit - Watt",
             "Light intensity - 300"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_114",
@@ -2140,10 +2122,7 @@
             "Light intensity unit - Watt",
             "Light intensity - 10000"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_115",
@@ -2163,10 +2142,7 @@
             "Light intensity - 10000",
             "Light efficacy - 34"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_116",
@@ -2184,10 +2160,7 @@
             "Light intensity unit - Lumen",
             "Light intensity - 10"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_117",
@@ -2205,10 +2178,7 @@
             "Light intensity unit - Lumen",
             "Light intensity - 100"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_118",
@@ -2229,10 +2199,7 @@
             "Light intensity - 10",
             "Temperature - 100000"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_119",
@@ -2253,10 +2220,7 @@
             "Light intensity - 10",
             "Temperature - 0"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_120",
@@ -2276,10 +2240,7 @@
             "Light intensity unit - Lumen",
             "Color - Blue"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_121",
@@ -2300,10 +2261,7 @@
             "Light intensity - 100",
             "Angle - 0"
         ],
-        "scene": "DiskAngle.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "DiskAngle.ma"
     },
     {
         "case": "MAYA_L_PL_122",
@@ -2323,10 +2281,7 @@
             "Light intensity - 100",
             "Angle - 10"
         ],
-        "scene": "DiskAngle.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "DiskAngle.ma"
     },
     {
         "case": "MAYA_L_PL_123",
@@ -2346,10 +2301,7 @@
             "Light intensity - 100",
             "Angle - 180"
         ],
-        "scene": "DiskAngle.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "DiskAngle.ma"
     },
     {
         "case": "MAYA_L_PL_124",
@@ -2370,10 +2322,7 @@
             "Light intensity - 100",
             "Angle - 360"
         ],
-        "scene": "DiskAngle.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "DiskAngle.ma"
     },
     {
         "case": "MAYA_L_PL_125",
@@ -2393,10 +2342,7 @@
             "Light intensity - 100",
             "Angle - 400"
         ],
-        "scene": "DiskAngle.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "DiskAngle.ma"
     },
     {
         "case": "MAYA_L_PL_126",
@@ -2416,10 +2362,7 @@
             "Light intensity - 10",
             "Radius - 0.1"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_127",
@@ -2439,10 +2382,7 @@
             "Light intensity - 10",
             "Radius - 1"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_128",
@@ -2462,10 +2402,7 @@
             "Light intensity - 10",
             "Radius - 100"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_129",
@@ -2483,10 +2420,7 @@
             "Light intensity unit - Watt",
             "Light intensity - 300"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_130",
@@ -2504,10 +2438,7 @@
             "Light intensity unit - Watt",
             "Light intensity - 10000"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_131",
@@ -2527,10 +2458,7 @@
             "Light intensity - 10000",
             "Light efficacy - 34"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_132",
@@ -2548,10 +2476,7 @@
             "Light intensity unit - Lumen",
             "Light intensity - 10"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_133",
@@ -2569,10 +2494,7 @@
             "Light intensity unit - Lumen",
             "Light intensity - 100"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_134",
@@ -2593,10 +2515,7 @@
             "Light intensity - 10",
             "Temperature - 100000"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_135",
@@ -2617,10 +2536,7 @@
             "Light intensity - 10",
             "Temperature - 0"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_136",
@@ -2641,10 +2557,7 @@
             "Light intensity - 10",
             "Color - Blue"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_137",
@@ -2664,10 +2577,7 @@
             "Light intensity - 10",
             "Radius - 0.1"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_138",
@@ -2687,10 +2597,7 @@
             "Light intensity - 10",
             "Radius - 1"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     },
     {
         "case": "MAYA_L_PL_139",
@@ -2710,9 +2617,6 @@
             "Light intensity - 10",
             "Radius - 100"
         ],
-        "scene": "Physical_Light.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "Physical_Light.ma"
     }
 ]

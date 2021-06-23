@@ -33,10 +33,7 @@
         "script_info": [
             "Max Diffuse - 2"
         ],
-        "scene": "Diffuse_ray_depth.ma",
-        "skip_config": [
-            ["Radeon RX Vega"]
-        ]
+        "scene": "Diffuse_ray_depth.ma"
     },
     {
         "case": "MAYA_RS_QL_004",
@@ -198,7 +195,7 @@
     },
     {
         "case": "MAYA_RS_QL_017",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.maxRayDepth', 2)",
             "cmds.setAttr('RadeonProRenderGlobals.maxDepthDiffuse', 2)",
@@ -242,10 +239,7 @@
             "Max Shadow - 0",
             "Ray Epsilon - 0"
         ],
-        "scene": "ComplexLighting.ma",
-        "skip_config": [
-            ["Radeon RX Vega"]
-        ]
+        "scene": "ComplexLighting.ma"
     },
     {
         "case": "MAYA_RS_QL_019",

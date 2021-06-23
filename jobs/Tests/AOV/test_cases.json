@@ -426,9 +426,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.aovCryptoMaterialObj0', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.aovCryptoMaterialObj0', 0)"
-        ],
-        "skip_engine": [
-            "Tahoe"
         ]
     },
     {
@@ -444,9 +441,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.aovCryptoMaterialObj1', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.aovCryptoMaterialObj1', 0)"
-        ],
-        "skip_engine": [
-            "Tahoe"
         ]
     },
     {
@@ -462,9 +456,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.aovCryptoMaterialObj2', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.aovCryptoMaterialObj2', 0)"
-        ],
-        "skip_engine": [
-            "Tahoe"
         ]
     },
     {
@@ -479,9 +470,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.aovCryptoMaterialMat0', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.aovCryptoMaterialMat0', 0)"
-        ],
-        "skip_engine": [
-            "Tahoe"
         ]
     },
     {
@@ -497,9 +485,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.aovCryptoMaterialMat1', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.aovCryptoMaterialMat1', 0)"
-        ],
-        "skip_engine": [
-            "Tahoe"
         ]
     },
     {
@@ -515,9 +500,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.aovCryptoMaterialMat2', 1)",
             "rpr_render(case)",
             "cmds.setAttr('RadeonProRenderGlobals.aovCryptoMaterialMat2', 0)"
-        ],
-        "skip_engine": [
-            "Tahoe"
         ]
     }
 ]

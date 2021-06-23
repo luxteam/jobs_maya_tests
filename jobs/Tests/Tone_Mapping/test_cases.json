@@ -11,10 +11,7 @@
         "script_info": [
             "default +gamma"
         ],
-        "scene": "maya_shaderball.ma",
-        "skip_engine": [
-            "Hybrid_Low"
-        ]
+        "scene": "maya_shaderball.ma"
     },
     {
         "case": "MAYA_RS_TM_002",
@@ -44,10 +41,7 @@
         "script_info": [
             "default +gamma +white-balance"
         ],
-        "scene": "maya_shaderball.ma",
-        "skip_engine": [
-            "Hybrid_Low"
-        ]
+        "scene": "maya_shaderball.ma"
     },
     {
         "case": "MAYA_RS_TM_004",

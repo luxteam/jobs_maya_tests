@@ -12,9 +12,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.useRenderStamp', True)",
             "cmds.setAttr('RadeonProRenderGlobals.renderStampText',  \"Radeon ProRender for Maya %b | %h | Time: %pt | Passes: %pp | Objects: %so | Lights: %sl\", type='string')",
             "rpr_render(case)"
-        ],
-        "skip_config":[
-            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
@@ -30,12 +27,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.useRenderStamp', True)",
             "cmds.setAttr('RadeonProRenderGlobals.renderStampText',  \"Radeon ProRender for Maya %b | CPU %c | GPU %g | Render mode %r | Render device %h\", type='string')",
             "rpr_render(case)"
-        ],
-        "skip_config":[
-            ["AMD Radeon RX Vega 56 (Metal)"]
-        ],
-        "skip_engine": [
-            "Hybrid_High"
         ]
     },
     {
@@ -51,9 +42,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.useRenderStamp', True)",
             "cmds.setAttr('RadeonProRenderGlobals.renderStampText',  \"Radeon ProRender for Maya %b | Computer name %i | Current date %d\", type='string')",
             "rpr_render(case)"
-        ],
-        "skip_config":[
-            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     }
 ]

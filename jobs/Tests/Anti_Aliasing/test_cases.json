@@ -68,9 +68,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.filter', 2)",
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 5)",
             "rpr_render(case)"
-        ],
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     },
     {
@@ -141,9 +138,6 @@
             "cmds.setAttr('RadeonProRenderGlobals.filter', 4)",
             "cmds.setAttr('RadeonProRenderGlobals.filterSize', 1)",
             "rpr_render(case)"
-        ],
-        "skip_engine": [
-            "Hybrid_Medium"
         ]
     },
     {

@@ -56,7 +56,7 @@
     },
     {
         "case": "MAYA_RS_VIEW_005",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Do not compare",
             "Material ID"
@@ -168,7 +168,7 @@
     },
     {
         "case": "MAYA_RS_VIEW_013",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Do not compare",
             "Material Idx"
@@ -224,7 +224,7 @@
     },
     {
         "case": "MAYA_RS_VIEW_017",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Do not compare",
             "Object ID"
@@ -238,7 +238,7 @@
     },
     {
         "case": "MAYA_RS_VIEW_018",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Do not compare",
             "Object Group ID"

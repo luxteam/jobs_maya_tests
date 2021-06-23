@@ -32,10 +32,7 @@
             "Test import FBX",
             "Pass Limit: 50"
         ],
-        "scene": "default.ma",
-        "skip_engine": [
-            "Hybrid_High"
-        ]
+        "scene": "default.ma"
     },
     {
         "case": "MAYA_SM_004",
@@ -135,10 +132,7 @@
             "Create Sun&Sky",
             "Pass Limit: 50"
         ],
-        "scene": "Lamborginhi_Aventador.ma",
-        "skip_engine": [
-            "Hybrid_High"
-        ]
+        "scene": "Lamborginhi_Aventador.ma"
     },
     {
         "case": "MAYA_SM_010",
@@ -157,10 +151,7 @@
             "Create IES Light",
             "Pass Limit: 50"
         ],
-        "scene": "Lamborginhi_Aventador.ma",
-        "skip_engine": [
-            "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "Lamborginhi_Aventador.ma"
     },
     {
         "case": "MAYA_SM_011",
@@ -196,9 +187,6 @@
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 500)",
             "rpr_render(case)"
-        ],
-        "skip_engine": [
-            "Hybrid_High"
         ]
     },
     {
@@ -304,7 +292,7 @@
     },
     {
         "case": "MAYA_SM_020",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 32)",
             "rpr_render(case)",
@@ -518,10 +506,7 @@
             "12 lights in one scene",
             "Pass Limit: 50"
         ],
-        "scene": "IES.ma",
-        "skip_engine": [
-            "Hybrid_Medium"
-        ]
+        "scene": "IES.ma"
     },
     {
         "case": "MAYA_SM_033",
@@ -543,10 +528,7 @@
             "AOV Shadow Catcher",
             "Pass Limit: 50"
         ],
-        "scene": "maya_shaderball.ma",
-        "skip_config":[
-            ["AMD Radeon RX Vega 56 (Metal)"]
-        ]
+        "scene": "maya_shaderball.ma"
     },
     {
         "case": "MAYA_SM_034",
@@ -559,9 +541,6 @@
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100)",
             "rpr_render(case)"
-        ],
-        "skip_engine": [
-            "Hybrid_High"
         ]
     },
     {
@@ -578,10 +557,7 @@
             "SSS Night",
             "Pass Limit: 400"
         ],
-        "scene": "Uber_SSS_night.ma",
-        "skip_config":[
-            ["AMD Radeon RX Vega 56 (Metal)"]
-        ]
+        "scene": "Uber_SSS_night.ma"
     },
     {
         "case": "MAYA_SM_036",
@@ -593,14 +569,11 @@
             "Displacement",
             "Pass Limit: 50"
         ],
-        "scene": "displacement.ma",
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
-        ]
+        "scene": "displacement.ma"
     },
     {
         "case": "MAYA_SM_037",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "ibl_shape = cmds.createNode('RPRIBL', n='RPRIBLShape')",
             "ibl_transform = cmds.listRelatives('RPRIBLShape', p=True)[0]",
@@ -642,7 +615,7 @@
     },
     {
         "case": "MAYA_SM_040",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.editRenderLayerGlobals(crl='rs_ALL_SHADOW')",
             "rpr_render(case)"
@@ -681,10 +654,7 @@
         "script_info": [
             "Volume material check"
         ],
-        "scene": "VolumeRollingFog.ma",
-        "skip_config":[
-            ["AMD Radeon RX Vega 56 (Metal)"]
-        ]
+        "scene": "VolumeRollingFog.ma"
     },
     {
         "case": "MAYA_SM_043",
@@ -720,10 +690,7 @@
         "script_info": [
             "Machine Learning"
         ],
-        "scene": "Lamborginhi_Aventador.ma",
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
-        ]
+        "scene": "Lamborginhi_Aventador.ma"
     },
     {
         "case": "MAYA_SM_047",
@@ -742,7 +709,7 @@
     },
     {
         "case": "MAYA_SM_048",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "rpr_render(case)"
         ],
@@ -753,17 +720,14 @@
     },
     {
         "case": "MAYA_SM_049",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "rpr_render(case)"
         ],
         "script_info": [
             "Portal Light"
         ],
-        "scene": "portal_light.ma",
-        "skip_engine": [
-            "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "portal_light.ma"
     },
     {
         "case": "MAYA_SM_050",
@@ -781,10 +745,7 @@
         "script_info": [
             "ML in CPU mode"
         ],
-        "scene": "normal_scene.ma",
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
-        ]
+        "scene": "normal_scene.ma"
     },
     {
         "case": "MAYA_SM_051",
@@ -802,13 +763,7 @@
         "script_info": [
             "ML in CPU+GPU mode"
         ],
-        "scene": "normal_scene.ma",
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
-        ],
-        "skip_engine": [
-            "Northstar"
-        ]
+        "scene": "normal_scene.ma"
     },
     {
         "case": "MAYA_SM_052",
@@ -836,10 +791,7 @@
         "script_info": [
             "CPU+GPU mode"
         ],
-        "scene": "normal_scene.ma",
-        "skip_engine": [
-            "Northstar"
-        ]
+        "scene": "normal_scene.ma"
     },
     {
         "case": "MAYA_SM_054",
@@ -850,14 +802,11 @@
         "script_info": [
             "UDIM"
         ],
-        "scene": "Udim.ma",
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "Udim.ma"
     },
     {
         "case": "MAYA_SM_055",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.aovDisplayedInRenderView', 8)",
             "cmds.setAttr('RadeonProRenderGlobals.aovObjectId', 1)",
@@ -868,12 +817,6 @@
             "Do not compare",
             "Object ID"
         ],
-        "scene": "AOVConstruct.ma",
-        "skip_config":[
-            ["AMD Radeon RX Vega 56 (Metal)"]
-        ],
-        "skip_engine": [
-            "Tahoe", "Hybrid_Low", "Hybrid_Medium", "Hybrid_High"
-        ]
+        "scene": "AOVConstruct.ma"
     }
 ]

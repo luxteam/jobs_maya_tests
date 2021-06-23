@@ -1,7 +1,7 @@
 [
     {
         "case": "MAYA_RS_DEN_061",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100.0)",
             "cmds.setAttr('RadeonProRenderGlobals.samplesPerUpdate', 50)",
@@ -16,17 +16,11 @@
             "ML denoiser",
             "Color"
         ],
-        "scene": "ComplexLighting.ma",
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
-        ],
-        "skip_engine": [
-            "Hybrid_Medium"
-        ]
+        "scene": "ComplexLighting.ma"
     },
     {
         "case": "MAYA_RS_DEN_062",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100.0)",
             "cmds.setAttr('RadeonProRenderGlobals.samplesPerUpdate', 50)",
@@ -41,17 +35,11 @@
             "Color+AOV",
             "ML denoiser"
         ],
-        "scene": "ComplexLighting.ma",
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
-        ],
-        "skip_engine": [
-            "Hybrid_Medium"
-        ]
+        "scene": "ComplexLighting.ma"
     },
     {
         "case": "MAYA_RS_DEN_063",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100.0)",
             "cmds.setAttr('RadeonProRenderGlobals.samplesPerUpdate', 50)",
@@ -65,14 +53,11 @@
             "EAW",
             "denoiser"
         ],
-        "scene": "ComplexLighting.ma",
-        "skip_engine": [
-            "Hybrid_Medium"
-        ]
+        "scene": "ComplexLighting.ma"
     },
     {
         "case": "MAYA_RS_DEN_064",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100.0)",
             "cmds.setAttr('RadeonProRenderGlobals.samplesPerUpdate', 50)",
@@ -86,14 +71,11 @@
             "LWR",
             "denoiser"
         ],
-        "scene": "ComplexLighting.ma",
-        "skip_engine": [
-            "Hybrid_Medium"
-        ]
+        "scene": "ComplexLighting.ma"
     },
     {
         "case": "MAYA_RS_DEN_065",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 100.0)",
             "cmds.setAttr('RadeonProRenderGlobals.samplesPerUpdate', 50)",
@@ -107,14 +89,11 @@
             "Bilateral",
             "denoiser"
         ],
-        "scene": "ComplexLighting.ma",
-        "skip_engine": [
-            "Hybrid_Medium"
-        ]
+        "scene": "ComplexLighting.ma"
     },
     {
         "case": "MAYA_RS_DEN_066",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -131,7 +110,7 @@
     },
     {
         "case": "MAYA_RS_DEN_067",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -148,7 +127,7 @@
     },
     {
         "case": "MAYA_RS_DEN_068",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 2)",
@@ -163,7 +142,7 @@
     },
     {
         "case": "MAYA_RS_DEN_069",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 1)",
@@ -178,7 +157,7 @@
     },
     {
         "case": "MAYA_RS_DEN_070",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 0)",
@@ -231,10 +210,7 @@
             "Bilateral Denoiser",
             "Radius - 10"
         ],
-        "scene": "maya_shaderball.ma",
-        "skip_engine": [
-            "Hybrid_Medium"
-        ]
+        "scene": "maya_shaderball.ma"
     },
     {
         "case": "MAYA_RS_DEN_004",
@@ -285,10 +261,7 @@
             "LWR Denoiser",
             "Samples - 10"
         ],
-        "scene": "maya_shaderball.ma",
-        "skip_engine": [
-            "Hybrid_Medium"
-        ]
+        "scene": "maya_shaderball.ma"
     },
     {
         "case": "MAYA_RS_DEN_007",
@@ -339,10 +312,7 @@
             "LWR Denoiser",
             "Bandwidth - 0.1"
         ],
-        "scene": "maya_shaderball.ma",
-        "skip_engine": [
-            "Hybrid_Medium"
-        ]
+        "scene": "maya_shaderball.ma"
     },
     {
         "case": "MAYA_RS_DEN_010",
@@ -397,10 +367,7 @@
             "Filter Radius - 5",
             "Bandwidth - 0.5"
         ],
-        "scene": "maya_shaderball.ma",
-        "skip_engine": [
-            "Hybrid_Medium"
-        ]
+        "scene": "maya_shaderball.ma"
     },
     {
         "case": "MAYA_RS_DEN_013",
@@ -419,10 +386,7 @@
             "Filter Radius - 10",
             "Bandwidth - 1"
         ],
-        "scene": "maya_shaderball.ma",
-        "skip_engine": [
-            "Hybrid_Low"
-        ]
+        "scene": "maya_shaderball.ma"
     },
     {
         "case": "MAYA_RS_DEN_014",
@@ -639,14 +603,11 @@
         "script_info": [
             "Machine Learning type"
         ],
-        "scene": "maya_shaderball.ma",
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
-        ]
+        "scene": "maya_shaderball.ma"
     },
     {
         "case": "MAYA_RS_DEN_026",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -657,14 +618,11 @@
             "Denoiser ML Metal Material",
             "Color"
         ],
-        "scene": "DenoiserMetal.ma",
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
-        ]
+        "scene": "DenoiserMetal.ma"
     },
     {
         "case": "MAYA_RS_DEN_027",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -675,14 +633,11 @@
             "Denoiser ML Metal Material",
             "Color+AOV"
         ],
-        "scene": "DenoiserMetal.ma",
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
-        ]
+        "scene": "DenoiserMetal.ma"
     },
     {
         "case": "MAYA_RS_DEN_028",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -700,7 +655,7 @@
     },
     {
         "case": "MAYA_RS_DEN_029",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -763,7 +718,7 @@
     },
     {
         "case": "MAYA_RS_DEN_033",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 0)",
@@ -911,7 +866,7 @@
     },
     {
         "case": "MAYA_RS_DEN_041",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -923,14 +878,11 @@
         "script_info": [
             "ML denoiser Lights "
         ],
-        "scene": "Denoiser_Light.ma",
-        "skip_engine": [
-            "Hybrid_Low"
-        ]
+        "scene": "Denoiser_Light.ma"
     },
     {
         "case": "MAYA_RS_DEN_042",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -942,14 +894,11 @@
         "script_info": [
             "ML denoiser Lights AOV+Color"
         ],
-        "scene": "Denoiser_Light.ma",
-        "skip_engine": [
-            "Hybrid_Low"
-        ]
+        "scene": "Denoiser_Light.ma"
     },
     {
         "case": "MAYA_RS_DEN_043",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -961,17 +910,11 @@
         "script_info": [
             "ML denoiser IES and Physical"
         ],
-        "scene": "Denoiser_Light.ma",
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
-        ],
-        "skip_engine": [
-            "Hybrid_Low"
-        ]
+        "scene": "Denoiser_Light.ma"
     },
     {
         "case": "MAYA_RS_DEN_044",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -983,10 +926,7 @@
         "script_info": [
             "ML denoiser IES and Physcial"
         ],
-        "scene": "Denoiser_Light.ma",
-        "skip_engine": [
-            "Hybrid_Low"
-        ]
+        "scene": "Denoiser_Light.ma"
     },
     {
         "case": "MAYA_RS_DEN_045",
@@ -1001,10 +941,7 @@
         "script_info": [
             "EAW IES"
         ],
-        "scene": "Denoiser_Light.ma",
-        "skip_engine": [
-            "Hybrid_Low"
-        ]
+        "scene": "Denoiser_Light.ma"
     },
     {
         "case": "MAYA_RS_DEN_046",
@@ -1019,10 +956,7 @@
         "script_info": [
             "EAW IES and Physcial Light"
         ],
-        "scene": "Denoiser_Light.ma",
-        "skip_engine": [
-            "Hybrid_Low"
-        ]
+        "scene": "Denoiser_Light.ma"
     },
     {
         "case": "MAYA_RS_DEN_047",
@@ -1037,10 +971,7 @@
         "script_info": [
             "Bilateral IES"
         ],
-        "scene": "Denoiser_Light.ma",
-        "skip_engine": [
-            "Hybrid_Low"
-        ]
+        "scene": "Denoiser_Light.ma"
     },
     {
         "case": "MAYA_RS_DEN_048",
@@ -1055,10 +986,7 @@
         "script_info": [
             "Bilateral IES and Physcal Light"
         ],
-        "scene": "Denoiser_Light.ma",
-        "skip_engine": [
-            "Hybrid_Low"
-        ]
+        "scene": "Denoiser_Light.ma"
     },
     {
         "case": "MAYA_RS_DEN_049",
@@ -1073,14 +1001,11 @@
         "script_info": [
             "LWR IES"
         ],
-        "scene": "Denoiser_Light.ma",
-        "skip_engine": [
-            "Hybrid_Low"
-        ]
+        "scene": "Denoiser_Light.ma"
     },
     {
         "case": "MAYA_RS_DEN_050",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 1)",
@@ -1095,7 +1020,7 @@
     },
     {
         "case": "MAYA_RS_DEN_051",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -1109,7 +1034,7 @@
     },
     {
         "case": "MAYA_RS_DEN_052",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -1123,7 +1048,7 @@
     },
     {
         "case": "MAYA_RS_DEN_053",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 2)",
@@ -1136,7 +1061,7 @@
     },
     {
         "case": "MAYA_RS_DEN_054",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 1)",
@@ -1149,7 +1074,7 @@
     },
     {
         "case": "MAYA_RS_DEN_055",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 0)",
@@ -1162,7 +1087,7 @@
     },
     {
         "case": "MAYA_RS_DEN_056",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -1178,7 +1103,7 @@
     },
     {
         "case": "MAYA_RS_DEN_057",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",
@@ -1204,10 +1129,7 @@
             "Denoiser IBL",
             "EAW"
         ],
-        "scene": "DenoiserIBL.ma",
-        "skip_config": [
-            ["Radeon RX Vega"]
-        ]
+        "scene": "DenoiserIBL.ma"
     },
     {
         "case": "MAYA_RS_DEN_059",
@@ -1221,14 +1143,11 @@
             "Denoiser IBL",
             "LWR"
         ],
-        "scene": "DenoiserIBL.ma",
-        "skip_config": [
-            ["Radeon RX Vega"]
-        ]
+        "scene": "DenoiserIBL.ma"
     },
     {
         "case": "MAYA_RS_DEN_060",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 0)",
@@ -1242,7 +1161,7 @@
     },
     {
         "case": "MAYA_RS_DEN_071",
-        "status": "skipped",
+        "status": "active",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.denoiserEnabled', 1)",
             "cmds.setAttr('RadeonProRenderGlobals.denoiserType', 3)",

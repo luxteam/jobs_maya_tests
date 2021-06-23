@@ -10,9 +10,6 @@
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 6)",
             "rpr_render(case)",
             "setPass(case)"
-        ],
-        "skip_engine": [
-            "Hybrid_Low"
         ]
     },
     {
@@ -53,10 +50,7 @@
             "rpr_render(case)",
             "setPass(case)"
         ],
-        "extension": ".gif",
-        "skip_engine": [
-            "Hybrid_Low"
-        ]
+        "extension": ".gif"
     },
     {
         "case": "MAYA_RS_IF_006",
@@ -124,7 +118,7 @@
     },
     {
         "case": "MAYA_RS_IF_011",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Image format: PNG (png)"
         ],
@@ -269,7 +263,7 @@
     },
     {
         "case": "MAYA_RS_IF_022",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Image format: SonyPlaystation (tim)"
         ],
@@ -278,9 +272,6 @@
             "cmds.setAttr('defaultRenderGlobals.imageFormat', 63)",
             "rpr_render(case)",
             "setPass(case)"
-        ],
-        "skip_engine": [
-            "Hybrid_High"
         ]
     }
 ]

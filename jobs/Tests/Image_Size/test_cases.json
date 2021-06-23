@@ -402,7 +402,7 @@
     },
     {
         "case": "MAYA_RS_IS_027",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Preset: B3"
         ],
@@ -524,7 +524,7 @@
     },
     {
         "case": "MAYA_RS_IS_035",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Preset: 5000x5000",
             "https://amdrender.atlassian.net/browse/RPRMAYA-2478"
@@ -535,14 +535,11 @@
             "cmds.setAttr('defaultResolution.height', 5000.0)",
             "rpr_render(case)",
             "resetAttributes()"
-        ],
-        "skip_engine": [
-            "Hybrid_Low"
         ]
     },
     {
         "case": "MAYA_RS_IS_036",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Preset: 6000x6000"
         ],
@@ -556,7 +553,7 @@
     },
     {
         "case": "MAYA_RS_IS_037",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Preset: 7000x7000"
         ],
@@ -570,7 +567,7 @@
     },
     {
         "case": "MAYA_RS_IS_038",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Preset: 8000x8000"
         ],

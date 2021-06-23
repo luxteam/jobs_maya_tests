@@ -71,7 +71,7 @@
     },
     {
         "case": "MAYA_RS_MASH_006",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Flight node"
         ],
@@ -211,7 +211,7 @@
     },
     {
         "case": "MAYA_RS_MASH_016",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Spring node"
         ],
@@ -305,9 +305,6 @@
             "cmds.currentTime(40)",
             "rpr_render(case)",
             "cmds.setAttr('world_color_node.visibility', 0)"
-        ],
-        "skip_engine": [
-            "Hybrid_High"
         ]
     },
     {
@@ -354,7 +351,7 @@
     },
     {
         "case": "MAYA_RS_MASH_026",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Trails node"
         ],
@@ -368,7 +365,7 @@
     },
     {
         "case": "MAYA_RS_MASH_027",
-        "status": "skipped",
+        "status": "active",
         "script_info": [
             "Mash Complex Driving by Boss cache"
         ],
@@ -376,9 +373,6 @@
         "functions": [
             "cmds.currentTime(20)",
             "rpr_render(case)"
-        ],
-        "skip_config": [
-            ["AMD Radeon RX Vega 56 (Metal)"]
         ]
     }
 ]

@@ -43,10 +43,7 @@
             "Sun Glow - 50",
             "Sun Disk Size - 10"
         ],
-        "scene": "Sun_Sky.ma",
-        "skip_engine": [
-            "Hybrid_Medium"
-        ]
+        "scene": "Sun_Sky.ma"
     },
     {
         "case": "MAYA_RS_SS_065",
@@ -188,10 +185,7 @@
             "Filter Color - HSV: 1, 0, 0",
             "Ground Color - HSV: 1, 1, 1"
         ],
-        "scene": "Sun_Sky.ma",
-        "skip_engine": [
-            "Hybrid_Medium"
-        ]
+        "scene": "Sun_Sky.ma"
     },
     {
         "case": "MAYA_RS_SS_072",
@@ -337,10 +331,7 @@
             "Ground Color - HSV: 1, 1, 1",
             "Sun Disk Size - 10"
         ],
-        "scene": "Sun_Sky.ma",
-        "skip_engine": [
-            "Hybrid_Medium"
-        ]
+        "scene": "Sun_Sky.ma"
     },
     {
         "case": "MAYA_RS_SS_080",
