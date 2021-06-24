@@ -279,7 +279,8 @@ def launchMaya(cmdScriptPath, work_dir, error_windows, restart_timeout):
             fatal_errors_titles = ['Detected windows ERROR', 'maya', 'Student Version File', 'Radeon ProRender Error', 'Script Editor',
                                 'Autodesk Maya 2018 Error Report', 'Autodesk Maya 2018 Error Report', 'Autodesk Maya 2018 Error Report',
                                 'Autodesk Maya 2019 Error Report', 'Autodesk Maya 2019 Error Report', 'Autodesk Maya 2019 Error Report',
-                                'Autodesk Maya 2020 Error Report', 'Autodesk Maya 2020 Error Report', 'Autodesk Maya 2020 Error Report']
+                                'Autodesk Maya 2020 Error Report', 'Autodesk Maya 2020 Error Report', 'Autodesk Maya 2020 Error Report',
+                                ' Autodesk Maya 2022 Error Report', 'Autodesk Maya 2022 Error Report']
             window_titles = get_windows_titles()
             error_window = set(fatal_errors_titles).intersection(window_titles)
             if error_window:
