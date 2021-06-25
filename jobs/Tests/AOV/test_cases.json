@@ -191,7 +191,6 @@
         "case": "MAYA_RS_AOV_014",
         "status": "active",
         "script_info": [
-            "Black image expected",
             "AOV: Indirect Illumination"
         ],
         "scene": "AOVConstruct.ma",
@@ -266,7 +265,6 @@
         "case": "MAYA_RS_AOV_019",
         "status": "active",
         "script_info": [
-            "Black image expected",
             "AOV: Reflection Indirect"
         ],
         "scene": "AOV_Better.ma",

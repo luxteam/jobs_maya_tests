@@ -720,7 +720,7 @@
     },
     {
         "case": "MAYA_SM_049",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "rpr_render(case)"
         ],
@@ -749,7 +749,7 @@
     },
     {
         "case": "MAYA_SM_051",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaType', 0.0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 20.0)",
@@ -781,7 +781,7 @@
     },
     {
         "case": "MAYA_SM_053",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaType', 0.0)",
             "cmds.setAttr('RadeonProRenderGlobals.completionCriteriaIterations', 20.0)",

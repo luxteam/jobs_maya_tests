@@ -229,7 +229,7 @@
     },
     {
         "case": "MAYA_RS_DUAL_016",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "cmds.setAttr('vdbObj.emissionEnabled', 1)",
             "cmds.setAttr('vdbObj.emissionSelectedGrid', 'density', type='string')",

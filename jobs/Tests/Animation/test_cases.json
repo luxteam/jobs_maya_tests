@@ -226,7 +226,7 @@
     },
     {
         "case": "MAYA_RS_AN_019",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Frame-60"
         ],
@@ -238,7 +238,7 @@
     },
     {
         "case": "MAYA_RS_AN_020",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Frame-120"
         ],
@@ -251,7 +251,7 @@
     },
     {
         "case": "MAYA_RS_AN_021",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Frame -60 Color Change"
         ],
@@ -267,7 +267,7 @@
     },
     {
         "case": "MAYA_RS_AN_022",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Frame-60"
         ],
@@ -280,7 +280,7 @@
     },
     {
         "case": "MAYA_RS_AN_023",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Frame-120"
         ],
@@ -293,7 +293,7 @@
     },
     {
         "case": "MAYA_RS_AN_024",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Frame -60 Color Change "
         ],
@@ -309,7 +309,7 @@
     },
     {
         "case": "MAYA_RS_AN_025",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Frame-60"
         ],
@@ -328,7 +328,7 @@
     },
     {
         "case": "MAYA_RS_AN_026",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Frame-120"
         ],
@@ -341,7 +341,7 @@
     },
     {
         "case": "MAYA_RS_AN_027",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Frame -60 Color Change "
         ],
@@ -357,7 +357,7 @@
     },
     {
         "case": "MAYA_RS_AN_028",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Frame -10"
         ],
@@ -370,7 +370,7 @@
     },
     {
         "case": "MAYA_RS_AN_029",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Frame -30"
         ],
@@ -382,7 +382,7 @@
     },
     {
         "case": "MAYA_RS_AN_030",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Frame - 50 "
         ],
@@ -395,7 +395,7 @@
     },
     {
         "case": "MAYA_RS_AN_031",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Frame - 60"
         ],

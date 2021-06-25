@@ -47,7 +47,11 @@
             "SC AOV",
             "https://amdrender.atlassian.net/browse/RPRMAYA-2603"
         ],
-        "scene": "SC.ma"
+        "scene": "SC.ma",
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"],
+            ["AMD Radeon RX 5700XT (Metal)"]
+        ]
     },
     {
         "case": "MAYA_MAT_SC_005",
@@ -250,7 +254,11 @@
         "script_info": [
             "SC ML Denoiser"
         ],
-        "scene": "DenoiserShadowCatcher.ma"
+        "scene": "DenoiserShadowCatcher.ma",
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"],
+            ["AMD Radeon RX 5700XT (Metal)"]
+        ]
     },
     {
         "case": "MAYA_MAT_SC_019",

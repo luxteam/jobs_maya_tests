@@ -2078,7 +2078,7 @@
     },
     {
         "case": "MAYA_L_PL_112",
-        "status": "active",
+        "status": "skipped",
         "functions": [
             "resetAttributes()",
             "rpr_render(case)"

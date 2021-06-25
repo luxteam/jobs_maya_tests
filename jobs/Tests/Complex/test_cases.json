@@ -185,6 +185,10 @@
         "scene": "05_Laptop.ma",
         "functions": [
             "rpr_render(case)"
+        ],
+        "skip_config": [
+            ["AMD Radeon RX Vega 56 (Metal)"],
+            ["AMD Radeon RX 5700XT (Metal)"]
         ]
     }
 ]

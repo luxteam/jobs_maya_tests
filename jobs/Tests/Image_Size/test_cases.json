@@ -539,7 +539,7 @@
     },
     {
         "case": "MAYA_RS_IS_036",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Preset: 6000x6000"
         ],
@@ -553,7 +553,7 @@
     },
     {
         "case": "MAYA_RS_IS_037",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Preset: 7000x7000"
         ],
@@ -567,7 +567,7 @@
     },
     {
         "case": "MAYA_RS_IS_038",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Preset: 8000x8000"
         ],
