@@ -280,7 +280,8 @@ def launchMaya(cmdScriptPath, work_dir, error_windows, restart_timeout):
                                 'Autodesk Maya 2018 Error Report', 'Autodesk Maya 2018 Error Report', 'Autodesk Maya 2018 Error Report',
                                 'Autodesk Maya 2019 Error Report', 'Autodesk Maya 2019 Error Report', 'Autodesk Maya 2019 Error Report',
                                 'Autodesk Maya 2020 Error Report', 'Autodesk Maya 2020 Error Report', 'Autodesk Maya 2020 Error Report',
-                                ' Autodesk Maya 2022 Error Report', 'Autodesk Maya 2022 Error Report']
+                                ' Autodesk Maya 2022 Error Report', 'Autodesk Maya 2022 Error Report',
+                                ' Autodesk MAYA 2022 Error Report', 'Autodesk MAYA 2022 Error Report']
             window_titles = get_windows_titles()
             error_window = set(fatal_errors_titles).intersection(window_titles)
             if error_window:
