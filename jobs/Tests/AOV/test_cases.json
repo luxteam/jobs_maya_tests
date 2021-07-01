@@ -204,7 +204,7 @@
     },
     {
         "case": "MAYA_RS_AOV_015",
-        "status": "active",
+        "status": "skipped",
         "script_info": [
             "Black image expected",
             "AOV: Ambient Occlusion"
