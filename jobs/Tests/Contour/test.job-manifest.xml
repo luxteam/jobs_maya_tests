@@ -19,7 +19,7 @@
         <argument>--engine "{engine}"</argument>
         <argument>--retries {retries}</argument>
         <argument>--update_refs "{UpdateRefs}"</argument>
-        <argument>--stucking_time 360</argument>
+        <argument>--stucking_time 480</argument>
 
     </execute>
 
