@@ -30,6 +30,8 @@ ROOT_DIR = os.path.abspath(os.path.join(
     os.path.dirname(__file__), os.path.pardir, os.path.pardir))
 LOGS_DIR = 'render_tool_logs'
 PROCESS = ['Maya', 'maya.exe', 'maya', 'mayabatch.exe', 'senddmp', 'senddmp.exe']
+SYS_MON_CMD = ['python', os.path.join(ROOT_DIR, 'jobs_launcher', 'core', 'system_monitor.py'),
+    'trace', '--interval', '1', '--profile', 'full']
 
 if platform.system() == 'Darwin':
     from Quartz import CGWindowListCopyWindowInfo
@@ -260,6 +262,7 @@ def launchMaya(cmdScriptPath, work_dir, error_windows, restart_timeout):
         'Launch script on Maya ({})'.format(cmdScriptPath))
     os.chdir(work_dir)
     perf_count.event_record(args.output, 'Open tool', True)
+    monitor_proc = psutil.Popen(SYS_MON_CMD, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     p = psutil.Popen(cmdScriptPath, stdout=subprocess.PIPE,
                      stderr=subprocess.PIPE, shell=True)
 
@@ -308,9 +311,11 @@ def launchMaya(cmdScriptPath, work_dir, error_windows, restart_timeout):
                 if not args.batchRender:
                     kill_maya(p)
                     kill_process(PROCESS)
+                    monitor_proc.terminate()
                     break
                 else:
                     kill_process(PROCESS)
+                    monitor_proc.terminate()
             else:
                 new_done_test_cases_num = get_finished_cases_number(args.output)
                 if new_done_test_cases_num == -1:
@@ -325,16 +330,18 @@ def launchMaya(cmdScriptPath, work_dir, error_windows, restart_timeout):
                     current_restart_timeout = restart_timeout
                     if not args.batchRender:
                         kill_maya(p)
+                        monitor_proc.terminate()
                         break
                     else:
                         # if stuck batch render process was killed, the next ones in the script will continue to run sequentially
                         kill_process(PROCESS)
+                        monitor_proc.terminate()
         else:
             rc = 0
             break
-
+    
     perf_count.event_record(args.output, 'Close tool', False)
-
+    monitor_proc.terminate()
     return rc
 
 
