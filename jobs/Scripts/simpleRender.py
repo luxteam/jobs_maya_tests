@@ -23,6 +23,7 @@ import jobs_launcher.common.scripts.utils as utils
 import local_config
 from jobs_launcher.core.system_info import get_gpu
 from jobs_launcher.core.kill_process import kill_process
+from jobs_launcher.core.close_untitled_windows import close_untitled_windows
 
 
 
@@ -308,9 +309,11 @@ def launchMaya(cmdScriptPath, work_dir, error_windows, restart_timeout):
                 if not args.batchRender:
                     kill_maya(p)
                     kill_process(PROCESS)
+                    close_untitled_windows()
                     break
                 else:
                     kill_process(PROCESS)
+                    close_untitled_windows()
             else:
                 new_done_test_cases_num = get_finished_cases_number(args.output)
                 if new_done_test_cases_num == -1:
@@ -624,6 +627,7 @@ def group_failed(args, error_windows):
 
     rc = main(args, error_windows)
     kill_process(PROCESS)
+    close_untitled_windows()
     core_config.main_logger.info(
         "Finish simpleRender with code: {}".format(rc))
     exit(rc)
@@ -744,6 +748,7 @@ if __name__ == '__main__':
         if active_cases == 0 or iteration > len(cases) * args.retries:
             # exit script if base_functions don't change number of active cases
             kill_process(PROCESS)
+            close_untitled_windows()
             core_config.main_logger.info(
                 'Finish simpleRender with code: {}'.format(rc))
             sync_time(args.output)
